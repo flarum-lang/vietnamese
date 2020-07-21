@@ -66,7 +66,7 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 <details>
   <summary>Others</summary>
   <ul>
-    <li><a href="https://extiverse.com/extension/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
+    <li><a href="https://extiverse.com/extension/the-turk/flarum-welcome-widgets" target="_blank">Welcome Widgets</a></li>
 <!--     <li><a href="https://flagrow.io/extensions/askvortsov/flarum-categories">Flarum Categories</a></li>
     <li><a href="https://flagrow.io/extensions/irony/flarum-ext-login2see">Login to See</a></li>
     <li><a href="https://flagrow.io/extensions/kvothe/reply-to-see">Reply2See</a></li>
