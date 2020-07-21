@@ -7,7 +7,7 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 
 ![](https://img.shields.io/packagist/dt/datlechin/lang-vietnamese.svg)
 
-## Thông tin/Infomation
+## Thông tin (Infomation)
 ### Cài đặt, Cập nhật (Installation, Update)
 `composer require datlechin/lang-vietnamese`
 
