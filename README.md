@@ -47,7 +47,8 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 <details>
   <summary>FoF</summary>
   <ul>
-<!--     <li>Best Answe</li>
+    <li><a href="https://extiverse.com/extension/fof/best-answer">Best Answer</a></li>
+<!--
     <li>Byobu</li>
     <li>Drafts</li>
     <li>Links</li>
