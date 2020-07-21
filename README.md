@@ -49,6 +49,12 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
   <ul>
     <li><a href="https://extiverse.com/extension/fof/best-answer">Best Answer</li>
     <li><a href="https://extiverse.com/extension/fof/links">Links</a></li>
+    <li><a href="https://extiverse.com/extension/fof/polls">Polls</a></li>
+    <li><a href="https://extiverse.com/extension/fof/user-directory">User Directory</a></li>
+    <li><a href="https://extiverse.com/extension/fof/upload">Upload</a></li>
+    <li><a href="https://extiverse.com/extension/fof/share-social">Share Social</a></li>
+    <li><a href="https://extiverse.com/extension/fof/transliterator">URL Transliterator</a></li>
+    <li><a href="https://extiverse.com/extension/fof/ban-ips">Ban IPs</a></li>
   </ul> 
 </details>
 
@@ -57,6 +63,7 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
   <ul>
     <li><a href="https://extiverse.com/extension/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
     <li><a href="https://extiverse.com/extension/michaelbelgium/flarum-discussion-views">Discussion views</a></li>
+    <li><a href="https://extiverse.com/extension/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
   </ul> 
 </details>
 
