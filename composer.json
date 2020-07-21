@@ -22,10 +22,6 @@
   "require": {
     "flarum/core": "^0.1.0-beta.13"
   },
-  "suggest": {
-    "flarum/flarum": "Flarum",
-    "datlechin/datlechin": "Flarum Extensions Vietnamese language pack."
-  },
   "extra": {
     "branch-alias": {
         "dev-master": "0.1.x-dev"
