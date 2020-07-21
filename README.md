@@ -18,7 +18,7 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 `php flarum cache:clear`
 
 ### Yêu cầu phiên bản (Required version)
-- 0.1.0-beta.9 hoặc cao hơn (0.1.0-beta.9 or later)
+- 0.1.0-beta.13 hoặc cao hơn (0.1.0-beta.13 or later)
 
 ### Tiện ích được hỗ trợ (Extentions supported)
 <details>
