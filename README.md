@@ -47,7 +47,7 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 <details>
   <summary>FoF</summary>
   <ul>
-    <li>Best Answe</li>
+<!--     <li>Best Answe</li>
     <li>Byobu</li>
     <li>Drafts</li>
     <li>Links</li>
@@ -59,20 +59,21 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
     <li>Transliterator</li>
     <li>Upload</li>
     <li>User Bio</li>
-    <li>User Directory</li>
+    <li>User Directory</li> -->
   </ul> 
 </details>
 
 <details>
   <summary>Others</summary>
   <ul>
-    <li><a href="https://flagrow.io/extensions/askvortsov/flarum-categories">Flarum Categories</a></li>
+    <li><a href="https://extiverse.com/extension/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
+<!--     <li><a href="https://flagrow.io/extensions/askvortsov/flarum-categories">Flarum Categories</a></li>
     <li><a href="https://flagrow.io/extensions/irony/flarum-ext-login2see">Login to See</a></li>
     <li><a href="https://flagrow.io/extensions/kvothe/reply-to-see">Reply2See</a></li>
     <li><a href="https://flagrow.io/extensions/michaelbelgium/flarum-discussion-views">Discussion views</a></li>
     <li><a href="https://flagrow.io/extensions/reflar/level-ranks">Level Ranks</a></li>
     <li><a href="https://flagrow.io/extensions/therealsujitk/flarum-ext-gifs">GIFs</a></li>
-    <li><a href="https://flagrow.io/extensions/xelson/flarum-ext-chat">Neon Chat</a></li>
+    <li><a href="https://flagrow.io/extensions/xelson/flarum-ext-chat">Neon Chat</a></li> -->
   </ul> 
 </details>
 
