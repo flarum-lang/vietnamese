@@ -47,10 +47,10 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 <details>
   <summary>FoF</summary>
   <ul>
-    <li><a href="https://extiverse.com/extension/fof/formatting">Formatting</li>
-    <li><a href="https://extiverse.com/extension/fof/best-answer">Best Answer</li>
-    <li><a href="https://extiverse.com/extension/fof/pages">Pages</li>
-    <li><a href="https://extiverse.com/extension/fof/merge-discussions">Merge Discussions</li>
+    <li><a href="https://extiverse.com/extension/fof/formatting">Formatting</a></li>
+    <li><a href="https://extiverse.com/extension/fof/best-answer">Best Answer</a></li>
+    <li><a href="https://extiverse.com/extension/fof/pages">Pages</a></li>
+    <li><a href="https://extiverse.com/extension/fof/merge-discussions">Merge Discussions</a></li>
     <li><a href="https://extiverse.com/extension/fof/links">Links</a></li>
     <li><a href="https://extiverse.com/extension/fof/polls">Polls</a></li>
     <li><a href="https://extiverse.com/extension/fof/user-directory">User Directory</a></li>
