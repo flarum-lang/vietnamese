@@ -44,9 +44,5 @@
         "code": "vi",
         "title": "Vietnamese"
     }
-  },
-  "support": {
-    "url": "https://github.com/datlechin/lang-vietnamese/issues"
-  },
-  "homepage": "https://github.com/datlechin/lang-vietnamese#readme"
+  }
 }
