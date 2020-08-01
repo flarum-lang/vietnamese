@@ -38,6 +38,9 @@
     "flarum-locale": {
         "code": "vi",
         "title": "Vietnamese"
+    },
+    "flagrow": {
+      "discuss": "https://discuss.flarum.org/d/22902-vietnamese-extention-for-flarum"
     }
   }
 }
