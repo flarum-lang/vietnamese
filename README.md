@@ -1,4 +1,4 @@
-## Vietnamese extention for Flarum v2.0.0
+## Vietnamese extention for Flarum v2.2.0
 Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộng được hỗ trợ
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
