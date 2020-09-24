@@ -45,35 +45,52 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 </details>
     
 <details>
-  <summary>FoF</summary>
+  <summary>FriendsOfFlarum</summary>
   <ul>
     <li><a href="https://extiverse.com/extension/fof/formatting">Formatting</a></li>
-    <li><a href="https://extiverse.com/extension/fof/best-answer">Best Answer</a></li>
-    <li><a href="https://extiverse.com/extension/fof/pages">Pages</a></li>
-    <li><a href="https://extiverse.com/extension/fof/merge-discussions">Merge Discussions</a></li>
+    <li><a href="https://extiverse.com/extension/fof/user-bio">User Bio</a></li>
     <li><a href="https://extiverse.com/extension/fof/links">Links</a></li>
+    <li><a href="https://extiverse.com/extension/fof/pages">Pages</a></li>
     <li><a href="https://extiverse.com/extension/fof/polls">Polls</a></li>
+    <li><a href="https://extiverse.com/extension/fof/byobu">Byōbu</a></li>
+    <li><a href="https://extiverse.com/extension/fof/merge-discussions">Merge Discussions</a></li>
+    <li><a href="https://extiverse.com/extension/fof/reactions">Reactions</a></li>
+    <li><a href="https://extiverse.com/extension/fof/follow-tags">Follow Tags</a></li>
     <li><a href="https://extiverse.com/extension/fof/user-directory">User Directory</a></li>
     <li><a href="https://extiverse.com/extension/fof/upload">Upload</a></li>
-    <li><a href="https://extiverse.com/extension/fof/share-social">Share Social</a></li>
-    <li><a href="https://extiverse.com/extension/fof/transliterator">URL Transliterator</a></li>
-    <li><a href="https://extiverse.com/extension/fof/ban-ips">Ban IPs</a></li>
-    <li><a href="https://extiverse.com/extension/fof/reactions">Reactions</a></li>
     <li><a href="https://extiverse.com/extension/fof/spamblock">Spamblock</a></li>
+    <li><a href="https://extiverse.com/extension/fof/drafts">Drafts</a></li>
+    <li><a href="https://extiverse.com/extension/fof/recaptcha">reCAPTCHA</a></li>
     <li><a href="https://extiverse.com/extension/fof/socialprofile">Social Profile</a></li>
+    <li><a href="https://extiverse.com/extension/fof/best-answer">Best Answer</a></li>
+    <li><a href="https://extiverse.com/extension/fof/nightmode">Night Mode</a></li>
+    <li><a href="https://extiverse.com/extension/fof/share-social">Share Social</a></li>
+    <li><a href="https://extiverse.com/extension/fof/secure-https">Secure HTTPS</a></li>
     <li><a href="https://extiverse.com/extension/fof/username-request">Username Request</a></li>
+    <li><a href="https://extiverse.com/extension/fof/transliterator">URL Transliterator</a></li>
+    <li><a href="https://extiverse.com/extension/fof/moderator-notes">Moderator Notes</a></li>
+    <li><a href="https://extiverse.com/extension/fof/ban-ips">Ban IPs</a></li>
+  </ul> 
+</details>
+
+<details>
+  <summary>MichaelBelgium</summary>
+  <ul>
+    <li><a href="https://extiverse.com/extension/michaelbelgium/flarum-discussion-views">Discussion views</a></li>
+    <li><a href="https://extiverse.com/extension/michaelbelgium/flarum-profile-views">Profile views</a></li>
   </ul> 
 </details>
 
 <details>
   <summary>Others</summary>
   <ul>
-    <li><a href="https://extiverse.com/extension/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
-    <li><a href="https://extiverse.com/extension/michaelbelgium/flarum-discussion-views">Discussion views</a></li>
     <li><a href="https://extiverse.com/extension/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
+    <li><a href="https://extiverse.com/extension/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
     <li><a href="https://extiverse.com/extension/flagrow/ads">Flagrow Ads</a></li>
     <li><a href="https://extiverse.com/extension/reflar/level-ranks">ReFlar Level Ranks</a></li>
     <li><a href="https://extiverse.com/extension/askvortsov/flarum-categories">Flarum Categories</a></li>
+    <li><a href="https://extiverse.com/extension/xelson/flarum-ext-chat">Neon Chat</a></li>
+    <li><a href="https://extiverse.com/extension/jslirola/flarum-ext-login2seeplus">Login2SeePlus</a></li>
   </ul> 
 </details>
 
