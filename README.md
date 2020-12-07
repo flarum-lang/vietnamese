@@ -1,4 +1,4 @@
-## Vietnamese extention for Flarum v2.0.0
+## Vietnamese extention for Flarum v1.0.0
 Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộng được hỗ trợ
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -70,6 +70,7 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
     <li><a href="https://extiverse.com/extension/fof/transliterator">URL Transliterator</a></li>
     <li><a href="https://extiverse.com/extension/fof/moderator-notes">Moderator Notes</a></li>
     <li><a href="https://extiverse.com/extension/fof/ban-ips">Ban IPs</a></li>
+    <li><a href="https://extiverse.com/extension/fof/oauth">FoF OAuth</a></li>
   </ul> 
 </details>
 
