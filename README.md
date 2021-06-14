@@ -9,10 +9,10 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 
 ## Thông tin (Infomation)
 ### Cài đặt, Cập nhật (Installation, Update)
-`composer require datlechin/lang-vietnamese`
+`composer require xuandung38/flarum-lang-vietnamese`
 
 ### Xóa (Remove)
-`composer remove datlechin/lang-vietnamese`
+`composer remove xuandung38/flarum-lang-vietnamese`
 
 ### Xóa cache (Clear Cache)
 `php flarum cache:clear`
