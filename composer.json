@@ -1,7 +1,7 @@
 {
-  "name": "datlechin/lang-vietnamese",
+  "name": "xuandung38/flarum-lang-vietnamese",
   "version": "1.0.1",
-  "description": "Vietnamese language pack (datlechin)",
+  "description": "Vietnamese language pack (fork from datlechin)",
   "type": "flarum-extension",
   "license": "MIT",
   "keywords": [
