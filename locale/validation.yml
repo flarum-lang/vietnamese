@@ -69,6 +69,7 @@ validation:
     file: ":attribute phải có ít nhất :min kilobytes."
     string: ":attribute phải có ít nhất :min ký tự."
     array: ":attribute phải có ít nhất :min mục."
+  multiple_of: ":attribute phải là bội số của :value."
   not_in: ":attribute đã chọn không hợp lệ."
   not_regex: ":attribute định dạng không hợp lệ."
   numeric: ":attribute phải là một số."
@@ -81,6 +82,9 @@ validation:
   required_with_all: ":attribute trường được yêu cầu khi :values có mặt"
   required_without: ":attribute trường được yêu cầu khi :values không có mặt."
   required_without_all: ":attribute trường được yêu cầu khi none of :values có mặt"
+  prohibited: "Thuộc tính :attribute bị cấm"
+  prohibited_if: "Thuộc tính " :attribute bị cấm khi :other là :value."
+  prohibited_unless: "Thuộc tính :attribute bị cấm trừ khi :other nằm trong :values."
   same: ":attribute và :other phải khớp."
   size:
     numeric: ":attribute cần có :size."
