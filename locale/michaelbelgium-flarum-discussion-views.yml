@@ -22,6 +22,6 @@ michaelbelgium-discussion-views:
         title: Cài đặt lượt xem thảo luận
         track_unique_label: Theo dõi lượt xem
         abbr_numbers_label: Viết tắt số lượt xem
-        show_filter_label: Cho phép (un) trường sắp xếp phổ biến
+        show_filter_label: Cho phép (hủy) trường sắp xếp phổ biến
         max_viewcount_label: Mục danh sách xem tối đa
         show_viewlist_label: Bật danh sách xem
