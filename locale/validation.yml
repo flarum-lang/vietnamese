@@ -84,7 +84,7 @@ validation:
   required_without: ":attribute trường được yêu cầu khi :values không có mặt."
   required_without_all: ":attribute trường được yêu cầu khi none of :values có mặt"
   prohibited: "Thuộc tính :attribute bị cấm"
-  prohibited_if: "Thuộc tính " :attribute bị cấm khi :other là :value."
+  prohibited_if: "Thuộc tính :attribute bị cấm khi :other là :value."
   prohibited_unless: "Thuộc tính :attribute bị cấm trừ khi :other nằm trong :values."
   same: ":attribute và :other phải khớp."
   size:
