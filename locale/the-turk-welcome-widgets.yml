@@ -7,7 +7,7 @@ the-turk-welcome-widgets:
 
       # Greetings
       welcome:            "Chào mừng bạn, {username}."
-      goodMorning:        "Buổi sáng tốt lành, {username}."
+      goodMorning:        "Chào buổi sáng, {username}."
       goodAfternoon:      "Chào buổi trưa, {username}."
       goodEvening:        "Chào buổi tối, {username}."
       goodNight:          "Chúc ngủ ngon, {username}."
