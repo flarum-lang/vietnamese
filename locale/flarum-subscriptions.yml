@@ -1,37 +1,41 @@
 flarum-subscriptions:
 
   ##
-  # UNIQUE KEYS - Các phím sau chỉ được sử dụng ở một vị trí.
+  # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Các bản dịch trong không gian tên này được sử dụng bởi giao diện người dùng diễn đàn.
+  # Translations in this namespace are used by the forum user interface.
   forum:
 
-    # Các bản dịch này được hiển thị dưới dạng chú giải công cụ cho phù hiệu thảo luận.
+    # These translations are displayed as tooltips for discussion badges.
     badge:
       following_tooltip: => flarum-subscriptions.ref.following
       ignoring_tooltip: => flarum-subscriptions.ref.ignoring
 
-    # Các bản dịch này được sử dụng bởi các nút điều khiển thảo luận.
+    # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
       unfollow_button: Hủy theo dõi
-      unignore_button: Hủy bỏ qua
+      unignore_button: Bỏ qua
 
-    # Các bản dịch này được sử dụng trên trang chỉ mục, ngoại vi vào danh sách thảo luận.
+    # These translations are used on the page that displays all subscriptions.
+    following:
+      meta_title_text: => flarum-subscriptions.ref.following
+
+    # These translations are used on the index page, peripheral to the discussion list.
     index:
       following_link: => flarum-subscriptions.ref.following
 
-    # Các bản dịch này được sử dụng bởi danh sách Thông báo, a.k.a. "chuông".
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       new_post_text: "{username} đã đăng"
 
-    # Các bản dịch này được sử dụng trong trang Cài đặt.
+    # These translations are used in the Settings page.
     settings:
       follow_after_reply_label: Tự động theo dõi các cuộc thảo luận mà tôi trả lời
-      notify_new_post_label: Ai đó đăng bài trong một cuộc thảo luận tôi đang theo dõi
+      notify_new_post_label: Ai đó đăng bài trong cuộc thảo luận mà tôi đang theo dõi
 
-    # Các bản dịch này được sử dụng trong menu đăng ký được hiển thị ở bên phải của luồng bài đăng.
+    # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
@@ -39,15 +43,37 @@ flarum-subscriptions:
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Không bao giờ được thông báo. Ẩn khỏi danh sách thảo luận.
       not_following_button: Không theo dõi
-      not_following_text: "Chỉ được thông báo khi @mentioned."
-      notify_alert_tooltip: Nhận thông báo diễn đàn khi có bài viết mới
+      not_following_text: "Chỉ được thông báo khi được đề cập (@mentioned)."
+      notify_alert_tooltip: Nhận thông báo trên diễn đàn khi có bài viết mới
       notify_email_tooltip: Nhận email khi có bài viết mới
 
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when a post is made in a subscribed discussion
+    new_post:
+      subject: "[Bài viết mới] {title}"
+      body: |
+        Chào {recipient_display_name}!
+
+        {poster_display_name} đã đăng một bài trong cuộc thảo luận mà bạn đang theo dõi: {title}.
+
+        Để xem hoạt động mới, hãy xem liên kết sau:
+        {url}
+
+        ---
+
+        {content}
+
+        ---
+
+        Bạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.
+
   ##
-  # REUSED TRANSLATIONS - Các khóa này không nên được sử dụng trực tiếp trong mã!
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
-  # Các bản dịch trong không gian tên này được tham chiếu bởi hai hoặc nhiều khóa duy nhất.
+  # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: Theo dõi
     following: Đang theo dõi

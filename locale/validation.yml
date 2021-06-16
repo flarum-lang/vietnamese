@@ -73,6 +73,7 @@ validation:
   not_in: ":attribute đã chọn không hợp lệ."
   not_regex: ":attribute định dạng không hợp lệ."
   numeric: ":attribute phải là một số."
+  password: "Mật khẩu không đúng."
   present: ":attribute trường phải có mặt"
   regex: ":attribute định dạng không hợp lệ."
   required: ":attribute trường được yêu cầu"

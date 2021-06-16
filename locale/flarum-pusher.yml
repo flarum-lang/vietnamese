@@ -1,23 +1,23 @@
 flarum-pusher:
 
   ##
-  # UNIQUE KEYS - Các phím sau chỉ được sử dụng ở một vị trí.
+  # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Các bản dịch trong không gian tên này được sử dụng bởi giao diện quản trị.
+  # Translations in this namespace are used by the admin interface.
   admin:
 
-    # Các bản dịch này được sử dụng trong hộp thoại phương thức Cài đặt Pizer.
+    # These translations are used in the Pusher Settings modal dialog.
     pusher_settings:
-      app_cluster_label: Cụm
-      app_id_label: App ID
-      app_key_label: App Key
-      app_secret_label: App Secret
-      title: Cài đặt đẩy
+      app_cluster_label: Cluster
+      app_id_label: ID ứng dụng
+      app_key_label: Khóa ứng dụng
+      app_secret_label: Ứng dụng bí mật
+      title: Thiết lập Pusher
 
-  # Các bản dịch trong không gian tên này được sử dụng bởi giao diện quản trị.
+  # Translations in this namespace are used by the admin interface.
   forum:
 
-    # Những bản dịch này được sử dụng trong danh sách thảo luận.
+    # These translations are used in the discussion list.
     discussion_list:
-      show_updates_text: "Hiển thị {count} cuộc thảo luận được cập nhật|Hiển thị {count} cuộc thảo luận được cập nhật"
+      show_updates_text: "{count, plural, one {Hiển thị # cuộc thảo luận cập nhật} other {Hiển thị # cuộc thảo luận cập nhật}}"

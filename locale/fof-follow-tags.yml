@@ -1,5 +1,4 @@
-  
-fof-follow-tags:
+  fof-follow-tags:
   forum:
     settings:
       notify_new_discussion_label: Ai đó tạo cuộc thảo luận trong thẻ mà tôi đang theo dõi
@@ -12,7 +11,6 @@ fof-follow-tags:
 
       following:
         following_none_label: => fof-follow-tags.ref.filtering_options.none
-        following_all_label: => fof-follow-tags.ref.filtering_options.all
         following_tags_label: => fof-follow-tags.ref.filtering_options.tags
 
     badge:
@@ -37,31 +35,62 @@ fof-follow-tags:
     notifications:
       new_discussion_text: "{username} đã đăng thảo luận mới"
       new_post_text: "{username} đã đăng trả lời mới"
-      new_discussion_tag_text: "{username} đã thay đổi thẻ"
+      new_discussion_tag_text: "{username} đã thay đổi tag"
 
 
     user:
       settings:
-        heading: Theo dõi thẻ
+        heading: Theo dõi tag
 
         filter_label: Nội dung hiển thị theo mặc định trong trang Đang theo dõi
 
   admin:
     settings:
-      title: FriendsOfFlarum Theo dõi thẻ
-
       following_page_default_label: Lọc mặc định trang Đang theo dõi
 
       following_none_label: => fof-follow-tags.ref.filtering_options.none
       following_tags_label: => fof-follow-tags.ref.filtering_options.tags
-      following_all_label: => fof-follow-tags.ref.filtering_options.all
 
 
   email:
-    newDiscussionInTag: "[Thẻ | Thảo luận mới] tiêu đề"
-    newPostInTag: "[Thẻ | Trả lời mới] tiêu đề"
-    newDiscussionTag: "[Thẻ | Thay đổi thẻ] tiêu đề"
+    subject:
+        newDiscussionInTag: "[Tag | Cuộc thảo luận mới] {title}"
+        newPostInTag: "[Tag | Bài viết mới] {title}"
+        newDiscussionTag: "[Tag | Đã đổi tag] {title}"
+    body:
+        newDiscussionInTag: |
+            Chào {recipient_display_name},
 
+            {actor_display_name} đã bắt đầu một cuộc thảo luận trong một thẻ mà bạn đang theo dõi: {discussion_title}
+
+            Để xem cuộc thảo luận mới, hãy xem liên kết sau:
+            {discussion_url}
+
+            ---
+
+            {post_content}
+        newPostInTag: |
+            Chào {recipient_display_name},
+
+            {actor_display_name} đã đăng trong một cuộc thảo luận trên thẻ bạn đang theo dõi: {discussion_title}
+
+            Để xem hoạt động mới, hãy xem liên kết sau:
+            {post_url}
+
+            ---
+
+            {post_content}
+
+            ---
+
+            You won't receive any more notifications about this discussion until you're up to date.
+        newDiscussionTag: |
+            Chào {recipient_display_name},
+
+            {actor_display_name} vừa thay đổi tag trên cuộc thảo luận của {author_display_name} thành thẻ bạn đang theo dõi {discussion_title}
+
+            Để xem cuộc thảo luận mới, hãy xem liên kết sau:
+            {discussion_url}
   ref:
     follow: Theo dõi
     following: Đang theo dõi
@@ -70,6 +99,5 @@ fof-follow-tags:
     lurking: Ẩn
 
     filtering_options:
-      none: Theo dõi thảo luận
-      all: Mọi thứ bạn theo dõi
-      tags: Thẻ đã theo dõi
+      none: CUộc hảo luận đã theo dõi
+      tags: Tag đã theo dõi

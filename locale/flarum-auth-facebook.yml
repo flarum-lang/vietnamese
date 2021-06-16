@@ -9,9 +9,9 @@ flarum-auth-facebook:
 
     # These translations are used in the Facebook Settings modal dialog.
     facebook_settings:
-      app_id_label: App ID
-      app_secret_label: App Secret
-      title: Cài đặt Facebook
+      app_id_label: ID ứng dụng
+      app_secret_label: Ứng dụng bí mật
+      title: Thiết lập Facebook
 
   # Translations in this namespace are used by the forum user interface.
   forum:

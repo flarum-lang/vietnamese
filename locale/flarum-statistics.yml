@@ -1,20 +1,20 @@
 flarum-statistics:
 
   ##
-  # UNIQUE KEYS - Các phím sau chỉ được sử dụng ở một vị trí.
+  # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Các bản dịch trong không gian tên này được sử dụng bởi giao diện quản trị.
+  # Translations in this namespace are used by the admin interface.
   admin:
 
-    # Các bản dịch này được sử dụng trong tiện ích bảng điều khiển Thống kê.
+    # These translations are used in the Statistics dashboard widget.
     statistics:
-      active_users_text: "{count} hoạt động"
+      active_users_text: "{count} active"
       discussions_heading: => core.ref.discussions
-      last_12_months_label: 12 tháng qua
-      last_28_days_label: 28 ngày qua
-      last_7_days_label: 7 ngày qua
+      last_12_months_label: Last 12 months
+      last_28_days_label: Last 28 days
+      last_7_days_label: Last 7 days
       posts_heading: => core.ref.posts
-      today_label: Hôm nay
-      total_label: Toàn bộ
+      today_label: Today
+      total_label: Total
       users_heading: => core.ref.users

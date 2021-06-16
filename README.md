@@ -1,5 +1,5 @@
-## Vietnamese extention for Flarum v1.0.0
-Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộng được hỗ trợ
+# Vietnamese Language Pack for [Flarum](https://flarum.org)
+Gói ngôn ngữ tiếng Việt cho diễn đàn Flarum cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -18,12 +18,13 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 `php flarum cache:clear`
 
 ### Yêu cầu phiên bản (Required version)
-- 0.1.0-beta.14 hoặc cao hơn (0.1.0-beta.14 or later)
+- Flarum core v1.0.0 hoặc cao hơn (v1.0.0 or later)
 
 ### Tiện ích được hỗ trợ (Extentions supported)
 <details>
   <summary>Flarum</summary>
   <ul>
+    <li>Core</Li>
     <li>Akismet</li>
     <li>Approval</li>
     <li>Auth Facebook</li>
@@ -35,6 +36,7 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
     <li>Lock</li>
     <li>Markdown</li>
     <li>Mentions</li>
+    <li>Nicknames</li>
     <li>Pusher</li>
     <li>Statistics</li>
     <li>Sticky</li>
@@ -96,7 +98,7 @@ Gói ngôn ngữ tiếng Việt cho Flarum và một số tiện ích mở rộn
 </details>
 
 ### Links
-- [My Forum](https://vieit.net)
+- [My Website](https://ngoquocdat.com)
 - [Github](https://github.com/datlechin/lang-vietnamese)
 - [Packagist](https://packagist.org/packages/datlechin/lang-vietnamese)
 - [Flagrow](https://flagrow.io/extensions/datlechin/lang-vietnamese)

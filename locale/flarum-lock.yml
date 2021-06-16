@@ -1,37 +1,37 @@
 flarum-lock:
 
   ##
-  # UNIQUE KEYS - Các phím sau chỉ được sử dụng ở một vị trí.
+  # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Các bản dịch trong không gian tên này được sử dụng bởi giao diện quản trị.
+  # Translations in this namespace are used by the admin interface.
   admin:
 
-    # Các bản dịch này được sử dụng trong trang Quyền của giao diện quản trị viên.
+    # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Khóa thảo luận
+      lock_discussions_label: Khóa cuộc thảo luận
 
-  # Các bản dịch trong không gian tên này được sử dụng bởi giao diện người dùng diễn đàn.
+  # Translations in this namespace are used by the forum user interface.
   forum:
 
-    # Các bản dịch này được hiển thị dưới dạng chú giải công cụ cho phù hiệu thảo luận.
+    # These translations are displayed as tooltips for discussion badges.
     badge:
       locked_tooltip: Đã khóa
 
-    # Các bản dịch này được sử dụng bởi các nút điều khiển thảo luận.
+    # These translations are used by the discussion control buttons.
     discussion_controls:
       lock_button: Khóa
       unlock_button: Mở khóa
 
-    # Các bản dịch này được sử dụng bởi danh sách Thông báo, a.k.a. "chuông".
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_locked_text: "{username} đã khóa"
 
-    # Các bản dịch này được hiển thị giữa các bài viết trong luồng bài viết.
+    # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_locked_text: "{username} đã khóa cuộc thảo luận."
-      discussion_unlocked_text: "{username} đã mở khóa cuộc thảo luận."
+      discussion_unlocked_text: "{username} đã mở khóa cuộc thảo luận"
 
-    # Các bản dịch này được sử dụng trong trang Cài đặt.
+    # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Ai đó khóa một cuộc thảo luận tôi đã đăng
+      notify_discussion_locked_label: Ai đó khóa cuộc thảo luận mà tôi đã đăng

@@ -1,37 +1,37 @@
 flarum-suspend:
 
   ##
-  # UNIQUE KEYS - Các phím sau chỉ được sử dụng ở một vị trí.
+  # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Các bản dịch trong không gian tên này được sử dụng bởi giao diện quản trị.
+  # Translations in this namespace are used by the admin interface.
   admin:
 
-    # Các bản dịch này được sử dụng trong trang Quyền của giao diện quản trị viên.
+    # These translations are used in the Permissions page of the admin interface.
     permissions:
       suspend_users_label: Đình chỉ người dùng
 
-  # Các bản dịch trong không gian tên này được sử dụng bởi giao diện người dùng diễn đàn.
+  # Translations in this namespace are used by the forum user interface.
   forum:
-    # Các bản dịch này được sử dụng trong các thông báo đình chỉ
+    # These translations are used in the suspension notifications
     notifications:
       user_suspended_text: "{username} đã đình chỉ bạn trong {timeReadable}"
-      user_unsuspended_text: "{username} đã mở đình chỉ cho bạn"
+      user_unsuspended_text: "{username} hủy đình chỉ bạn"
 
-    # Các bản dịch này được sử dụng trong hộp thoại tạm dừng người dùng (chức năng quản trị viên).
+    # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: Đình chỉ vô thời hạn
       limited_time_days_text: " ngày"
-      limited_time_label: Đình chỉ trong thời gian giới hạn...
-      not_suspended_label: Không bị đình chỉ
-      status_heading: Tình trạng đình chỉ
+      limited_time_label: Đình chỉ trong một thời gian giới hạn...
+      not_suspended_label: Không đình chỉ
+      status_heading: Trạng thái đình chỉ
       submit_button: => core.ref.save_changes
       title: "Đình chỉ {username}"
 
-    # Các bản dịch này được hiển thị dưới dạng chú giải công cụ cho phù hiệu người dùng.
+    # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Đình chỉ
+      suspended_tooltip: Bị đình chỉ
 
-    # Các bản dịch này được tìm thấy trên trang hồ sơ người dùng (chức năng quản trị).
+    # These translations are found on the user profile page (admin function).
     user_controls:
       suspend_button: Đình chỉ

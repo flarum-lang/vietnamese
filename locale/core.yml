@@ -91,7 +91,7 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Địa chỉ
-      description: "Cấu" hình trình điều khiển, cài đặt và địa chỉ mà diễn đàn của bạn sẽ sử dụng để gửi email."
+      description: "Cấu hình trình điều khiển, cài đặt và địa chỉ mà diễn đàn của bạn sẽ sử dụng để gửi email."
       driver_heading: Chọn Driver
       driver_label: Driver
       from_label: Người gửi
@@ -466,7 +466,7 @@ core:
       avatar_upload_button: Tải lên
       avatar_upload_tooltip: Tải lên avatar
       discussions_link: => core.ref.discussions
-      in_discussion_text: "Trong" {discussion}"
+      in_discussion_text: "Trong {discussion}"
       joined_date_text: "Đã tham gia {ago}"
       online_text: Trực tuyến
       posts_empty_text: Có vẻ như không có bài viết nào ở đây.
