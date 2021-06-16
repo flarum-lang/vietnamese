@@ -92,8 +92,6 @@ Gói ngôn ngữ tiếng Việt cho diễn đàn Flarum cùng với một số t
     <li><a href="https://extiverse.com/extension/flagrow/ads">Flagrow Ads</a></li>
     <li><a href="https://extiverse.com/extension/reflar/level-ranks">ReFlar Level Ranks</a></li>
     <li><a href="https://extiverse.com/extension/askvortsov/flarum-categories">Flarum Categories</a></li>
-    <li><a href="https://extiverse.com/extension/xelson/flarum-ext-chat">Neon Chat</a></li>
-    <li><a href="https://extiverse.com/extension/jslirola/flarum-ext-login2seeplus">Login2SeePlus</a></li>
   </ul> 
 </details>
 

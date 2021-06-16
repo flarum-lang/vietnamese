@@ -154,7 +154,7 @@ core:
         feature: Tính năng
         formatting: Định dạng
         language: Ngôn ngữ
-        moderation: Điều độ
+        moderation: Kiểm duyệt
         other: Tiện ích mở rộng khác
         theme: Chủ đề
       dashboard_button: => core.admin.dashboard.title
@@ -182,7 +182,7 @@ core:
       edit_users_credentials_label: Chỉnh sửa thông tin đăng nhập của người dùng
       edit_users_groups_label: Chỉnh sửa nhóm người dùng
       global_heading: Toàn bộ
-      moderate_heading: Vừa phải
+      moderate_heading: Kiểm duyệt
       new_group_button: Nhóm mới
       participate_heading: Tham dự
       post_without_throttle_label: Trả lời nhiều lần mà không cần chờ đợi

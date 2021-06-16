@@ -7,10 +7,8 @@ fof-nightmode:
     admin:
         settings:
             modal:
-                title: FoF Chế độ đêm
                 default_theme: Chủ đề diễn đàn mặc định
                 default_theme_helper: Chủ đề mặc định được đặt tự động cho người dùng và khách.
-                default_theme_important: Điều này cũng sẽ ảnh hưởng đến những người dùng hiện tại chưa chọn chủ đề theo cách thủ công!
                 theme_auto: => fof-nightmode.ref.auto
                 theme_light: => fof-nightmode.ref.light
                 theme_dark: => fof-nightmode.ref.dark

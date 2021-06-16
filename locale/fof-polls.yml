@@ -1,10 +1,12 @@
 fof-polls:
   admin:
     permissions:
-      moderate: Chỉnh sửa và xóa các cuộc thăm dò
-      self_edit: Cho phép người dùng chỉnh sửa các cuộc thăm dò của riêng họ
+      view_results_without_voting: Xem kết quả mà không cần bỏ phiếu
       start: Bắt đầu cuộc thăm dò
+      self_edit: Cho phép người dùng chỉnh sửa các cuộc thăm dò của riêng họ
       vote: Bình chọn trong các cuộc thăm dò
+      change_vote: Thay đổi bình chọn
+      moderate: Chỉnh sửa và xóa các cuộc thăm dò
 
   forum:
     days_remaining: Cuộc thăm dò kết thúc {time}.
@@ -33,12 +35,12 @@ fof-polls:
 
     moderation:
       delete: Xóa cuộc thăm dò
-      delete_confirm:Bạn có chắc chắn muốn xóa cuộc thăm dò ý kiến ​​này?
-      edit: Chỉnh sửa cuộc thăm dò ý kiến
+      delete_confirm: Bạn có chắc chắn muốn xóa cuộc thăm dò ý kiến ​​này?
+      edit: Chỉnh sửa cuộc thăm dò
 
     tooltip:
       badge: Thăm dò ý kiến
-      votes: "1 bình chọn|{count} bình chọn"
+      votes: "{count, plural, one {# bình chọn} other {# bình chọn}}"
 
     votes_modal:
       title: Người bình chọn

@@ -1,4 +1,7 @@
 fof-share-social:
+  admin:
+    settings:
+      canonical-urls: Sử dụng URL gốc để chia sẻ
   forum:
     discussion:
       share_button: Chia sẻ
@@ -6,16 +9,14 @@ fof-share-social:
     modal:
       title: Chia sẻ
 
-  admin:
-    settings:
-      title: Chia sẻ mạng xã hội
-
   lib:
     networks:
       facebook: Facebook
       twitter: Twitter
       linkedin: LinkedIn
       reddit: Reddit
+      whatsapp: WhatsApp
+      telegram: Telegram
 
       vkontakte: VKontakte
       odnoklassniki: Odnoklassniki
