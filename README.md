@@ -8,14 +8,17 @@ Gói ngôn ngữ tiếng Việt cho diễn đàn Flarum cùng với một số t
 ![](https://img.shields.io/packagist/dt/datlechin/lang-vietnamese.svg)
 
 ## Thông tin (Infomation)
-### Cài đặt, Cập nhật (Installation, Update)
-`composer require datlechin/lang-vietnamese`
+### Cài đặt (Installation)
+```
+composer require datlechin/lang-vietnamese
+```
 
-### Xóa (Remove)
-`composer remove datlechin/lang-vietnamese`
-
-### Xóa cache (Clear Cache)
-`php flarum cache:clear`
+### Cập nhật (Updating)
+```
+composer require fof/linguist
+php flarum migrate
+php flarum cache:clear
+```
 
 ### Yêu cầu phiên bản (Required version)
 - Flarum core v1.0.0 hoặc cao hơn (v1.0.0 or later)
@@ -49,49 +52,50 @@ Gói ngôn ngữ tiếng Việt cho diễn đàn Flarum cùng với một số t
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
-    <li><a href="https://extiverse.com/extension/fof/formatting">Formatting</a></li>
-    <li><a href="https://extiverse.com/extension/fof/user-bio">User Bio</a></li>
-    <li><a href="https://extiverse.com/extension/fof/links">Links</a></li>
-    <li><a href="https://extiverse.com/extension/fof/pages">Pages</a></li>
-    <li><a href="https://extiverse.com/extension/fof/polls">Polls</a></li>
-    <li><a href="https://extiverse.com/extension/fof/byobu">Byōbu</a></li>
-    <li><a href="https://extiverse.com/extension/fof/merge-discussions">Merge Discussions</a></li>
-    <li><a href="https://extiverse.com/extension/fof/reactions">Reactions</a></li>
-    <li><a href="https://extiverse.com/extension/fof/follow-tags">Follow Tags</a></li>
-    <li><a href="https://extiverse.com/extension/fof/user-directory">User Directory</a></li>
-    <li><a href="https://extiverse.com/extension/fof/upload">Upload</a></li>
-    <li><a href="https://extiverse.com/extension/fof/spamblock">Spamblock</a></li>
-    <li><a href="https://extiverse.com/extension/fof/drafts">Drafts</a></li>
-    <li><a href="https://extiverse.com/extension/fof/recaptcha">reCAPTCHA</a></li>
-    <li><a href="https://extiverse.com/extension/fof/socialprofile">Social Profile</a></li>
-    <li><a href="https://extiverse.com/extension/fof/best-answer">Best Answer</a></li>
-    <li><a href="https://extiverse.com/extension/fof/nightmode">Night Mode</a></li>
-    <li><a href="https://extiverse.com/extension/fof/share-social">Share Social</a></li>
-    <li><a href="https://extiverse.com/extension/fof/secure-https">Secure HTTPS</a></li>
-    <li><a href="https://extiverse.com/extension/fof/username-request">Username Request</a></li>
-    <li><a href="https://extiverse.com/extension/fof/transliterator">URL Transliterator</a></li>
-    <li><a href="https://extiverse.com/extension/fof/moderator-notes">Moderator Notes</a></li>
-    <li><a href="https://extiverse.com/extension/fof/ban-ips">Ban IPs</a></li>
-    <li><a href="https://extiverse.com/extension/fof/oauth">FoF OAuth</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/linguist">Linguist</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/formatting">Formatting</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/user-bio">User Bio</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/links">Links</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/pages">Pages</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/polls">Polls</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/byobu">Byōbu</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/merge-discussions">Merge Discussions</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/reactions">Reactions</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/follow-tags">Follow Tags</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/user-directory">User Directory</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/upload">Upload</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/spamblock">Spamblock</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/drafts">Drafts</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/recaptcha">reCAPTCHA</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/socialprofile">Social Profile</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/best-answer">Best Answer</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/nightmode">Night Mode</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/share-social">Share Social</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/secure-https">Secure HTTPS</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/username-request">Username Request</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/transliterator">URL Transliterator</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/moderator-notes">Moderator Notes</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/ban-ips">Ban IPs</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/oauth">FoF OAuth</a></li>
   </ul> 
 </details>
 
 <details>
   <summary>MichaelBelgium</summary>
   <ul>
-    <li><a href="https://extiverse.com/extension/michaelbelgium/flarum-discussion-views">Discussion views</a></li>
-    <li><a href="https://extiverse.com/extension/michaelbelgium/flarum-profile-views">Profile views</a></li>
+    <li><a href="https://github.com/michaelbelgium/flarum-discussion-views">Discussion views</a></li>
+    <li><a href="https://github.com/michaelbelgium/flarum-profile-views">Profile views</a></li>
   </ul> 
 </details>
 
 <details>
   <summary>Others</summary>
   <ul>
-    <li><a href="https://extiverse.com/extension/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
-    <li><a href="https://extiverse.com/extension/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
-    <li><a href="https://extiverse.com/extension/flagrow/ads">Flagrow Ads</a></li>
-    <li><a href="https://extiverse.com/extension/reflar/level-ranks">ReFlar Level Ranks</a></li>
-    <li><a href="https://extiverse.com/extension/askvortsov/flarum-categories">Flarum Categories</a></li>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
+    <li><a href="https://github.com/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
+    <li><a href="https://github.com/flagrow/ads">Flagrow Ads</a></li>
+    <li><a href="https://github.com/reflar/level-ranks">ReFlar Level Ranks</a></li>
+    <li><a href="https://github.com/askvortsov1/flarum-categories">Flarum Categories</a></li>
   </ul> 
 </details>
 

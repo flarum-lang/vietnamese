@@ -19,7 +19,7 @@ core:
       custom_styles_heading: Tùy chỉnh style
       custom_styles_text: Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS / CSS của riêng bạn để được áp dụng trên các kiểu mặc định của Flarum.
       dark_mode_label: Chế độ tối
-      description: Tùy chỉnh màu sắc, biểu trưng và các biến khác của diễn đàn.
+      description: Tùy chỉnh màu sắc, logo và các thiết lập khác của diễn đàn.
       edit_css_button: Sửa CSS tùy chỉnh
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
@@ -240,13 +240,13 @@ core:
             title: Nhóm
 
           join_time:
-            title: Đã tham gia
+            title: Tham gia lúc
 
           user_id:
             title: ID
 
           username:
-            profile_link_tooltip: Truy cập hồ sơ của {username}
+            profile_link_tooltip: Xem hồ sơ của {username}
             title: => core.ref.username
 
         invalid_column_content: Không hợp lệ
