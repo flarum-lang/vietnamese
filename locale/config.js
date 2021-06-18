@@ -1,64 +1,32 @@
-// Locale configuration
-
-;(function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' && typeof require === 'function' ? factory(require('../moment')) : typeof define === 'function' && define.amd ? define(['../moment'], factory) : factory(global.moment)
-}
-(this, (function (moment) {
-    'use strict';
-
-     var vi = moment.defineLocale('vi-vn', {
-         months : 'Tháng một_Tháng hai_Tháng ba_Tháng tư_Tháng năm_Tháng sáu_Tháng bảy_Tháng tám_Tháng chín_Tháng mười_Tháng mười một_Tháng mười hai'.split('_'),
-         monthsShort : 'Tháng 1_Tháng 2_Tháng 3_Tháng 4_Tháng 5_Tháng 6_Tháng 7_Tháng 8_Tháng 9_Tháng 10_Tháng 11_Tháng 12'.split('_'),
-         weekdays : 'Thứ hai_Thứ ba_Thứ tư_Thứ năm_Thứ sáu_Thứ bảy_Chủ nhật'.split('_'),
-         weekdaysShort : 'Thứ 2_Thứ 3_Thứ 4_Thứ 5_Thứ 6_Thứ 7_Chủ nhật'.split('_'),
-         weekdaysMin : 'T2_T2_T4_T5_T6_T7_CN'.split('_'),
-         longDateFormat : {
-             LT : 'HH:mm',
-             LTS : 'HH:mm:ss',
-             L : 'DD/MM/YYYY',
-             LL : 'D MMMM YYYY',
-             LLL : 'D MMMM YYYY HH:mm',
-             LLLL : 'dddd, D MMMM YYYY HH:mm'
-         },
-         calendar : {
-             sameDay : '[Hôm nay lúc] LT',
-             nextDay : '[Ngày mai lúc] LT',
-             nextWeek : 'dddd [lúc] LT',
-             lastDay : '[Hôm qua lúc] LT',
-             lastWeek : '[Mới nhất] dddd [lúc] LT',
-             sameElse : 'L'
-         },
-         relativeTime : {
-             future : 'in %s',
-             past : '%s trước',
-             s : 'vài giây',
-             ss : '%d giây',
-             m : '1 phút',
-             mm : '%d phút',
-             h : '1 giờ',
-             hh : '%d giờ',
-             d : '1 ngày',
-             dd : '%d ngày',
-             M : '1 tháng',
-             MM : '%d tháng',
-             y : '1 năm',
-             yy : '%d năm'
-         },
-         dayOfMonthOrdinalParse: /\d{1,2}(st|nd|rd|th)/,
-         ordinal : function (number) {
-             var b = number % 10,
-                 output = (~~(number % 100 / 10) === 1) ? 'th' :
-                 (b === 1) ? 'st' :
-                 (b === 2) ? 'nd' :
-                 (b === 3) ? 'rd' : 'th';
-             return number + output;
-         },
-         week : {
-             dow : 1, // Monday is the first day of the week.
-             doy : 4  // The week that contains Jan 4th is the first week of the year.
-         }
-     });
- 
-     return vi;
- 
- })));
+!(function (t, _) {
+  "object" == typeof exports && "undefined" != typeof module ? (module.exports = _(require("dayjs"))) : "function" == typeof define && define.amd ? define(["dayjs"], _) : (t.dayjs_locale_vi = _(t.dayjs));
+})(this, function (t) {
+  "use strict";
+  t = t && t.hasOwnProperty("default") ? t.default : t;
+  var _ = {
+    name: "vi",
+    weekdays: "chủ nhật_thứ hai_thứ ba_thứ tư_thứ năm_thứ sáu_thứ bảy".split("_"),
+    months: "tháng 1_tháng 2_tháng 3_tháng 4_tháng 5_tháng 6_tháng 7_tháng 8_tháng 9_tháng 10_tháng 11_tháng 12".split("_"),
+    weekStart: 1,
+    weekdaysShort: "CN_T2_T3_T4_T5_T6_T7".split("_"),
+    monthsShort: "Th01_Th02_Th03_Th04_Th05_Th06_Th07_Th08_Th09_Th10_Th11_Th12".split("_"),
+    weekdaysMin: "CN_T2_T3_T4_T5_T6_T7".split("_"),
+    ordinal: function (t) {
+      return t;
+    },
+    formats: {
+      LT: "HH:mm",
+      LTS: "HH:mm:ss",
+      L: "DD/MM/YYYY",
+      LL: "D MMMM [năm] YYYY",
+      LLL: "D MMMM [năm] YYYY HH:mm",
+      LLLL: "dddd, D MMMM [năm] YYYY HH:mm",
+      l: "DD/M/YYYY",
+      ll: "D MMM YYYY",
+      lll: "D MMM YYYY HH:mm",
+      llll: "ddd, D MMM YYYY HH:mm",
+    },
+    relativeTime: { future: "%s tới", past: "%s trước", s: "vài giây", m: "một phút", mm: "%d phút", h: "một giờ", hh: "%d giờ", d: "một ngày", dd: "%d ngày", M: "một tháng", MM: "%d tháng", y: "một năm", yy: "%d năm" },
+  };
+  return t.locale(_, null, !0), _;
+});
