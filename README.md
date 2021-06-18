@@ -52,6 +52,12 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/analytics">Analytics</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/default-group">Default Group</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/forum-statistics-widget">Forum Statistics Widget</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/merge-discussions">Merge Discussions</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/pwned-passwords">Pwned Passwords</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/reactions">Reactions</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/discussion-language">Discussion Language</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/linguist">Linguist</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/formatting">Formatting</a></li>
@@ -84,6 +90,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/v17development/flarum-user-badges" target="_blank">Flarum User Badges</a></li>
     <li><a href="https://github.com/imorland/follow-users" target="_blank">Follow Users</a></li>
     <li><a href="https://github.com/michaelbelgium/flarum-discussion-views" target="_blank">Discussion views</a></li>
     <li><a href="https://github.com/michaelbelgium/flarum-profile-views" target="_blank">Profile views</a></li>
