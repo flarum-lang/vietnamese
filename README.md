@@ -96,8 +96,6 @@ php flarum cache:clear
     <li><a href="https://github.com/v17development/flarum-blog">Flarum Blog</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
     <li><a href="https://github.com/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
-    <li><a href="https://github.com/flagrow/ads">Flagrow Ads</a></li>
-    <li><a href="https://github.com/reflar/level-ranks">ReFlar Level Ranks</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-categories">Flarum Categories</a></li>
   </ul> 
 </details>
