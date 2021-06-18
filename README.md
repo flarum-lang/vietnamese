@@ -82,21 +82,16 @@ php flarum cache:clear
 </details>
 
 <details>
-  <summary>MichaelBelgium</summary>
-  <ul>
-    <li><a href="https://github.com/michaelbelgium/flarum-discussion-views">Discussion views</a></li>
-    <li><a href="https://github.com/michaelbelgium/flarum-profile-views">Profile views</a></li>
-  </ul> 
-</details>
-
-<details>
   <summary>Others</summary>
   <ul>
-    <li><a href="https://extiverse.com/extension/antoinefr/flarum-ext-money">Money</a></li>
-    <li><a href="https://github.com/v17development/flarum-blog">Flarum Blog</a></li>
-    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
-    <li><a href="https://github.com/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
-    <li><a href="https://github.com/askvortsov1/flarum-categories">Flarum Categories</a></li>
+    <li><a href="https://github.com/imorland/follow-users" target="_blank">Follow Users</a></li>
+    <li><a href="https://github.com/michaelbelgium/flarum-discussion-views" target="_blank">Discussion views</a></li>
+    <li><a href="https://github.com/michaelbelgium/flarum-profile-views" target="_blank">Profile views</a></li>
+    <li><a href="https://extiverse.com/extension/antoinefr/flarum-ext-money" target="_blank">Money</a></li>
+    <li><a href="https://github.com/v17development/flarum-blog" target="_blank">Flarum Blog</a></li>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea" target="_blank">Emoji Picker</a></li>
+    <li><a href="https://github.com/the-turk/flarum-welcome-widgets" target="_blank">Welcome Widgets</a></li>
+    <li><a href="https://github.com/askvortsov1/flarum-categories" target="_blank">Flarum Categories</a></li>
   </ul> 
 </details>
 
