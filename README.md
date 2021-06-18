@@ -52,6 +52,7 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/discussion-language">Discussion Language</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/linguist">Linguist</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/formatting">Formatting</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/user-bio">User Bio</a></li>
