@@ -87,7 +87,7 @@ php flarum cache:clear
     <li><a href="https://github.com/imorland/follow-users" target="_blank">Follow Users</a></li>
     <li><a href="https://github.com/michaelbelgium/flarum-discussion-views" target="_blank">Discussion views</a></li>
     <li><a href="https://github.com/michaelbelgium/flarum-profile-views" target="_blank">Profile views</a></li>
-    <li><a href="https://extiverse.com/extension/antoinefr/flarum-ext-money" target="_blank">Money</a></li>
+    <li><a href="https://github.com/AntoineFr/flarum-ext-money" target="_blank">Money</a></li>
     <li><a href="https://github.com/v17development/flarum-blog" target="_blank">Flarum Blog</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea" target="_blank">Emoji Picker</a></li>
     <li><a href="https://github.com/the-turk/flarum-welcome-widgets" target="_blank">Welcome Widgets</a></li>
