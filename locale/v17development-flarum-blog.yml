@@ -40,7 +40,7 @@ v17development-flarum-blog:
     recent_posts: "Các bài đăng trên blog gần đây"
     categories: "Danh mục"
     forum_nav: "Thanh điều hướng diễn đàn"
-    return_to_overview: "Quay lại tổng quan blog "
+    return_to_overview: "Quay lại trang blog "
     no_more_posts: "Không có bài đăng trên blog nào nữa."
     category_empty: "Không có bài đăng trên blog nào trong danh mục này."
     
