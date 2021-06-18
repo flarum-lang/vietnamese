@@ -91,6 +91,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://extiverse.com/extension/antoinefr/flarum-ext-money">Money</a></li>
     <li><a href="https://github.com/v17development/flarum-blog">Flarum Blog</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
     <li><a href="https://github.com/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
