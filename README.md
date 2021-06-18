@@ -15,7 +15,7 @@ composer require datlechin/lang-vietnamese
 
 ### Cập nhật (Updating)
 ```
-composer require fof/linguist
+composer require datlechin/lang-vietnamese
 php flarum migrate
 php flarum cache:clear
 ```
