@@ -52,6 +52,7 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/mason">Mason</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/analytics">Analytics</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/default-group">Default Group</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/forum-statistics-widget">Forum Statistics Widget</a></li>
@@ -90,6 +91,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/justoverclockl/flarum-ext-hashtag" target="_blank">Hashtag</a></li>
     <li><a href="https://github.com/v17development/flarum-user-badges" target="_blank">Flarum User Badges</a></li>
     <li><a href="https://github.com/imorland/follow-users" target="_blank">Follow Users</a></li>
     <li><a href="https://github.com/michaelbelgium/flarum-discussion-views" target="_blank">Discussion views</a></li>
