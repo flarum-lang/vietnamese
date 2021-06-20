@@ -27,7 +27,7 @@ php flarum cache:clear
 <details>
   <summary>Flarum</summary>
   <ul>
-    <li>Core</Li>
+    <li>Core</li>
     <li>Akismet</li>
     <li>Approval</li>
     <li>Auth Facebook</li>
@@ -52,45 +52,46 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
-    <li><a href="https://github.com/FriendsOfFlarum/mason">Mason</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/analytics">Analytics</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/default-group">Default Group</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/forum-statistics-widget">Forum Statistics Widget</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/merge-discussions">Merge Discussions</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/pwned-passwords">Pwned Passwords</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/reactions">Reactions</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/discussion-language">Discussion Language</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/linguist">Linguist</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/formatting">Formatting</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/user-bio">User Bio</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/links">Links</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/pages">Pages</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/polls">Polls</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/byobu">Byōbu</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/merge-discussions">Merge Discussions</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/reactions">Reactions</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/follow-tags">Follow Tags</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/user-directory">User Directory</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/upload">Upload</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/spamblock">Spamblock</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/drafts">Drafts</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/recaptcha">reCAPTCHA</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/socialprofile">Social Profile</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/best-answer">Best Answer</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/nightmode">Night Mode</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/share-social">Share Social</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/secure-https">Secure HTTPS</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/username-request">Username Request</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/transliterator">URL Transliterator</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/moderator-notes">Moderator Notes</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/ban-ips">Ban IPs</a></li>
-    <li><a href="https://github.com/FriendsOfFlarum/oauth">FoF OAuth</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/mason" target="_blank">Mason</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/analytics" target="_blank">Analytics</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/default-group" target="_blank">Default Group</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/forum-statistics-widget" target="_blank">Forum Statistics Widget</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/merge-discussions" target="_blank">Merge Discussions</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/pwned-passwords" target="_blank">Pwned Passwords</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/reactions" target="_blank">Reactions</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/discussion-language" target="_blank">Discussion Language</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/linguist" target="_blank">Linguist</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/formatting" target="_blank">Formatting</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/user-bio" target="_blank">User Bio</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/links" target="_blank">Links</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/pages" target="_blank">Pages</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/polls" target="_blank">Polls</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/byobu" target="_blank">Byōbu</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/merge-discussions" target="_blank">Merge Discussions</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/reactions" target="_blank">Reactions</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/follow-tags" target="_blank">Follow Tags</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/user-directory" target="_blank">User Directory</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/upload" target="_blank">Upload</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/spamblock" target="_blank">Spamblock</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/drafts" target="_blank">Drafts</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/recaptcha" target="_blank">reCAPTCHA</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/socialprofile" target="_blank">Social Profile</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/best-answer" target="_blank">Best Answer</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/nightmode" target="_blank">Night Mode</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/share-social" target="_blank">Share Social</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/secure-https" target="_blank">Secure HTTPS</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/username-request" target="_blank">Username Request</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/transliterator" target="_blank">URL Transliterator</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/moderator-notes" target="_blank">Moderator Notes</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/ban-ips" target="_blank">Ban IPs</a></li>
+    <li><a href="https://github.com/FriendsOfFlarum/oauth" target="_blank">FoF OAuth</a></li>
   </ul> 
 </details>
 
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/justoverclockl/flarum-ext-toastme" target="_blank">ToastMe</a></li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-hashtag" target="_blank">Hashtag</a></li>
     <li><a href="https://github.com/v17development/flarum-user-badges" target="_blank">Flarum User Badges</a></li>
     <li><a href="https://github.com/imorland/follow-users" target="_blank">Follow Users</a></li>
