@@ -89,7 +89,7 @@ php flarum cache:clear
 </details>
 
 <details>
-  <summary>FriendsOfFlarum</summary>
+  <summary>askvortsov</summary>
   <ul>
     <li><a href="https://github.com/askvortsov1/flarum-pwa">Flarum Progressive Web App</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-moderator-warnings">Flarum Moderator Warnings</a></li>
