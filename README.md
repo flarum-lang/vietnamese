@@ -119,6 +119,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/v17development/flarum-seo">Flarum SEO</a></li>
     <li><a href="https://github.com/AntoineFr/flarum-ext-online">Online</a></li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-toastme">ToastMe</a></li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-hashtag">Hashtag</a></li>
