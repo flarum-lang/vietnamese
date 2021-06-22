@@ -105,6 +105,7 @@ php flarum cache:clear
 <details>
   <summary>clarkwinkelmann</summary>
   <ul>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-group-list">Group List</a></li>
     <li><a href="https://github.com/clarkwinkelmann/catch-the-fish">Catch The Fish</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-external-email-validation">External Email Validation</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
