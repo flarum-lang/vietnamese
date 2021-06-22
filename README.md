@@ -52,6 +52,7 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/pretty-mail">Pretty Mail</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/mason">Mason</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/analytics">Analytics</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/default-group">Default Group</a></li>
