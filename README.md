@@ -105,6 +105,7 @@ php flarum cache:clear
 <details>
   <summary>clarkwinkelmann</summary>
   <ul>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-create-user-modal">Create User Modal</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-group-invitation">Group Invitation</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-group-list">Group List</a></li>
     <li><a href="https://github.com/clarkwinkelmann/catch-the-fish">Catch The Fish</a></li>
