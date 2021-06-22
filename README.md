@@ -105,6 +105,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-external-email-validation">External Email Validation</a></li>
     <li><a href="https://github.com/AntoineFr/flarum-ext-online">Online</a></li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-toastme">ToastMe</a></li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-hashtag">Hashtag</a></li>
