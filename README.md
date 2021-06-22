@@ -94,7 +94,7 @@ php flarum cache:clear
     <li><a href="https://github.com/askvortsov1/flarum-pwa">Flarum Progressive Web App</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-moderator-warnings">Flarum Moderator Warnings</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-markdown-tables">Markdown Tables</a></li>
-    <li><a href="askvortsov1/flarum-help-tags">Flarum Help Tags</a></li>
+    <li><a href="https://github.com/askvortsov1/flarum-help-tags">Flarum Help Tags</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-discussion-templates">Flarum Discussion Templates</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-checklist">Checklists</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-auto-moderator">Auto Moderator</a></li>
@@ -105,6 +105,7 @@ php flarum cache:clear
 <details>
   <summary>clarkwinkelmann</summary>
   <ul>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-group-invitation">Group Invitation</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-group-list">Group List</a></li>
     <li><a href="https://github.com/clarkwinkelmann/catch-the-fish">Catch The Fish</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-external-email-validation">External Email Validation</a></li>
