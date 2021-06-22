@@ -103,9 +103,17 @@ php flarum cache:clear
 </details>
 
 <details>
+  <summary>clarkwinkelmann</summary>
+  <ul>
+    <li><a href="https://github.com/clarkwinkelmann/catch-the-fish">Catch The Fish</a></li>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-external-email-validation">External Email Validation</a></li>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
+  </ul>
+</details>
+
+<details>
   <summary>Others</summary>
   <ul>
-    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-external-email-validation">External Email Validation</a></li>
     <li><a href="https://github.com/AntoineFr/flarum-ext-online">Online</a></li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-toastme">ToastMe</a></li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-hashtag">Hashtag</a></li>
@@ -115,7 +123,6 @@ php flarum cache:clear
     <li><a href="https://github.com/michaelbelgium/flarum-profile-views">Profile views</a></li>
     <li><a href="https://github.com/AntoineFr/flarum-ext-money">Money</a></li>
     <li><a href="https://github.com/v17development/flarum-blog">Flarum Blog</a></li>
-    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea">Emoji Picker</a></li>
     <li><a href="https://github.com/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
   </ul> 
 </details>
