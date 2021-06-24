@@ -52,6 +52,7 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/terms">Terms</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/sitemap">Sitemap</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/pretty-mail">Pretty Mail</a></li>
     <li><a href="https://github.com/FriendsOfFlarum/mason">Mason</a></li>
@@ -107,6 +108,8 @@ php flarum cache:clear
 <details>
   <summary>clarkwinkelmann</summary>
   <ul>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt">Follow Tags Prompt</a> (1.0.0)</li>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge">Popular Discussion Badge</a> (1.0.0)</li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-create-user-modal">Create User Modal</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-group-invitation">Group Invitation</a></li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-group-list">Group List</a></li>
@@ -117,13 +120,24 @@ php flarum cache:clear
 </details>
 
 <details>
+  <summary>justoverclockl</summary>
+  <ul>
+    <li><a href="https://github.com/justoverclockl/flarum-ext-contactme">Contactme</a> (0.2.0)</li>
+    <li><a href="https://github.com/justoverclockl/flarum-ext-keywords">Keywords</a> (1.8)</li>
+    <li><a href="https://github.com/justoverclockl/flarum-ext-purify">Purify</a> (0.1.5)</li>
+    <li><a href="https://github.com/justoverclockl/flarum-ext-toastme">ToastMe</a> (0.1.1)</li>
+    <li><a href="https://github.com/justoverclockl/flarum-ext-hashtag">Hashtag</a> (0.1.9)</li>
+  </ul>
+</details>
+
+<details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/malago86/flarum-ads">Ads</a> (0.3.1)</li>
+    <li><a href="https://github.com/malago86/flarum-achievements">Achievements</a> (0.3.0)</li>
     <li><a href="https://github.com/the-turk/flarum-diff">Diff</a></li>
     <li><a href="https://github.com/v17development/flarum-seo">Flarum SEO</a></li>
     <li><a href="https://github.com/AntoineFr/flarum-ext-online">Online</a></li>
-    <li><a href="https://github.com/justoverclockl/flarum-ext-toastme">ToastMe</a></li>
-    <li><a href="https://github.com/justoverclockl/flarum-ext-hashtag">Hashtag</a></li>
     <li><a href="https://github.com/v17development/flarum-user-badges">Flarum User Badges</a></li>
     <li><a href="https://github.com/imorland/follow-users">Follow Users</a></li>
     <li><a href="https://github.com/michaelbelgium/flarum-discussion-views">Discussion views</a></li>
