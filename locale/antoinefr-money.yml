@@ -13,6 +13,6 @@ antoinefr-money:
     user_controls:
       money_button: Sửa tiền
     modal:
-      title: "tiền của {username}"
+      title: "Tiền của {username}"
       current: Current:
       submit_button: => core.ref.save_changes
