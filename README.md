@@ -135,6 +135,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/jslirola/flarum-ext-login2seeplus">Login 2 See Plus</a> (v0.1.9.1)</li>
     <li><a href="https://github.com/malago86/flarum-ads">Ads</a> (0.3.1)</li>
     <li><a href="https://github.com/malago86/flarum-achievements">Achievements</a> (0.3.0)</li>
     <li><a href="https://github.com/the-turk/flarum-diff">Diff</a></li>
