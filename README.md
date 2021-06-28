@@ -1,13 +1,11 @@
 # Vietnamese Language Pack for [Flarum](https://flarum.org)
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Latest Stable Version](https://img.shields.io/packagist/v/datlechin/lang-vietnamese.svg) ![](https://img.shields.io/packagist/dt/datlechin/lang-vietnamese.svg)
+
+![](https://extiverse.com/extension/datlechin/lang-vietnamese/open-graph-image)
+
 Gói ngôn ngữ tiếng Việt cho diễn đàn Flarum cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
 
-![](https://img.shields.io/badge/license-MIT-blue.svg)
-
-![](https://img.shields.io/packagist/v/datlechin/lang-vietnamese.svg)
-
-![](https://img.shields.io/packagist/dt/datlechin/lang-vietnamese.svg)
-
-## Thông tin (Infomation)
 ### Cài đặt (Installation)
 ```
 composer require datlechin/lang-vietnamese
@@ -135,6 +133,9 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/imorland/gravatar">Gravatar</a> (1.0.1)</li>
+    <li><a href="https://github.com/extiverse/bazaar">Bazaar</a> (0.4.1)</li>
+    <li><a href="https://github.com/extiverse/mercury">Mercury</a> (0.1.2)</li>
     <li><a href="https://github.com/jslirola/flarum-ext-login2seeplus">Login 2 See Plus</a> (v0.1.9.1)</li>
     <li><a href="https://github.com/malago86/flarum-ads">Ads</a> (0.3.1)</li>
     <li><a href="https://github.com/malago86/flarum-achievements">Achievements</a> (0.3.0)</li>
