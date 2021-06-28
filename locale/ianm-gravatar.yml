@@ -1,6 +1,9 @@
 ianm-gravatar:
   admin:
     settings:
+      proxy: 
+        title: Proxy gravatars
+        helptext: Theo mặc định, các URL gravatar được tải trực tiếp từ gravatar.com. Điều này cho phép tất cả các yêu cầu gravatar được chính diễn đàn phục vụ trực tiếp.
       replace-flarum-custom:
         title: Thay thế ảnh đại diện tùy chỉnh tải lên trên Diễn đàn
         helptext: Thay thế ảnh đại diện tùy chỉnh tải lên diễn đàn bằng Gravatar

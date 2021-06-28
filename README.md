@@ -133,6 +133,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/imorland/level-ranks">Level ranks</a> (1.0.0)</li>
     <li><a href="https://github.com/imorland/gravatar">Gravatar</a> (1.0.1)</li>
     <li><a href="https://github.com/extiverse/bazaar">Bazaar</a> (0.4.1)</li>
     <li><a href="https://github.com/extiverse/mercury">Mercury</a> (0.1.2)</li>
