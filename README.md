@@ -4,7 +4,7 @@
 
 ![](https://extiverse.com/extension/datlechin/lang-vietnamese/open-graph-image)
 
-Gói ngôn ngữ tiếng Việt cho diễn đàn Flarum cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
+Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
 
 ### Cài đặt (Installation)
 ```
