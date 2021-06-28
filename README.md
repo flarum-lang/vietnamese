@@ -7,14 +7,14 @@
 Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
 
 ### Cài đặt (Installation)
+Install with composer:
 ```
 composer require datlechin/lang-vietnamese
 ```
 
 ### Cập nhật (Updating)
 ```
-composer require datlechin/lang-vietnamese
-php flarum migrate
+composer update datlechin/lang-vietnamese
 php flarum cache:clear
 ```
 
