@@ -122,6 +122,7 @@ php flarum cache:clear
 <details>
   <summary>justoverclockl</summary>
   <ul>
+    <li><a href="https://github.com/justoverclockl/flarum-ext-readmore">ReadMore</a> (1.0.4)</li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-contactme">Contactme</a> (0.2.0)</li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-keywords">Keywords</a> (1.8)</li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-purify">Purify</a> (0.1.5)</li>
