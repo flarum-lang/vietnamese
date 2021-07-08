@@ -11,13 +11,13 @@ core:
     appearance:
       colored_header_label: Màu Header
       colors_heading: Màu sắc
-      colors_text: "Chọn hai màu cho chủ đề diễn đàn của bạn với. Màu thứ nhất sẽ được sử dụng làm màu tô sáng, trong khi màu thứ hai sẽ được sử dụng để tạo kiểu cho các thành phần nền."
+      colors_text: "Chọn hai màu cho giao diện diễn đàn của bạn. Màu thứ nhất được sử dụng làm màu nền, trong khi màu thứ hai được sử dụng để tạo kiểu cho nền của các component."
       custom_footer_heading: Tùy chỉnh Footer
       custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Tùy chỉnh Header
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Tùy chỉnh style
-      custom_styles_text: Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS / CSS của riêng bạn để được áp dụng trên các kiểu mặc định của Flarum.
+      custom_styles_text: Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS để được sử dụng trên style mặc định của Flarum.
       dark_mode_label: Chế độ tối
       description: Tùy chỉnh màu sắc, logo và các thiết lập khác của diễn đàn.
       edit_css_button: Sửa CSS tùy chỉnh
@@ -25,9 +25,9 @@ core:
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Vui lòng nhập mã màu thập lục phân.
       favicon_heading: Favicon
-      favicon_text: Tải lên một hình ảnh để được hiển thị như là biểu tượng phím tắt của diễn đàn.
+      favicon_text: Tải lên hình ảnh để được hiển thị như là biểu tượng phím tắt của diễn đàn.
       logo_heading: Logo
-      logo_text: Tải lên một hình ảnh sẽ được hiển thị thay cho tiêu đề diễn đàn.
+      logo_text: Tải lên hình ảnh sẽ được hiển thị thay cho tiêu đề diễn đàn.
       title: Giao diện
 
     # These translations are used in the Basics page.
@@ -43,8 +43,8 @@ core:
       home_page_heading: Trang chủ
       home_page_text: Chọn trang mà người dùng sẽ nhìn thấy đầu tiên khi họ truy cập diễn đàn của bạn.
       show_language_selector_label: Hiển thị thanh chọn ngôn ngữ
-      slug_driver_heading: "Slug Driver: {model}"
-      slug_driver_text: Chọn một driver sử dụng để slug mô hình này.
+      slug_driver_heading: "Trình điểu khiển Slug: {model}"
+      slug_driver_text: Chọn một trình điều khiển sử dụng để slug mô hình này.
       title: Cơ bản
       welcome_banner_heading: Biểu ngữ chào mừng
       welcome_banner_text: Cấu hình văn bản hiển thị trong biểu ngữ trên trang Tất cả các cuộc thảo luận. Sử dụng điều này để chào mừng khách đến với diễn đàn của bạn.
@@ -563,8 +563,8 @@ core:
       csrf_token_mismatch_return_link: Quay lại, để thử lại
       invalid_confirmation_token: Liên kết xác nhận này đã được sử dụng hoặc không hợp lệ.
       not_authenticated: Bạn không có quyền truy cập vào trang này. Hãy thử lại sau khi đăng nhập.
-      not_found: The page you requested could not be found.
-      not_found_return_link: "Return to {forum}"
+      not_found: Trang bạn yêu cầu không thể được tìm thấy.
+      not_found_return_link: "Quay lại {forum}"
       permission_denied: Bạn không có quyền truy cập vào trang này.
       unknown: Có lỗi xảy ra khi đang tải lại trang.
 
