@@ -133,6 +133,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/NomisCZ/flarum-ext-auth-steam">Steam Login</a> (v1.0.1)</li>
     <li><a href="https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link">Flarum GUI Image and Link</a> (1.0)</li>
     <li><a href="https://github.com/android-com-pl/my-tags">My Tags</a> (1.0.1)</li>
     <li><a href="https://github.com/malago86/flarum-linkpreview">Level ranks</a> (0.1.0)</li>
