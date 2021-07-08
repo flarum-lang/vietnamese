@@ -134,6 +134,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/imorland/syndication">Syndication</a> (1.0.2)</li>
     <li><a href="https://github.com/therealsujitk/flarum-ext-gifs">GIFs</a> (v4.0.0)</li>
     <li><a href="https://github.com/NomisCZ/flarum-ext-auth-wechat">WeChat Login</a> (v1.0.0)</li>
     <li><a href="https://github.com/NomisCZ/flarum-ext-auth-steam">Steam Login</a> (v1.0.1)</li>
