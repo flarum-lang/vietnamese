@@ -22,10 +22,10 @@ flarum-likes:
     # These translations are displayed beneath individual posts.
     post:
       like_link: Thích
-      liked_by_self_text: "{users} thích điều này."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{count, plural, one {{users} thích điều này} other {{users} thích điều này}}"
+      liked_by_self_text: "{users} đã thích điều này."  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{count, plural, one {{users} đã thích điều này} other {{users} đã thích điều này}}"
       others_link: => core.ref.some_others
-      unlike_link: Không thích
+      unlike_link: Bỏ thích
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.

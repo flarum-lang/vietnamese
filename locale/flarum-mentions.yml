@@ -26,7 +26,7 @@ flarum-mentions:
     notifications:
       others_text: => core.ref.some_others
       post_mentioned_text: "{username} đã trả lời bài viết của bạn"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} đã nhắc bạn"
+      user_mentioned_text: "{username} đã đề cập đến bạn"
 
     # These translations are displayed beneath individual posts.
     post:
@@ -44,7 +44,7 @@ flarum-mentions:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: Nhắc
+      mentions_link: Đề cập
 
     # These translations are used in the post mentions
     post_mention:
