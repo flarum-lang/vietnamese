@@ -133,9 +133,18 @@ php flarum cache:clear
 </details>
 
 <details>
+  <summary>the-turk</summary>
+  <ul>
+    <li><a href="https://github.com/the-turk/flarum-nodp">Prevent Double-Posting</a> (1.0.1)</li>
+    <li><a href="https://github.com/the-turk/flarum-flamoji">Flamoji</a> (1.0.2)</li>
+    <li><a href="https://github.com/the-turk/flarum-diff">Diff</a></li>
+    <li><a href="https://github.com/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
+  </ul>
+</details>
+
+<details>
   <summary>Others</summary>
   <ul>
-    <li><a href="https://github.com/the-turk/flarum-flamoji">Flamoji</a> (1.0.2)</li>
     <li><a href="https://github.com/matteocontrini/flarum-imgur-upload">flarum-imgur-upload</a> (v3.6.0)</li>
     <li><a href="https://github.com/imorland/syndication">Syndication</a> (1.0.2)</li>
     <li><a href="https://github.com/therealsujitk/flarum-ext-gifs">GIFs</a> (v4.0.0)</li>
@@ -151,7 +160,6 @@ php flarum cache:clear
     <li><a href="https://github.com/jslirola/flarum-ext-login2seeplus">Login 2 See Plus</a> (v0.1.9.1)</li>
     <li><a href="https://github.com/malago86/flarum-ads">Ads</a> (0.3.1)</li>
     <li><a href="https://github.com/malago86/flarum-achievements">Achievements</a> (0.3.0)</li>
-    <li><a href="https://github.com/the-turk/flarum-diff">Diff</a></li>
     <li><a href="https://github.com/v17development/flarum-seo">Flarum SEO</a></li>
     <li><a href="https://github.com/AntoineFr/flarum-ext-online">Online</a></li>
     <li><a href="https://github.com/v17development/flarum-user-badges">Flarum User Badges</a></li>
@@ -160,7 +168,6 @@ php flarum cache:clear
     <li><a href="https://github.com/michaelbelgium/flarum-profile-views">Profile views</a></li>
     <li><a href="https://github.com/AntoineFr/flarum-ext-money">Money</a></li>
     <li><a href="https://github.com/v17development/flarum-blog">Flarum Blog</a></li>
-    <li><a href="https://github.com/the-turk/flarum-welcome-widgets">Welcome Widgets</a></li>
   </ul> 
 </details>
 
