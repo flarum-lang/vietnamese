@@ -135,6 +135,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/the-turk/flarum-flamoji">Flamoji</a> (1.0.2)</li>
     <li><a href="https://github.com/matteocontrini/flarum-imgur-upload">flarum-imgur-upload</a> (v3.6.0)</li>
     <li><a href="https://github.com/imorland/syndication">Syndication</a> (1.0.2)</li>
     <li><a href="https://github.com/therealsujitk/flarum-ext-gifs">GIFs</a> (v4.0.0)</li>
