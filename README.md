@@ -116,6 +116,7 @@ php flarum cache:clear
 <details>
   <summary>clarkwinkelmann</summary>
   <ul>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-first-post-approval">First Post Approval</a> (1.0.0)</li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-author-change">Author Change</a> (1.0.1)</li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt">Follow Tags Prompt</a> (1.0.0)</li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge">Popular Discussion Badge</a> (1.0.0)</li>
