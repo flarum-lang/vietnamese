@@ -50,6 +50,7 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/webhooks">Webhooks</a> (1.0.0))</li>
     <li><a href="https://github.com/FriendsOfFlarum/cookie-consent">Cookie Consent</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/terms">Terms</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/sitemap">Sitemap</a></li>
