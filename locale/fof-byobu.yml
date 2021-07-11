@@ -3,68 +3,83 @@ fof-byobu:
         badges:
             is_private:
                 tooltip: Thảo luận riêng tư
+
         buttons:
             add_recipients: Người nhận
             submit: OK
             edit_recipients: Sửa người nhận
-            send_pd: "Gửi tin nhắn cho {username}"
+            send_pd: "Gửi cho {username} một tin nhắn"
             cancel: Hủy
-            remove_from_discussion: Thoát cuộc thảo luận riêng tư
+            remove_from_discussion: Rời khỏi cuộc thảo luận này
+
         composer_private_discussion:
-            submit_button: Đăng cuộc thảo luận riêng tư
+            submit_button: Đăng thảo luận riêng tư
             title_placeholder: Tiêu đề thảo luận riêng tư
+
         labels:
-            recipients: "{count, plural, one {{count} Người nhậ} other {{count} Người nhận}}"
-            user_deleted: -đã xóa-
+            recipients: "{count, plural, one {{count} Người nhận} other {{count} Người nhận}}"
+
         nav:
             start_button: Thảo luận riêng tư
-            nav_item: Thảo luận riêng tư
+            nav_item: "Thảo luận riêng tư"
+
         input:
-            search_recipients: Tìm kiếm người nhận bằng cách nhập ba ký tự đầu tiên...
+            search_recipients: Tìm kiếm người nhận bằng cách nhập ba ký tự đầu tiên ...
+
         search:
             headings:
-                groups: Quyền nhóm
+                groups: Nhóm quyền
+
         modal:
             titles:
-                update_recipients: Cập nhật người nhận cho {title}
+                update_recipients: Cập nhật người nhận của {title}
                 add_recipients: Thêm người nhận vào cuộc thảo luận của bạn
+
+            labels:
+                selected_users: Người dùng đã chọn
+                search_field: Tìm kiếm người dùng
+
             help:
-                add_recipients: Cuộc thảo luận này chỉ hiển thị với những người dùng bạn chọn ở đây. Cần có ít nhất 1 người nhận (ngoài chính bạn).
-                update_recipients: Cuộc thảo luận này chỉ hiển thị với những người dùng bạn chọn ở đây.
+                add_recipients: Cuộc thảo luận này sẽ chỉ hiển thị với những người dùng bạn chọn ở đây. Cần có ít nhất 1 người nhận (ngoài chính bạn).
+                update_recipients: Cuộc thảo luận này sẽ chỉ hiển thị với những người dùng bạn chọn ở đây.
+                selected_users: Nhấp vào tên của người dùng để xóa họ.
+                click_user_to_remove_tooltip: Nhấp để xóa
+
         post:
             recipients_modified:
-                added_and_removed: "{username} đã thêm người nhận {added} và đã gỡ {removed}."
-                added: "{username} đã thêm added}."
-                removed: "{username} đã gỡ người nhận {removed}."
-                removed_self: "{username} đã rời khỏi cụôc thảo luận riêng tư."
+                added_and_removed: "{username} đã thêm người nhận {added} và xóa {remove}."
+                added: "{tên người dùng} đã thêm người nhận {added}."
+                redmove: "{username} đã loại bỏ người nhận {remove}."
+                removed_self: "{username} đã rời khỏi cuộc thảo luận riêng tư."
+
         user:
             settings:
-                block_pd: Chặn cuộc thảo luận riêng tư
+                block_pd: Chặn các cuộc thảo luận riêng tư
             byobu_link: Thảo luận riêng tư
             dropdown_label: Thảo luận riêng tư
 
         notifications:
-            pd_label: Ai đó bao gồm tôi trong một cuộc thảo luận riêng tư mới
+            pd_label: Ai đó đưa tôi vào một cuộc thảo luận riêng tư mới
             pd_reply_label: Ai đó đăng bài trong cuộc thảo luận riêng tư mà tôi là người nhận
             pd_reply_text: "{username} đã đăng trong một cuộc thảo luận riêng tư mà bạn là thành viên của"
-            pd_text: "{username} bắt đầu một cuộc thảo luận riêng tư mới với bạn"
-            pd_user_left_label: Người dùng người nhận rời khỏi cuộc thảo luận riêng tư mà tôi là thành viên của
-            pd_user_left_text: "{username} rời khỏi cuộc thảo luận riêng tư"
+            pd_text: "{username} đã bắt đầu một cuộc thảo luận riêng tư mới với bạn"
+            pd_user_left_label: Người dùng người nhận rời khỏi cuộc thảo luận riêng tư Tôi là thành viên của
+            pd_user_left_text: "{username} đã rời khỏi cuộc thảo luận riêng tư"
             pd_added_text: "{username} đã thêm bạn vào một cuộc thảo luận riêng tư"
-            pd_added_label: "Ai đó thêm tôi vào một cuộc thảo luận riêng tư hiện có"
+            pd_added_label: "Ai đó thêm tôi vào cuộc thảo luận riêng tư hiện có"
 
     admin:
         permission:
-create_private_discussions_with_users: Tạo cuộc thảo luận riêng tư với người dùng
-            create_private_discussions_with_groups: Tạo cuộc thảo luận riêng tư với nhóm
-            create_private_discussions_with_blocking_users: Tạo cuộc thảo luận riêng tư với người dùng chặn nó
-            edit_user_recipients: Chỉnh sửa người dùng tham gia vào các cuộc thảo luận riêng tư
-            edit_group_recipients: Chỉnh sửa nhóm tham gia vào các cuộc thảo luận riêng tư
+            create_private_discussions_with_users: Tạo các cuộc thảo luận riêng tư với người dùng
+            create_private_discussions_with_groups: Tạo các cuộc thảo luận riêng tư với các nhóm
+            create_private_discussions_with_blocking_users: Tạo các cuộc thảo luận riêng tư với những người dùng chặn nó
+            edit_user_recipient: Chỉnh sửa người dùng tham gia vào các cuộc thảo luận riêng tư
+            edit_group_recipient: Chỉnh sửa nhóm tham gia vào các cuộc thảo luận riêng tư
             view_private_discussions-when-flagged: Xem các cuộc thảo luận riêng tư của những người dùng khác nếu bị gắn cờ
 
         settings:
             badge-icon: Huy hiệu thảo luận của Byobu
-            post-event-icon: Sự kiện bài đăng của Byobu
+            post-event-icon: Sự kiện bài viết của Byobu
 
     email:
         subject:
@@ -72,40 +87,44 @@ create_private_discussions_with_users: Tạo cuộc thảo luận riêng tư v�
             private_discussion_replied: "[Thảo luận riêng tư] {display_name} đã đăng trong một cuộc thảo luận riêng tư"
             recipient_removed: "[Thảo luận riêng tư] {display_name} rời khỏi cuộc thảo luận"
             private_discussion_added: "[Thảo luận riêng tư] {display_name} đã thêm bạn vào một cuộc thảo luận riêng tư"
+
         body:
             private_discussion_created: |
                 Chào {recipient_display_name},
 
                 {actor_display_name} đã bắt đầu một cuộc thảo luận riêng tư mới với bạn với tư cách là người nhận: {discussion_title}.
 
-                Xem nó tại đây:
+                Xem nó ở đây
                 {discussion_url}
 
                 Bạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.
+
             private_discussion_replied: |
                 Chào {recipient_display_name},
 
-                {actor_display_name} đã đăng trong một cuộc thảo luận riêng tư với bạn với tư cách là người nhận: discussion_title}.
+                {actor_display_name} đã đăng trong một cuộc thảo luận riêng tư với bạn với tư cách là người nhận: {discussion_title}.
 
-                Xem nó tại đây:
+                Xem nó ở đây
                 {post_url}
 
                 Bạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.
+
             recipient_removed: |
                 Chào {recipient_display_name},
 
-                {actor_display_name} đã rời khỏi cuộc thảo luận riêng tư: {discussion_title}. Họ sẽ không thể xem bất kỳ nội dung nào trong số đó nữa.
+                {actor_display_name} đã rời khỏi cuộc thảo luận riêng tư: {thảo luận_title}. Họ sẽ không thể xem bất kỳ nội dung nào trong số đó nữa.
 
-                Xem nó tại đây:
+                Xem nó ở đây:
                 {discussion_url}
 
                 Bạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.
+
             private_discussion_added: |
                 Chào {recipient_display_name},
 
-                {actor_display_name} đã thêm bạn vào một cuộc thảo luận riêng tư hiện có: {discussion_title}.
+                {actor_display_name} đã thêm bạn vào một cuộc thảo luận riêng tư có sẵn: {discussion_title}.
 
-                Xem nó tại đây:
+                Xem nó ở đây
                 {discussion_url}
 
                 Bạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.
