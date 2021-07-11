@@ -19,7 +19,7 @@ php flarum cache:clear
 ```
 
 ### Yêu cầu phiên bản (Required version)
-- Flarum core v1.0.0 hoặc cao hơn (v1.0.0 or later)
+- Khả dụng với phiên bản 1.0.0 hoặc mới hơn (compatible with 1.0.0 or newer)
 
 ### Tiện ích được hỗ trợ (Extentions supported)
 <details>
