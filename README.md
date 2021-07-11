@@ -167,7 +167,7 @@ php flarum cache:clear
     <li><a href="https://github.com/NomisCZ/flarum-ext-auth-steam">Steam Login</a> (v1.0.1)</li>
     <li><a href="https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link">Flarum GUI Image and Link</a> (1.0)</li>
     <li><a href="https://github.com/android-com-pl/my-tags">My Tags</a> (1.0.1)</li>
-    <li><a href="https://github.com/malago86/flarum-linkpreview">Level ranks</a> (0.1.0)</li>
+    <li><a href="https://github.com/malago86/flarum-linkpreview">Link Preview</a> (0.1.0)</li>
     <li><a href="https://github.com/imorland/level-ranks">Level ranks</a> (1.0.0)</li>
     <li><a href="https://github.com/imorland/gravatar">Gravatar</a> (1.0.1)</li>
     <li><a href="https://github.com/extiverse/bazaar">Bazaar</a> (0.4.1)</li>
