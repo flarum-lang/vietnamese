@@ -146,6 +146,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/imorland/html-head">HTML Head Items</a> (1.0.0)</li>
     <li><a href="https://github.com/SychO9/flarum-advanced-extension-categories">Advanced Extension Categories</a> (v0.1.3)</li>
     <li><a href="https://github.com/maicol07/flarum-ext-sso">Flarum SSO</a> (1.10.1)</li>
     <li><a href="https://github.com/SychO9/flarum-profile-cover">Profile Cover</a> (v1.3.0)</li>
