@@ -1,11 +1,11 @@
 clarkwinkelmann-author-change:
     forum:
         controls:
-            edit: Sửa tác giả và ngày
+            edit: Sửa người đăng và thời gian
         modal:
-            title-post: Sửa tác giả bài đăng và ngày
-            title-discussion: Sửa tác giả cuộc thảo luận và ngày
-            user: Tác giả
+            title-post: Sửa người đăng bài viết và thời gian
+            title-discussion: Sửa người đăng thảo luận và thời gian
+            user: Người đăng
             created_at: Tạo lúc
             edited_at: Sửa lúc
             sync-with-discussion: Đồng bộ với cuộc thảo luận
@@ -20,5 +20,5 @@ clarkwinkelmann-author-change:
 
     admin:
         permissions:
-            edit-user: Cập nhật tác giả bài viết và cuộc thảo luận
-            edit-date: Cập nhật ngày bài viết và cuộc thảo luạn
+            edit-user: Cập nhật người đăng bài viết và cuộc thảo luận
+            edit-date: Cập nhật thời gian bài viết và cuộc thảo luạn
