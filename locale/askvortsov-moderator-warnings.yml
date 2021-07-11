@@ -39,7 +39,7 @@ askvortsov-moderator-warnings:
     post_controls:
       warning_button: Cảnh báo người dùng
     user:
-      warnings: Cảnh báo của người điều hành
+      warnings: Cảnh báo của kiểm duyệt 
     settings:
       warning_notification_label: Người kiểm duyệt cảnh báo tôi
     validation:
