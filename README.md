@@ -1,5 +1,12 @@
 # Vietnamese Language Pack for [Flarum](https://flarum.org)
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Latest Stable Version](https://img.shields.io/packagist/v/datlechin/lang-vietnamese.svg) ![](https://img.shields.io/packagist/dt/datlechin/lang-vietnamese.svg) ![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/datlechin/lang-vietnamese)
 
 ![](https://extiverse.com/extension/datlechin/lang-vietnamese/open-graph-image)
