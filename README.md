@@ -50,6 +50,7 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/html-errors">Custom HTML Error Pages</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/ignore-users">Ignore Users</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/prevent-necrobumping">Prevent Necrobumping</a> (0.5.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/stopforumspam">StopForumSpam</a> (1.0.0)</li>
