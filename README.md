@@ -50,6 +50,8 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/doorman">Doorman</a> (1.0.0)</li>
+    <li><a href="https://github.com/FriendsOfFlarum/filter">Filter</a> (1.0.1)</li>
     <li><a href="https://github.com/FriendsOfFlarum/gamification">Gamification</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/html-errors">Custom HTML Error Pages</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/ignore-users">Ignore Users</a> (1.0.0)</li>
