@@ -61,4 +61,4 @@ flarum-flags:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     flag_post: Gắn cờ bài viết
-    flagged_posts: Bài viết bị găn cờ
+    flagged_posts: Bài viết bị gắn cờ
