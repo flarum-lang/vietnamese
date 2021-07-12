@@ -155,6 +155,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/glowingblue/flarum-ext-redis-setup">Redis Setup</a> (1.0.3)</li>
     <li><a href="https://github.com/ramesh-dada/realtime">Realtime Posts</a> (v100.1)</li>
     <li><a href="https://github.com/katosdev/signature">Signature</a> (1.0.0)</li>
     <li><a href="https://github.com/Nearata/flarum-ext-cakeday">Cakeday</a> (v1.3.0)</li>
