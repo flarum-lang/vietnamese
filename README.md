@@ -155,6 +155,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/katosdev/signature">Signature</a> (1.0.0)</li>
     <li><a href="https://github.com/Nearata/flarum-ext-cakeday">Cakeday</a> (v1.3.0)</li>
     <li><a href="https://github.com/MichaelBelgium/mybb_to_flarum">MyBB to Flarum</a> (v7.1)</li>
     <li><a href="https://github.com/Dem13n/discussion-cards">Discussion Cards</a> (v1.0.0)</li>
