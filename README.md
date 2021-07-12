@@ -155,6 +155,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/MichaelBelgium/mybb_to_flarum">MyBB to Flarum</a> (v7.1)</li>
     <li><a href="https://github.com/Dem13n/discussion-cards">Discussion Cards</a> (v1.0.0)</li>
     <li><a href="https://github.com/imorland/html-head">HTML Head Items</a> (1.0.0)</li>
     <li><a href="https://github.com/SychO9/flarum-advanced-extension-categories">Advanced Extension Categories</a> (v0.1.3)</li>
