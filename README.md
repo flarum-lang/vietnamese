@@ -132,6 +132,7 @@ php flarum cache:clear
 <details>
   <summary>justoverclockl</summary>
   <ul>
+    <li><a href="https://github.com/justoverclockl/first-visit-indexpage">FirstVisitIndexPage</a> (0.1.1)</li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-feedback">Feedback</a> (0.1.4)</li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-readmore">ReadMore</a> (1.0.4)</li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-contactme">Contactme</a> (0.2.0)</li>
