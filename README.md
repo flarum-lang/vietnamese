@@ -158,6 +158,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/Ralkage/flarum-hcaptcha">hCaptcha</a> (1.0.0)</li>
     <li><a href="https://github.com/KyrneDev/whisper">Whisper - Private Messaging</a> (0.1.3)</li>
     <li><a href="https://github.com/glowingblue/flarum-ext-redis-setup">Redis Setup</a> (1.0.3)</li>
     <li><a href="https://github.com/ramesh-dada/realtime">Realtime Posts</a> (v100.1)</li>
