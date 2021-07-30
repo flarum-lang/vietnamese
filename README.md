@@ -133,6 +133,7 @@ php flarum cache:clear
   <summary>justoverclockl</summary>
   <ul>
     <li><a href="https://github.com/justoverclockl/username-blacklist">UsernameBlacklist</a> (0.1.0)</li>
+    <li><a href="https://github.com/justoverclockl/username-blacklist">UsernameBlacklist</a> (0.1.0)</li>
     <li><a href="https://github.com/justoverclockl/first-visit-indexpage">FirstVisitIndexPage</a> (0.1.1)</li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-feedback">Feedback</a> (0.1.4)</li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-readmore">ReadMore</a> (1.0.4)</li>
