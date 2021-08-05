@@ -102,7 +102,7 @@ php flarum cache:clear
   <summary>askvortsov</summary>
   <ul>
     <li><a href="https://github.com/askvortsov1/flarum-rich-text">Rich Text</a> (v2.0.3)</li>
-    <li><a href="https://github.com/askvortsov1/flarum-pwa">Flarum Progressive Web App</a> (v3.0.3)</li>
+    <li><a href="https://github.com/askvortsov1/flarum-pwa">Flarum Progressive Web App</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-moderator-warnings">Flarum Moderator Warnings</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-markdown-tables">Markdown Tables</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-help-tags">Flarum Help Tags</a></li>
@@ -135,7 +135,7 @@ php flarum cache:clear
 <details>
   <summary>justoverclockl</summary>
   <ul>
-    <li><a href="https://github.com/justoverclockl/username-blacklist">UsernameBlacklist</a> (0.1.0)</li>
+    <li><a href="https://github.com/justoverclockl/flarum-ext-infocards">Infocards</a> (0.1.5)</li>
     <li><a href="https://github.com/justoverclockl/username-blacklist">UsernameBlacklist</a> (0.1.0)</li>
     <li><a href="https://github.com/justoverclockl/first-visit-indexpage">FirstVisitIndexPage</a> (0.1.1)</li>
     <li><a href="https://github.com/justoverclockl/flarum-ext-feedback">Feedback</a> (0.1.4)</li>
