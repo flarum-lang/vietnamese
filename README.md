@@ -152,6 +152,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/afrux/top-posters-widget">Top Posters Widget</a> (v0.1.1)</li>
     <li><a href="https://github.com/afrux/news-widget">News Widget</a> (v0.1.0)</li>
     <li><a href="https://github.com/davwheat/flarum-ext-custom-sidenav-links">Custom Side Nav Links</a> (v1.0.0)</li>
     <li><a href="https://github.com/Ralkage/flarum-hcaptcha">hCaptcha</a> (1.0.0)</li>
