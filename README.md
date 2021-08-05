@@ -152,6 +152,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/afrux/online-users-widget">Online Users Widget</a> (v0.1.1)</li>
     <li><a href="https://github.com/afrux/forum-stats-widget">Forum Stats Widget</a> (v0.1.0)</li>
     <li><a href="https://github.com/afrux/top-posters-widget">Top Posters Widget</a> (v0.1.1)</li>
     <li><a href="https://github.com/afrux/news-widget">News Widget</a> (v0.1.0)</li>
