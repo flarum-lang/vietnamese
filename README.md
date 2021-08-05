@@ -101,8 +101,8 @@ php flarum cache:clear
 <details>
   <summary>askvortsov</summary>
   <ul>
-    <li><a href="https://github.com/askvortsov1/flarum-rich-text">Rich Text (v2.0.3)</a></li>
-    <li><a href="https://github.com/askvortsov1/flarum-pwa">Flarum Progressive Web App</a></li>
+    <li><a href="https://github.com/askvortsov1/flarum-rich-text">Rich Text</a> (v2.0.3)</li>
+    <li><a href="https://github.com/askvortsov1/flarum-pwa">Flarum Progressive Web App</a> (v3.0.3)</li>
     <li><a href="https://github.com/askvortsov1/flarum-moderator-warnings">Flarum Moderator Warnings</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-markdown-tables">Markdown Tables</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-help-tags">Flarum Help Tags</a></li>
@@ -151,6 +151,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/davwheat/flarum-ext-custom-sidenav-links">Custom Side Nav Links</a> (v1.0.0)</li>
     <li><a href="https://github.com/Ralkage/flarum-hcaptcha">hCaptcha</a> (1.0.0)</li>
     <li><a href="https://github.com/KyrneDev/whisper">Whisper - Private Messaging</a> (0.1.3)</li>
     <li><a href="https://github.com/the-turk/flarum-nodp">Prevent Double-Posting</a> (1.0.1)</li>
