@@ -186,7 +186,6 @@ php flarum cache:clear
     <li><a href="https://github.com/malago86/flarum-linkpreview">Link Preview</a> (0.1.0)</li>
     <li><a href="https://github.com/imorland/level-ranks">Level ranks</a> (1.0.0)</li>
     <li><a href="https://github.com/imorland/gravatar">Gravatar</a> (1.0.1)</li>
-    <li><a href="https://github.com/extiverse/bazaar">Bazaar</a> (0.4.1)</li>
     <li><a href="https://github.com/extiverse/mercury">Mercury</a> (0.1.2)</li>
     <li><a href="https://github.com/jslirola/flarum-ext-login2seeplus">Login 2 See Plus</a> (v0.1.9.1)</li>
     <li><a href="https://github.com/malago86/flarum-ads">Ads</a> (0.3.1)</li>
