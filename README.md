@@ -101,8 +101,8 @@ php flarum cache:clear
 <details>
   <summary>askvortsov</summary>
   <ul>
-    <li><a href="https://github.com/askvortsov1/flarum-pwa">Flarum Progressive Web App</a></li>
-    <li><a href="https://github.com/askvortsov1/flarum-moderator-warnings">Flarum Moderator Warnings</a></li>
+    <li><a href="https://github.com/askvortsov1/flarum-pwa">Flarum Progressive Web App</a> (v3.0.3)</li>
+    <li><a href="https://github.com/askvortsov1/flarum-moderator-warnings">Flarum Moderator Warnings</a> (v6.0.6)</li>
     <li><a href="https://github.com/askvortsov1/flarum-markdown-tables">Markdown Tables</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-help-tags">Flarum Help Tags</a></li>
     <li><a href="https://github.com/askvortsov1/flarum-discussion-templates">Flarum Discussion Templates</a></li>
