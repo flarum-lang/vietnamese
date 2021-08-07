@@ -5,8 +5,8 @@ sycho-ace:
       label: Phân loại theo
       options:
         default: "Mặc định"
-        vendor: "Vendor"
-        none: "Không"
+        vendor: "Nhà cung cấp"
+        none: "Thứ tự A-Z"
         availability: "Khả dụng"
     categories:
       none: A-Z
