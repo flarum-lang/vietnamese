@@ -1,8 +1,8 @@
 custom-header:
   admin:
-    headerTitle: Tiêu đề header
-    headerTitle-help: ở đây bạn có thể thay đổi tiêu đề chính của header của bạn
-    headerTagline: Khẩu hiệu header
+    headerTitle: Tiêu đề đầu trang
+    headerTitle-help: ở đây bạn có thể thay đổi tiêu đề chính của đầu trang của bạn
+    headerTagline: Khẩu hiệu đầu trang
     headerTagline-help: Tại đây bạn có thể thay đổi khẩu hiệu của bạn
     twitterIcon: Liên kết với trang Twitter
     twitterIcon-help: Nhập URL hợp lệ trang twitter của bạn
