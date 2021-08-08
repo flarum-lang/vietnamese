@@ -105,10 +105,10 @@ php flarum cache:clear
     <li><a href="https://github.com/askvortsov1/flarum-moderator-warnings">Flarum Moderator Warnings</a> (v6.0.6)</li>
     <li><a href="https://github.com/askvortsov1/flarum-markdown-tables">Markdown Tables</a> (v1.2.1)</li>
     <li><a href="https://github.com/askvortsov1/flarum-help-tags">Flarum Help Tags</a> (v1.1.0)</li>
-    <li><a href="https://github.com/askvortsov1/flarum-discussion-templates">Flarum Discussion Templates</a></li>
-    <li><a href="https://github.com/askvortsov1/flarum-checklist">Checklists</a></li>
-    <li><a href="https://github.com/askvortsov1/flarum-auto-moderator">Auto Moderator</a></li>
-    <li><a href="https://github.com/askvortsov1/flarum-categories">Flarum Categories</a></li>
+    <li><a href="https://github.com/askvortsov1/flarum-discussion-templates">Flarum Discussion Templates</a> (v0.1.3)</li>
+    <li><a href="https://github.com/askvortsov1/flarum-checklist">Checklists</a> (v1.3.1)</li>
+    <li><a href="https://github.com/askvortsov1/flarum-auto-moderator">Auto Moderator</a> (v0.1.1)</li>
+    <li><a href="https://github.com/askvortsov1/flarum-categories">Flarum Categories</a> (v3.0.0)</li>
   </ul>
 </details>
 
