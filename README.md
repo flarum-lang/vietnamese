@@ -157,6 +157,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/Nearata/flarum-ext-tags-color-generator">Tags Color Generator</a> (v2.0.0)</li>
     <li><a href="https://github.com/migratetoflarum/fake-data">Fake Data</a> (1.0.1)</li>
     <li><a href="https://github.com/android-com-pl/mobile-tab">Mobile tab</a> (1.0.3)</li>
     <li><a href="https://github.com/afrux/online-users-widget">Online Users Widget</a> (v0.1.1)</li>
