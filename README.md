@@ -50,6 +50,7 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/passport">Passport</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/socialprofile">Social Profile</a> (1.1.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/doorman">Doorman</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/filter">Filter</a> (1.0.1)</li>
