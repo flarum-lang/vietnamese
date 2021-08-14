@@ -156,6 +156,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/migratetoflarum/fake-data">Fake Data</a> (1.0.1)</li>
     <li><a href="https://github.com/android-com-pl/mobile-tab">Mobile tab</a> (1.0.3)</li>
     <li><a href="https://github.com/afrux/online-users-widget">Online Users Widget</a> (v0.1.1)</li>
     <li><a href="https://github.com/afrux/forum-stats-widget">Forum Stats Widget</a> (v0.1.0)</li>
