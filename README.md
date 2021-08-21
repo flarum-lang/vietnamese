@@ -50,6 +50,7 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/custom-footer">Custom Footer</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/amazon-affiliation">Amazon Affiliation</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/passport">Passport</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/socialprofile">Social Profile</a> (1.1.0)</li>
