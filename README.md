@@ -50,6 +50,7 @@ php flarum cache:clear
 <details>
   <summary>FriendsOfFlarum</summary>
   <ul>
+    <li><a href="https://github.com/FriendsOfFlarum/masquerade">Masquerade</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/open-collective">Open Collective</a> (1.0.0)</li>
     <li><a href="https://github.com/FriendsOfFlarum/sentry">Sentry</a> (1.0.1)</li>
     <li><a href="https://github.com/FriendsOfFlarum/spamblock">Spamblock</a> (1.0.0)</li>
