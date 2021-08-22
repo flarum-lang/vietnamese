@@ -170,6 +170,7 @@ php flarum cache:clear
 <details>
   <summary>Others</summary>
   <ul>
+    <li><a href="https://github.com/tituspijean/flarum-ext-auth-ldap">Flarum LDAP authentication</a> (v1.0.0-p1)</li>
     <li><a href="https://github.com/tpokorra/flarum-ext-post-notification">Notification for each post</a> (0.4.4)</li>
     <li><a href="https://github.com/zerosonesfun/expired-posts">Expired Posts</a> (0.4)</li>
     <li><a href="https://github.com/FFans/clipboardjs">FFans Clipboardjs</a> (v1.0.0)</li>
