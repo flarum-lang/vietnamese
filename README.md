@@ -130,6 +130,7 @@ php flarum cache:clear
 <details>
   <summary>clarkwinkelmann</summary>
   <ul>
+    <li><a href="https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name">Email as Display Name</a> (1.2.0)</li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-status">Status</a> (1.0.0)</li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-who-read">Who read</a> (1.4.0)</li>
     <li><a href="https://github.com/clarkwinkelmann/flarum-ext-likes-received">Likes Received</a> (1.0.0)</li>
