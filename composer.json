@@ -1,6 +1,6 @@
 {
   "name": "datlechin/lang-vietnamese",
-  "description": "Vietnamese language pack (datlechin)",
+  "description": "Vietnamese language pack for Flarum",
   "type": "flarum-extension",
   "keywords": ["extension", "flarum", "vietnamese", "locale", "translation"],
   "license": "MIT",
