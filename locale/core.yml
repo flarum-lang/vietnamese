@@ -382,7 +382,7 @@ core:
       sign_up_text: "Không có tài khoản? <a>Đăng ký</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Tên người dùng hoặc mật khẩu
+      username_or_email_placeholder: Tên người dùng hoặc email
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
