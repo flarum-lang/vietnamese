@@ -36,7 +36,6 @@ php flarum cache:clear
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg)](#) |
 
 ### Links
-- [My Website](https://ngoquocdat.com)
 - [Github](https://github.com/datlechin/lang-vietnamese)
 - [Packagist](https://packagist.org/packages/datlechin/lang-vietnamese)
 - [Extiverse](https://extiverse.com/extension/datlechin/lang-vietnamese)
