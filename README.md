@@ -1,6 +1,7 @@
 # Vietnamese Language Pack for [Flarum](https://flarum.org)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Latest Stable Version](https://img.shields.io/packagist/v/datlechin/lang-vietnamese.svg) ![](https://img.shields.io/packagist/dt/datlechin/lang-vietnamese.svg) ![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/datlechin/lang-vietnamese)
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge) ![Latest Stable Version](https://img.shields.io/packagist/v/datlechin/lang-vietnamese.svg?style=for-the-badge) ![](https://img.shields.io/packagist/dt/datlechin/lang-vietnamese.svg?style=for-the-badge)
+![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/datlechin/lang-vietnamese)
 
 ![](https://extiverse.com/extension/datlechin/lang-vietnamese/open-graph-image)
 
@@ -19,32 +20,30 @@ php flarum cache:clear
 ```
 
 ### Yêu cầu phiên bản (Required version)
-- Khả dụng với phiên bản 1.0.0 hoặc mới hơn (compatible with 1.0.0 or newer)
+- Khả dụng với phiên bản 1.0.0 hoặc mới hơn (compatible with 1.0.0 or higher)
 
 ### Tiện ích được hỗ trợ (Extentions supported)
 <details>
   <summary>Flarum</summary>
-  <ul>
-    <li>Core</li>
-    <li>Akismet</li>
-    <li>Approval</li>
-    <li>Auth Facebook</li>
-    <li>Auth Github</li>
-    <li>Auth Twitter</li>
-    <li>Emoji</li>
-    <li>Flags</li>
-    <li>Likes</li>
-    <li>Lock</li>
-    <li>Markdown</li>
-    <li>Mentions</li>
-    <li>Nicknames</li>
-    <li>Pusher</li>
-    <li>Statistics</li>
-    <li>Sticky</li>
-    <li>Supcriptions</li>
-    <li>Suspend</li>
-    <li>Tags</li>
-  <ul>
+  - [Core](https://github.com/flarum/core)
+  - [Akismet](https://github.com/flarum/core)
+  - [Approval](https://github.com/flarum/core)
+  - [Auth Facebook](https://github.com/flarum/core)
+  - [Auth Github](https://github.com/flarum/core)
+  - [Auth Twitter](https://github.com/flarum/core)
+  - [Emoji](https://github.com/flarum/core)
+  - [Flags](https://github.com/flarum/core)
+  - [Likes](https://github.com/flarum/core)
+  - [Lock](https://github.com/flarum/core)
+  - [Markdown](https://github.com/flarum/core)
+  - [Mentions](https://github.com/flarum/core)
+  - [Nicknames](https://github.com/flarum/core)
+  - [Pusher](https://github.com/flarum/core)
+  - [Statistics](https://github.com/flarum/core)
+  - [Sticky](https://github.com/flarum/core)
+  - [Supcriptions](https://github.com/flarum/core)
+  - [Suspend](https://github.com/flarum/core)
+  - [Tags](https://github.com/flarum/core)
 </details>
     
 <details>
