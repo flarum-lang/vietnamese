@@ -11,8 +11,8 @@ flarum-pusher:
     pusher_settings:
       app_cluster_label: Cluster
       app_id_label: ID ứng dụng
-      app_key_label: Khóa ứng dụng
-      app_secret_label: Ứng dụng bí mật
+      app_key_label: Mã khoá ứng dụng
+      app_secret_label: Mã bí mật ứng dụng
       title: Thiết lập Pusher
 
   # Translations in this namespace are used by the admin interface.
@@ -20,4 +20,4 @@ flarum-pusher:
 
     # These translations are used in the discussion list.
     discussion_list:
-      show_updates_text: "{count, plural, one {Hiển thị # cuộc thảo luận cập nhật} other {Hiển thị # cuộc thảo luận cập nhật}}"
+      show_updates_text: "{count, plural, one {Hiển thị # cuộc thảo luận mới} other {Hiển thị # thảo luận}}"
