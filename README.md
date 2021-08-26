@@ -23,7 +23,20 @@ php flarum cache:clear
 - Khả dụng với phiên bản 1.0.0 hoặc mới hơn (compatible with 1.0.0 or higher)
 
 ### Tiện ích được hỗ trợ (Extentions supported)
-<details>
+
+#### Flarum
+
+| Thành phần | Trạng thái |
+| --- | --- |
+| [`core`](https://github.com/flarum/core) | [![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg)](#) |
+| `validation` | [![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg)](#) |
+
+#### Tiện ích mở rộng
+| Tiện ích mở rộng | Trạng thái |
+| --- | --- |
+| [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg)](#) |
+
+<!-- <details>
   <summary>Flarum</summary>
   + [Core](https://github.com/flarum/core)
   + [Akismet](https://github.com/flarum/core)
@@ -221,7 +234,7 @@ php flarum cache:clear
     <li><a href="https://github.com/AntoineFr/flarum-ext-money">Money</a></li>
     <li><a href="https://github.com/v17development/flarum-blog">Flarum Blog</a></li>
   </ul> 
-</details>
+</details> -->
 
 ### Links
 - [My Website](https://ngoquocdat.com)
