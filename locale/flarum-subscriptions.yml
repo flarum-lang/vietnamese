@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Hủy theo dõi
-      unignore_button: Bỏ qua
+      unfollow_button: Bỏ theo dõi
+      unignore_button: Huỷ bỏ qua
 
     # These translations are used on the page that displays all subscriptions.
     following:
@@ -32,18 +32,18 @@ flarum-subscriptions:
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Tự động theo dõi các cuộc thảo luận mà tôi trả lời
-      notify_new_post_label: Ai đó đăng bài trong cuộc thảo luận mà tôi đang theo dõi
+      follow_after_reply_label: Tự động theo dõi các cuộc thảo luận mà tôi đã trả lời
+      notify_new_post_label: Ai đó đăng bài trong cuộc thảo luận mà tôi theo dõi
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Được thông báo về tất cả các câu trả lời.
+      following_text: Nhận thông báo về tất cả các câu trả lời.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Không bao giờ được thông báo. Ẩn khỏi danh sách thảo luận.
+      ignoring_text: Không bao giờ nhận thông báo. Ẩn thông báo khỏi danh sách cuộc thảo luận
       not_following_button: Không theo dõi
-      not_following_text: "Chỉ được thông báo khi được đề cập (@mentioned)."
+      not_following_text: "Chỉ nhận thông báo khi @mentioned."
       notify_alert_tooltip: Nhận thông báo trên diễn đàn khi có bài viết mới
       notify_email_tooltip: Nhận email khi có bài viết mới
 
@@ -56,9 +56,9 @@ flarum-subscriptions:
       body: |
         Chào {recipient_display_name}!
 
-        {poster_display_name} đã đăng một bài trong cuộc thảo luận mà bạn đang theo dõi: {title}.
+        {poster_display_name} đã đăng một bài viết trong cuộc thảo luận mà bạn đang theo dõi: {title}.
 
-        Để xem hoạt động mới, hãy xem liên kết sau:
+        Để xem hoạt động mới, kiểm tra nó tại liên kết sau:
         {url}
 
         ---
@@ -67,7 +67,7 @@ flarum-subscriptions:
 
         ---
 
-        Bạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.
+        Bạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi được cập nhật.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
