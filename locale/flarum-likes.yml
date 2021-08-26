@@ -34,4 +34,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: Ai đó thích một trong những bài đăng của tôi
+      notify_post_liked_label: Ai đó thích một trong những bài viết của tôi
