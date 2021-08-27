@@ -25,7 +25,7 @@ fof-upload:
       s3_acl: |
         ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
       composer_buttons: |
-        Theo mặc định, cả nút quản lý phương tiện và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.
+        Theo mặc định, cả nút quản lý  và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.
     labels:
       aws-s3:
         bucket: Bucket
@@ -45,19 +45,19 @@ fof-upload:
         toggle: Vô hiệu hóa
       imgur:
         client_id: ID khách hàng Imgur
-        title: Cài đặt lưu trữ hình ảnh Imgur
+        title: Thiết lập lưu trữ hình ảnh Imgur
       local:
         cdn_url: URL phân phối nội dung (tiền tố tệp)
-        title: Cài đặt lưu trữ cục bộ
+        title: Thiết lập lưu trữ cục bộ
       qiniu:
-        title: Cài đặt lưu trữ Qiniu
-        key: Khóa
-        secret: Bí mật
+        title: Thiết lập lưu trữ Qiniu
+        key: Mã khoá
+        secret: Mã khoá bí mật
         bucket: Bucket
       preferences:
         max_file_size: Kích thước tệp tối đa (tính bằng kilobyte)
         mime_types: 'Định cấu hình loại kịch câm của bạn, tải lên ánh xạ bộ điều hợp'
-        title: Sở thích chung
+        title: Cài đặt chung
       resize:
         max_width: Chiều rộng/chiều cao hình ảnh tối đa
         title: Thay đổi kích thước hình ảnh
@@ -74,7 +74,7 @@ fof-upload:
         options:
           both: Cả hai
           upload-btn: Chỉ nút tải lên
-          media-btn: Chỉ nút quản lý phương tiện
+          media-btn: Chỉ nút quản lý 
 
     permissions:
       download_label: Tải xuống tập tin
@@ -101,14 +101,14 @@ fof-upload:
       ovh-svfs: OVH SVFS
       qiniu: QiNiu
   forum:
-    media_manager: Quản lý phương tiện
+    media_manager: Quản lý 
 
     buttons:
       attach: Đính kèm
       upload: Tải lên
       user_uploads: Tải lên của người dùng
       cancel: Hủy
-      media: Phương tiện của tôi
+      media: Tệp của tôi
 
     file_list:
       loading: Đang tải tệp...
@@ -120,8 +120,8 @@ fof-upload:
       confirm_selection_btn: "{fileCount, plural, =0 {Không có lựa chọn nào} one {Chọn tệp tin} other {Chọn tệp tin}}"
       load_more_files_btn: Tải thêm tệp tin
       hide_file:
-        btn_a11y_label: Ẩn "{fileName}" khỏi trình quản lý phương tiện
-        hide_confirmation: Bạn có chắc chắn muốn ẩn "{fileName}" không? Việc ẩn tệp sẽ chỉ xóa tệp khỏi trình quản lý phương tiện của bạn và sẽ không ảnh hưởng đến các bài đăng hiện có.
+        btn_a11y_label: Ẩn "{fileName}" khỏi trình quản lý 
+        hide_confirmation: Bạn có chắc chắn muốn ẩn "{fileName}" không? Việc ẩn tệp sẽ chỉ xóa tệp khỏi trình quản lý  của bạn và sẽ không ảnh hưởng đến các bài đăng hiện có.
         hide_success: Tệp bị ẩn
         hide_fail: Không thể ẩn tệp "{fileName}"
         loading: Đang ẩn tệp ...
