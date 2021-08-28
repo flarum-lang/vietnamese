@@ -18,7 +18,7 @@ davwheat:
         link_table:
           heading: Tùy chỉnh liên kết
 
-          add_link_btn: Thêm liên két mới
+          add_link_btn: Thêm liên kết mới
 
           confirm_delete: Xác nhận xóa liên kết "{link}"
           alert:
