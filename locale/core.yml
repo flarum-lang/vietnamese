@@ -149,7 +149,7 @@ core:
       basics_title: => core.admin.basics.description
       categories:
         authentication: Xác thực
-        core: Cấu hình Core
+        core: Cấu hình
         discussion: Cuộc thảo luận
         feature: Tính năng
         formatting: Định dạng
