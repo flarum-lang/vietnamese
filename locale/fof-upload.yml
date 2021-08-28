@@ -117,7 +117,7 @@ fof-upload:
       modal_empty_desktop: Danh sách tệp của bạn trống. Nhấp vào nút hoặc kéo tệp vào đây để tải lên.
       modal_empty_phone: Danh sách tệp của bạn trống. Nhấn vào nút ở trên để tải tệp lên.
       select_file_a11y_label: Chọn tập tin "{fileName}"
-      confirm_selection_btn: "{fileCount, plural, =0 {Không có lựa chọn nào} one {Chọn tệp tin} other {Chọn tệp tin}}"
+      confirm_selection_btn: "{fileCount, plural, =0 {Chưa chọn} one {Chọn tệp tin} other {Chọn tệp tin}}"
       load_more_files_btn: Tải thêm tệp tin
       hide_file:
         btn_a11y_label: Xoá "{fileName}" khỏi trình quản lý 
