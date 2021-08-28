@@ -65,6 +65,10 @@ php flarum cache:clear
 | [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`clarkwinkelmann/flarum-ext-catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`clarkwinkelmann/create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 
 ### Links
 - [Github](https://github.com/datlechin/lang-vietnamese)
