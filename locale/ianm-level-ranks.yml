@@ -1,7 +1,7 @@
 ianm-level-ranks:
   admin:
     settings:
-      levelText: "Nhập văn bản để hiển thị điểm (ví dụ: Xếp hạng, Cấp độ)"
+      levelText: "Nhập tên để hiển thị điểm (ví dụ: Xếp hạng, Cấp độ)"
   forum:
     desc:
       expText: "{expTotal} EXP"
