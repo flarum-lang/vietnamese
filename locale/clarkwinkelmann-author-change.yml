@@ -21,4 +21,4 @@ clarkwinkelmann-author-change:
     admin:
         permissions:
             edit-user: Cập nhật người đăng bài viết và cuộc thảo luận
-            edit-date: Cập nhật thời gian bài viết và cuộc thảo luạn
+            edit-date: Cập nhật thời gian bài viết và cuộc thảo luận
