@@ -3,7 +3,7 @@ dem13n:
     replies: "Lượt trả lời: {count}"
   admin:
     settings:
-      settings_error: Xóa bộ nhớ cache, tắt tiện ích mở rộng đó, nhấp vào nút Gỡ cài đặt (ở bên phải), xác nhận xóa dữ liệu, sau đó bật tiện ích mở rộng
+      settings_error: Xóa bộ nhớ đệm, tắt tiện ích mở rộng đó, nhấp vào nút Gỡ cài đặt (ở bên phải), xác nhận xóa dữ liệu, sau đó bật tiện ích mở rộng
       default_img: Hình ảnh mặc định
       choose_tags: Chọn thẻ
       badges: Hiển thị huy hiệu

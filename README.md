@@ -75,7 +75,7 @@ php flarum cache:clear
 | [`clarkwinkelmann/flarum-ext-first-post-approval`](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`clarkwinkelmann/flarum-ext-follow-tags-prompt`](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
-| [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwshinkelmann/flarum-ext-group-list) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
@@ -84,6 +84,9 @@ php flarum cache:clear
 | [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`dem13n/discussion-cards`](https://github.com/dem13n/discussion-cards) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 
 ### Links
 - [Github](https://github.com/datlechin/lang-vietnamese)
