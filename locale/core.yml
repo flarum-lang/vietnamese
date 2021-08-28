@@ -156,7 +156,7 @@ core:
         language: Ngôn ngữ
         moderation: Kiểm duyệt
         other: Tiện ích mở rộng khác
-        theme: Chủ đề
+        theme: Giao diện
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
