@@ -12,3 +12,5 @@ sycho-ace:
       none: A-Z
       enabled: Đã kích hoạt
       disabled: Đã tắt
+      feature: Tính năng
+      language: Ngôn ngữ
