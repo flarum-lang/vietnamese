@@ -72,9 +72,9 @@ fof-byobu:
         permission:
             create_private_discussions_with_users: Tạo các cuộc thảo luận riêng tư với người dùng
             create_private_discussions_with_groups: Tạo các cuộc thảo luận riêng tư với các nhóm
-            create_private_discussions_with_blocking_users: Tạo các cuộc thảo luận riêng tư với những người dùng chặn nó
-            edit_user_recipient: Chỉnh sửa người dùng tham gia vào các cuộc thảo luận riêng tư
-            edit_group_recipient: Chỉnh sửa nhóm tham gia vào các cuộc thảo luận riêng tư
+            create_private_discussions_with_blocking_users: Tạo các cuộc thảo luận riêng tư với những người đã chặn
+            edit_user_recipients: Thay đổi người dùng tham gia vào cuộc thảo luận riêng tư
+            edit_group_recipients: Thay đổi nhóm tham gia vào cuộc thảo luận riêng tư
             view_private_discussions-when-flagged: Xem các cuộc thảo luận riêng tư của những người dùng khác nếu bị gắn cờ
 
         settings:
