@@ -83,11 +83,11 @@ v17development-flarum-badges:
       category: Danh mục của huy hiệu
       received_on: "Nhận được lúc {date}"
       badge_details: Chi tiết huy hiệu
-      earned_count: "{count, plural, one {<b># người dùng</b> đã giành được huy hiệu này} other {<b># người dùng</b> đã giành được huy hiệu này}}"
-      earned_by_count: "{count, plural, one {<b># người dùng</b có huy hiệu} other {<b># người dùng</b có huy hiệu}}"
+      earned_count: "{count, plural, one {<b># người dùng</b> có huy hiệu này} other {<b># người dùng</b> có huy hiệu này}}"
+      earned_by_count: "{count, plural, one {<b># người dùng</b> có huy hiệu này} other {<b># người dùng</b> có huy hiệu này}}"
 
     moderation:
-      remove_badge: Gỡ huy hiệu khỏi người dùng
+      remove_badge: Gỡ huy hiệu
       remove_badge_confirm: Bạn có chắc chắn muốn gỡ huy hiệu này khỏi người dùng này không?
       give_badge: Gán huy hiệu
 
