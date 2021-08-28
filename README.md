@@ -52,6 +52,7 @@ php flarum cache:clear
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`afrux/news-widget`](https://github.com/afrux/news-widget) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
