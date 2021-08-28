@@ -89,7 +89,9 @@ php flarum cache:clear
 | [`dem13n/discussion-cards`](https://github.com/dem13n/discussion-cards) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`extiverse/mercury`](https://github.com/extiverse/mercury) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
-| [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
+| [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | ![Tình trạng bản dịch](https://img.shields.io/badge/%C4%90%C3%A3%20d%E1%BB%8Bch-100%25-success.svg) |
 
 ### Links
 - [Github](https://github.com/datlechin/lang-vietnamese)

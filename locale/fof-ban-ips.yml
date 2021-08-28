@@ -5,7 +5,7 @@ fof-ban-ips:
 
     modal:
       ban_options_only_ip: Chỉ cấm các IP hiện tại (<code>{ip}</code>)
-      ban_options_all_ip: Cấm tả cả IP được sử dụng bởi <i>{username}</i>
+      ban_options_all_ip: Cấm tất cả IP sử dụng bởi <i>{username}</i>
       ban_ip_no_users: Không ai sẽ bị cấm
 
     user_badge:
@@ -23,7 +23,7 @@ fof-ban-ips:
     page:
       create_button: => fof-ban-ips.ref.ban_ip_button
 
-      creator_label: Người sáng tạo
+      creator_label: Người tạo
       user_label: Người dùng
       address_label: => fof-ban-ips.ref.address_label
       reason_label: => fof-ban-ips.ref.reason_label
