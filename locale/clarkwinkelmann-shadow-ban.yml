@@ -8,10 +8,10 @@ clarkwinkelmann-shadow-ban:
     forum:
         discussionControl:
             hide: Ẩn shadow
-            restore: Khôi phục ẩn
+            restore: Bỏ ẩn
         postControl:
             hide: Ẩn shadow
-            restore: Khôi phụ ẩn
+            restore: Bỏ ẩn
         userControl:
             ban: Cấm ẩn
         banUser:
