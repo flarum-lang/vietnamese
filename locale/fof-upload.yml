@@ -56,7 +56,7 @@ fof-upload:
         bucket: Bucket
       preferences:
         max_file_size: Kích thước tệp tối đa (tính bằng kilobyte)
-        mime_types: 'Cấu hình kiểu mine'
+        mime_types: 'Cấu hình mine'
         title: Cài đặt chung
       resize:
         max_width: Chiều rộng/chiều cao hình ảnh tối đa
