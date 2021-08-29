@@ -12,9 +12,9 @@ core:
       colored_header_label: Màu Header
       colors_heading: Màu sắc
       colors_text: "Chọn hai màu cho giao diện diễn đàn của bạn. Màu thứ nhất làm màu nền, màu thứ hai để làm nền các thành phần."
-      custom_footer_heading: Tùy chỉnh Footer
+      custom_footer_heading: Tùy chỉnh chân trang
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Tùy chỉnh Header
+      custom_header_heading: Tùy chỉnh đầu trang
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Tùy chỉnh style
       custom_styles_text: Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS để được sử dụng trên style mặc định của Flarum.
