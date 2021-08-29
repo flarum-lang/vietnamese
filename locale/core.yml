@@ -327,8 +327,8 @@ core:
       empty_text: Dường như không có cuộc thảo luận nào ở đây.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Đánh dấu đã đọc
-      replied_text: "{username} đăng trả lời lúc {ago}"
-      started_text: "{username} đã đăng lúc {ago}"
+      replied_text: "{username} đã trả lời lúc {ago}"
+      started_text: "{username} đã đăng bài lúc {ago}"
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
