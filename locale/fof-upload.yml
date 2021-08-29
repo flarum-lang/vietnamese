@@ -5,13 +5,13 @@ fof-upload:
       description: Thiết lập các dịch vụ và tùy chọn tải lên.
     help_texts:
       disable-download-logging: |
-        Tắt ghi nhật ký mọi tải xuống do người dùng diễn đàn của bạn thực hiện. Giữ nó được bật cho phép bạn xem số lượt tải xuống và các chỉ số khác trong tương lai gần.
+        Tắt ghi nhật ký tải xuống do người dùng diễn đàn của bạn thực hiện. Giữ nó được bật cho phép bạn xem số lượt tải xuống và các chỉ số khác trong tương lai gần.
       disable-hotlink-protection: |
         Bảo vệ hotlink ngăn chặn việc mở các bản tải xuống từ các trang khác. Phương pháp hiện tại yêu cầu mã thông báo csrf và id bài đăng.
       download_templates: |
         Các mẫu tải xuống là cách các nội dung tải lên được hiển thị trên diễn đàn của bạn, ví dụ như các bản xem trước, các nút. Hiện đang có sẵn:
       mime_types: |
-        Vui lòng định cấu hình ánh xạ của bạn tại đây. Mỗi biểu thức chính quy loại mime sẽ được xử lý bởi một bộ điều hợp tải lên và mẫu tải xuống cụ thể.
+        Vui lòng cấu hình mine của bạn tại đây. Mỗi biểu thức chính quy loại mime sẽ được xử lý bởi một bộ điều hợp tải lên và mẫu tải xuống cụ thể.
       resize: |
         Chọn xem bạn có muốn thay đổi kích thước hình ảnh của mình trước khi tải lên hay không. Bạn có thể chọn chiều rộng và chiều cao tối đa, tính bằng pixel. Quá trình thay đổi kích thước giữ nguyên tỷ lệ khung hình của hình ảnh.
       client_extension: |
@@ -25,13 +25,13 @@ fof-upload:
       s3_acl: |
         ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
       composer_buttons: |
-        Theo mặc định, cả nút quản lý  và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.
+        Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.
     labels:
       aws-s3:
         bucket: Bucket
         key: Mã khóa
         region: Khu vực
-        secret: Bí mật
+        secret: Mã khoá bí mật
         title: Thiết lập lưu trữ AWS S3
         advanced_title: Thiết lập lưu trữ S3 nâng cao
         endpoint: Điểm cuối
@@ -120,8 +120,8 @@ fof-upload:
       confirm_selection_btn: "{fileCount, plural, =0 {Chưa chọn} one {Chọn tệp tin} other {Chọn tệp tin}}"
       load_more_files_btn: Tải thêm tệp tin
       hide_file:
-        btn_a11y_label: Xoá "{fileName}" khỏi trình quản lý 
-        hide_confirmation: Bạn có chắc chắn muốn xoá "{fileName}" không? Việc xoá tệp sẽ chỉ xóa tệp khỏi trình quản lý tệp của bạn và sẽ không ảnh hưởng đến các bài viết hiện có.
+        btn_a11y_label: Xoá "{fileName}" khỏi tệp của bạn
+        hide_confirmation: Bạn có chắc chắn muốn xoá "{fileName}" không? Việc xoá tệp sẽ chỉ xóa tệp khỏi trình quản lý tệp và sẽ không ảnh hưởng đến các bài viết hiện có.
         hide_success: Tệp đã được xoá khỏi quản lý tệp
         hide_fail: Không thể xoá tệp "{fileName}"
         loading: Đang xoá tệp ...
