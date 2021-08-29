@@ -121,7 +121,7 @@ fof-upload:
       load_more_files_btn: Tải thêm tệp tin
       hide_file:
         btn_a11y_label: Xoá "{fileName}" khỏi trình quản lý 
-        hide_confirmation: Bạn có chắc chắn muốn oá "{fileName}" không? Việc xoá tệp sẽ chỉ xóa tệp khỏi trình quản lý tệp của bạn và sẽ không ảnh hưởng đến các bài viết hiện có.
+        hide_confirmation: Bạn có chắc chắn muốn xoá "{fileName}" không? Việc xoá tệp sẽ chỉ xóa tệp khỏi trình quản lý tệp của bạn và sẽ không ảnh hưởng đến các bài viết hiện có.
         hide_success: Tệp đã được xoá khỏi quản lý tệp
         hide_fail: Không thể xoá tệp "{fileName}"
         loading: Đang xoá tệp ...
