@@ -1,12 +1,12 @@
 fof-socialprofile:
   admin:
     permissions:
-      view: View social profile
-      editOwn: Chỉnh sửa mạng xã hội của riêng bạn
-      editAny: Chỉnh sửa bất kỳ mạng xã hội nào
+      view: Xem thông tin mạng xã hội
+      editOwn: Chỉnh sửa mạng xã hội của riêng chính họ
+      editAny: Chỉnh sửa bất kỳ mạng xã hội của người nào
     
     settings:
-      allow_external_favicons_label: Cho phép icon trang web bên ngoài
+      allow_external_favicons_label: Cho phép favicon trang web bên ngoài
       
   forum:
     edit:
@@ -18,6 +18,6 @@ fof-socialprofile:
       submit: Lưu lại
       delete: Xóa
       deletetitle: Xóa nút
-      save_disabled_fetching_favicons: Một hoặc nhiều favicon đang được tìm. Vui lòng chờ.
+      save_disabled_fetching_favicons: Một hoặc nhiều favicon đang được tìm. Vui lòng chờ...
       favicon: Favicon
-      grey_favicon: Favicon xám
+      grey_favicon: Favicon màu xám
