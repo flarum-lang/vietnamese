@@ -79,8 +79,8 @@ fof-upload:
     permissions:
       download_label: Tải xuống tập tin
       upload_label: Tải lên tập tin
-      view_user_uploads_label: Xem tải lên của người dùng
-      delete_uploads_of_others_label: Xóa tải lên của người dùng
+      view_user_uploads_label: Xem tệp của người dùng
+      delete_uploads_of_others_label: Xóa tệp của người dùng
     templates:
       file: Mẫu tải xuống tệp mặc định
       file_description: |
@@ -112,7 +112,7 @@ fof-upload:
     buttons:
       attach: Đính kèm
       upload: Tải lên
-      user_uploads: Tải lên của người dùng
+      user_uploads: Tệp của người dùng
       cancel: Hủy
       media: Tệp của tôi
 
