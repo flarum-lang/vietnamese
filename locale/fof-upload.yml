@@ -25,7 +25,7 @@ fof-upload:
       s3_acl: |
         ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
       composer_buttons: |
-        Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.
+        Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.
     labels:
       aws-s3:
         bucket: Bucket
@@ -55,7 +55,7 @@ fof-upload:
         secret: Mã khoá bí mật
         bucket: Bucket
       preferences:
-        max_file_size: Kích thước tệp tối đa (tính bằng kilobyte)
+        max_file_size: Kích thước tối đa (kilobyte)
         mime_types: 'Cấu hình mine'
         title: Cài đặt chung
       resize:
@@ -84,18 +84,24 @@ fof-upload:
     templates:
       file: Mẫu tải xuống tệp mặc định
       file_description: |
-        Hiển thị tên tệp và một số thông tin chung. Proxy tải xuống thông qua php, cho phép thu thập số liệu thống kê và bảo vệ liên kết nóng.
+        Hiển thị tên tệp và một số thông tin chung. Proxy tải xuống thông qua php, cho phép thu thập số liệu thống kê và bảo vệ hotlink.
       image: Mẫu tải xuống hình ảnh mặc định
+      image_description: |
+        Hiển thị hình thu nhỏ của hình ảnh và proxy tải xuống thông qua php. Cho phép thu thập số liệu thống kê và bảo vệ hotlink.
       image-preview: Mẫu xem trước hình ảnh hoàn chỉnh
       image-preview_description: |
-        Hiển thị hình ảnh hoàn chỉnh trong dòng. Không có chức năng tải xuống, không có thống kê nào được thu thập và bảo vệ liên kết nóng bị bỏ qua.
-      image_description: |
-        Hiển thị hình thu nhỏ của hình ảnh và proxy tải xuống thông qua php. Cho phép thu thập số liệu thống kê và bảo vệ liên kết nóng.
-      just-url: Chỉ URL
+        Hiển thị hình ảnh hoàn chỉnh. Không có nút tải xuống, không có thống kê và bảo vệ hotlink bị tắt.
+      markdown-image: Mẫu hình ảnh markdown
+      markdown-image_description: |
+        Hiển thị hình ảnh hoàn chỉnh bằng cách sử dụng Markdown. <strong>Bạn phải cài đặt và kích hoạt tiện ích flarum/markdown để nó hoạt động.</strong> Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.
+      bbcode-image: Mẫu hình ảnh BBCode
+      bbcode-image_description: |
+        Hiển thị hình ảnh hoàn chỉnh bằng cách sử dụng BBCode. <strong>Bạn phải cài đặt và kích hoạt tiện ích flarum/bbcode để nó hoạt động.</strong> Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.
+      just-url: Chỉ hiện URL
       just-url_description: |
-        Chỉ chèn URL. Việc hiển thị có thể được xử lý bởi các tiện ích mở rộng khác với khả năng liên kết tự động. Không có chức năng tải xuống, không có thống kê nào được thu thập và bảo vệ liên kết nóng bị bỏ qua.
+        Chỉ chèn URL. Việc hiển thị có thể được xử lý bởi các tiện ích mở rộng khác với khả năng liên kết tự động. Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.
     upload_methods:
-      aws-s3: S3/Tương thích
+      aws-s3: S3/Compatible
       imgur: Imgur
       local: Cục bộ
       ovh-svfs: OVH SVFS
