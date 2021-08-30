@@ -2,7 +2,7 @@ fof-socialprofile:
   admin:
     permissions:
       view: Xem thông tin mạng xã hội
-      editOwn: Chỉnh sửa mạng xã hội của riêng chính họ
+      editOwn: Chỉnh sửa mạng xã hội của riêng họ
       editAny: Chỉnh sửa bất kỳ mạng xã hội của người nào
     
     settings:
