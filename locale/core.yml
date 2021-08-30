@@ -9,7 +9,7 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Màu Header
+      colored_header_label: Màu đầu trang
       colors_heading: Màu sắc
       colors_text: "Chọn hai màu cho giao diện diễn đàn của bạn. Màu thứ nhất làm màu nền, màu thứ hai để làm nền các thành phần."
       custom_footer_heading: Tùy chỉnh chân trang
@@ -17,17 +17,17 @@ core:
       custom_header_heading: Tùy chỉnh đầu trang
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Tùy chỉnh style
-      custom_styles_text: Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS để được sử dụng trên style mặc định của Flarum.
+      custom_styles_text: Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS để sử dụng trên style mặc định của Flarum.
       dark_mode_label: Chế độ tối
       description: Tùy chỉnh màu sắc, logo và các thiết lập khác của diễn đàn.
-      edit_css_button: Sửa CSS tùy chỉnh
+      edit_css_button: Sửa CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Vui lòng nhập mã màu thập lục phân.
       favicon_heading: Favicon
       favicon_text: Tải lên hình ảnh để được hiển thị như là biểu tượng phím tắt của diễn đàn.
       logo_heading: Logo
-      logo_text: Tải lên hình ảnh sẽ được hiển thị thay cho tiêu đề diễn đàn.
+      logo_text: Tải lên hình ảnh để hiển thị thay cho tiêu đề diễn đàn.
       title: Giao diện
 
     # These translations are used in the Basics page.
@@ -36,18 +36,18 @@ core:
       default_language_heading: Ngôn ngữ mặc định
       description: Đặt tiêu đề diễn đàn, ngôn ngữ và các cài đặt cơ bản khác của bạn
       display_name_heading: Tên hiển thị của người dùng
-      display_name_text: Chọn driver sẽ được sử dụng cho tên hiển thị của người dùng. Theo mặc định, tên người dùng được hiển thị.
+      display_name_text: Chọn trình điều khiển sử dụng cho tên hiển thị của người dùng. Theo mặc định, tên người dùng được hiển thị.
       forum_description_heading: Mô tả diễn đàn
       forum_description_text: Nhập một hoặc hai câu ngắn mô tả cộng đồng của bạn. Cái này sẽ xuất hiện trong thẻ meta và hiển thị trong các công cụ tìm kiếm.
       forum_title_heading: Tiêu đề diễn đàn
       home_page_heading: Trang chủ
       home_page_text: Chọn trang mà người dùng sẽ nhìn thấy đầu tiên khi họ truy cập diễn đàn của bạn.
-      show_language_selector_label: Hiển thị thanh chọn ngôn ngữ
+      show_language_selector_label: Hiển thị trình chọn ngôn ngữ
       slug_driver_heading: "Trình điểu khiển Slug: {model}"
       slug_driver_text: Chọn một trình điều khiển sử dụng để slug mô hình này.
       title: Cơ bản
       welcome_banner_heading: Biểu ngữ chào mừng
-      welcome_banner_text: Cấu hình văn bản hiển thị trong biểu ngữ trên trang Tất cả các cuộc thảo luận. Sử dụng điều này để chào mừng khách đến với diễn đàn của bạn.
+      welcome_banner_text: Cấu hình nội dung hiển thị trong biểu ngữ trên trang Tất cả thảo luận. Sử dụng điều này để chào mừng khách đến với diễn đàn của bạn.
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -60,7 +60,7 @@ core:
     edit_css:
       customize_text: Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS của riêng bạn để được áp dụng trên <a>kiểu mặc định của Flarum</a>.
       submit_button: => core.ref.save_changes
-      title: Chỉnh sửa CSS tùy chỉnh
+      title: Chỉnh sửa CSS
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -92,38 +92,38 @@ core:
     email:
       addresses_heading: Địa chỉ
       description: "Cấu hình trình điều khiển, cài đặt và địa chỉ mà diễn đàn của bạn sẽ sử dụng để gửi email."
-      driver_heading: Chọn Driver
-      driver_label: Driver
+      driver_heading: Chọn Trình điều khiển
+      driver_label: Trình điều khiển
       from_label: Người gửi
-      mail_encryption_label: Mã hóa
+      mail_encryption_label: Kiểu mã hóa
       mail_host_label: Máy chủ
       mail_mailgun_domain_label: Miền
       mail_mailgun_region_label: Khu vực
-      mail_mailgun_secret_label: Khóa bí mật
+      mail_mailgun_secret_label: Mã khoá bí mật
       mail_password_label: => core.ref.password
       mail_port_label: Cổng
       mail_username_label: => core.ref.username
       mailgun_heading: Thiết lập Mailgun
       not_sending_message: Flarum không gửi được mail. Điều này có thể là do trình điều khiển được chọn, hoặc lỗi trong cấu hình của nó.
       send_test_mail_button: Gửi
-      send_test_mail_heading: Gửi email test
-      send_test_mail_success: Đã gửi mail test thành công!
+      send_test_mail_heading: Gửi email thử nghiệm
+      send_test_mail_success: Đã gửi mail thử nghiệm thành công!
       send_test_mail_text: "Thao tác này sẽ gửi một email sử dụng cấu hình trên tới email của bạn, {email}."
       smtp_heading: Thiết lập SMTP
       title: => core.ref.email
 
     # These translations are used on default extension pages.
     extension:
-      configure_scopes: Cấu hình Scopes
-      confirm_uninstall: Gỡ cài đặt sẽ xóa tất cả các mục nhập cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Bạn có chắc chắn muốn tiếp tục không?
-      disabled: Vô hiệu hóa
-      enable_to_see: Bật tiện ích mở rộng để xem và thay đổi cài đặt.
+      configure_scopes: Cấu hình Phạm vi
+      confirm_uninstall: Gỡ cài đặt sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Bạn có chắc chắn muốn tiếp tục không?
+      disabled: Đã tắt
+      enable_to_see: Kích hoạt tiện ích mở rộng để xem và thay đổi cài đặt.
       enabled: Đã kích hoạt
       info_links:
         discuss: Thảo luận
         documentation: Tài liệu
         donate: Ủng hộ
-        source: Nguồn
+        source: Mã nguồn
         support: Hỗ trợ
         website: Trang web
       no_permissions: Tiện ích mở rộng này không có quyền nào.
@@ -174,10 +174,10 @@ core:
       create_heading: Tạo
       delete_discussions_forever_label: Xóa cuộc thảo luận vĩnh viễn
       delete_discussions_label: Xóa cuộc thảo luận
-      delete_posts_forever_label: Xóa bài đăng vĩnh viễn
-      delete_posts_label: Xóa bài đăng
+      delete_posts_forever_label: Xóa bài viết vĩnh viễn
+      delete_posts_label: Xóa bài viết
       description: Cấu hình ai có thể xem hoặc làm điều gì đó.
-      edit_posts_label: Chỉnh sửa bài đăng
+      edit_posts_label: Chỉnh sửa bài viết
       edit_users_label: Chỉnh sửa thuộc tính người dùng
       edit_users_credentials_label: Chỉnh sửa thông tin đăng nhập của người dùng
       edit_users_groups_label: Chỉnh sửa nhóm người dùng
@@ -194,9 +194,9 @@ core:
       start_discussions_label: Đăng thảo luận
       title: Quyền
       view_forum_label: Xem diễn đàn (cuộc thảo luận và người dùng)
-      view_hidden_groups_label: Xem huy hiệu nhóm ẩn
+      view_hidden_groups_label: Xem huy hiệu nhóm bị ẩn
       view_last_seen_at_label: Luôn xem người dùng trực tuyến lần cuối cùng
-      view_post_ips_label: Xem địa chỉ IP của bài đăng
+      view_post_ips_label: Xem địa chỉ IP của bài viết
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -267,7 +267,7 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: Mật khẩu bạn đã nhập không chính xác.
+      incorrect_password_message: Mật khẩu bạn nhập không chính xác.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -287,15 +287,15 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Viết một bài viết...
-      discard_confirmation: Bạn chưa đăng cuộc thảo luận này. Bạn có muốn loại bỏ nó?
+      body_placeholder: Nhập nội dung cho bài viết...
+      discard_confirmation: Bạn chưa đăng cuộc thảo luận này. Bạn có muốn huỷ không?
       submit_button: Đăng thảo luận
       title: => core.ref.start_a_discussion
       title_placeholder: Tiêu đề cuộc thảo luận
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: Bạn chưa lưu các thay đổi của mình. Bạn có muốn loại bỏ chúng không?
+      discard_confirmation: Bạn chưa lưu các thay đổi của mình. Bạn có muốn huỷ không?
       edited_message: Chỉnh sửa của bạn đã được thực hiện.
       post_link: "Bài viết #{number} trong {discussion}"
       submit_button: => core.ref.save_changes
@@ -304,7 +304,7 @@ core:
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: Bạn chưa đăng câu trả lời này. Bạn có muốn loại bỏ nó?
+      discard_confirmation: Bạn chưa đăng câu trả lời này. Bạn có muốn huỷ nó?
       posted_message: Trả lời của bạn đã được đăng.
       submit_button: Đăng trả lời
       view_button: => core.ref.view
@@ -324,7 +324,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Dường như không có cuộc thảo luận nào ở đây.
+      empty_text: Hiện không có cuộc thảo luận nào ở đây.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Đánh dấu đã đọc
       replied_text: "{username} đã trả lời lúc {ago}"
@@ -362,7 +362,7 @@ core:
       meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Làm mới
       start_discussion_button: => core.ref.start_a_discussion
-      toggle_sidenav_dropdown_accessible_label: Chuyển đổi menu thả xuống điều hướng
+      toggle_sidenav_dropdown_accessible_label: Chuyển đổi menu thả xuống thanh điều hướng
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
@@ -403,12 +403,12 @@ core:
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
-      delete_confirmation: Bạn có chắc chắn muốn xóa bài đăng này vĩnh viễn không? Hành động này không thể được hoàn tác
+      delete_confirmation: Bạn có chắc chắn muốn xóa bài viết này vĩnh viễn không? Hành động này không thể được hoàn tác
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
       hide_confirmation: Bạn có chắc chắn muốn xóa bài viết này?
       restore_button: => core.ref.restore
-      toggle_dropdown_accessible_label: Chuyển đổi menu thả xuống kiểm soát bài đăng
+      toggle_dropdown_accessible_label: Chuyển đổi menu thả xuống kiểm soát bài viết
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
@@ -521,7 +521,7 @@ core:
       generic_message: "Úi! Đã xảy ra lỗi. Hãy tải lại trang và thử lại."
       missing_dependencies_message: "Không thể kích hoạt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau được kích hoạt: {extensions}"
       not_found_message: Không tìm thấy tài nguyên được yêu cầu.
-      permission_denied_message: Bạn không có quyền để làm điều đó.
+      permission_denied_message: Bạn không có quyền để làm điều này.
       rate_limit_exceeded_message: Bạn thao tác hơi nhanh quá. Vui lòng thử lại sau vài giây.
 
     # These translations are used in the loading indicator component.
@@ -530,8 +530,8 @@ core:
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
-      kilo_text: K
-      mega_text: M
+      kilo_text: N
+      mega_text: Tr
 
     # These translations are used to punctuate a series of items.
     series:
@@ -602,7 +602,7 @@ core:
 
         Ai đó (hy vọng là bạn!) Đã đăng ký vào {forum} bằng địa chỉ email này.
 
-        Nếu đây là bạn, chỉ cần nhấp vào liên kết sau và tài khoản của bạn sẽ được kích hoạt:
+        Nếu đây là bạn, chỉ cần nhấp vào liên kết sau và tài khoản của bạn kích hoạt:
         {url}
 
         Nếu bạn không đăng ký, vui lòng bỏ qua email này.
@@ -615,7 +615,7 @@ core:
 
         Ai đó (hy vọng là bạn!) Đã thay đổi địa chỉ email của họ trên {forum} thành địa chỉ này.
 
-        Nếu đây là bạn, chỉ cần nhấp vào liên kết sau và email của bạn sẽ được xác nhận:
+        Nếu đây là bạn, chỉ cần nhấp vào liên kết sau và email của bạn xác nhận:
         {url}
 
         Nếu đây không phải là bạn, vui lòng bỏ qua email này.
@@ -658,9 +658,9 @@ core:
     confirm_password: Xác nhận mật khẩu
     confirmation_email_sent: "Chúng tôi đã gửi email xác nhận đến {email}. Nếu không có, kiểm tra xong thư mục rác của bạn."
     custom_footer_text: Thêm HTML để hiển thị bên dưới trang.
-    custom_footer_title: Chỉnh sửa Footer tùy chinh
+    custom_footer_title: Chỉnh sửa Chân trang
     custom_header_text: Thêm HTML để hiển thị trên đầu trang.
-    custom_header_title: Chỉnh sửa Header tùy chỉnh
+    custom_header_title: Chỉnh sửa Đầu trang
     delete: Xóa
     delete_forever: Xóa vĩnh viễn
     discussions: Cuộc thảo luận                     # Referenced by flarum-statistics.yml
@@ -693,7 +693,7 @@ core:
     username: Tên người dùng
     users: Người dùng                                 # Referenced by flarum-statistics.yml
     view: Xem
-    write_a_reply: Viết trả lời...
+    write_a_reply: Viết câu trả lời...
     you: Bạn                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
