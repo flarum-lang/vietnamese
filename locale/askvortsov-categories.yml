@@ -10,17 +10,17 @@ askvortsov-categories:
       parent_remove_icon: Ẩn biểu tượng trong các thẻ chính?
       parent_remove_description: Ẩn mô tả trong các thẻ chính?
       parent_remove_stats: Ẩn thống kê trong các thẻ chính?
-      parent_remove_last_discussion: Ẩn các cuộc thảo luận gần đây cho các thẻ chính?
+      parent_remove_last_discussion: Ẩn các cuộc thảo luận gần đây trong các thẻ chính?
       small_forum_optimized: Tối ưu hoá cho các diễn đàn nhỏ
     help:
       child_bare_icon: Bo tròn biểu tượng trên các danh mục phụ sẽ bị mất đi.
-      full_page_desktop: Có nên thu gọn menu điều hướng của thanh bên thành một hàng (giống trang Thẻ) không? Điều này cũng sẽ ẩn các tiện ích con (chẳng hạn như Thống kê Diễn đàn Bạn bè của Flarum) khỏi thanh điều hướng của trang danh mục.
+      full_page_desktop: Điều này sẽ thu gọn menu điều hướng của thanh bên thành một hàng và cũng sẽ làm ẩn các widget (như FoF Forum Statistics) khỏi thanh điều hướng trang danh mục?
       small_forum_optimized:  Điều này sẽ hiển thị số lượng thảo luận/bài đăng chính xác hơn, nhưng sẽ làm chậm các diễn đàn một cách đáng kể.
     headings:
       nav: Thanh điều hướng
       layout: Bố cục
-      parent_display: Hiển thị danh mục chính
-      child_display: Hiển thị danh mục phụ
+      parent_display: Danh mục chính
+      child_display: Danh mục phụ
       performance: Hiệu suất
     title: Thiết lập Danh mục
 
