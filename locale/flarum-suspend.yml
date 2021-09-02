@@ -1,0 +1,37 @@
+flarum-suspend:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      suspend_users_label: Cấm người dùng
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "Bạn đã bị cấm trong {timeReadable}"
+      user_unsuspended_text: Bạn đã được mở cấm
+
+    # These translations are used in the Suspend User modal dialog (admin function).
+    suspend_user:
+      indefinitely_label: Cấm vô thời hạn
+      limited_time_days_text: " ngày"
+      limited_time_label: Cấm trong một thời gian nhất định...
+      not_suspended_label: Không cấm
+      status_heading: Tình trạng cấm
+      submit_button: => core.ref.save_changes
+      title: "Cấm {username}"
+
+    # These translations are displayed as tooltips for user badges.
+    user_badge:
+      suspended_tooltip: Bị cấm
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      suspend_button: Cấm

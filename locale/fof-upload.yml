@@ -1,0 +1,143 @@
+fof-upload:
+  admin:
+    pane:
+      title: Tải lên
+      description: Thiết lập các dịch vụ và tùy chọn tải lên.
+    help_texts:
+      disable-download-logging: |
+        Tắt ghi nhật ký tải xuống do người dùng diễn đàn của bạn thực hiện. Giữ nó được bật cho phép bạn xem số lượt tải xuống và các chỉ số khác trong tương lai gần.
+      disable-hotlink-protection: |
+        Bảo vệ hotlink ngăn chặn việc mở các bản tải xuống từ các trang khác. Phương pháp hiện tại yêu cầu mã thông báo csrf và id bài đăng.
+      download_templates: |
+        Các mẫu tải xuống là cách các nội dung tải lên được hiển thị trên diễn đàn của bạn, ví dụ như các bản xem trước, các nút. Hiện đang có sẵn:
+      mime_types: |
+        Vui lòng cấu hình mine của bạn tại đây. Mỗi biểu thức chính quy loại mime sẽ được xử lý bởi một bộ điều hợp tải lên và mẫu tải xuống cụ thể.
+      resize: |
+        Chọn xem bạn có muốn thay đổi kích thước hình ảnh của mình trước khi tải lên hay không. Bạn có thể chọn chiều rộng và chiều cao tối đa, tính bằng pixel. Quá trình thay đổi kích thước giữ nguyên tỷ lệ khung hình của hình ảnh.
+      client_extension: |
+        Theo mặc định, Tải lên sẽ chọn một phần mở rộng tệp an toàn dựa trên loại MIME.
+        Đối với một số loại tệp dựa trên dữ liệu ZIP hoặc nhị phân, điều này có thể dẫn đến việc sử dụng các phần mở rộng chung thay vì phần mở rộng như mong đợi.
+        Tại đây, bạn có thể nhập danh sách các phần mở rộng tệp được phân tách bằng dấu phẩy sẽ được giữ nguyên văn.
+      watermark: |
+        Chọn xem hình ảnh có được thêm hình mờ trong quá trình tải lên hay không. Hình mờ được thêm vào không phải gif dựa trên tùy chọn của bạn bên dưới.
+      s3_compatible_storage: |
+        Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.
+      s3_acl: |
+        ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
+      composer_buttons: |
+        Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.
+    labels:
+      aws-s3:
+        bucket: Bucket
+        key: Mã khóa
+        region: Khu vực
+        secret: Mã khoá bí mật
+        title: Thiết lập lưu trữ AWS S3
+        advanced_title: Thiết lập lưu trữ S3 nâng cao
+        endpoint: Điểm cuối
+        use_path_style_endpoint: Sử dụng điểm cuối kiểu đường dẫn
+        acl: Danh sách kiểm soát truy cập (ACL)
+      disable-download-logging:
+        title: Tắt nhật ký tải xuống
+        toggle: Vô hiệu hóa
+      disable-hotlink-protection:
+        title: Tắt bảo vệ hotlink
+        toggle: Vô hiệu hóa
+      imgur:
+        client_id: ID khách hàng Imgur
+        title: Thiết lập lưu trữ hình ảnh Imgur
+      local:
+        cdn_url: URL phân phối nội dung (tiền tố tệp)
+        title: Thiết lập lưu trữ cục bộ
+      qiniu:
+        title: Thiết lập lưu trữ Qiniu
+        key: Mã khoá
+        secret: Mã khoá bí mật
+        bucket: Bucket
+      preferences:
+        max_file_size: Kích thước tối đa (kilobyte)
+        mime_types: 'Cấu hình mine'
+        title: Cài đặt chung
+      resize:
+        max_width: Chiều rộng/chiều cao hình ảnh tối đa
+        title: Thay đổi kích thước hình ảnh
+        toggle: Thay đổi kích thước hình ảnh
+      client_extension:
+        title: Phần mở rộng tệp do người dùng cung cấp
+      watermark:
+        file: Tải lên hình ảnh đóng dấu của bạn
+        position: Vị trí đóng dấu
+        title: Hình đóng dấu
+        toggle: Hình đóng dấu
+      composer_buttons:
+        title: Nút composer
+        options:
+          both: Cả hai
+          upload-btn: Chỉ nút tải lên
+          media-btn: Chỉ nút quản lý 
+
+    permissions:
+      download_label: Tải xuống tập tin
+      upload_label: Tải lên tập tin
+      view_user_uploads_label: Xem tệp của người dùng
+      delete_uploads_of_others_label: Xóa tệp của người dùng
+    templates:
+      file: Mẫu tải xuống tệp mặc định
+      file_description: |
+        Hiển thị tên tệp và một số thông tin chung. Proxy tải xuống thông qua php, cho phép thu thập số liệu thống kê và bảo vệ hotlink.
+      image: Mẫu tải xuống hình ảnh mặc định
+      image_description: |
+        Hiển thị hình thu nhỏ của hình ảnh và proxy tải xuống thông qua php. Cho phép thu thập số liệu thống kê và bảo vệ hotlink.
+      image-preview: Mẫu xem trước hình ảnh hoàn chỉnh
+      image-preview_description: |
+        Hiển thị hình ảnh hoàn chỉnh. Không có nút tải xuống, không có thống kê và bảo vệ hotlink bị tắt.
+      markdown-image: Mẫu hình ảnh markdown
+      markdown-image_description: |
+        Hiển thị hình ảnh hoàn chỉnh bằng cách sử dụng Markdown. <strong>Bạn phải cài đặt và kích hoạt tiện ích flarum/markdown để nó hoạt động.</strong> Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.
+      bbcode-image: Mẫu hình ảnh BBCode
+      bbcode-image_description: |
+        Hiển thị hình ảnh hoàn chỉnh bằng cách sử dụng BBCode. <strong>Bạn phải cài đặt và kích hoạt tiện ích flarum/bbcode để nó hoạt động.</strong> Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.
+      just-url: Chỉ hiện URL
+      just-url_description: |
+        Chỉ chèn URL. Việc hiển thị có thể được xử lý bởi các tiện ích mở rộng khác với khả năng liên kết tự động. Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.
+    upload_methods:
+      aws-s3: S3/Compatible
+      imgur: Imgur
+      local: Cục bộ
+      ovh-svfs: OVH SVFS
+      qiniu: QiNiu
+  forum:
+    media_manager: Quản lý 
+
+    buttons:
+      attach: Đính kèm
+      upload: Tải lên
+      user_uploads: Tệp của người dùng
+      cancel: Hủy
+      media: Tệp của tôi
+
+    file_list:
+      loading: Đang tải tệp...
+      empty: Không có tệp nào để hiển thị.
+      release_to_upload: Phát hành để tải lên
+      modal_empty_desktop: Danh sách tệp của bạn trống. Nhấp vào nút hoặc kéo tệp vào đây để tải lên.
+      modal_empty_phone: Danh sách tệp của bạn trống. Nhấn vào nút ở trên để tải tệp lên.
+      select_file_a11y_label: Chọn tập tin "{fileName}"
+      confirm_selection_btn: "{fileCount, plural, =0 {Chưa chọn} one {Chọn tệp tin} other {Chọn tệp tin}}"
+      load_more_files_btn: Tải thêm tệp tin
+      hide_file:
+        btn_a11y_label: Xoá "{fileName}" khỏi tệp của bạn
+        hide_confirmation: Bạn có chắc chắn muốn xoá "{fileName}" không? Việc xoá tệp sẽ chỉ xóa tệp khỏi trình quản lý tệp và sẽ không ảnh hưởng đến các bài viết hiện có.
+        hide_success: Tệp đã được xoá khỏi quản lý tệp
+        hide_fail: Không thể xoá tệp "{fileName}"
+        loading: Đang xoá tệp ...
+
+    states:
+      error: Lỗi
+      loading: Đang tải lên
+      unauthorized: Bạn không được phép tải tập tin
+  api:
+    upload_errors:
+      forbidden_type: Các loại tệp này không được phép tải lên.
+      unsupported_type: 'Bộ điều hợp tải lên không hỗ trợ loại mime được cung cấp: {mime}.'
+      could_not_detect_mime: Không thể phát hiện loại MIME của tệp này, vui lòng thử lại.
