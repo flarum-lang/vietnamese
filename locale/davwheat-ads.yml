@@ -24,14 +24,14 @@ davwheat:
           code_has_script: Một hoặc nhiều quảng cáo của bạn chứa thẻ script, không được phép. Hãy xóa những thứ này và thử lại.
 
         warning: |
-          Mã quảng cáo <b>CHỈ</b> chứa các thẻ <code>ins</code> chứ không phải bất kỳ thẻ script nào. Script sẽ tự động chạy bởi tiện ích này.
+          Mã quảng cáo <b>CHỈ</b> được chứa thẻ <code><ins></code> chứ không được chứa các thẻ script nào khác. Script sẽ tự động chạy bởi tiện ích này.
     forum:
 
     lib:
       locations:
         discussion_header: Trang thảo luận (bên dưới đầu trang)
-        discussion_sidebar: Thanh bên thảo luận [CHỈ MÁY TÍNH BÀN]
+        discussion_sidebar: Thanh điều hướng cuộc thảo luận [CHỈ MÁY TÍNH BÀN]
         header: Đầu trang
-        sidebar: Điều hướng bên [CHỈ MÁY TÍNH BÀN]
+        sidebar: Thanh điều hướng [CHỈ MÁY TÍNH BÀN]
         footer: Chân trang
         between_posts: Giữa các bài viết
