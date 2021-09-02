@@ -24,7 +24,7 @@ davwheat:
           code_has_script: Một hoặc nhiều quảng cáo của bạn chứa thẻ script, không được phép. Hãy xóa những thứ này và thử lại.
 
         warning: |
-          Mã quảng cáo <b>CHỈ</b> được chứa thẻ <code><ins></code> chứ không được chứa các thẻ script nào khác. Script sẽ tự động chạy bởi tiện ích này.
+          Mã quảng cáo <b>CHỈ</b> được chứa thẻ <code>ins</code> chứ không được chứa các thẻ script nào khác. Script sẽ tự động chạy bởi tiện ích này.
     forum:
 
     lib:
