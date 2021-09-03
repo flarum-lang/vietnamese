@@ -191,12 +191,12 @@ core:
       reply_to_discussions_label: Trả lời cuộc thảo luận
       search_users_label: Tìm kiếm người dùng
       sign_up_label: Đăng ký
-      start_discussions_label: Đăng thảo luận
+      start_discussions_label: Tạo cuộc thảo luận
       title: Quyền
       view_forum_label: Xem diễn đàn (cuộc thảo luận và người dùng)
       view_hidden_groups_label: Xem huy hiệu nhóm bị ẩn
       view_last_seen_at_label: Luôn xem người dùng trực tuyến lần cuối cùng
-      view_post_ips_label: Xem địa chỉ IP của bài viết
+      view_post_ips_label: Xem địa chỉ IP bài viết
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -274,7 +274,7 @@ core:
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: Gửi email đặt lại mật khẩu
-      text: Nhấp vào nút bên dưới và kiểm tra email của bạn để tìm liên kết để thay đổi mật khẩu của bạn.
+      text: Nhấp vào nút bên dưới và kiểm tra liên kết được gửi trong email của bạn để thay đổi mật khẩu.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -289,7 +289,7 @@ core:
     composer_discussion:
       body_placeholder: Nhập nội dung cho bài viết...
       discard_confirmation: Bạn chưa đăng cuộc thảo luận này. Bạn có muốn huỷ không?
-      submit_button: Đăng thảo luận
+      submit_button: Đăng
       title: => core.ref.start_a_discussion
       title_placeholder: Tiêu đề cuộc thảo luận
 
@@ -306,7 +306,7 @@ core:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: Bạn chưa đăng câu trả lời này. Bạn có muốn huỷ nó?
       posted_message: Trả lời của bạn đã được đăng.
-      submit_button: Đăng trả lời
+      submit_button: Trả lời
       view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
@@ -327,8 +327,8 @@ core:
       empty_text: Hiện không có cuộc thảo luận nào ở đây.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Đánh dấu đã đọc
-      replied_text: "{username} đã trả lời lúc {ago}"
-      started_text: "{username} đã đăng bài lúc {ago}"
+      replied_text: "{username} đã trả lời {ago}"
+      started_text: "{username} đã đăng bài {ago}"
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
@@ -469,7 +469,7 @@ core:
       in_discussion_text: "Trong {discussion}"
       joined_date_text: "Đã tham gia {ago}"
       online_text: Trực tuyến
-      posts_empty_text: Dường như không có bài viết nào ở đây.
+      posts_empty_text: Hiện không có bài viết nào ở đây.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings

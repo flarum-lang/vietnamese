@@ -5,6 +5,6 @@ fof-open-collective:
       title: FriendsOfFlarum Open Collective
       desc: Lấy khóa API của bạn ở <a>https://opencollective.com/applications</a>.
 
-      api_key_label: Khóa API
+      api_key_label: Mã khoá API
       slug_label: Slug Collective
       group_label: Nhóm để gán
