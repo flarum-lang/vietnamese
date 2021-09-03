@@ -1,4 +1,4 @@
-  fof-follow-tags:
+fof-follow-tags:
   forum:
     settings:
       notify_new_discussion_label: Ai đó tạo cuộc thảo luận trong thẻ mà tôi đang theo dõi
@@ -35,12 +35,11 @@
     notifications:
       new_discussion_text: "{username} đã đăng thảo luận mới"
       new_post_text: "{username} đã đăng trả lời mới"
-      new_discussion_tag_text: "{username} đã thay đổi tag"
-
+      new_discussion_tag_text: "{username} đã thay đổi thẻ"
 
     user:
       settings:
-        heading: Theo dõi tag
+        heading: Theo dõi thẻ
 
         filter_label: Nội dung hiển thị theo mặc định trong trang Đang theo dõi
 
@@ -51,12 +50,11 @@
       following_none_label: => fof-follow-tags.ref.filtering_options.none
       following_tags_label: => fof-follow-tags.ref.filtering_options.tags
 
-
   email:
     subject:
-        newDiscussionInTag: "[Tag | Cuộc thảo luận mới] {title}"
-        newPostInTag: "[Tag | Bài viết mới] {title}"
-        newDiscussionTag: "[Tag | Đã đổi tag] {title}"
+        newDiscussionInTag: "[Thẻ | Cuộc thảo luận mới] {title}"
+        newPostInTag: "[Thẻ | Bài viết mới] {title}"
+        newDiscussionTag: "[Thẻ | Đã đổi tag] {title}"
     body:
         newDiscussionInTag: |
             Chào {recipient_display_name},
@@ -83,11 +81,11 @@
 
             ---
 
-            You won't receive any more notifications about this discussion until you're up to date.
+            Bạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.
         newDiscussionTag: |
             Chào {recipient_display_name},
 
-            {actor_display_name} vừa thay đổi tag trên cuộc thảo luận của {author_display_name} thành thẻ bạn đang theo dõi {discussion_title}
+            {actor_display_name} vừa thay đổi thẻ trên cuộc thảo luận của {author_display_name} thành thẻ bạn đang theo dõi {discussion_title}
 
             Để xem cuộc thảo luận mới, hãy xem liên kết sau:
             {discussion_url}
@@ -100,4 +98,4 @@
 
     filtering_options:
       none: CUộc hảo luận đã theo dõi
-      tags: Tag đã theo dõi
+      tags: Thẻ đã theo dõi
