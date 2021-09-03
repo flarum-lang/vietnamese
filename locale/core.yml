@@ -690,7 +690,7 @@ core:
     sign_up: Đăng ký
     some_others: "{count, plural, one {# khác} other {# khác}}"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Đăng thảo luận
-    username: Tên người dùng
+    username: Tên tài khoản
     users: Người dùng                                 # Referenced by flarum-statistics.yml
     view: Xem
     write_a_reply: Viết câu trả lời...
