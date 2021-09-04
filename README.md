@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Latest Stable Version](https://img.shields.io/packagist/v/datlechin/lang-vietnamese.svg) ![](https://img.shields.io/packagist/dt/datlechin/lang-vietnamese.svg) ![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/datlechin/lang-vietnamese)
 
-![](https://extiverse.com/extension/datlechin/lang-vietnamese/open-graph-image)
+![](https://extiverse.com/extension/flarum-lang/vietnamese/open-graph-image)
 
 Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
 
