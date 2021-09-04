@@ -246,10 +246,10 @@ php flarum cache:clear
 <!-- premium-extensions-list-stop -->
 
 ### Links
-- [Github](https://github.com/datlechin/lang-vietnamese)
-- [Packagist](https://packagist.org/packages/datlechin/lang-vietnamese)
-- [Extiverse](https://extiverse.com/extension/datlechin/lang-vietnamese)
+- [Github](https://github.com/flarum-lang/vietnamese)
+- [Packagist](https://packagist.org/packages/flarum-lang/vietnamese)
+- [Extiverse](https://extiverse.com/extension/flarum-lang/vietnamese)
 
 ## License
 
-The language pack is released under the MIT license. Please see [the license terms](https://github.com/datlechin/lang-vietnamese/blob/master/LICENSE).
+The language pack is released under the MIT license. Please see [the license terms](https://github.com/flarum-lang/vietnamese/blob/master/LICENSE).
