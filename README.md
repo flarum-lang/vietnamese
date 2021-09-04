@@ -14,7 +14,7 @@ composer require flarum-lang/vietnamese
 
 ### Cập nhật (Updating)
 ```
-composer update larum-lang/vietnamese
+composer update flarum-lang/vietnamese
 php flarum cache:clear
 ```
 
