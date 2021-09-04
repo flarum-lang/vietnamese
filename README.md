@@ -9,12 +9,12 @@ Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) c�
 ### Cài đặt (Installation)
 Install with composer:
 ```
-composer require datlechin/lang-vietnamese
+composer require flarum-lang/vietnamese
 ```
 
 ### Cập nhật (Updating)
 ```
-composer update datlechin/lang-vietnamese
+composer update larum-lang/vietnamese
 php flarum cache:clear
 ```
 
