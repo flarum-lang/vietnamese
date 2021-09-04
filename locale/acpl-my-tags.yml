@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 acpl-my-tags:
+  admin:
+    settings:
+      enable-placeholder: 'Bật văn bản placeholder khi người dùng không theo dõi thẻ nào'
   forum:
     index:
-      my_tags: 'Thẻ đang theo dõi'
+      my_tags: 'Thẻ của tôi'
+      placeholder: 'Bạn không theo dõi thẻ nào. <a>Xem thẻ</a>'
