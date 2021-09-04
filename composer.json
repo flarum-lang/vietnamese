@@ -1,5 +1,5 @@
 {
-  "name": "datlechin/lang-vietnamese",
+  "name": "flarum-lang/vietnamese",
   "description": "Vietnamese language pack for Flarum",
   "type": "flarum-extension",
   "keywords": ["extension", "flarum", "vietnamese", "locale", "translation"],
@@ -13,8 +13,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/datlechin/lang-vietnamese/issues",
-    "source": "https://github.com/datlechin/lang-vietnamese",
+    "issues": "https://github.com/flarum-lang/vietnamese/issues",
+    "source": "https://github.com/flarum-lang/vietnamese",
     "forum": "https://discuss.flarum.org/d/28471"
   },
   "homepage": "https://ngoquocdat.com",
