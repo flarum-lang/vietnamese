@@ -1,8 +1,8 @@
 # Vietnamese Language Pack for [Flarum](https://flarum.org)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/vietnamese.svg) ![](https://img.shields.io/packagist/dt/flarum-lang/vietnamese.svg) ![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/datlechin/lang-vietnamese)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/vietnamese.svg) ![](https://img.shields.io/packagist/dt/flarum-lang/vietnamese.svg) ![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/flarum-lang/vietnamese)
 
-![](https://extiverse.com/extension/datlechin/lang-vietnamese/open-graph-image)
+![](https://extiverse.com/extension/flarum-lang/vietnamese/open-graph-image)
 
 Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
 
