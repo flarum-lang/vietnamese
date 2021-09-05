@@ -34,7 +34,7 @@ fof-byobu:
       cancel: Hủy
       edit_recipients: 'Sửa người nhận'
       remove_from_discussion: 'Rời khỏi cuộc thảo luận này'
-      send_pd: 'Gửi tin nhắn cho {username}'
+      send_pd: 'Nhắn tin với {username}'
       submit: OK
     composer_private_discussion:
       submit_button: 'Đăng thảo luận riêng tư'
