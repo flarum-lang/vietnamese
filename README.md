@@ -1,19 +1,19 @@
 # Vietnamese Language Pack for [Flarum](https://flarum.org)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/vietnamese.svg) ![](https://img.shields.io/packagist/dt/flarum-lang/vietnamese.svg) ![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/flarum-lang/vietnamese)
+[![License](http://poser.pugx.org/flarum-lang/vietnamese/license)](https://packagist.org/packages/flarum-lang/vietnamese) [![Latest Stable Version](http://poser.pugx.org/flarum-lang/vietnamese/v)](https://packagist.org/packages/flarum-lang/vietnamese) [![Total Downloads](http://poser.pugx.org/flarum-lang/vietnamese/downloads)](https://packagist.org/packages/flarum-lang/vietnamese) [![Monthly Downloads](http://poser.pugx.org/flarum-lang/vietnamese/d/monthly)](https://packagist.org/packages/flarum-lang/vietnamese) ![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/flarum-lang/vietnamese)
 
 ![](https://extiverse.com/extension/flarum-lang/vietnamese/open-graph-image)
 
-Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
+Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba. Đây là bản phát hành đầu tiên, sẽ có các bản cập nhật tiếp theo để sửa các lỗi dịch chưa sát nghĩa ^^.
 
 ### Cài đặt (Installation)
-Install with composer:
-```
+Cài đặt bằng composer:
+```sh
 composer require flarum-lang/vietnamese
 ```
 
 ### Cập nhật (Updating)
-```
+```sh
 composer update flarum-lang/vietnamese
 php flarum cache:clear
 ```
