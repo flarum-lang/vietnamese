@@ -10,21 +10,22 @@ core:
 michaelbelgium-discussion-views:
   admin:
     permissions:
-      reset_views_label: 'Đặt lại lượt xem thảo luận'
-      view_number_label: 'Xem lượt xem thảo luận'
+      reset_views_label: 'Đặt lại lượt xem'
+      view_number_label: 'Xem lượt xem'
     settings:
       abbr_numbers_label: 'Viết tắt số lượt xem'
       max_viewcount_label: 'Mục danh sách xem tối đa'
       show_filter_label: 'Cho phép (hủy) trường sắp xếp phổ biến'
       show_viewlist_label: 'Bật danh sách xem'
-      title: 'Cài đặt lượt xem thảo luận'
+      title: 'Thiết lập lượt xem cuộc thảo luận'
       track_unique_label: 'Theo dõi lượt xem'
   forum:
     discussion_controls:
       resetviews_button: 'Đặt lại lượt xem'
     modal_resetviews:
-      label: 'Điều này sẽ xóa {count} lượt xem của cuộc thảo luận này. Tiếp tục?|Điều này sẽ xóa {count} lượt xem của cuộc thảo luận này. Tiếp tục?'
-      submit_button: 'Vâng, loại bỏ tất cả'
-      title: 'Đặt lại số lượt xem thảo luận'
+      label: '{count, plural, one {Điều này sẽ xoá {count} lượt xem của cuộc thảo luận này. Tiếp tục?} other {Điều này sẽ xoá {count} lượt xem của cuộc thảo luận này. Tiếp tục?}}'
+      submit_button: 'Có, xoá tất cả'
+      title: 'Đặt lại số lượt xem cuộc thảo luận'
     viewlist:
-      title: 'Người xem mới nhất'
+      guest: Khách
+      title: 'Người xem gần đây'
