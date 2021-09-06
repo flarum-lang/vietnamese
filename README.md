@@ -1,4 +1,6 @@
-![Logo](https://raw.githubusercontent.com/datlechin/images/main/flarum-logo-vi.svg)
+<p align="center">
+![Logo](https://raw.githubusercontent.com/datlechin/images/main/flarum-logo-vi.png)
+<p>
 
 # Vietnamese Language Pack for [Flarum](https://flarum.org)
 
