@@ -1,10 +1,8 @@
-![Logo](https://raw.githubusercontent.com/datlechin/images/main/flarum-logo-vi.svg)
-
 # Vietnamese Language Pack for [Flarum](https://flarum.org)
 
 [![License](http://poser.pugx.org/flarum-lang/vietnamese/license)](https://packagist.org/packages/flarum-lang/vietnamese) [![Latest Stable Version](http://poser.pugx.org/flarum-lang/vietnamese/v)](https://packagist.org/packages/flarum-lang/vietnamese) [![Total Downloads](http://poser.pugx.org/flarum-lang/vietnamese/downloads)](https://packagist.org/packages/flarum-lang/vietnamese) [![Monthly Downloads](http://poser.pugx.org/flarum-lang/vietnamese/d/monthly)](https://packagist.org/packages/flarum-lang/vietnamese) ![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/flarum-lang/vietnamese)
 
-![](https://extiverse.com/extension/flarum-lang/vietnamese/open-graph-image)
+![Logo](https://raw.githubusercontent.com/datlechin/images/main/flarum-logo-vi.svg)
 
 Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba. Đây là bản phát hành đầu tiên, sẽ có các bản cập nhật tiếp theo để sửa các lỗi dịch chưa sát nghĩa ^^.
 
