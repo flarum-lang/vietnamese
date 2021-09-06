@@ -1,5 +1,5 @@
 <p align="center">
-![Logo](https://raw.githubusercontent.com/datlechin/images/main/flarum-logo-vi.png)
+    <img src="https://raw.githubusercontent.com/datlechin/images/main/flarum-logo-vi.png" alt="Logo" />
 <p>
 
 # Vietnamese Language Pack for [Flarum](https://flarum.org)
