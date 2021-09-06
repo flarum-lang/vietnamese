@@ -1,3 +1,5 @@
+![Logo](https://raw.githubusercontent.com/datlechin/images/main/flarum-logo-vi.svg)
+
 # Vietnamese Language Pack for [Flarum](https://flarum.org)
 
 [![License](http://poser.pugx.org/flarum-lang/vietnamese/license)](https://packagist.org/packages/flarum-lang/vietnamese) [![Latest Stable Version](http://poser.pugx.org/flarum-lang/vietnamese/v)](https://packagist.org/packages/flarum-lang/vietnamese) [![Total Downloads](http://poser.pugx.org/flarum-lang/vietnamese/downloads)](https://packagist.org/packages/flarum-lang/vietnamese) [![Monthly Downloads](http://poser.pugx.org/flarum-lang/vietnamese/d/monthly)](https://packagist.org/packages/flarum-lang/vietnamese) ![Support latest version](https://flarum-badge-api.davwheat.dev/v1/compat-latest/flarum-lang/vietnamese)
