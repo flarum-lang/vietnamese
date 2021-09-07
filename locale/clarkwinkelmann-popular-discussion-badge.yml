@@ -10,7 +10,7 @@ clarkwinkelmann-popular-discussion-badge:
       comments: 'Bình luận'
       comments_placeholder: '0'
       conditions: 'Điều kiện để có huy hiệu Phổ biến'
-      conditions_help: "Bình luận là tổng số bài viết bình luận bao gồm cả bài viết đầu tiên. Lượt xem được truy xuất từ ​​phần mở rộng MichaelBelgium hoặc Flarumite. Khung thời gian đưa ra sẽ được sử dụng để đếm các bình luận hoặc lượt xem trong vòng n giờ qua. Chỉ có tiện ích mở rộng MichaelBelgium được hỗ trợ cho các chế độ xem theo khung thời gian. Để trống khung thời gian hoặc đặt 0 giờ để đếm tất cả các bình luận hoặc lượt xem.\n"
+      conditions_help: "Bình luận là tổng số bài viết bình luận bao gồm cả bài viết đầu tiên. Lượt xem được truy xuất từ phần mở rộng MichaelBelgium hoặc Flarumite. Khung thời gian đưa ra sẽ được sử dụng để đếm các bình luận hoặc lượt xem trong vòng n giờ qua. Chỉ có tiện ích mở rộng MichaelBelgium được hỗ trợ cho các chế độ xem theo khung thời gian. Để trống khung thời gian hoặc đặt 0 giờ để đếm tất cả các bình luận hoặc lượt xem.\n"
       hours: h
       mode: 'Cách hoạt động'
       mode_help: "Chế độ giao diện người dùng là một giải pháp hiệu quả mà không sử dụng cơ sở dữ liệu. Chế độ lên lịch yêu cầu thiết lập CRON và cho phép khung thời gian trong các điều kiện.\n"

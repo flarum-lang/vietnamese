@@ -4,7 +4,7 @@
 
 fof-ban-ips:
   admin:
-    empty_text: 'Không tìm thấy IP bị cấm'
+    empty_text: 'Không tìm thấy IP bị cấm.'
     modal:
       ban_ip_no_users: 'Không ai sẽ bị cấm'
       update_title: 'Cập nhật IP cấm'

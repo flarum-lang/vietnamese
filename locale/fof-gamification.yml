@@ -39,7 +39,7 @@ fof-gamification:
         auto_upvote: 'Tự động tán thành bài đăng khi được đăng'
         color_holder: '#ffffff'
         discussion_page: 'Hiển thị tổng số phiếu bầu của bài đăng gốc trên danh sách thảo luận'
-        icon_help: 'Nhập bất kỳ biểu tượng Font-Awesome nào đi kèm với -up và -down. Ví dụ: mũi tên, ngón tay cái, ...'
+        icon_help: 'Nhập bất kỳ biểu tượng Font-Awesome nào đi kèm với -up và -down. Ví dụ: mũi tên, ngón tay cái'
         icon_name: 'Biểu tượng tán thành/phản đối'
         points_placeholder: 'Điểm: '
         points_title: 'Tiêu đề điểm'
