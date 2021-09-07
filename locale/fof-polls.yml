@@ -32,7 +32,7 @@ fof-polls:
       submit: 'Đồng ý'
     moderation:
       delete: 'Xóa cuộc thăm dò'
-      delete_confirm: 'Bạn có chắc chắn muốn xóa cuộc thăm dò ý kiến ​​này?'
+      delete_confirm: 'Bạn có chắc chắn muốn xoá cuộc thăm dò ý kiến này?'
       edit: 'Chỉnh sửa cuộc thăm dò'
     no_permission: 'Bạn không được phép bình chọn'
     poll_ended: 'Cuộc thăm dò này đã kết thúc.'
