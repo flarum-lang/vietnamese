@@ -9,6 +9,16 @@ nearata-embed-twitch:
     permissions:
       create_twitch: 'Nhúng Twitch'
   forum:
+    button_tooltip_title: 'Nhúng Twitch'
     modal:
       label:
+        channel: 'Tên kênh'
         collection: 'ID bộ sưu tập'
+        layout: 'Bố cục'
+        type: 'Kiểu nội dung'
+        video: 'ID video'
+      options:
+        channel: Kênh
+        collection: 'Bộ sưu tập'
+        video: Video
+      save_changes: 'Lưu thay đổi'
