@@ -4,5 +4,7 @@
 
 malago-fancybox:
   forum:
-    next: 'Kế tiếp'
+    close: Đóng
+    error: 'Không thể tải nội dung được yêu cầu.'
+    next: Sau
     prev: Trước
