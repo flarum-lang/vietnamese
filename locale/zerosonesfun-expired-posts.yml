@@ -15,6 +15,6 @@ expired-posts:
   forum:
     composer:
       warning:
-        description: 'Bài viết này đã hết hạn'
-        error: 'Cuộc thảo luận này đã hết hạn'
+        description: 'Bài viết này đã hết hạn.'
+        error: 'Cuộc thảo luận này đã hết hạn.'
         title: 'Bài viết hết hạn'

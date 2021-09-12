@@ -24,6 +24,7 @@ nearata-embed-video:
     button_tooltip_title: 'Nhúng video'
     modal:
       live_mode: 'Chế độ trực tiếp'
+      submit_button: 'Lưu thay đổi'
       title: 'Nhúng video'
       video_type_label: 'Kiểu video'
       video_types:
