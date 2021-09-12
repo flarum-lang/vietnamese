@@ -41,6 +41,7 @@ fof-reactions:
     modal:
       title: 'Bày tỏ cảm xúc'
     notification: '{username} đã bày tỏ cảm xúc {reaction} với bài viết của bạn'
+    react_button_label: 'Cảm xúc'
     reacting-own-post: 'Bạn không thể bày tỏ cảm xúc bài viết của chính mình'
     settings:
       notify_post_reacted_label: 'Ai đó bày tỏ cảm xúc bài viết của tôi'

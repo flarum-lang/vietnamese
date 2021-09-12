@@ -29,7 +29,7 @@ fof-mason:
       name: 'Tên trường'
       name-help: "Nhãn trường hiển thị công khai (không thể dịch).\n"
       new-answer: 'Câu trả lời mới'
-      new-answer-placeholder: 'Nhập cái gì đó...'
+      new-answer-placeholder: 'Nhập cái gì đó'
       required: 'Bắt buộc'
       save-field-for-answers: 'Lưu trường để thêm câu trả lời'
       show_when_empty: 'Hiển thị khi trống'

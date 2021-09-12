@@ -12,7 +12,7 @@ fof-discussion-language:
         loading_data: 'Đã xảy ra lỗi khi truy xuất dữ liệu ngôn ngữ và quốc gia. Thử tắt và bật lại tiện ích.'
       locale_sort_label: 'Sử dụng ngôn ngữ được phát hiện cho bộ lọc thảo luận mặc định'
       native_label: 'Sử dụng ngôn ngữ chính'
-      show_any_lang_opt_label: 'Hiển thị tuỳ chọn để chọn "Mọi ngôn ngữ"'
+      show_any_lang_opt_label: 'Hiển thị tuỳ chọn để chọn "Mọi ngôn ngữ".'
       show_flag_label: 'Hiển thị cờ với tên ngôn ngữ'
   api:
     discussion:

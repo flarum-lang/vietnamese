@@ -9,7 +9,7 @@ fof-pretty-mail:
       label: 'Thiết lập CSS'
       switch_label: 'Bao gồm đầy đủ CSS của diễn đàn'
     nav:
-      desc: 'Tùy chỉnh mẫu HTML email của bạn'
+      desc: 'Tùy chỉnh mẫu HTML email của bạn.'
     settings:
       confirm: 'Bạn có chắc chắn muốn hoàn nguyên về mẫu email có sẵn cho'
       default: 'Mẫu mặc định'

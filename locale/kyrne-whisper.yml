@@ -31,7 +31,7 @@ kyrne-whisper:
     modal:
       already: 'Bạn có tin nhắn từ {username}.'
       copied: 'Tin nhắn của bạn đã được sao chép vào bộ nhớ tạm.'
-      help: 'Nhập tên người dùng để nhắn tin'
+      help: 'Nhập tên người dùng để nhắn tin.'
       help_start: 'Nhập tin nhắn của bạn vào, đây là tin nhắn duy nhất mà bạn có thể gửi cho đến khi {username} trả lời lại. Nhấp vào người dùng để chọn một người nhận khác.'
       more_users: 'Nếu bạn không thấy người dùng đang tìm kiếm, họ chưa có thiết lập tin nhắn.'
       search_recipients: 'Nhập tên người dùng...'
@@ -46,7 +46,7 @@ kyrne-whisper:
       header_set_own_import: 'Nhập mật khẩu tin nhắn của bạn để nhập chúng.'
       header_setup: 'Nhập mật khẩu đăng nhập tài khoản của bạn để thiết lập tin nhắn.'
       invalid_password: 'Mật khẩu của bạn không đúng.'
-      passwords_mismatch: 'Mật khẩu không khớp.'
+      passwords_mismatch: 'Mật khẩu không khớp'
       success: 'Tin nhắn đã sẵn sàng, trang của bạn sẽ được tải lại ngay...'
       title: 'Thiết lập tin nhắn'
-    user_modal_alert: '{username} đã tạo một tin nhắn, mật khẩu không thể thay đổi mật cách an toàn'
+    user_modal_alert: '{username} đã tạo một tin nhắn, mật khẩu không thể thay đổi mật cách an toàn.'
