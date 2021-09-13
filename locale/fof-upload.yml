@@ -31,7 +31,7 @@ fof-upload:
       composer_buttons:
         options:
           both: 'Cả hai'
-          media-btn: "Chỉ nút quản lý \e"
+          media-btn: 'Chỉ nút quản lý phương tiện'
           upload-btn: 'Chỉ nút tải lên'
         title: 'Nút composer'
       disable-download-logging:
@@ -118,7 +118,7 @@ fof-upload:
       modal_empty_phone: 'Danh sách tệp của bạn trống. Nhấn vào nút ở trên để tải tệp lên.'
       release_to_upload: 'Phát hành để tải lên'
       select_file_a11y_label: 'Chọn tập tin "{fileName}"'
-    media_manager: "Quản lý \e"
+    media_manager: 'Quản lý phương tiện'
     states:
       error: Lỗi
       loading: 'Đang tải lên'
