@@ -4,7 +4,7 @@
 
 therealsujitk-gifs:
   admin:
-    apiKey: 'Khóa API'
+    apiKey: 'Mã khóa API'
     engine: 'Công cụ tìm kiếm'
     rating: 'Xếp hạng nội dung / Bộ lọc nội dung'
     ratingHigh: 'G / Cao'
@@ -19,5 +19,5 @@ therealsujitk-gifs:
     search: 'Tìm kiếm'
     searchGiphy: 'Tìm kiếm Giphy'
     searchTenor: 'Tìm kiếm Tenor'
-    title: 'Chọn một ảnh GIF để thêm vào bài viết'
+    title: 'Chọn ảnh GIF để thêm vào bài viết'
     trending: 'GIF thịnh hành'

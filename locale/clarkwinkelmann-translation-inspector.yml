@@ -8,13 +8,13 @@ clarkwinkelmann-translation-inspector:
       inspect: 'Kiểm tra bản dịch'
   lib:
     modal:
-      actual: 'Bản dịch ngôn ngữ hiện tại'
+      actual: 'Bản dịch hiện tại'
       edit: 'Chỉnh sửa trên GitHub'
-      extension: 'Khai báo bởi'
+      extension: 'Định nghĩa bởi'
       extension-unknown: 'Tiện ích không xác định'
       key: 'Từ khoá bản dịch'
       original: 'Bản dịch tiếng Anh gốc'
-      path: 'Khai báo trong'
+      path: 'Định nghĩa trong'
       title: 'Kiểm tra bản dịch'
     nav:
       inspect: 'Kiểm tra bản dịch'

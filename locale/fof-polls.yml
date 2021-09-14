@@ -18,7 +18,7 @@ fof-polls:
     days_remaining: 'Cuộc thăm dò kết thúc {time}.'
     modal:
       add_option_label: 'Thêm tùy chọn'
-      add_title: 'Thăm cuộc thăm dò'
+      add_title: 'Thêm cuộc thăm dò'
       date_placeholder: 'Ngày kết thúc cuộc thăm dò (Tùy chọn)'
       edit_title: 'Chỉnh sửa cuộc thăm dò'
       include_question: 'Bạn phải bao gồm một câu hỏi'

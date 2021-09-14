@@ -34,10 +34,10 @@ fof-byobu:
       cancel: Hủy
       edit_recipients: 'Sửa người nhận'
       remove_from_discussion: 'Rời khỏi cuộc thảo luận này'
-      send_pd: 'Nhắn tin với {username}'
+      send_pd: 'Thảo luận với {username}'
       submit: OK
     composer_private_discussion:
-      submit_button: 'Đăng thảo luận riêng tư'
+      submit_button: Đăng
       title_placeholder: 'Tiêu đề thảo luận riêng tư'
     input:
       search_recipients: 'Tìm kiếm người nhận bằng cách nhập ba ký tự đầu tiên...'
@@ -81,4 +81,4 @@ fof-byobu:
       byobu_link: 'Thảo luận riêng tư'
       dropdown_label: 'Thảo luận riêng tư'
       settings:
-        block_pd: 'Chặn các cuộc thảo luận riêng tư'
+        block_pd: 'Chặn cuộc thảo luận riêng tư'

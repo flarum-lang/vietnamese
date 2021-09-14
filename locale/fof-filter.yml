@@ -4,6 +4,8 @@
 
 fof-filter:
   admin:
+    auto_merge_title: 'Tự động hợp nhất'
+    bad_words_help: 'Nhập chữ hoặc từ để lọc, mỗi từ một dòng. Nếu nội dung bài viết của người dùng chứa chuỗi bạn muốn lọc, thì chuỗi đó sẽ được gắn cờ để phê duyệt. Có khả năng chống chọi 133t.'
     cooldownLabel: 'Hợp nhất thời gian cooldown của bài đăng'
     countLabel: 'Kiểm duyệt Tolorance'
     email:
@@ -25,6 +27,8 @@ fof-filter:
     nav:
       desc: 'Lọc bài viết theo từ'
       text: 'Bộ lọc'
+    permission:
+      bypass_filter_label: 'Bỏ qua bộ lọc từ'
     title: 'Bộ lọc'
   forum:
     flag_message: 'Có chứa các chuỗi bị chặn'
