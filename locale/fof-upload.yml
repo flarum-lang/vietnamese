@@ -42,10 +42,10 @@ fof-upload:
         toggle: 'Vô hiệu hóa'
       imgur:
         client_id: 'ID khách hàng Imgur'
-        title: "\bThiết lập lưu trữ hình ảnh Imgur"
+        title: 'Thiết lập lưu trữ Imgur'
       local:
         cdn_url: 'URL phân phối nội dung (tiền tố tệp)'
-        title: "\bThiết lập lưu trữ cục bộ"
+        title: 'Thiết lập lưu trữ cục bộ'
       preferences:
         max_file_size: 'Kích thước tối đa (kilobyte)'
         mime_types: 'Cấu hình mine'
@@ -54,7 +54,7 @@ fof-upload:
         bucket: Bucket
         key: 'Mã khoá'
         secret: 'Mã khoá bí mật'
-        title: "\bThiết lập lưu trữ Qiniu"
+        title: 'Thiết lập lưu trữ Qiniu'
       resize:
         max_width: 'Chiều rộng/chiều cao hình ảnh tối đa'
         title: 'Thay đổi kích thước hình ảnh'
@@ -108,7 +108,7 @@ fof-upload:
       empty: 'Không có tệp nào để hiển thị.'
       hide_file:
         btn_a11y_label: 'Xoá "{fileName}" khỏi tệp của bạn'
-        hide_confirmation: "Bạn có chắc chắn muốn xoá \"{fileName}\" không? Việc xoá tệp sẽ chỉ xóa tệp khỏi trình quản lý tệp và sẽ không ảnh hưởng đến các bài \bviết hiện có."
+        hide_confirmation: 'Bạn có chắc chắn muốn xoá "{fileName}" không? Việc xoá tệp sẽ chỉ xóa tệp khỏi trình quản lý tệp và sẽ không ảnh hưởng đến các bài viết hiện có.'
         hide_fail: 'Không thể xoá tệp "{fileName}"'
         hide_success: 'Tệp đã được xoá khỏi quản lý tệp'
         loading: 'Đang xoá tệp ...'

@@ -12,4 +12,4 @@ flarum-pusher:
       title: 'Thiết lập Pusher'
   forum:
     discussion_list:
-      show_updates_text: "{count, plural, one {\bHiển thị # cuộc thảo luận mới} other {Hiển thị # thảo luận mới}}"
+      show_updates_text: '{count, plural, one {Hiển thị # cuộc thảo luận mới} other {Hiển thị # thảo luận mới}}'
