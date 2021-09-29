@@ -4,7 +4,10 @@
 
 justoverclock-related-discussions:
   admin:
+    DiscussionPageLayout: 'Hiện Cuộc thảo luận đề xuất tại bên dưới trang cuộc thảo luận.'
     relatedLimit: 'Số lượng cuộc thảo luận (mặc định 4)'
     relatedLimit-help: 'nhập số lượng cuộc thảo luận mà bạn muốn hiển thị (ví dụ: "4")'
   forum:
+    participants: 'Người tham gia'
+    postnumber: 'Số lượng bài viết'
     reldiscussion: 'Cuộc thảo luận được đề xuất'
