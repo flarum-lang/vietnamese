@@ -16,8 +16,51 @@ kilowhat-audit:
       actor-audit: 'Nhật ký kiểm tra (người dùng với tư cách là tác nhân)'
       discussion-audit: 'Nhật ký kiểm tra'
       user-audit: 'Nhật ký kiểm tra (chỉnh sửa tài khoản)'
+    modal:
+      discussion-title: 'Nhật ký kiểm tra cuộc thảo luận'
+      user-title: 'Nhật ký kiểm tra người dùng'
   lib:
     browser:
+      cache_cleared: 'Đã xoá thủ công bộ nhớ đệm'
+      client:
+        access_token: 'Mã token truy cập'
+        api_key: 'Mã khoá API'
+        cli: 'Dòng lệnh'
+        session: 'Phiên web'
+        unknown: 'Khách hàng không xác định'
+      controls:
+        filterAction: 'Hiện nhật ký cùng hành động'
+        filterActor: 'Hiện nhật ký theo người trình bày'
+        filterClient: 'Hiện nhật ký theo kiểu khách hàng này'
+        filterDiscussion: 'Hiện nhật ký ảnh hưởng cùng cuộc thảo luận'
+        filterIp: 'Hiện nhật ký theo IP này'
+        filterUser: 'Hiện nhật ký ảnh hưởng cùng người dùng'
+        hideRaw: 'Ẩn nhật ký thô'
+        showRaw: 'Hiện nhật ký thô'
+      deletedResource:
+        discussion: 'Cuộc thảo luận #{id}'
+        group: 'Nhóm #{id}'
+        post: 'Bài viết #{id}'
+        tag: 'Thẻ #{id}'
+        user: 'Người dùng #{id}'
+      discussion:
+        create_date_changed: 'Đã đổi ngày tạo {discussion} từ {old_date} thành {new_date}'
+        created: 'Đã tạo cuộc thảo luận {discussion}'
+        deleted: 'Đã xoá cuộc thảo luận {discussion}'
+        hidden: 'Đã ẩn cuộc thảo luận {discussion}'
+        locked: 'Đã khoá cuộc thảo luận {discussion}'
+        renamed: 'Đã đổi tên cuộc thảo luận từ {old_title} thành {new_title}'
+        restored: 'Đã khôi phục cuộc thảo luận {discussion}'
+      empty: 'Không có kết quả'
+      filterApply: 'Áp dụng'
+      filterPlaceholder: 'Bộ lọc nhật ký'
+      genericResource:
+        comment: 'Bình luận'
+        post: 'Bài viết'
+      loadMore: 'Tải thêm'
+      noReason: '(không có lý do)'
+      noValue: '(không có giá trị)'
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      withoutActor: '=> core.group.guest'
