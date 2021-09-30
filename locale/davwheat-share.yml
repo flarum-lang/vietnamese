@@ -4,17 +4,18 @@
 
 davwheat-share:
   admin:
-    browser_support_notice: 'Tuỳ chọn "Chia sẻ" sẽ chỉ hiển thị trên thiết bị hỗ trợ Web Share API. <a>Kiểm tra hỗ trợ cho các trình duyệt khác nhau.</a>'
+    browser_support_notice: 'Tuỳ chọn "Chia sẽ" sẽ chỉ hiển thị trên thiết bị hỗ trợ Web Share API. <a>Kiểm tra hỗ trợ cho các trình duyệt khác nhau.</a>'
     button_preview_header: 'Xem trước'
     display_options:
       icon: 'Chỉ hiện Icon'
       menu: 'Menu thao tác bên trong'
       text: 'Chỉ hiện chữ'
-    display_options_label: 'Kiểu hiển thị nút chia sẻ'
+    display_options_label: 'Kiểu hiển thị nút chia sẽ'
     preview:
       dropdown:
         delete: Xoá
         edit: 'Chỉnh sửa'
       reply: 'Trả lời'
   lib:
-    share: 'Chia sẻ'
+    share: 'Chia sẽ'
+    share_a11y_label: 'Chia sẽ'
