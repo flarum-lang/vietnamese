@@ -57,7 +57,7 @@ fof-username-request:
         name: '{name} đã yêu cầu thay đổi tên người dùng của họ thành "{requestedName}"'
         reason_title: 'Lý do từ chối'
         rejected_label: 'Từ chối'
-        submit_button: gỬI
+        submit_button: Gửi
         success: 'Đã gửi quyết định.'
         title: '=> fof-username-request.ref.username_change_request'
       request:

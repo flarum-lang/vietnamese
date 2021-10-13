@@ -37,7 +37,7 @@ fof-byobu:
       send_pd: 'Thảo luận với {username}'
       submit: OK
     composer_private_discussion:
-      submit_button: Đăng
+      submit_button: 'Đăng cuộc thảo luận'
       title_placeholder: 'Tiêu đề thảo luận riêng tư'
     input:
       search_recipients: 'Tìm kiếm người nhận bằng cách nhập ba ký tự đầu tiên...'
