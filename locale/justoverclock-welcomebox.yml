@@ -12,7 +12,7 @@ flarum-ext-welcomebox:
     SettingsLink: 'Cài đặt'
     discussion: '=> core.ref.discussions'
     goToProfile: 'Trang cá nhân'
-    lastSeen: 'Lần truy cập trước'
+    lastSeen: 'Gần đây'
     notregistered: 'Bạn hiện chưa đăng ký thành viên tại diễn đàn.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'Cuộc thảo luận của tôi'
