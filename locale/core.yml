@@ -283,6 +283,8 @@ core:
       mark_as_read_tooltip: 'Đánh dấu đã đọc'
       replied_text: '{username} đã trả lời {ago}'
       started_text: '{username} đã đăng bài {ago}'
+      total_replies_a11y_label: '{count, plural, one {# câu trả lời} other {# câu trả lời}}'
+      unread_replies_a11y_label: '{count, plural, one {# câu trả lời chưa đọc} other {# câu trả lời chưa đọc}}. Đánh dấu chưa đọc {count, plural, one {reply} other {replies}} thành đã đọc.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
