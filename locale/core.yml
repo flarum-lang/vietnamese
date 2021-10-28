@@ -112,6 +112,10 @@ core:
       open_modal: 'Mở thiết lập'
       permissions_title: Quyền
       purge_button: 'Dọn dẹp'
+      readme:
+        button_label: README
+        no_readme: 'Tiện ích mở rộng này không có tệp README'
+        title: 'Tài liệu {extName}'
       uninstall_button: 'Gỡ cài đặt'
     header:
       get_help: 'Trợ giúp'
