@@ -6,9 +6,12 @@ core:
   forum:
     index_sort:
       hot_button: 'Thịnh hành'
+      votes_button: 'Ủng hộ'
 fof-gamification:
   admin:
     page:
+      alt_votes:
+        icon_name: 'Tên icon bố cục alt'
       convert:
         button: 'Chuyển đổi lượt thích thành lượt tán thành'
         converted: 'Đã chuyển đổi thành công tất cả {number} lượt thích'
@@ -45,6 +48,7 @@ fof-gamification:
         points_title: 'Tiêu đề điểm'
         rate_limit: 'Thực thi giới hạn tỷ lệ bình chọn (10 giây)'
         title: 'Bình chọn'
+        upvotes_only: 'Chỉ cho phép ủng hộ'
         vote_color: 'Màu bình chọn'
     permissions:
       see_ranking_page: 'Xem trang xếp hạng'
@@ -68,4 +72,4 @@ fof-gamification:
       points: 'Điểm: {points}'
       rank: '{rank}'
     vote_title: 'Hiển thị ai đã bình chọn'
-    votes: 'bình chọn'
+    votes: 'Bình chọn'
