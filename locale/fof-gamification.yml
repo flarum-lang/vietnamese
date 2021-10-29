@@ -38,7 +38,8 @@ fof-gamification:
         title: 'Xếp hạng'
       save_settings: 'Lưu thiết lập'
       votes:
-        alternate_layout: 'Sử dụng bố cục thay thế để hiển thị và/hoặc tán thành/phản đối'
+        alternate_layout: 'Sử dụng bố cục bình chọn trên danh sách thảo luận'
+        alternate_post_layout: 'Sử dụng bố cục bình chọn trên các bài viết'
         auto_upvote: 'Tự động tán thành bài đăng khi được đăng'
         color_holder: '#ffffff'
         discussion_page: 'Hiển thị tổng số phiếu bầu của bài đăng gốc trên danh sách thảo luận'
