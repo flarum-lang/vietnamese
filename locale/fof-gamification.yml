@@ -53,7 +53,8 @@ fof-gamification:
         vote_color: 'Màu bình chọn'
     permissions:
       see_ranking_page: 'Xem trang xếp hạng'
-      see_votes_label: 'Xem bài đăng tán thành/phản đối'
+      see_voters_label: 'Xem ai đã bình chọn'
+      see_votes_label: 'Số số phiếu bầu tán thành/phản đối'
       vote_label: 'tán thành/Phản đối bài đăng'
   forum:
     mod_item: 'Xem người bình chọn'
