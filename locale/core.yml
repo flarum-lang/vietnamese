@@ -417,6 +417,8 @@ core:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Gửi lại email xác nhận'
       sent_message: Gửi
+    welcome_hero:
+      hide: 'Ẩn thông báo chào mừng'
   group:
     admin: 'Quản trị viên'
     admins: 'Quản trị viên'
@@ -456,6 +458,8 @@ core:
       render_failed_message: 'Xin lỗi, chúng tôi đã gặp lỗi khi hiển thị nội dung này. Nếu bạn là người dùng, vui lòng thử lại sau. Nếu bạn là quản trị viên, hãy xem các tệp nhật ký Flarum của bạn để biết thêm thông tin.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    modal:
+      close: Đóng
     nav:
       drawer_button: 'Mở ngăn điều hướng'
     number_suffix:
