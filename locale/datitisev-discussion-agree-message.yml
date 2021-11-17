@@ -5,5 +5,7 @@
 datitisev-discussion-agree-message:
   admin:
     settings:
+      agreement_label: 'Văn bản Thỏa thuận'
       description_label: 'Mô tả'
+      disable_inputs_label: 'Vô hiệu hoá input tiêu đề và nội dung cuộc thảo luận khi chưa đồng ý thỏa thuận.'
       title_label: 'Tiêu đề'
