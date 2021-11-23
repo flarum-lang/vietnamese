@@ -56,6 +56,11 @@ fof-gamification:
       see_voters_label: 'Xem ai đã bình chọn'
       see_votes_label: 'Số số phiếu bầu tán thành/phản đối'
       vote_label: 'tán thành/Phản đối bài đăng'
+  email:
+    body:
+      postVoted: "Chào {recipient_display_name},\n\n{actor_display_name} vừa mới bình chọn bài viết của bạn trong {discussion_title}.\n\nXem tại đây: {discussion_url}\n"
+    subject:
+      postVoted: 'Bài viết của bạn được bình chọn bởi {display_name}'
   forum:
     mod_item: 'Xem người bình chọn'
     modal:
@@ -65,6 +70,8 @@ fof-gamification:
       name: 'Xếp hạng'
     notification:
       downvote: '{username} phản đối bài đăng của bạn'
+      prefrences:
+        vote: 'Khi 1 trong các bài viết của tôi được bình chọn ủng hộ/phản đối'
       upvote: '{username} tán thành bài đăng của bạn'
     ranking:
       amount: Điểm

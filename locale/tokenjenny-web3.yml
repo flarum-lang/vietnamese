@@ -9,3 +9,4 @@ tokenjenny-web3:
     settings:
       connect_button: 'Kết nối tới MetaMaks'
       connected: 'Đã kết nối<strong>{account}</strong>'
+      privacy_disclose_web3_address_label: 'Cho phép người khác xem địa chỉ ví của tôi'
