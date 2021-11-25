@@ -17,9 +17,11 @@ justoverclock-auto-post-count-badge:
     levelTwo: 'Đổi icon cấp 2 - "Người mới"'
     levelTwo-help: 'Dán icon fontawesome mà bạn muốn cấp 2 hiện (ví dụ "fas fa-square")'
   forum:
+    hasWritten: 'Người dùng này đã viết'
     less1000post: 'Huyền thoại!'
     less100post: 'Người kể chuyện'
     less10post: 'Sơ sinh'
     less300post: 'Giáo sư'
     less50post: 'Người mới'
     less600post: 'Bậc thầy!'
+    posts: 'bài viết'
