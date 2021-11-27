@@ -6,7 +6,7 @@ core:
   forum:
     index_sort:
       hot_button: 'Thịnh hành'
-      votes_button: 'Ủng hộ'
+      votes_button: 'Lượt ủng hộ'
 fof-gamification:
   admin:
     page:
@@ -74,6 +74,9 @@ fof-gamification:
       prefrences:
         vote: 'Khi 1 trong các bài viết của tôi được bình chọn ủng hộ/phản đối'
       upvote: '{username} tán thành bài đăng của bạn'
+    post:
+      downvote_button: 'Phản đối bài viết'
+      upvote_button: 'Ủng hộ bài viết'
     ranking:
       amount: Điểm
       name: 'Người dùng'
