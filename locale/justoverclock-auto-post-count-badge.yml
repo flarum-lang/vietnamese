@@ -16,8 +16,16 @@ justoverclock-auto-post-count-badge:
     levelTree-help: 'Dán icon fontawesome mà bạn muốn cấp 3 hiện (ví dụ "fas fa-square")'
     levelTwo: 'Đổi icon cấp 2 - "Người mới"'
     levelTwo-help: 'Dán icon fontawesome mà bạn muốn cấp 2 hiện (ví dụ "fas fa-square")'
+    settings:
+      icon-manager:
+        help_text: '=> core.ref.icon_text'
+        title: 'Trình quản lý icon'
+      label-manager:
+        help: 'Tùy chỉnh tên cấp độ'
+        title: 'Trình quản lý văn bản nhãn'
+      tier: 'Cấp 2 {tier}: từ {from} đến {to} bài viết'
   forum:
-    hasWritten: 'Người dùng này đã viết'
+    hasWritten: '{count, plural, one {đã viết # bài viết} other {đã viết # bài viết}}'
     less1000post: 'Huyền thoại!'
     less100post: 'Người kể chuyện'
     less10post: 'Sơ sinh'
