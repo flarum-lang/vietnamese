@@ -10,3 +10,5 @@ datlechin-flarum-add-like-controls:
     showLikeControls_label: 'Hiển thị thanh kiểm soát Thích'
   forum:
     ignore: 'Bỏ qua'
+    mark_read: 'Đánh dấu đã đọc'
+    mark_unread: 'Đánh dấu chưa đọc'
