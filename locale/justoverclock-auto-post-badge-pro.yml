@@ -4,6 +4,9 @@
 
 justoverclock-auto-post-badge-pro:
   admin:
+    cologBackg: 'Màu nền'
+    colorBg: 'Nền thanh tiến trình'
+    colorBgTwo: Nền
     fromPost: 'Từ số lượng bài viết'
     icon: Icon
     levelEight: 'Cấp độ 8'
@@ -28,4 +31,5 @@ justoverclock-auto-post-badge-pro:
     toPost: 'Đến số lượng bài viết'
   forum:
     hasWritten: 'Người dùng này đã viết'
+    nextBadge: 'Huy hiệu tiếp theo trong'
     posts: 'bài viết'
