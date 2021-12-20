@@ -6,3 +6,9 @@ clarkwinkelmann-roll-die:
   admin:
     settings:
       clearOnEdit: 'Tạo số mới trên bài chỉnh sửa'
+  forum:
+    composer:
+      rollDie: 'Cuộn một Die'
+    tooltip:
+      preview: 'Cuộn ngẫu nhiên khi lưu'
+      render: 'Cuộn ngẫu nhiên: {number}'
