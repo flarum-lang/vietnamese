@@ -429,6 +429,8 @@ core:
     mod: 'Kiểm duyệt viên'
     mods: 'Kiểm duyệt viên'
   lib:
+    alert:
+      dismiss_a11y_label: 'Ẩn cảnh báo'
     badge:
       hidden_tooltip: 'Bị ẩn'
     debug_button: 'Gỡ lỗi'
@@ -458,6 +460,9 @@ core:
       render_failed_message: 'Xin lỗi, chúng tôi đã gặp lỗi khi hiển thị nội dung này. Nếu bạn là người dùng, vui lòng thử lại sau. Nếu bạn là quản trị viên, hãy xem các tệp nhật ký Flarum của bạn để biết thêm thông tin.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}'
     modal:
       close: Đóng
     nav:
