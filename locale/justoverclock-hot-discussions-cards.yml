@@ -5,4 +5,4 @@
 justoverclock-hot-discussion-cards:
   forum:
     hot: TOP!
-    post: 'BÀI VIẾT'
+    post: '{count, plural, one {BÀI VIẾT} other {BÀI VIẾT}}'
