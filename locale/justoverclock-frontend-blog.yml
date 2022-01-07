@@ -12,6 +12,7 @@ justoverclock-frontend-blog:
     sorting-help: 'Nếu bạn muốn hiển thị cuộc thảo luận mới nhất thì nhập "-createdAt", cuộc thảo luận hot là "-commentCount"'
   forum:
     linkToDiscussion: ' Liên kết với cuộc thảo luận'
+    menuButton: Menu
     post: '{count, plural, one {# BÀI VIẾT} other {# BÀI VIẾT}}'
     postedOn: ' Đăng lúc: '
     recentDiscussions: 'Cuộc thảo luận gần đây:'
