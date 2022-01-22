@@ -7,7 +7,7 @@ datlechin-birthdays:
     permissions:
       edit_own_birthday_label: 'Chỉnh sửa ngày sinh của chính mình'
     settings:
-      date_format_help: 'Sử dụng định dạng <a>moment.js</a>. Để trống để sử dụng định dạng mặc định.'
+      date_format_help: 'Sử dụng định dạng <a>dayjs</a>. Để trống để sử dụng định dạng mặc định.'
       date_format_label: 'Định dạng ngày sinh'
       date_none_year_label: 'Định dạng ngày sinh không có năm'
       set_on_registration_label: 'Cho phép đặt ngày sinh khi đăng ký'
