@@ -1,6 +1,7 @@
-// https://github.com/iamkun/dayjs/blob/v1.9.3/src/locale/vi.js
+// Vietnamese [vi]
+import dayjs from 'dayjs'
 
-dayjs.locale({
+const locale = {
   name: 'vi',
   weekdays: 'chủ nhật_thứ hai_thứ ba_thứ tư_thứ năm_thứ sáu_thứ bảy'.split('_'),
   months: 'tháng 1_tháng 2_tháng 3_tháng 4_tháng 5_tháng 6_tháng 7_tháng 8_tháng 9_tháng 10_tháng 11_tháng 12'.split('_'),
@@ -35,6 +36,9 @@ dayjs.locale({
     MM: '%d tháng',
     y: 'một năm',
     yy: '%d năm'
-  },
-  ordinal: n => `${n}.`
-}, null, false);
+  }
+}
+
+dayjs.locale(locale, null, true)
+
+export default locale
