@@ -8,6 +8,7 @@ justoverclock-user-pc-specs:
     cpu: 'CPU:'
     gpu: 'GPU:'
     motherboard: 'Bo mạch chủ:'
+    pcSpecsOf: 'Thông số PC của:'
     ram: 'RAM:'
     savePcSpecs: 'Lưu thông số PC'
     so: 'Hệ điều hành:'
