@@ -12,4 +12,5 @@ justoverclock-user-pc-specs:
     ram: 'RAM:'
     savePcSpecs: 'Lưu thông số PC'
     so: 'Hệ điều hành:'
+    specsSaved: 'Lưu PC thành công!'
     storage: 'Dung lượng:'
