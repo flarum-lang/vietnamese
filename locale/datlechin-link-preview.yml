@@ -3,5 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-link-preview:
+  admin:
+    settings:
+      blacklist_help: 'Nhập danh sách tên miền hoặc url phân cách bằng dấu phẩy để loại bỏ khỏi xem trước liên kết.'
+      blacklist_label: 'Danh sách đen'
+      blacklist_placeholder: 'Ví dụ: facebook.com,https://domain.com/path'
   forum:
     site_cannot_be_reached: 'Không thể truy cập trang web này.'
