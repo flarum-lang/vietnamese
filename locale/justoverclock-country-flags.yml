@@ -3,6 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 justoverclock-country-flags:
+  admin:
+    countryColumn: 'Quốc gia'
   forum:
     clickToSelectCountry: 'Nhấn để chọn quốc gia'
     countrySaved: 'Lưu quốc gia thành công!'
