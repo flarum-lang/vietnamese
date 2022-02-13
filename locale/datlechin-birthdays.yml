@@ -6,6 +6,7 @@ datlechin-birthdays:
   admin:
     permissions:
       edit_own_birthday_label: 'Chỉnh sửa ngày sinh của chính mình'
+      view_birthday_label: 'Xem sinh nhật'
     settings:
       date_format_help: 'Sử dụng định dạng <a>dayjs</a>. Để trống để sử dụng định dạng mặc định.'
       date_format_label: 'Định dạng ngày sinh'
