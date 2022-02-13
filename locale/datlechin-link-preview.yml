@@ -8,5 +8,7 @@ datlechin-link-preview:
       blacklist_help: 'Nhập danh sách tên miền hoặc url phân cách bằng dấu phẩy để loại bỏ khỏi xem trước liên kết.'
       blacklist_label: 'Danh sách đen'
       blacklist_placeholder: 'Ví dụ: facebook.com,https://domain.com/path'
+      convert_media_urls_help: 'Nếu được bật, các URL media sẽ chuyển sang xem trước liên kết.'
+      convert_media_urls_label: 'Chuyển đổi các URL media'
   forum:
     site_cannot_be_reached: 'Không thể truy cập trang web này.'
