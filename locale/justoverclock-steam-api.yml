@@ -8,6 +8,7 @@ justoverclock-steam-api:
     steamApiKey-help: 'Lấy API key miễn phí tại https://steamcommunity.com/dev/apikey'
   forum:
     LatestGamesPlayed: 'Các trò chơi đã chơi gần đây'
+    accountCreated: 'Thành viên kể từ: '
     country: 'Quốc gia: '
     gamesOwned: 'Các trò chơi sở hữu: '
     lastLogin: 'Đăng nhập gần đây: '
