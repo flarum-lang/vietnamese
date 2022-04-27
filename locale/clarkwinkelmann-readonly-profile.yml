@@ -5,4 +5,15 @@
 clarkwinkelmann-readonly-profile:
   admin:
     settings:
+      disableAccessTokens: 'Tắt tạo mã token truy cập'
+      disableAvatarEdit: 'Tắt sửa ảnh đại diện'
+      disableEmailChange: 'Tắt đổi email'
       disableLogin: 'Tắt đăng nhập'
+      disablePasswordChange: 'Tắt Khôi phục và Đổi mật khẩu'
+  api:
+    blocked_actions:
+      accessToken: 'Tạo mã token truy cập đã bị tắt'
+      avatar: 'Không thể chỉnh sửa ảnh đại diện từ trang này'
+      email: 'Không thể đổi email từ trang này'
+      login: 'Đăng nhập đã bị tắt'
+      password: 'Không thể đổi mật khẩu từ trang này'
