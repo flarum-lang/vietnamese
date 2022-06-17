@@ -11,6 +11,13 @@ fof-pretty-mail:
     nav:
       desc: 'Tùy chỉnh mẫu HTML email của bạn.'
     settings:
+      attributes:
+        body: 'Chứa nội dung thực tế của email'
+        forumStyle: 'Chứa <strong>toàn bộ CSS của diễn đàn</strong>'
+        link: 'Chứa liên kết trong email'
+        settings: 'Cho phép bạn tương tác với SettingsRepositoryInterface'
+        url: '<code>UrlGenerator</code> của Flarum'
+      attributes_label: 'Thuộc tính có sẵn'
       confirm: 'Bạn có chắc chắn muốn hoàn nguyên về mẫu email có sẵn cho'
       default: 'Mẫu mặc định'
       help: '"$body" sẽ chứa nội dung thực của email, "$forumStyle" chứa <strong>toàn bộ CSS của diễn đàn</strong>, "$url" là Url Flarum tạo, "$settings" cho phép bạn tương tác với SettingsRepositoryInterface, và "$link" chứa liên kết trong email. Xem từng mẫu để biết cách sử dụng từng biến.'
@@ -20,4 +27,5 @@ fof-pretty-mail:
       notifications: 'Mẫu thông báo'
       postMentioned: 'Flarum/đề cập đến Bài viết Email được Đề cập'
       reset: 'Khôi phục mặc định'
+      template_help: 'Xem từng mẫu để biết cách sử dụng từng thuộc tính.'
       userMentioned: 'Flarum/đề cập đến Email do người dùng đề cập'

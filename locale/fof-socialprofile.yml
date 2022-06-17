@@ -9,7 +9,7 @@ fof-socialprofile:
       editOwn: 'Chỉnh sửa liên kết mạng xã hội của riêng mình'
       view: 'Xem các liên kết mạng xã hội'
     settings:
-      allow_external_favicons_label: 'Hiển thị biểu tượng của các trang web bên ngoài'
+      allow_external_favicons_label: 'Cho phép icon bên ngoài trang web (sử dụng API favicon của DuckDuckGo)'
   forum:
     edit:
       add: 'Thêm liên kết mạng xã hội'

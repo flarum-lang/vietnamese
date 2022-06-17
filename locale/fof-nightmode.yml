@@ -2,10 +2,18 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-nightmode/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-default-user-preferences:
+  admin:
+    settings:
+      fofNightMode: 'FoF Nightmode: Chủ đề màu để sử dụng theo mặc định'
+      fofNightMode-help: '- tự động, 1 - chế độ sáng, 2 - chế độ tối'
+      fofNightMode_perDevice: 'FoF Nightmode: Sử dụng cho mỗi cài đặt thiết bị'
+      fofNightMode_perDevice-help: 'Sử dụng tùy chọn trên từng thiết bị để cài đặt chế độ tối'
 fof-nightmode:
   admin:
     settings:
       modal:
+        always_show_theme_toggle_on_header: 'Luôn hiển thị nút chuyển đổi chủ đề trên đầu trang diễn đàn'
         default_theme: 'Chủ đề mặc định'
         default_theme_helper: 'Chủ đề mặc định tự động được đặt cho người dùng mới, khách và những ai chưa đặt.'
         theme_auto: '=> fof-nightmode.ref.auto'

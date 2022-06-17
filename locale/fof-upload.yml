@@ -56,6 +56,7 @@ fof-upload:
       imgur:
         client_id: 'ID khách hàng Imgur'
         title: 'Thiết lập lưu trữ Imgur'
+        tos: 'Bạn có trách nhiệm đảm bảo người dùng diễn đàn của mình tuân thủ <a>Điều khoản dịch vụ</a> của Imgur'
       inspect-mime: 'Test kiểu tệp MIME'
       local:
         cdn_url: 'URL phân phối nội dung (tiền tố tệp)'

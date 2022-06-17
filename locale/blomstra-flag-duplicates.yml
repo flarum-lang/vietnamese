@@ -11,9 +11,11 @@ blomstra-flag-duplicates:
     flags:
       deselect_discussion_a11y_label: 'Bỏ chọn cuộc thảo luận'
       duplicate_discussion: 'Cuộc thảo luận trùng lặp'
+      reason_discussion_deleted: '[cuộc thảo luận đã xóa]'
       reason_duplicate_label: 'Cuộc thảo luận trùng lặp'
       reason_duplicate_text: 'Cuộc thảo luận này trùng lặp với cuộc thảo luận khác.'
     post_stream:
+      deleted_discussion: '[cuộc thảo luận đã xóa]'
       flagged_duplicate_text: '{username} đã đánh dấu cuộc thảo luận này trùng lặp với {duplicate}. Kiểm duyệt viên sẽ sớm kiểm tra.'
       not_found: 'Không tìm thấy bài viết'
 flarum-flags:

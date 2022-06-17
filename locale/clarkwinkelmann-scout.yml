@@ -5,8 +5,16 @@
 clarkwinkelmann-scout:
   admin:
     setting:
+      algoliaConnectTimeout: 'Timeout kết nối Algolia (tùy chọn)'
+      algoliaId: 'ID Algolia'
+      algoliaReadTimeout: 'Timeout đọc Algolia (tùy chọn)'
+      algoliaSecret: 'Mã Secret Algolia'
+      algoliaWriteTimeout: 'Timeout viết Algolia (tùy chọn)'
       driver: 'Trình điều khiển'
       driverOption:
         algolia: Algolia
         meilisearch: Meilisearch
         'null': Rỗng
+      meilisearchHost: 'Host Meilisearch'
+      meilisearchKey: 'Mã key Meilisearch'
+      prefix: 'Tiền tố tên chỉ mục (tùy chọn)'

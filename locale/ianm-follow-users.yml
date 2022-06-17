@@ -6,6 +6,8 @@ ianm-follow-users:
   admin:
     permissions:
       be_followed_label: 'Cho phép người dùng theo dõi'
+    settings:
+      button-on-profile-label: 'Hiện nút Theo dõi trên đầu trang cá nhân của người dùng'
   email:
     new_discussion_by_user_body: "Hey {recipient_display_name},\n\n{user_display_name} đã đăng một cuộc thảo luận: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
     new_discussion_by_user_subject: '[Theo dõi người dùng] {title}'

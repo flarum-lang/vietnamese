@@ -19,8 +19,10 @@ kilowhat-rich-embeds:
       blacklistHelp: 'Kiểm tra tài liệu để biết định dạng. Các URL này sẽ không bao giờ có nhiều nhúng và không thể được ủy quyền thông qua proxy hình ảnh'
       cacheProxy: 'Cache ảnh proxy'
       cacheProxyHelp: 'Hình ảnh sẽ được cache vào bộ nhớ thông qua headers HTTP của họ'
-      imageProxy: 'Proxy ảnh'
-      imageProxyHelp: 'Tất cả hình ảnh sẽ được proxy thông qua Flarum thay vì trình duyệt của khách'
+      imageEmbeds: 'Rich Embeds cho Ảnh'
+      imageEmbedsHelp: "Tính năng này truy xuất và hiển thị thông tin bổ sung về hình ảnh bên ngoài được chèn trong bài đăng bằng mã bbcode hoặc dấu xuống. Tại thời điểm này, nó sử dụng lại cùng một danh sách đen / danh sách trắng và các quyền như các liên kết phong phú. Những hình ảnh này không được hỗ trợ thông qua proxy hình ảnh OpenGraph. Bạn phải xóa bộ đệm Flarum sau khi thay đổi cài đặt này.\n"
+      imageProxy: 'Proxy ảnh OpenGraph'
+      imageProxyHelp: 'Tất cả hình ảnh OpenGraph và favicon sẽ được proxy thông qua Flarum thay vì trình duyệt của khách'
       layout: 'Bố cục'
       layoutOptions:
         block: Khối
@@ -47,6 +49,9 @@ kilowhat-rich-embeds:
     controls:
       disable: 'Tắt nhúng trên bài viết này'
       disableConfirmation: 'Tất cả các nhúng sẽ bị xóa khỏi bài đăng này. Tiếp tục?'
+      imgCopied: 'Đã sao chép!'
+      imgCopy: 'Sao chép URL ảnh'
+      imgOpen: 'Mở ảnh trong tab mới'
       refresh: 'Tải dữ liệu lại'
     embed:
       altFavicon: 'Biểu tượng {website}'

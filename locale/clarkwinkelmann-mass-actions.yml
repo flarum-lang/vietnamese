@@ -8,14 +8,24 @@ clarkwinkelmann-mass-actions:
       controls: 'Xem thanh kiểm soát lựa chọn hàng loạt'
   forum:
     actions:
+      delete: 'Xóa vĩnh viễn đã chọn'
+      deleteConfirmation: '{count, plural, one {Bạn có chắc chắn muốn xóa vĩnh viễn cuộc thảo luận đã chọn không?} other {Bạn có chắc chắn muốn xóa vĩnh viễn # cuộc thảo luận đã chọn không?}}'
       hide: 'Xóa đã chọn'
       lock: 'Khóa đã chọn'
       markAsRead: 'Đánh dấu đã đọc'
       restore: 'Khôi phục đã chọn'
+      sticky: 'Ghim đã chọn'
       tags: Thẻ
       tags-add: 'Thêm <em>{tag}</em>'
       tags-edit: 'Sửa thẻ'
       unlock: 'Mở khóa đã chọn'
+      unsticky: 'Bỏ ghim đã chọn'
     select:
-      all: 'Chọn tất cả'
-      none: 'Bỏ chọn tất cả'
+      all: 'Tất cả'
+      hidden: 'Xóa tạm thời'
+      locked: 'Đã khóa'
+      none: 'Không chọn'
+      read: Đọc
+      unlocked: 'Đã mở khóa'
+      unread: 'Không đọc'
+      visible: 'Không bị xóa'

@@ -10,9 +10,13 @@ michaelbelgium-mybb-to-flarum:
       form:
         general:
           migrate_avatars_label: 'Di chuyển ảnh đại diện'
+          migrate_categories_label: 'Chuyển danh mục'
           migrate_soft_posts_label: 'Di chuyển bài viết bị xoá mềm'
           migrate_soft_threads_label: 'Di chuyển chủ đề bị xoá mềm'
-          title: 'Thiết lập chung'
+          migrate_threadsPosts_label: 'Chuyển chủ đề và bài viết'
+          migrate_userGroups_label: 'Chuyển nhóm người dùng'
+          migrate_users_label: 'Chuyển người dùng'
+          title: 'Các tùy chọn chung'
         mybb:
           db_label: 'Tên cơ sở dữ liệu'
           host_label: 'Host cơ sở dữ liệu'
@@ -22,8 +26,12 @@ michaelbelgium-mybb-to-flarum:
           title: 'Thiết lập MyBB'
           user_label: 'User cơ sở dữ liệu'
         options:
+          migrate_attachments_label: 'Chuyển các tệp đính kèm'
+          migrate_avatars_label: 'Chuyển ảnh đại diện'
           migrate_categories_label: 'Di chuyển danh mục'
+          migrate_soft_posts_label: 'Chuyển các bài viết xóa tạm thời'
+          migrate_soft_threads_label: 'Chuyển các chủ đề xóa tạm thời'
           migrate_threadsPosts_label: 'Di chuyển chủ đề và bài viết'
           migrate_userGroups_label: 'Di chuyển nhóm người dùng'
           migrate_users_label: 'Di chuyển người dùng'
-          title: 'Các tùy chọn di chuyển chung'
+          title: 'Tùy chọn khác'

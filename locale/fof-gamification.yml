@@ -85,6 +85,8 @@ fof-gamification:
       name: 'Người dùng'
       rank: 'Vị trí'
     user:
+      card:
+        points: '{count, plural, one { {count} điểm} other {{count} điểm}}'
       points: 'Điểm: {points}'
       rank: '{rank}'
     vote_title: 'Hiển thị ai đã bình chọn'

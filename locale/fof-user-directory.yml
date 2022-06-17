@@ -20,6 +20,9 @@ fof-user-directory:
       load_more_button: '=> core.ref.load_more'
       nav: 'Danh sách người dùng'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
+      usercard:
+        discussion-count: '{count, plural, one { {count} cuộc thảo luận} other {{count} cuộc thảo luận}}'
+        post-count: '{count, plural, one { {count} bài viết} other {{count} bài viết}}'
     search:
       field:
         placeholder: 'Tìm kiếm tất cả người dùng'

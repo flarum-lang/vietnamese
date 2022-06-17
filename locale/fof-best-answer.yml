@@ -70,3 +70,5 @@ fof-best-answer:
         select_best_answer: 'Lời nhắc tự động để chọn một câu trả lời hay nhất trong một cuộc thảo luận mà tôi đã tạo'
     remove_best_answer: 'Bỏ chọn câu trả lời hay nhất'
     this_best_answer: 'Chọn câu trả lời hay nhất'
+    user:
+      best-answer-count: '{count, plural, one { {count} câu trả lời hay nhất} other {{count} câu trả lời hay nhất}}'
