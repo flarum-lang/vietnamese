@@ -87,6 +87,13 @@ v17development-flarum-support:
       description: 'Xin lỗi, bài viết hoặc danh mục này không còn tồn tại.'
       solution: 'Bạn có thể sử dụng hộp tìm kiếm ở trên để tìm nơi bạn đang tìm kiếm.'
       title: 'Không tìm thấy mục nào'
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 'Ai đó trả lời vé hỗ trợ của tôi'
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 'Vé hỗ trợ của tôi đã được giải quyết'
     or: hoặc
     overview:
       back_to: 'Quay lại {category}'
@@ -155,6 +162,12 @@ v17development-flarum-support:
           empty: 'Chưa chọn ngôn ngữ'
           placeholder: 'Chọn ngôn ngữ'
           title: 'Ngôn ngữ'
+        private_note:
+          edit_button: 'Chỉnh sửa ghi chú'
+          info: 'Các ghi chú riêng tư không hiển thị dành cho các nhân viên hỗ trợ và không hiển thị cho khách hàng.'
+          placeholder: 'Ví dụ: Ngày 1 tháng 1 năm 2022 - Tên đại lý: Đã xóa khách hàng khỏi cơ sở dữ liệu'
+          tip: 'MẸO: Nếu bạn đang làm việc với nhiều đại lý trên một vé, hãy thêm tên và ngày tháng của bạn vào ghi chú.'
+          title: 'Ghi chú riêng tư'
         status:
           placeholder: 'Trạng thái của phiếu'
           title: 'Trạng thái'
@@ -236,6 +249,7 @@ v17development-flarum-support:
         assign_me: 'Gán cho tôi'
         close_ticket: 'Đóng phiếu'
         remove_me: 'Gỡ tôi'
+        update_note: 'Cập nhật ghi chú riêng tư'
         update_status: 'Cập nhật trạng thái phiếu'
         update_subject: 'Cập nhật tiêu đề'
         view_ticket: 'Xem phiếu'

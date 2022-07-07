@@ -43,6 +43,19 @@ v17development-flarum-blog:
       slug: Slug
       summary: 'Tóm tắt'
       title: 'Tiêu đề'
+    article_settings:
+      fields:
+        highlight:
+          helper_text: 'Cung cấp cho bài viết này một hình ảnh lớn trên trang tổng quan blog.'
+          title: 'Bài viết được đánh dấu'
+        image:
+          helper_text: 'Độ phân giải hình ảnh tốt nhất cho mạng xã hội: 1200x630'
+          title: 'Ảnh bài viết'
+        summary:
+          helper_text: 'Bản tóm tắt này sẽ hiển thị trên trang tổng quan của blog và sẽ được sử dụng cho mục đích SEO.'
+          placeholder: 'Vui lòng nhập tóm tắt bài viết'
+          title: 'Tóm tắt bài viết'
+      title: 'Cài đặt bài viết blog'
     blog: Blog
     categories: 'Danh mục'
     category_empty: 'Không có bài đăng trên blog nào trong danh mục này.'

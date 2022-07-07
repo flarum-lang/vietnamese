@@ -26,6 +26,8 @@ ianm-syndication:
       forum_new_discussions: 'Các cuộc thảo luận mới của diễn đàn'
       tag_activity: 'Nhật kí hoạt động của thẻ {tag}'
       tag_new_discussions: 'Các cuộc thảo luận của thẻ {tag}'
+    discussion:
+      feed_link: 'Nguồn tin'
     feeds:
       titles:
         discussion_subtitle: 'Các bài viết mới nhất trong cuộc thảo luận này'

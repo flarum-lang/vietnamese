@@ -6,6 +6,8 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Tùy chọn nâng cao'
+      exclude_users: 'Loại bỏ tất cả hồ sơ người dùng khỏi sitemap'
+      exclude_users_help: 'Mặc định bất kỳ người dùng nào đều cũng sẽ được lập chỉ mục'
       frequency:
         daily: 'Hằng ngày'
         hourly: 'Hàng giờ'
