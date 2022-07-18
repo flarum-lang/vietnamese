@@ -29,4 +29,6 @@ fof-sitemap:
         cache_disk: Đĩa
         multi_file: 'Nhiều tệp'
         runtime: Runtime
+      risky_performance_improvements: 'Bật các cải tiến hiệu suất rủi ro'
+      risky_performance_improvements_help: 'Những cải tiến này làm cho công việc CRON chạy nhanh hơn trên tập dữ liệu hàng triệu hàng nhưng có thể phá vỡ khả năng tương thích với một số tiện ích mở rộng.'
       title: 'Sơ đồ trang web'
