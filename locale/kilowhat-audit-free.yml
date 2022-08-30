@@ -105,7 +105,7 @@ kilowhat-audit:
         created: '{username} đã tạo tài khoản'
         deleted: 'Đã xoá {username}'
         email_change_requested: '{username} đã yêu cầu đổi email thành {new_email}'
-        email_changed: 'Đã dổi email của {username} từ old_email} thành {new_email}'
+        email_changed: 'Đã dổi email của {username} từ {old_email} thành {new_email}'
         groups_changed: 'Đã đổi nhóm của {username} từ {old_groups} thành {new_groups}'
         impersonated: 'Mạo danh {username}'
         logged_in: 'Đã đăng nhập vào tài khoản {username}'

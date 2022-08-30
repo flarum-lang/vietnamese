@@ -32,7 +32,7 @@ clarkwinkelmann-group-invitation:
     success-alert: 'Bạn đã tham gia nhóm thành công!'
     title: 'Bạn được mời tham gia nhóm {group}!'
     user:
-      already-connected: "Chúng tôi sẽ thêm nhóm {group} vào {tên người dùng}. Không đúng người dùng? <a>Đăng nhập vào tài khoản khác</a>.\n"
+      already-connected: "Chúng tôi sẽ thêm nhóm {group} vào {username}. Không đúng người dùng? <a>Đăng nhập vào tài khoản khác</a>.\n"
       already-member: "Tin vui, người dùng {username} của bạn đã là thành viên của nhóm {group}! Bạn muốn tham gia nhóm với người dùng khác? <a>Đăng nhập vào tài khoản khác</a>.\n"
       not-authorized: 'Người dùng hiện tại của bạn {username} không có quyền tham gia nhóm. <a>Đăng nhập vào tài khoản khác</a>.'
       not-connected: '<a>Đăng nhập</a> để chấp nhận lời mời.'
