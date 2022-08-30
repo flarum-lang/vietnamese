@@ -5,7 +5,7 @@ CHANGELOG
 1.4.0 (XXXX-XX-XX)
 ------------------
 
-**Added support for new extensions**:
+**Đã thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
 * [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
 * [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image)
@@ -15,6 +15,7 @@ CHANGELOG
 * [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
 * [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode)
 * [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks)
+* [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
 * [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
 * [`clarkwinkelmann/flarum-ext-ipsum-autocomplete`](https://github.com/clarkwinkelmann/flarum-ext-ipsum-autocomplete)
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
@@ -35,19 +36,22 @@ CHANGELOG
 * [`tohsakarat/tags-filter`](https://github.com/tohsakrat/flarum-tags-filter)
 
 
-**Updated translations for extensions**:
+**Đã cập nhật bản dịch cho các tiện ích mở rộng**:
 
 * [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
+* [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation)
 * [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
+* [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
@@ -61,10 +65,12 @@ CHANGELOG
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
 * [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 * [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars)
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
@@ -77,6 +83,6 @@ CHANGELOG
 * [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
 
 
-All changes: [v1.3.0...v1.4.0](https://github.com/flarum-lang/vietnamese/compare/v1.3.0...v1.4.0).
+Tất cả các thay đổi: [v1.3.0...v1.4.0](https://github.com/flarum-lang/vietnamese/compare/v1.3.0...v1.4.0).
 
 
