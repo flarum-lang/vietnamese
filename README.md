@@ -10,61 +10,62 @@
 
 Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
 
-### Cài đặt (Installation)
+### Cài đặt
+
 Cài đặt bằng composer:
+
 ```sh
 composer require flarum-lang/vietnamese
 ```
 
-### Cập nhật (Updating)
+### Cập nhật
+
 ```sh
 composer update flarum-lang/vietnamese
 php flarum cache:clear
 ```
 
-### Yêu cầu phiên bản (Required version)
-- Khả dụng Flarum v1.2 (compatible with Flarum v1.2)
+### Yêu cầu phiên bản
+- Tương thích với Flarum phiên bản v1.4 trở lên.
 
-### Tiện ích được hỗ trợ (Extentions supported)
+## Trạng thái bản dịch Flarum core
 
-## Translation status for Flarum core
-
-| Component | Status |
+| Thành phần | Trạng thái |
 | --- | --- |
 | [Core](https://github.com/flarum/flarum-core) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/vi/) |
 | Validation | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/vi/) |
 
 
-## Translation status for official extensions
+## Trạng thái bản dịch tiện ích mở rộng chính thức
 
 <!-- flarum-extensions-list-start -->
 
-| Extension | Status |
+| Tiện ích mở rộng | Trạng thái |
 | --- | --- |
-| [`flarum/akismet`](https://github.com/flarum/akismet) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/vi/) |
-| [`flarum/approval`](https://github.com/flarum/approval) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/vi/) |
-| [`flarum/emoji`](https://github.com/flarum/emoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/vi/) |
-| [`flarum/flags`](https://github.com/flarum/flags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/vi/) |
-| [`flarum/likes`](https://github.com/flarum/likes) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/vi/) |
-| [`flarum/lock`](https://github.com/flarum/lock) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/vi/) |
-| [`flarum/markdown`](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/vi/) |
-| [`flarum/mentions`](https://github.com/flarum/mentions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-mentions/vi/) |
-| [`flarum/nicknames`](https://github.com/flarum/nicknames) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-nicknames/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-nicknames/vi/) |
-| [`flarum/pusher`](https://github.com/flarum/pusher) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-pusher/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-pusher/vi/) |
-| [`flarum/statistics`](https://github.com/flarum/statistics) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-statistics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-statistics/vi/) |
-| [`flarum/sticky`](https://github.com/flarum/sticky) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-sticky/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-sticky/vi/) |
-| [`flarum/subscriptions`](https://github.com/flarum/subscriptions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-subscriptions/vi/) |
-| [`flarum/suspend`](https://github.com/flarum/suspend) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-suspend/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-suspend/vi/) |
-| [`flarum/tags`](https://github.com/flarum/tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/vi/) |
+| [`flarum/akismet`](https://github.com/flarum/akismet) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/vi/) |
+| [`flarum/approval`](https://github.com/flarum/approval) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/vi/) |
+| [`flarum/emoji`](https://github.com/flarum/emoji) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/vi/) |
+| [`flarum/flags`](https://github.com/flarum/flags) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/vi/) |
+| [`flarum/likes`](https://github.com/flarum/likes) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/vi/) |
+| [`flarum/lock`](https://github.com/flarum/lock) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/vi/) |
+| [`flarum/markdown`](https://github.com/flarum/markdown) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/vi/) |
+| [`flarum/mentions`](https://github.com/flarum/mentions) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-mentions/vi/) |
+| [`flarum/nicknames`](https://github.com/flarum/nicknames) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-nicknames/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-nicknames/vi/) |
+| [`flarum/pusher`](https://github.com/flarum/pusher) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-pusher/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-pusher/vi/) |
+| [`flarum/statistics`](https://github.com/flarum/statistics) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-statistics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-statistics/vi/) |
+| [`flarum/sticky`](https://github.com/flarum/sticky) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-sticky/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-sticky/vi/) |
+| [`flarum/subscriptions`](https://github.com/flarum/subscriptions) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-subscriptions/vi/) |
+| [`flarum/suspend`](https://github.com/flarum/suspend) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-suspend/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-suspend/vi/) |
+| [`flarum/tags`](https://github.com/flarum/tags) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/vi/) |
 
 <!-- flarum-extensions-list-stop -->
 
 
-## Translation status for Friends of Flarum extensions
+## Trạng thái bản dịch các tiện ích mở rộng Friends of Flarum
 
 <!-- fof-extensions-list-start -->
 
-| Extension | Status |
+| Tiện ích mở rộng | Trạng thái |
 | --- | --- |
 | [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-amazon-affiliation/vi/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/vi/) |
@@ -127,11 +128,11 @@ php flarum cache:clear
 <!-- fof-extensions-list-stop -->
 
 
-## Translation status for community extensions
+## Trạng thái bản dịch các tiện ích mở rộng cộng đồng
 
 <!-- various-extensions-list-start -->
 
-| Extension | Status |
+| Tiện ích mở rộng | Trạng thái |
 | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/vi/) |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/vi/) |
@@ -378,11 +379,11 @@ php flarum cache:clear
 <!-- various-extensions-list-stop -->
 
 
-## Translation status for premium extensions
+## Trạng thái bản dịch tiện ích mở rộng premium
 
 <!-- premium-extensions-list-start -->
 
-| Extension | Status |
+| Tiện ích mở rộng | Trạng thái |
 | --- | --- |
 | [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/blomstra-payments/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-payments/vi/) |
 | [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/vi/) |
@@ -417,10 +418,11 @@ php flarum cache:clear
 <!-- premium-extensions-list-stop -->
 
 
-### Links
+### Liên kết
+
 - [Github](https://github.com/flarum-lang/vietnamese)
 - [Packagist](https://packagist.org/packages/flarum-lang/vietnamese)
-- [Extiverse](https://extiverse.com/extension/flarum-lang/vietnamese)
+- [Discuss Flarum](https://discuss.flarum.org/d/28471)
 
 ## License
 
