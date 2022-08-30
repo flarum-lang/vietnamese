@@ -8,6 +8,7 @@ ianm-follow-users:
       be_followed_label: 'Cho phép người dùng theo dõi'
     settings:
       button-on-profile-label: 'Hiện nút Theo dõi trên đầu trang cá nhân của người dùng'
+      stats-on-profile-label: 'Hiển thị số người theo dõi và đang theo dõi trên trang cá nhân'
   email:
     new_discussion_by_user_body: "Hey {recipient_display_name},\n\n{user_display_name} đã đăng một cuộc thảo luận: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
     new_discussion_by_user_subject: '[Theo dõi người dùng] {title}'
@@ -22,6 +23,8 @@ ianm-follow-users:
         lurk: 'Đang theo dõi tất cả'
     filter:
       following: 'Người dùng đã theo dõi'
+    followed: 'Đã theo dõi'
+    followers: 'Người theo dõi'
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'

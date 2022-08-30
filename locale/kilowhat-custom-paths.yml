@@ -8,7 +8,10 @@ kilowhat-custom-paths:
       disabled: 'Tiện ích mở rộng chưa được kích hoạt'
       extensions:
         askvortsov-categories: 'Danh mục của Askvortsov'
+        clarkwinkelmann-discussion-bookmarks: 'Dấu trang thảo luận của ClarkWinkelmann'
+        clarkwinkelmann-discussion-lists: 'Danh sách cuộc thảo luận của ClarkWinkelmann'
         clarkwinkelmann-group-list: 'Danh sách nhóm của ClarkWinkelmann'
+        clarkwinkelmann-post-bookmarks: 'Dấu trang bài viết của ClarkWinkelmann'
         flamarkt-balance: 'Flamarkt Balance'
         flamarkt-categories: 'Flamarkt Categories'
         flamarkt-core: 'Flamarkt Core'
@@ -28,7 +31,11 @@ kilowhat-custom-paths:
         path: 'Đường dẫn'
       paths:
         askvortsov-categories: 'Danh mục'
+        clarkwinkelmann-discussion-bookmarks: 'Dấu trang cuộc thảo luận'
+        clarkwinkelmann-discussion-list: 'Danh sách'
+        clarkwinkelmann-discussion-lists-profile: 'Danh sách người dùng'
         clarkwinkelmann-group-list: 'Danh sách nhóm'
+        clarkwinkelmann-post-bookmarks: 'Dấu trang bài viết'
         discussion: 'Cuộc thảo luận'
         flags: 'Gắn cờ (trên điện thoại)'
         flamarkt-account: 'Tài khoản'
@@ -45,6 +52,7 @@ kilowhat-custom-paths:
         fof-byobu: 'Thảo luận riêng tư'
         fof-byobu-profile: 'Cuộc thảo luận của người dùng'
         fof-gamification: 'Xếp hạng'
+        fof-gamification-user-votes: 'Người dùng bình chọn'
         fof-pages: Trang
         fof-user-directory: 'Danh mục người dùng'
         following: 'Đang theo dõi'

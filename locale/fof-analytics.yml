@@ -19,7 +19,7 @@ fof-analytics:
         piwikTrackAccounts: 'Theo dõi tài khoản người dùng cá nhân'
         piwikTrackSubdomain: 'Theo dõi khách truy cập trên tất cả các miền phụ của Flarum'
         piwikUrl: 'Tên miền hoặc URL Matomo'
-        statusGoogle: 'Bật Google Analytics'
+        statusGoogle: 'Bật Google Analytics (UA/GA4)'
         statusPiwik: 'Bật Matomo'
       placeholder:
         piwikAuthToken: "Điền mã thông báo này để kích hoạt tiện ích con số liệu thống kê Matomo trong bảng điều khiển quản trị.\nBạn có thể tìm thấy nó trong Cài đặt > Cá nhân > Mã xác thực API.\n"

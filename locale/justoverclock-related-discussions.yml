@@ -10,6 +10,7 @@ justoverclock-related-discussions:
     relatedTitle: 'Tiêu đề cho "Cuộc thảo luận đề xuất"'
     relatedTitle-help: 'Đổi tiêu đề mặc định thành tiêu đề cuộc thảo luận đề xuất của riêng bạn'
     showExcerpt: 'Hiện đoạn tóm tắt'
+    showTooltip: 'Hiển thị chú thích với đoạn trich'
   forum:
     deleted: 'Đã xóa'
     hasBestAnswer: 'Đã giải quyết'

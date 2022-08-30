@@ -4,6 +4,8 @@
 
 nearata-twofactor:
   admin:
+    permissions:
+      can_enable_twofactor: 'Có thể bật xác thực 2 yếu tố'
     settings:
       generate_backups: 'Tạo mã sao lưu.'
   forum:

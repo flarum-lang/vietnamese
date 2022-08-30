@@ -10,6 +10,8 @@ blomstra-payments:
     edit-tag:
       bump-others: '(PTB) Cho phép người khác thảo luận'
       bump-others-description: "Nếu được bật, không chỉ tác giả cuộc thảo luận có thể thúc đẩy các cuộc thảo luận bằng một khoản thanh toán.\n"
+      select-bounty-description: "Chọn một sản phẩm sẽ thiết lập nó cho tiền thưởng. Sản phẩm chỉ có thể có một Giá với kiểu máy: \"Giá tùy chọn\". Sao chép ID của sản phẩm bắt đầu bằng 1 <code>prod_2</code> vào trường này.\n"
+      select-bounty-product: '(Tiền thưởng) Sản phẩm bắt buộc'
       select-ptb-product: '(PTB) Sản phẩm bắt buộc'
       select-ptb-product-description: "Chọn một sản phẩm sẽ yêu cầu thanh toán cho sản phẩm đó trước khi có thể bắt đầu thảo luận.\n"
       select-ptp-product: '(PTP) Sản phẩm bắt buộc'
@@ -18,17 +20,36 @@ blomstra-payments:
       select-ptv-product-description: "Việc chọn một sản phẩm sẽ yêu cầu thanh toán cho sản phẩm đó để có quyền truy cập vĩnh viễn vào tất cả các bài viết vượt ngưỡng.. Tạo một sản phẩm trong trang tổng quan Stripe của bạn và sao chép ID bắt đầu bằng <code>prod_</code> vào trường này.\n"
       visible-from: 'Ẩn các bài viết ở ngưỡng này'
       visible-from-description: "Con số bạn chỉ định ở đây xác định tại thời điểm các bài viết sẽ bị ẩn đối với những người dùng chưa trả tiền để truy cập nội dung. Sử dụng 0 để ẩn tất cả chúng, 1 cho cái sau OP.\n"
+    permission:
+      enable-bounties: 'Bật tiền thưởng'
     settings:
       link-access-portal: 'Liên kết cổng truy cập trong dropdown phiên người dùng'
+      link-to-terms: 'URL điều khoản thanh toán'
       pk: 'Mã khóa xuất bản (api)'
       sk: 'Mã khoá bí mật (api)'
       webhook-secret: 'Mã bí mật Webhook'
   forum:
+    accept-terms-modal:
+      accept_label: 'Tôi đã đọc và chấp nhận <link>điều khoản thanh toán</link>.'
+      continue_button: 'Tiếp tục thanh toán'
+      title: 'Chấp nhận điều khoản'
     access-portal:
       options: 'tuỳ chọn'
       purchase: mua
+      subscribed: 'đã đăng ký'
+    backers-widget:
+      label: '{sum} đã hỗ trợ'
+      none: 'Chưa có người ủng hộ.'
+    bounties:
+      enable-control: 'Bật tiền thưởng'
+      purchase-control: 'Thêm tiền thưởng'
+    choose-bounty-amount-modal:
+      checkout-control: 'Thủ tục thanh toán'
+      description: 'Chọn số tiền của bạn để hỗ trợ "{subject}" hoặc chọn số tiền tùy chỉnh.'
+      title: 'Chọn số tiền thưởng'
     nav:
       access_portal: 'Cổng truy cập'
+      user_subscriptions: 'Đăng ký'
     pay-to-bump:
       description: '{count, plural, one {Cuộc thảo luận này bị ảnh hưởng} other {{count} người bị ảnh hưởng bởi cuộc thảo luận này}}.'
       purchase-control: 'Thanh toán để Bump'
@@ -45,5 +66,19 @@ blomstra-payments:
     payment-options-modal:
       description: "Chọn bất kỳ tùy chọn nào sau đây để bắt đầu quyền truy cập của bạn vào nhóm. Bạn sẽ được chuyển hướng đến nhà cung cấp thanh toán Stripe của chúng tôi để xử lý thanh toán.\n"
       title: 'Các tùy chọn thanh toán để có quyền truy cập vào {group}'
+    stripe:
+      interval_once: 'một lần'
+    subscription-card:
+      bounty: 'Tiền thưởng'
+      cancel-control: 'Hủy bỏ'
+      none: 'Không có thanh toán hoặc đăng ký đang hoạt động'
+      pta: 'Thanh toán để truy cập'
+      ptb: 'Thanh toán để va chạm'
+      ptp: 'Thanh toán để xuất bản'
+      ptv: 'Thanh toán để xem'
     tag:
       require-payment-label: 'Yêu cầu thanh toán'
+core:
+  forum:
+    index_sort:
+      mostBacked_button: 'Được ủng hộ nhiều nhất'

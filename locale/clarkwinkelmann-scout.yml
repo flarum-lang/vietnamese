@@ -15,6 +15,12 @@ clarkwinkelmann-scout:
         algolia: Algolia
         meilisearch: Meilisearch
         'null': Rỗng
+        tntsearch: TNTSearch
       meilisearchHost: 'Host Meilisearch'
       meilisearchKey: 'Mã key Meilisearch'
       prefix: 'Tiền tố tên chỉ mục (tùy chọn)'
+      tntsearchFuzziness: 'TNT Search Fuzziness (đối sánh lỗi chính tả/biến thể)'
+      tntsearchFuzzyDistance: 'TNT Search Fuzziness Levenshtein Distance (tùy chọn)'
+      tntsearchFuzzyMaxExpansions: 'TNT Search Fuzziness Mở rộng Tối đa (tùy chọn)'
+      tntsearchFuzzyPrefixLength: 'Độ dài tiền tố TNT Search Fuzziness (tùy chọn)'
+      tntsearchMaxDocs: 'TNT Search Max Docs (tùy chọn, số lượng kết quả tối đa)'

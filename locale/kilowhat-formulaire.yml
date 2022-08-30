@@ -80,6 +80,9 @@ kilowhat-formulaire:
         title: 'Tiêu đề'
       submit: 'Xác thực các thay đổi'
       title: 'Mẫu email'
+    discussion-submission:
+      edit: 'Chỉnh sửa'
+      empty: 'Hiện không có dữ liệu'
     error-page:
       denied-description: 'Có vẻ như bạn không có quyền truy cập vào nội dung này. Hãy thử đăng nhập.'
       denied-title: 'Quyền bị từ chối'
@@ -132,7 +135,9 @@ kilowhat-formulaire:
         both: 'Tạo và chỉnh sửa'
         closed: 'Đã đóng'
         create: 'Chỉ tạo'
+        disabled: 'Bản nháp'
         edit: 'Chỉ chỉnh sửa'
+        enabled: 'Đã bật'
       back: 'Trở lại'
       category:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
@@ -166,6 +171,7 @@ kilowhat-formulaire:
         allow-modification: 'Cho phép người dùng chỉnh sửa các nội dung gửi hiện có của họ'
         automatic-discussion: 'Tự động tạo các cuộc thảo luận từ việc gửi biểu mẫu'
         automatic-discussion-help: "Khi được bật, biểu mẫu sẽ tiếp tục có thể truy cập được giống như một biểu mẫu độc lập. Nội dung gửi sẽ tự động tạo và kết nối với các cuộc thảo luận mới.\n"
+        enable: 'Kích hoạt'
         link: 'Các loại biểu mẫu đặc biệt'
         max-submissions: 'Số lần gửi tối đa (để trống không giới hạn)'
         notify-emails: 'Gửi bản sao dữ liệu tới các email được phân tách bằng dấu phẩy đó'
@@ -192,7 +198,7 @@ kilowhat-formulaire:
         template: Mẫu
       warnings:
         auto-link-permission-warning: "Biểu mẫu có tùy chọn \"tự động tạo cuộc thảo luận\" sử dụng quyền điền chung khi được truy cập độc lập.\n"
-        linked-form-is-draft: "Biểu mẫu này hiện đang ở chế độ nháp. Bật \"chấp nhận các bài gửi mới\" để các trường xuất hiện trên diễn đàn.\n"
+        linked-form-is-draft: "Biểu mẫu này hiện đang ở chế độ nháp. Bật trong \"Quyền truy cập\" để các trường xuất hiện trên diễn đàn.\n"
         show-on-composer-invalid-permissions: "Đảm bảo khớp quyền \"xem của chính mình\" và \"chỉnh sửa của chính mình\" những người có thể bắt đầu thảo luận với thẻ đã chọn để sử dụng \"hiển thị trong trình soạn thảo\". Đặt thành \"thành viên\" nếu không chắc chắn. Thông báo này có thể xuất hiện ngay cả khi cài đặt của bạn là chính xác.\n"
         show-on-signup-invalid-permissions: "Bạn cần đặt quyền \"xem của chính mình\" và \"chỉnh sửa của chính mình\" cho các thành viên chưa được phê duyệt để sử dụng \"hiển thị đăng ký\".\n"
     form-index:
@@ -200,6 +206,7 @@ kilowhat-formulaire:
         accept-submissions: Mở
         actions: 'Thao tác'
         allow-modification: 'Sửa đổi'
+        enabled: 'Đã bật'
         submissions: Gửi
         title: 'Tiêu đề'
       edit: 'Chỉnh sửa'
