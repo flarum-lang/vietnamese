@@ -31,7 +31,7 @@ php flarum cache:clear
 
 | Component | Status |
 | --- | --- |
-| [Core](https://github.com/flarum/core) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/vi/) |
+| [Core](https://github.com/flarum/flarum-core) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/vi/) |
 | Validation | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum/vi/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/vi/) |
 
 
@@ -58,6 +58,37 @@ php flarum cache:clear
 | [`flarum/tags`](https://github.com/flarum/tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/vi/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/vi/) |
 
 <!-- flarum-extensions-list-stop -->
+
+
+## Translation status for Friends of Flarum extensions
+
+<!-- fof-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
+<!-- fof-extensions-list-stop -->
+
+
+## Translation status for community extensions
+
+<!-- various-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
+<!-- various-extensions-list-stop -->
+
+
+## Translation status for premium extensions
+
+<!-- premium-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
+<!-- premium-extensions-list-stop -->
+
 
 ### Links
 - [Github](https://github.com/flarum-lang/vietnamese)
