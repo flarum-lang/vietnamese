@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.4.0 (XXXX-XX-XX)
+1.4.0 (2022-08-31)
 ------------------
 
 **Đã thêm hỗ trợ cho các tiện ích mở rộng mới**:
