@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.5.0 (XXXX-XX-XX)
+------------------
+
+**Đã thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
+
+
+**Đã cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+
+
+Tất cả các thay đổi: [v1.4.0...v1.5.0](https://github.com/flarum-lang/vietnamese/compare/v1.4.0...v1.5.0).
+
+
 1.4.0 (2022-08-31)
 ------------------
 
