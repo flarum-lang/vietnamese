@@ -38,7 +38,7 @@ blomstra-payments:
       purchase: mua
       subscribed: 'đã đăng ký'
     backers-widget:
-      label: '{sum} đã hỗ trợ'
+      label: 'Đã cam kết {sum}'
       none: 'Chưa có người ủng hộ.'
     bounties:
       enable-control: 'Bật tiền thưởng'
@@ -47,6 +47,10 @@ blomstra-payments:
       checkout-control: 'Thủ tục thanh toán'
       description: 'Chọn số tiền của bạn để hỗ trợ "{subject}" hoặc chọn số tiền tùy chỉnh.'
       title: 'Chọn số tiền thưởng'
+    exceptions:
+      out-of-bounds-amount:
+        max: 'Không được phép thanh toán {amount}, {max} là số tiền cao nhất.'
+        min: 'Không được phép thanh toán {amount}, {min} là số tiền thấp nhất.'
     nav:
       access_portal: 'Cổng truy cập'
       user_subscriptions: 'Đăng ký'

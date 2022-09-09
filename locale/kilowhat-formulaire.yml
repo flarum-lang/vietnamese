@@ -25,6 +25,16 @@ kilowhat-formulaire:
     settings:
       checkbox-style: 'Kiểu hộp kiểm'
       history-controls: 'Hiển thị điều khiển hoàn tác/quay lại lại trên trang gửi'
+      horizontal-layout: 'Sử dụng bố cục biểu mẫu ngang'
+      horizontal-layout-locations:
+        discussionComposer: 'Trình soạn thảo cuộc thảo luận'
+        discussionEdit: 'Modal chỉnh sửa cuộc thảo luận'
+        discussionView: 'Vùng xem cuộc thảo luận'
+        profileEdit: 'Trang chỉnh sửa hồ sơ'
+        profileView: 'Trang xem hồ sơ'
+        signUp: 'Modal Đăng ký (chỉ các trường Formulaire)'
+        standaloneEdit: 'Trang Nhập/Chỉnh sửa riêng biệt'
+        standaloneView: 'Trang xem riêng biệt'
       max-file-size: 'Kích thước tệp tối đa (kB)'
       radio-style: 'Kiểu radio'
       side-nav-on-submission: 'Hiển thị thanh điều hướng trên trang gửi'
@@ -36,6 +46,8 @@ kilowhat-formulaire:
         native: 'Kiểm soát trình duyệt gốc'
         switch: 'Công tắc Flarum'
       title: 'Thiết lập chung biểu mẫu'
+      uniformComposerLayout: 'Bố cục trình soạn thảo thảo luận thống nhất'
+      uniformComposerLayoutHelp: "Thay đổi kiểu dáng của các thẻ, trường tiêu đề và nội dung để phù hợp với Formulaire. Bố cục này sẽ chiếm nhiều dung lượng hơn, vì vậy bạn nên cài đặt và bật tiện ích mở rộng <a>Trang trình soạn thảo/a>.\n"
   api:
     cannot-change-form-type: 'Bạn không thể thay đổi loại biểu mẫu đã gửi hiện có'
     duplicate-field-key: 'Khóa phải là duy nhất'
@@ -57,6 +69,7 @@ kilowhat-formulaire:
     formatter-parsing-error: 'Không thể phân tích cú pháp nội dung: {message}'
     not-allowed-to-fill-field: 'Bạn không được phép thay đổi giá trị của trường này'
     unauthorized-form: 'Bạn không có quyền cần thiết để điền ID biểu mẫu {id}'
+    unauthorized-scoped-form: 'Bạn không thể điền ID biểu mẫu {id} bằng tổ hợp thẻ hiện'
     unknown-form: 'ID biểu mẫu không được công nhận {id}'
   forum:
     auto-discussion-options-modal:
@@ -80,6 +93,12 @@ kilowhat-formulaire:
         title: 'Tiêu đề'
       submit: 'Xác thực các thay đổi'
       title: 'Mẫu email'
+    discussion-composer:
+      field:
+        content: 'Nội dung'
+        poll: 'Cuộc thăm dò'
+        tags: Thẻ
+        title: 'Tiêu đề'
     discussion-submission:
       edit: 'Chỉnh sửa'
       empty: 'Hiện không có dữ liệu'
@@ -182,6 +201,7 @@ kilowhat-formulaire:
         send-confirmation-to-participants: 'Gửi email xác nhận cho người tham gia'
         show-on-creation:
           discussion: 'Hiển thị trong trình soạn thảo'
+          discussionHelp: "Trình soạn thảo thảo luận Flarum không phù hợp để chứa nhiều trường. Bạn nên cài đặt và bật tiện ích mở rộng <a> Composer Page </a> để đảm bảo tất cả các trường vẫn có thể truy cập được trên tất cả các thiết bị.\n"
           user: 'Hiển thị trong đăng ký'
         title: 'Tiêu đề công khai'
         web-confirmation-message: 'Thông báo xác nhận trên web (đã bật định dạng)'
