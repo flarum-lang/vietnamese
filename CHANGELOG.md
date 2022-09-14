@@ -5,8 +5,15 @@ CHANGELOG
 1.5.0 (XXXX-XX-XX)
 ------------------
 
+**Thay đổi chung**:
+
+* Đã cập nhật các bản dịch Flarum core.
+
+
 **Đã thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
+* [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
 * [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
@@ -16,7 +23,14 @@ CHANGELOG
 **Đã cập nhật bản dịch cho các tiện ích mở rộng**:
 
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
