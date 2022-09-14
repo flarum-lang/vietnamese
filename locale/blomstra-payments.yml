@@ -26,6 +26,7 @@ blomstra-payments:
       link-access-portal: 'Liên kết cổng truy cập trong dropdown phiên người dùng'
       link-to-terms: 'URL điều khoản thanh toán'
       pk: 'Mã khóa xuất bản (api)'
+      recount-total-discussion-bounties: 'Thống kê tổng số tiền thưởng thảo luận'
       sk: 'Mã khoá bí mật (api)'
       webhook-secret: 'Mã bí mật Webhook'
   forum:
@@ -38,8 +39,10 @@ blomstra-payments:
       purchase: mua
       subscribed: 'đã đăng ký'
     backers-widget:
-      label: 'Đã cam kết {sum}'
+      backers: 'Những người ủng hộ'
+      label: '{currency} {sum} đã cam kết'
       none: 'Chưa có người ủng hộ.'
+      pledged: 'Đã cam kết'
     bounties:
       enable-control: 'Bật tiền thưởng'
       purchase-control: 'Thêm tiền thưởng'
@@ -70,6 +73,8 @@ blomstra-payments:
     payment-options-modal:
       description: "Chọn bất kỳ tùy chọn nào sau đây để bắt đầu quyền truy cập của bạn vào nhóm. Bạn sẽ được chuyển hướng đến nhà cung cấp thanh toán Stripe của chúng tôi để xử lý thanh toán.\n"
       title: 'Các tùy chọn thanh toán để có quyền truy cập vào {group}'
+    post_stream:
+      bounty_added_text: '{username} đã thêm {amount} tiền thưởng.'
     stripe:
       interval_once: 'một lần'
     subscription-card:

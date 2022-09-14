@@ -6,6 +6,7 @@ fof-sentry:
   admin:
     settings:
       dsn_label: 'Sentry DSN'
+      environment_label: 'Môi trường Sentry'
       javascript_console_label: 'Ảnh chụp Console JavaScript'
       javascript_label: 'Báo lỗi JavaScript'
       javascript_trace_sample_rate: 'Tỷ lệ giám sát hiệu suất Front-end (0 - 100)'

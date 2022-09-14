@@ -8,6 +8,7 @@ kilowhat-custom-paths:
       disabled: 'Tiện ích mở rộng chưa được kích hoạt'
       extensions:
         askvortsov-categories: 'Danh mục của Askvortsov'
+        clarkwinkelmann-composer-page: 'Composer Page của ClarkWinkelmann'
         clarkwinkelmann-discussion-bookmarks: 'Dấu trang thảo luận của ClarkWinkelmann'
         clarkwinkelmann-discussion-lists: 'Danh sách cuộc thảo luận của ClarkWinkelmann'
         clarkwinkelmann-group-list: 'Danh sách nhóm của ClarkWinkelmann'
@@ -31,6 +32,8 @@ kilowhat-custom-paths:
         path: 'Đường dẫn'
       paths:
         askvortsov-categories: 'Danh mục'
+        clarkwinkelmann-composer-page: 'Composer Page'
+        clarkwinkelmann-composer-page-tag: 'Trang trình soạn thẻ'
         clarkwinkelmann-discussion-bookmarks: 'Dấu trang cuộc thảo luận'
         clarkwinkelmann-discussion-list: 'Danh sách'
         clarkwinkelmann-discussion-lists-profile: 'Danh sách người dùng'
@@ -57,6 +60,7 @@ kilowhat-custom-paths:
         fof-user-directory: 'Danh mục người dùng'
         following: 'Đang theo dõi'
         formulaire-form: 'Biểu mẫu'
+        formulaire-profile: 'Trường hồ sơ'
         formulaire-submission: Gửi
         index: 'Danh sách cuộc thảo luận (không phải trang chủ)'
         notifications: 'Thông báo (trên điện thoại)'
@@ -65,6 +69,7 @@ kilowhat-custom-paths:
         tags: 'Danh sách thẻ'
         user: 'Trang cá nhân người dùng'
         user-discussions: 'Thảo luận của người dùng'
+        user-likes: 'Người dùng thích'
         user-mentions: 'Người dùng đề cập'
         v17development-blog-category: 'Danh mục'
         v17development-blog-compose: 'Soạn thảo'

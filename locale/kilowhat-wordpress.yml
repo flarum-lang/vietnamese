@@ -98,6 +98,10 @@ kilowhat-wordpress:
       email_change: 'Tài khoản này được liên kết với Wordpress. Sử dụng trang hồ sơ trang web chính để thay đổi email của bạn.'
       login: 'Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để kết nối.'
       password_reset: 'Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để đặt lại mật khẩu của bạn.'
+    health:
+      cookie-domain-format: 'Miền cookie dường như không phải là một miền hợp lệ. Kiểm tra xem đó chỉ là một miền không có bất kỳ giao thức hoặc đường dẫn nào'
+      login-only-signup-open: 'Bạn cần tắt Đăng ký theo quyền Flarum để cài đặt "Chỉ cho phép đăng nhập Wordpress" có hiệu lực đầy đủ'
+      suspend-extension-required: 'Tiện ích mở rộng Suspend phải được bật để sử dụng tùy chọn "Cấm" của "Hành động khi người dùng xóa"'
     wizard:
       already_installed: "Flarum đã được kết nối với Wordpress. Để chạy lại trình hướng dẫn, hãy xóa cài đặt \"URL Wordpress\" trong Flarum và cài đặt \"khóa API Flarum\" trong Wordpress.\n"
       api_error_get: 'Lỗi khi thực hiện yêu cầu GET đối với cài đặt Wordpress ({exception}).'
