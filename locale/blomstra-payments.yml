@@ -23,6 +23,7 @@ blomstra-payments:
     permission:
       enable-bounties: 'Bật tiền thưởng'
     settings:
+      assign-bounty-tag-id: 'Gắn thẻ để chỉ định cho cuộc thảo luận sau tiền thưởng được gửi đầu tiên'
       link-access-portal: 'Liên kết cổng truy cập trong dropdown phiên người dùng'
       link-to-terms: 'URL điều khoản thanh toán'
       pk: 'Mã khóa xuất bản (api)'

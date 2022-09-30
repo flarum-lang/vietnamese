@@ -32,6 +32,11 @@ datlechin-birthdays:
       dob_heading: 'Ngày sinh'
     header:
       edit_dob_button: 'Sửa ngày sinh'
+    nav:
+      nav_item: 'Sinh nhật hôm nay'
+    page:
+      discussion_count: '{count, plural, one {Cuộc thảo luận: #} other {Cuộc thảo luận: #}}'
+      post_count: '{count, plural, one {Bài viết: #} other {Bài viết: #}}'
     settings:
       birthday_heading: 'Sinh nhật'
       change_dob_label: 'Sửa ngày sinh'
