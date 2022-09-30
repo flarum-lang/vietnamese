@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.6.0 (XXXX-XX-XX)
+------------------
+
+**Đã thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
+* [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+
+
+**Đã cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+
+
+Tất cả các thay đổi: [v1.5.0...v1.6.0](https://github.com/flarum-lang/vietnamese/compare/v1.5.0...v1.6.0).
+
+
 1.5.0 (2022-09-14)
 ------------------
 
