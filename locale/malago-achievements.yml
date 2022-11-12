@@ -9,7 +9,7 @@ malago-achievements:
       add_delete_instructions: 'Nếu người dùng không có thành tích, nó sẽ được thêm vào đó. Nếu người dùng có thành tích, nó sẽ bị xóa khỏi nó.'
       add_delete_title: 'Thêm hoặc xóa thành tựu khỏi người dùng'
       col_label: Cột
-      col_placeholder: 0
+      col_placeholder: '0'
       computation_label: "Biến để tính toán: posts, likes, selflikes, discussions, comments, edits, avatar, contains, years\n"
       computation_placeholder: Số
       delete_button: 'Xóa thành tựu'
@@ -17,7 +17,7 @@ malago-achievements:
       description_label: 'Mô tả'
       description_placeholder: 'Mô tả thành tựu'
       height_label: 'Chiều dài hình ảnh'
-      height_placeholder: 32
+      height_placeholder: '32'
       hidden_label: 'Ẩn khỏi tất cả danh sách thành tựu'
       image_label: 'URL hình ảnh hoặc mã biểu tượng'
       image_placeholder: 'URL ảnh thành tựu'
@@ -26,7 +26,7 @@ malago-achievements:
       points_label: 'Điểm cho thành tựu này'
       points_placeholder: "0\n"
       row_label: Hàng
-      row_placeholder: 0
+      row_placeholder: '0'
       submit_button: '=> core.ref.save_changes'
       title: 'Tạo thành tựu'
       tooltip:
@@ -57,7 +57,7 @@ malago-achievements:
         years: 'Số năm đăng ký'
       variable_label: Biến
       width_label: 'Chiều rộng hình ảnh'
-      width_placeholder: 32
+      width_placeholder: '32'
     achievements_page:
       add_delete_users: 'Thêm/Xóa thành tích khỏi người dùng'
       create_achievement_button: 'Tạo thành tựu mới'
