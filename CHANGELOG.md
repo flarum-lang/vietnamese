@@ -19,6 +19,7 @@ CHANGELOG
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 
 
 Tất cả các thay đổi: [v1.5.0...v1.6.0](https://github.com/flarum-lang/vietnamese/compare/v1.5.0...v1.6.0).
