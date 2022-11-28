@@ -5,21 +5,40 @@ CHANGELOG
 1.6.0 (XXXX-XX-XX)
 ------------------
 
+**Thay đổi chung**:
+
+* Đã cập nhật các bản dịch Flarum core.
+
+
 **Đã thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
 * [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`finteger/ratings`](https://github.com/finteger/ratings)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
 * [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
 * [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
 
 
 **Đã cập nhật bản dịch cho các tiện ích mở rộng**:
 
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
 
 Tất cả các thay đổi: [v1.5.0...v1.6.0](https://github.com/flarum-lang/vietnamese/compare/v1.5.0...v1.6.0).
