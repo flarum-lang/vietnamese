@@ -11,3 +11,7 @@ blomstra-search:
     elastic-index: Index
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    match-sentences: 'Khớp cụm từ tìm kiếm với câu đầy đủ'
+    match-words: 'Khớp cụm từ tìm kiếm với các từ đầy đủ'
+    search-discussion-subjects: 'Tìm kiếm bên trong tiêu đề thảo luận'
+    search-post-bodies: 'Tìm kiếm trong bình luận'

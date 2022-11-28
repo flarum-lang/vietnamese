@@ -11,6 +11,8 @@ fof-polls:
       start: 'Tạo cuộc thăm dò'
       view_results_without_voting: 'Xem kết quả mà không cần bỏ phiếu'
       vote: 'Bình chọn cuộc thăm dò'
+    settings:
+      allow_option_image: 'Cho phép URL ảnh cho mỗi tuỳ chọn thăm do ý kiến'
   forum:
     composer_discussion:
       add_poll: 'Thêm cuộc thăm dò'
@@ -21,6 +23,7 @@ fof-polls:
       add_title: 'Thêm cuộc thăm dò'
       date_placeholder: 'Ngày kết thúc cuộc thăm dò (Tùy chọn)'
       edit_title: 'Chỉnh sửa cuộc thăm dò'
+      image_option_placeholder: 'URL ảnh (tuỳ chọn)'
       include_question: 'Bạn phải bao gồm một câu hỏi'
       max: 'Bạn có thể có tối đa 10 câu trả lời'
       min: 'Bạn phải bao gồm tối thiểu 2 câu trả lời'

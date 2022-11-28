@@ -21,6 +21,7 @@ flamarkt-backoffice:
       head:
         email: Email
       new: 'Tạo người dùng'
+      searchPlaceholder: 'Tìm kiếm người dùng...'
       title: 'Người dùng'
   lib:
     header:

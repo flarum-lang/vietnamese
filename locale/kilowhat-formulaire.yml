@@ -237,6 +237,7 @@ kilowhat-formulaire:
         title: '=> kilowhat-formulaire.ref.manager'
       load-more: 'Tải thêm'
       new: 'Biểu mẫu mới'
+      search: 'Tìm kiếm biễu mẫu...'
       show: 'Hiển thị'
       submissions: Gửi
       tabs:
@@ -297,6 +298,7 @@ kilowhat-formulaire:
       form-show: 'Bản gửi mới'
       guest: Khách
       load-more: 'Tải thêm'
+      search: 'Tìm kiếm bản gửi...'
       show: 'Hiển thị'
     submission-sort:
       latest: 'Bản gửi mới nhất'
@@ -350,6 +352,7 @@ kilowhat-formulaire:
   mail:
     edit: 'Chỉnh sửa'
     footer: 'Được gửi từ {title}'
+    no-answer: 'Không có trả lời'
     sub-entries: '{count} mục'
     title-new-submission: 'Bài gửi mới cho {title}'
     title-your-submission: 'Nội dung bạn gửi cho {title}'

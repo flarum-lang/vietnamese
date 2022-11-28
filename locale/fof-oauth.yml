@@ -62,6 +62,17 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Vui lòng chọn một tên người dùng tại đây'
+    unlink: 'Xoá liên kết'
+    user:
+      settings:
+        linked-account:
+          help: 'Các tài khoản được liên kết này cho phép bạn đăng nhập vào diễn đàn bằng cách sử dụng các nhà cung cấp khác.'
+          identifier-label: '{provider} ID'
+          label: 'Tài khoản đã liên kết'
+          last-used-label: 'Lần cuối sử dụng'
+          link-created-label: 'Đã tạo liên kết'
+          orphaned-account: 'Bạn đã đăng nhập thông qua nhà cung cấp này trước đây, nhưng diễn đàn này đã vô hiệu hóa đăng nhập bằng phương thức này kể từ đó.'
+          unlink-confirm: 'Bạn có chắc chắn muốn bỏ liên kết với {provider} không? Bạn sẽ không thể đăng nhập vào diễn đàn này nữa trừ khi bạn xác thực lại trong tương lai.'
   lib:
     providers:
       discord: Discord
