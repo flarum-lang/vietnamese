@@ -62,7 +62,7 @@ davwheat-virtual-authors:
       heading: 'Tác giả'
       item_link_tooltip: 'Xem tất cả các cuộc thảo luận bởi {displayName}'
   lib:
-    discussion-badge: '{count, plural, one {Có tác giả ảo}, other {Có tác giả ảo}}'
+    discussion-badge: '{count, plural, one {Có tác giả ảo} other {Có tác giả ảo}}'
     edit_modal:
       fields:
         description: 'Mô tả (về tác giả)'
@@ -72,5 +72,5 @@ davwheat-virtual-authors:
       title_edit: 'Chỉnh sửa tác giả ảo'
       title_new: 'Thêm tác giả ảo'
   ref:
-    discussion_count: '{count, plural, one {# cuộc thảo luận}, other {# cuộc thảo luận}}'
+    discussion_count: '{count, plural, one {# cuộc thảo luận} other {# cuộc thảo luận}}'
     no_description: '(không có đặt mô tả)'
