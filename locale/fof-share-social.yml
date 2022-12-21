@@ -6,10 +6,12 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Sử dụng URL gốc để chia sẻ'
+      plain-copy: 'Hiển thị URL sao chép đơn giản'
   forum:
     discussion:
       share_button: 'Chia sẻ'
     modal:
+      copy_button: 'Sao chép'
       title: 'Chia sẻ'
   lib:
     networks:

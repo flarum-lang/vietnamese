@@ -32,6 +32,7 @@ kilowhat-audit:
       user-title: 'Nhật ký kiểm tra người dùng'
   lib:
     browser:
+      audit_log_cleared: 'Đã xóa {deleted_count} mục khỏi nhật ký kiểm tra'
       cache_cleared: 'Đã xoá thủ công bộ nhớ đệm'
       client:
         access_token: 'Mã token truy cập'

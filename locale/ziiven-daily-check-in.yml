@@ -21,6 +21,8 @@ ziven-checkin:
       timezone: 'Múi giờ'
   forum:
     check-in: 'Đăng ký vào'
+    check-in-failed: 'Đăng ký không thành công'
     check-in-success: 'Đăng ký vào thành công'
     checked-in-day: 'Đã đăng ký {count} ngày'
     checked-in-days: 'Đã đăng ký {count} ngày'
+    try-again-later: 'Vui lòng thử lại sau'

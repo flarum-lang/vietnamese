@@ -46,7 +46,7 @@ migratetoflarum-fake-data:
       discussion-tags-random: 'Ngẫu nhiên'
       post-count: 'Số lượng bài viết muốn tạo'
       refresh: 'Đóng và tải lại trang'
-      reset: 'Tạo thành công! Nhấn để tải lại'
+      reset: 'Tạo thành công! Nhấn để tải lại form'
       send: 'Tạo dữ liệu'
       user-count: 'Số lượng người dùng muốn tạo'
   ref:
