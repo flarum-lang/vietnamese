@@ -13,28 +13,36 @@ CHANGELOG
 **Đã thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
 * [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
 * [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
 * [`finteger/ratings`](https://github.com/finteger/ratings)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
 * [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
 * [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
 * [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 * [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
 
 
 **Đã cập nhật bản dịch cho các tiện ích mở rộng**:
 
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
 * [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
@@ -44,7 +52,9 @@ CHANGELOG
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
