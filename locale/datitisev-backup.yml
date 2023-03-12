@@ -50,8 +50,17 @@ datitisev-backup:
           label: 'Điểm cuối'
       dropbox:
         access-token:
-          description: 'Tạo mã token truy cập oAuth 2 @ https://www.dropbox.com/developers/apps.'
-          label: 'Mã token truy cập'
+          description: 'Tạo mã token truy cập oAuth 2 @ https://www.dropbox.com/developers/apps. Yêu cầu quyền "files.metadata.write" trước khi tạo mã token.'
+          label: 'Mã Access Token OAuth2'
+        key:
+          description: 'Mã key của ứng dụng Dropbox.'
+          label: 'Mã key ứng dụng'
+        refresh-token:
+          description: 'Tạo mã token làm mới. Xem hướng dẫn https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
+          label: 'Làm mới token'
+        secret:
+          description: 'Mã bí mật của ứng dụng Dropbox.'
+          label: 'Mã bí mật ứng dụng'
       ftp:
         host:
           description: 'Tên máy chủ để kết nối với FTP, ví dụ: <em>ftp.yourdomain.local</em>.'

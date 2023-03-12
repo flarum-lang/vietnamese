@@ -13,7 +13,7 @@ flarum-sticky:
       sticky_button: '=> flarum-sticky.ref.sticky'
       unsticky_button: 'Gỡ ghim'
     post_stream:
-      discussion_stickied_text: '{username} đã ghim cuộc thảo luận.'
-      discussion_unstickied_text: '{username} đã gỡ ghim cuộc thảo luận.'
+      discussion_stickied_text: '{username} đã ghim cuộc thảo luận {time}.'
+      discussion_unstickied_text: '{username} đã gỡ ghim cuộc thảo luận {time}.'
   ref:
     sticky: Ghim

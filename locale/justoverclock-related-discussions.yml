@@ -12,6 +12,7 @@ justoverclock-related-discussions:
     showExcerpt: 'Hiện đoạn tóm tắt'
     showTooltip: 'Hiển thị chú thích với đoạn trich'
   forum:
+    avatarTooltip: 'đã đăng bài viết trên'
     deleted: 'Đã xóa'
     hasBestAnswer: 'Đã giải quyết'
     hasBestAnswer-title: 'Cuộc thảo luận này được đánh dấu là đã giải quyết'
