@@ -10,6 +10,9 @@
 
 Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
 
+### Yêu cầu phiên bản
+- Tương thích với phiên bản Flarum v1.7 trở lên.
+
 ### Cài đặt
 
 Cài đặt bằng composer:
@@ -24,9 +27,6 @@ composer require flarum-lang/vietnamese
 composer update flarum-lang/vietnamese
 php flarum cache:clear
 ```
-
-### Yêu cầu phiên bản
-- Tương thích với Flarum phiên bản v1.4 trở lên.
 
 ## Trạng thái bản dịch Flarum core
 
