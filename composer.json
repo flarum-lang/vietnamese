@@ -12,10 +12,10 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Ngo Quoc Dat (datlechin)",
+            "name": "Ngo Quoc Dat",
             "email": "datlechin@gmail.com",
-            "role": "Translator",
-            "homepage": "https://ngoquocdat.com"
+            "role": "Developer",
+            "homepage": "https://ngoquocdat.dev"
         }
     ],
     "support": {
@@ -23,7 +23,7 @@
         "source": "https://github.com/flarum-lang/vietnamese",
         "forum": "https://discuss.flarum.org/d/28471"
     },
-    "homepage": "https://ngoquocdat.com",
+    "homepage": "https://ngoquocdat.dev",
     "funding": [
         {
             "type": "website",
@@ -31,7 +31,7 @@
         }
     ],
     "require": {
-        "flarum/core": "^1.4"
+        "flarum/core": "^1.7"
     },
     "extra": {
         "branch-alias": {
