@@ -4,6 +4,8 @@
 
 flarum-statistics:
   admin:
+    date_selection_modal:
+      description: "Chọn một phạm vi ngày tùy chỉnh để hiển thị số liệu thống kê. Tải dữ liệu có thể mất nhiều phút trên các diễn đàn có nhiều hoạt động.\n"
     statistics:
       active_users_text: '{count} hoạt động'
       discussions_heading: '=> core.ref.discussions'
