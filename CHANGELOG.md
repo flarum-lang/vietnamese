@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.7.1 (XXXX-XX-XX)
+------------------
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+
+
+Tất cả các thay đổi: [v1.7.0...v1.7.1](https://github.com/flarum-lang/vietnamese/compare/v1.7.0...v1.7.1).
+
+
 1.7.0 (2023-03-12)
 ------------------
 
