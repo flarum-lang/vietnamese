@@ -15,3 +15,7 @@ datlechin-chatgpt:
       max_tokens_label: 'Tokens tối đa'
       model_help: 'Tìm hiểu thêm về <a>models</a> (mặc định: <code>text-davinci-003</code>).'
       model_label: Model
+      user_prompt_badge_help: 'Văn bản sẽ được hiển thị bên cạnh người dùng AI.'
+      user_prompt_badge_label: 'Biểu tượng của AI'
+      user_prompt_help: 'Người dùng sẽ được sử dụng để tạo câu trả lời. Mặc định là người bắt đầu cuộc thảo luận.'
+      user_prompt_label: 'Người dùng AI'

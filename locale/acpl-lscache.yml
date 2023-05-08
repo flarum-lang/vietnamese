@@ -7,7 +7,7 @@ acpl-lscache:
     cache_exclude_help: 'Các đường dẫn chứa các chuỗi này sẽ không được lưu vào bộ nhớ đệm. Ví dụ, <code>/mypath/mypage?aa=bb</code>, <code>mypage?aa=</code> có thể sử dụng ở đây. Để khớp với phần đầu, hãy thêm <code>^</code> vào phần đầu của mục. Để đối sánh chính xác, hãy thêm <code>$</code> vào cuối URL. Một trên mỗi dòng.'
     cache_exclude_label: 'Không lưu đường dẫn vào bộ nhớ cache'
     clearing_cache_listener_label: 'Xoá LSCache khi xoá bộ nhớ đệm Flarum'
-    public_cache_ttl_help: 'Chỉ định thời gian, tính bằng giây, các trang công khai được lưu vào bộ nhớ cache. Mặc định là 300 giây.'
+    public_cache_ttl_help: 'Chỉ định thời gian, tính bằng giây, các trang công khai được lưu vào bộ nhớ cache. Mặc định là 604800 giây (một tuần).'
     public_cache_ttl_label: 'Bộ nhớ đệm TTL mặc định'
     purge_all: 'Xoá toàn bộ LSCache'
     purge_all_success: 'Đã xoá toàn bộ LSCache trên máy chủ Web LiteSpeed'

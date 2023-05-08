@@ -52,11 +52,17 @@ datitisev-backup:
         access-token:
           description: 'Tạo mã token truy cập oAuth 2 @ https://www.dropbox.com/developers/apps. Yêu cầu quyền "files.metadata.write" trước khi tạo mã token.'
           label: 'Mã Access Token OAuth2'
+        help:
+          obtain-access-code-button: 'Mở Dropbox'
+          obtain-access-code-label: 'Lấy mã access token (yêu cầu key ứng dụng)'
+          obtain-refresh-token-button: 'Sử dụng code'
+          obtain-refresh-token-label: 'Sử dụng mã access token để nhận mã refresh token(yêu cầu key ứng dụng & bí mật)'
+          obtain-refresh-token-success: 'Lấy mã refresh token thành công & được cập nhật ở trên! Lưu các thay đổi để lưu trữ nó.'
         key:
           description: 'Mã key của ứng dụng Dropbox.'
           label: 'Mã key ứng dụng'
         refresh-token:
-          description: 'Tạo mã token làm mới. Xem hướng dẫn https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
+          description: 'Sử dụng các trường bên dưới để nhận mã refresh token hoặc làm theo hướng dẫn thủ công tại https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
           label: 'Làm mới token'
         secret:
           description: 'Mã bí mật của ứng dụng Dropbox.'

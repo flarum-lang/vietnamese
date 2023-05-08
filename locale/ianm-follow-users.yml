@@ -24,7 +24,7 @@ ianm-follow-users:
     filter:
       following: 'Người dùng đã theo dõi'
     followed: 'Đã theo dõi'
-    followers: 'Người theo dõi'
+    followers: '{count, plural, one {Người theo dõi} other {Người theo dõi}}'
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'

@@ -16,6 +16,7 @@ clarkwinkelmann-mailing:
       mail_all: 'Gửi email'
       mail_individual: 'Gửi email cho người dùng này'
     modal_mail:
+      as_html_label: 'Gửi dưới dạng HTML'
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       message_label: 'Tin nhắn'
       recipients_label: 'Người nhận'

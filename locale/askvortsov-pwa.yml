@@ -36,6 +36,8 @@ askvortsov-pwa:
       other:
         force_portrait_text: 'Buộc định hướng cổng?'
         heading: Khác
+        user_max_subscriptions_label: 'Số lượng đăng ký đẩy tối đa cho mỗi người dùng'
+        user_max_subscriptions_text: 'Mỗi người dùng có thể có bao nhiêu đăng ký đẩy tại một thời điểm? Khi người dùng nhận được thông báo đẩy, mỗi đăng ký sẽ dẫn đến lệnh gọi API. Mỗi đăng ký thường tương ứng với một trình duyệt mà người dùng đã sử dụng.'
       refreshed_message: 'Đã làm mới cấu hình PWA thành công.'
       status_check_heading: 'Kiểm tra tình trạng'
       submit_button: 'Lưu thiết lập'
@@ -43,7 +45,7 @@ askvortsov-pwa:
     status:
       config_no_https: 'Url trong tệp config.php của bạn không sử dụng HTTPS. HTTPS là bắt buộc để Ứng dụng web hiện đại hoạt động.'
       key_gen_failed: 'Không thể tạo khóa cần thiết cho thông báo đẩy. Thông báo lỗi đầy đủ là: {error}'
-      no_logo: 'Bạn phải tải lên ít nhất một logo, có kích thước nhỏ nhất là 196px để ứng dụng của bạn hoạt động.'
+      no_logo: 'Bạn phải tải lên ít nhất một logo, có kích thước nhỏ nhất là 144x144px, để PWA có thể cài đặt được.'
       no_name: 'Bạn phải cung cấp tên đầy đủ để ứng dụng của mình hoạt động.'
       no_vapid_keys: 'Không tìm thấy khóa VAPID. Đây là những yêu cầu bắt buộc để gửi thông báo đẩy. Bạn có thể đặt lại các khóa VAPID bên dưới.'
       possible_https_disabled: 'Trang web của bạn có thể không chạy trên HTTPS. Xóa bộ nhớ cache của bạn (trang bảng điều khiển quản trị => nút công cụ) có thể hữu ích. Nếu có, hãy bỏ qua điều này. Nếu không, hãy nhớ rằng HTTPS là cần thiết để Ứng dụng web hiện đại hoạt động.'

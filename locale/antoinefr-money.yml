@@ -7,9 +7,14 @@ antoinefr-money:
     automoderator:
       action_name: 'Tặng tiền'
       metric_name: Tiền
+    autoremove:
+      - 'Không bao giờ trừ tiền'
+      - 'Khi một cuộc thảo luận/bài viết bị ẩn hoặc khôi phục (mặc định)'
+      - 'Khi một cuộc thảo luận/bài viết bị xóa'
     permissions:
       edit_money_label: 'Chỉnh sửa tiền'
     settings:
+      autoremove: 'Tự động cập nhật tiền'
       helpextensionlikes: 'Yêu cầu bật tiện ích <code>flarum/likes</code>'
       moneyfordiscussion: 'Số tiền cho một cuộc thảo luận mới'
       moneyforlike: 'Cộng tiền khi có bài viết được thích'

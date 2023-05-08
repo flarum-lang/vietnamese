@@ -5,6 +5,9 @@
 ianm-synopsis:
   admin:
     settings:
+      disable-when-searching:
+        help: 'Khi được bật, đoạn trích bài viết phù hợp nhất mặc định sẽ được sử dụng thay cho phần tóm tắt'
+        label: 'Vô hiệu hóa tóm tắt khi tìm kiếm'
       excerpt-label: 'Độ dài đoạn trích tóm tắt tính bằng ký tự'
       excerpt-length:
         help: 'Độ dài ký tự hiển thị từ bài viết.'

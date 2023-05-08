@@ -27,6 +27,7 @@ fof-links:
       links: '=> fof-links.ref.links'
     settings:
       show_icons_only_on_mobile: 'Chỉ hiển thị icon trên điện thoại'
+      show_icons_only_on_tablet: 'Chỉ hiển thị biểu tượng trên màn hình máy tính bảng'
   ref:
     create_link: 'Tạo liên kết'
     links: 'Liên kết'

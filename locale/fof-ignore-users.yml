@@ -11,6 +11,8 @@ fof-ignore-users:
       discussion_label: 'Bắt đầu bởi một người dùng bị bỏ qua'
       user_label: 'Người dùng bị bỏ qua'
     profile_link: 'Người dùng bị bỏ qua'
+    profile_page:
+      no_ignored: 'Có vẻ như bạn không phớt lờ ai.'
     user_controls:
       ignore_button: 'Bỏ qua'
       ignore_confirmation: 'Bạn có chắc chắn muốn bỏ qua người dùng này không?'

@@ -88,6 +88,8 @@ fof-linguist:
       validation: 'Lỗi xác thực'
     locales:
       all: 'Tất cả'
+    permissions:
+      view_string_keys: 'Xem các key chuỗi bản dịch'
     placeholder:
       all-locales: 'Một văn bản được xác định ở đây sẽ được hiển thị bằng tất cả các ngôn ngữ'
       hint: 'Bản dịch ban đầu:'
