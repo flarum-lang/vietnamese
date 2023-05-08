@@ -2,15 +2,35 @@ CHANGELOG
 =========
 
 
-1.7.1 (XXXX-XX-XX)
+1.8.0 (XXXX-XX-XX)
 ------------------
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+* [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
+
 
 **Cập nhật bản dịch cho các tiện ích mở rộng**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 
 
-Tất cả các thay đổi: [v1.7.0...v1.7.1](https://github.com/flarum-lang/vietnamese/compare/v1.7.0...v1.7.1).
+Tất cả các thay đổi: [v1.7.0...v1.8.0](https://github.com/flarum-lang/vietnamese/compare/v1.7.0...v1.8.0).
 
 
 1.7.0 (2023-03-12)
