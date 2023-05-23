@@ -45,6 +45,15 @@ core:
       title: 'Cơ bản'
       welcome_banner_heading: 'Biểu ngữ chào mừng'
       welcome_banner_text: 'Thiết lập nội dung hiển thị trong biểu ngữ trên trang Cuộc thảo luận. Sử dụng cái này để chào mừng khách đến với diễn đàn của bạn.'
+    create_user:
+      email_confirmed_label: 'Yêu cầu người dùng xác thực email này'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Tạo và thêm cái khác'
+      submit_button: 'Tạo người dùng'
+      title: 'Tạo người dùng mới'
+      use_random_password: 'Tạo mật khẩu ngẫu nhiên'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Xóa bộ nhớ đệm'
       description: 'Diễn đàn của bạn trong nháy mắt.'
@@ -163,6 +172,7 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Cho phép xoá bài viết của riêng mình'
       allow_post_editing_label: 'Cho phép chỉnh sửa bài viết'
       allow_renaming_label: 'Cho phép đổi tên'
       create_access_token_label: 'Tạo mã access token'
@@ -195,6 +205,7 @@ core:
       view_post_ips_label: 'Xem địa chỉ IP bài viết'
     permissions_controls:
       allow_indefinitely_button: 'Vô thời hạn'
+      allow_never_button: '=> core.ref.never'
       allow_some_minutes_button: '{count, plural, one {Trong # phút} other {Trong # phút}}'
       allow_ten_minutes_button: 'Trong 10 phút'
       allow_until_reply_button: 'Cho đến khi có câu trả lời tiếp theo'
@@ -209,6 +220,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Chọn ảnh...'
     users:
+      create_user_button: 'Người dùng mới'
       description: 'Danh sách người dùng trên diễn đàn.'
       grid:
         columns:
@@ -244,6 +256,10 @@ core:
       title: '=> core.ref.users'
       total_users: 'Tổng người dùng: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: 'Bộ lọc {filter} phải là số.'
+      must_not_be_array_message: 'Bộ lọc {filter} phải là một mảng.'
+      must_not_be_multidimensional_array_message: 'Bộ lọc {filter} không được là một mảng nhiều chiều.'
     invalid_username_message: 'Tên người dùng chỉ có thể chứa các chữ cái, số và dấu gạch ngang.'
   email:
     activate_account:
@@ -412,7 +428,7 @@ core:
         log_out_button: '=> core.ref.log_out'
       hide_access_token: 'Ẩn token'
       last_activity: 'Hoạt động lần cuối'
-      never: 'Không bao giờ'
+      never: '=> core.ref.never'
       new_access_token_button: '=> core.ref.new_token'
       new_access_token_modal:
         submit_button: 'Tạo token'
@@ -512,6 +528,7 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Đã phát hiện phụ thuộc vòng tròn: {extensions}. Đang hủy. Vui lòng tắt một trong các tiện ích mở rộng và thử lại.'
       dependent_extensions_message: 'Không thể vô hiệu hóa {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}'
       extension_initialiation_failed_message: 'Không thể khởi chạy {extension}, hãy kiểm tra console của trình duyệt để biết thêm thông tin.'
       generic_cross_origin_message: 'Ối! Đã xảy ra lỗi trong khi yêu cầu nhiều nguồn gốc. Hãy tải lại trang và thử lại.'
@@ -567,6 +584,7 @@ core:
     log_in: 'Đăng nhập'
     log_out: 'Đăng xuất'
     mark_all_as_read: 'Đánh dấu tất cả đã đọc'
+    never: 'Không bao giờ'
     new_token: 'Token mới'
     next_page: 'Trang sau'
     notifications: 'Thông báo'
