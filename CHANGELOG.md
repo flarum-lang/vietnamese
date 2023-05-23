@@ -5,6 +5,11 @@ CHANGELOG
 1.8.0 (XXXX-XX-XX)
 ------------------
 
+**Thay đổi chung**:
+
+* Đã cập nhật các bản dịch Flarum core.
+
+
 **Thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
 * [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
