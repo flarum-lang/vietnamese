@@ -41,6 +41,7 @@ CHANGELOG
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 
 
 Tất cả các thay đổi: [v1.7.0...v1.8.0](https://github.com/flarum-lang/vietnamese/compare/v1.7.0...v1.8.0).
