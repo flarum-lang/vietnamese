@@ -25,6 +25,7 @@ nearata-embed-video:
         webtorrent: WebTorrent
   forum:
     button_tooltip_title: 'Nhúng video'
+    cannot_create: 'Bạn không được phép nhúng video'
     cannot_view: 'Lỗi: Bạn không được phép xem nội dung này'
     modal:
       add_pointer: 'Thêm con trỏ'
