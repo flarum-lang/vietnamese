@@ -6,5 +6,10 @@ gbcl-userip:
   admin:
     permissions:
       view_ip_info_label: 'Hiển thị thông tin IP'
+    service:
+      ipsb:
+        description: 'Sử dụng <b>https://ip.sb</b> để nhận thông tin vị trí IP miễn phí (vui lòng lưu ý giới hạn)'
+        label: IP.SB
+      label: 'Dịch vụ'
   forum:
     unknownNotice: 'Không xác định'

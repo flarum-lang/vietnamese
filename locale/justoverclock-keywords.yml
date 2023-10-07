@@ -4,12 +4,16 @@
 
 flarum-ext-keywords:
   admin:
+    addRow: 'Thêm định nghĩa'
     definition: 'Định nghĩa'
     parseonce: 'Phân tích cú pháp các từ một lần trong một bài viết'
     removedef: 'Xóa định nghĩa'
     word: Từ
   forum:
+    definition: 'Định nghĩa'
+    loadMore: 'Tải thêm'
     pagetitle: 'Trang bảng chú giải thuật ngữ'
     searchtext: 'Nhập để tìm kiếm thông qua bảng thuật ngữ ...'
     tagline: 'Bạn có muốn biết thêm về các điều khoản được sử dụng trên trang web này? Xem Bảng chú giải thuật ngữ để tìm hiểu thêm'
+    term: 'Thuật ngữ'
     title: 'Bảng chú giải'

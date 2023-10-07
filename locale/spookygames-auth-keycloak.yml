@@ -11,6 +11,7 @@ flarum-ext-auth-keycloak:
       delegate_avatars_label: 'Ủy quyền ảnh đại diện'
       encryption_algorithm_label: 'Thuật toán mã hóa'
       encryption_key_label: 'Mã khoá mã hóa (hoặc chứng chỉ)'
+      keycloak_version_label: 'Phiên bản Keycloak'
       realm_label: Realm
       role_mapping_label: 'Vai trò để nhóm'
       server_url_label: 'URL máy chủ'

@@ -39,6 +39,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Được thông báo về tất cả các cuộc thảo luận mới.'
+      header: 'Gói đăng ký cho {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Ẩn các cuộc thảo luận khỏi trang Thảo luận.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -49,6 +50,8 @@ fof-follow-tags:
       not_following_text: 'Chỉ được thông báo khi @mentioned.'
       notify_alert_tooltip: 'Nhận thông báo trên diễn đàn khi có thảo luận hoặc bài đăng mới'
       notify_email_tooltip: 'Nhận email khi có thảo luận hoặc bài đăng mới'
+      submit_button: 'Xác nhận gói đăng ký'
+      subscription_label: 'Chọn cấp độ gói đăng ký của bạn cho {tagName}'
     user:
       settings:
         filter_label: 'Nội dung hiển thị theo mặc định trong trang Đang theo dõi'

@@ -10,6 +10,7 @@ fof-user-directory:
       default-sort: 'Sắp xếp mặc định'
       disable-global-search-source: 'Không thêm Danh sách người dùng vào trường tìm kiếm toàn cục của Flarum'
       link: 'Thêm đường dẫn vào thanh bên diễn đàn'
+      link-group-mentions: 'Liên kết đề cập nhóm trong bài viết tới Thư mục người dùng'
       use-small-cards: 'Sử dụng thẻ người dùng nhỏ'
   forum:
     header:

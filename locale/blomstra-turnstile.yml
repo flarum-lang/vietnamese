@@ -6,6 +6,7 @@ blomstra-turnstile:
   admin:
     settings:
       forgot: '=> core.forum.forgot_password.title'
+      help_text: 'Tạo khóa Turnstile trên tài khoản Cloudflare của bạn <a>tại đây</a>.'
       secret_key: 'Mã khoá bí mật'
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
