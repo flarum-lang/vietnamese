@@ -20,6 +20,7 @@ CHANGELOG
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 
