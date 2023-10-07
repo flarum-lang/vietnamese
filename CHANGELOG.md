@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.9.0 (XXXX-XX-XX)
+------------------
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+* [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+
+
+Tất cả các thay đổi: [v1.8.0...v1.9.0](https://github.com/flarum-lang/vietnamese/compare/v1.8.0...v1.9.0).
+
+
 1.8.0 (2023-06-01)
 ------------------
 
