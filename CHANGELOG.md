@@ -17,11 +17,15 @@ CHANGELOG
 **Cập nhật bản dịch cho các tiện ích mở rộng**:
 
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 
 
