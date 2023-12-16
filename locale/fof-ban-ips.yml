@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-ban-ips/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      bannedipdata:
+        anonymize_description: 'Tất cả địa chỉ IP liên kết với người dùng đều được tách rời, nhưng bản thân IP vẫn bị cấm cùng với lý do. Hãy đảm bảo không lưu trữ dữ liệu PII trong trường ''lý do''.'
+        export_description: 'Nếu một bản ghi cấm IP được liên kết với một người dùng (tức là người dùng đã bị cấm theo IP), địa chỉ IP của người dùng sẽ được bao gồm trong dữ liệu xuất, cùng với lý do cấm và ngày tạo.'
 fof-ban-ips:
   admin:
     empty_text: 'Không tìm thấy IP bị cấm.'

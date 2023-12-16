@@ -36,6 +36,8 @@ kilowhat-formulaire:
         standaloneEdit: 'Trang Nhập/Chỉnh sửa riêng biệt'
         standaloneView: 'Trang xem riêng biệt'
       max-file-size: 'Kích thước tệp tối đa (kB)'
+      noByobuFields: 'Không tích hợp trường thảo luận với thảo luận riêng Byobu'
+      noByobuFieldsHelp: 'Theo mặc định, các trường thảo luận không được gắn thẻ sẽ áp dụng cho tất cả các thảo luận, bao gồm cả thảo luận riêng tư.'
       radio-style: 'Kiểu radio'
       side-nav-on-submission: 'Hiển thị thanh điều hướng trên trang gửi'
       style-options:
@@ -71,6 +73,7 @@ kilowhat-formulaire:
     unauthorized-form: 'Bạn không có quyền cần thiết để điền ID biểu mẫu {id}'
     unauthorized-scoped-form: 'Bạn không thể điền ID biểu mẫu {id} bằng tổ hợp thẻ hiện'
     unknown-form: 'ID biểu mẫu không được công nhận {id}'
+    unsupported-discussion-form: 'Không thể điền biểu mẫu ID {id} vào loại thảo luận này'
   forum:
     auto-discussion-options-modal:
       field:
