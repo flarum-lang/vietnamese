@@ -5,6 +5,7 @@
 fof-byobu:
   admin:
     permission:
+      add_more_than_two_user_recipients: 'Thêm nhiều hơn 2 người dùng vào cuộc thảo luận riêng tư'
       create_private_discussions_with_blocking_users: 'Tạo cuộc thảo luận riêng tư với những người đã chặn'
       create_private_discussions_with_groups: 'Tạo cuộc thảo luận riêng tư với nhóm'
       create_private_discussions_with_users: 'Tạo cuộc thảo luận riêng tư với người dùng'
@@ -18,6 +19,8 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Nếu được bật, các PD sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu khi người dùng cuối cùng rời đi. Nếu không, PD sẽ bị xoá tạm/ẩn.'
       enable-make-public-option: 'Bật tuỳ chọn "đặt ở chế độ công khai"'
       enable-make-public-option-help: 'Thêm tuỳ chọn cho những người có quyền xóa tất cả người nhận, chỉ định thẻ mới và hiển thị cuộc thảo luận ở chế độ công khai (cộng với cài đặt hiển thị của thẻ đã chọn).'
+      hide_from_all_discussions_page: 'Ẩn PD khỏi trang "Tất cả cuộc thảo luận"'
+      hide_from_all_discussions_page_help: 'Các cuộc thảo luận riêng tư sẽ chỉ có thể truy cập được từ trang "Thảo luận riêng tư" hoặc hồ sơ người dùng'
       post-event-icon: 'Sự kiện đăng bài của Byobu'
   email:
     body:
