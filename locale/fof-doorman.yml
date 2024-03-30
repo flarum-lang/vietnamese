@@ -35,7 +35,8 @@ fof-doorman:
         key: 'Mã khóa'
         max_uses: 'Lượt sử dụng tối đa'
         title: 'Mã mời'
-        used_times: '{remaining, plural, one {còn {remaining} lượt sử dụng} other {còn {remaining} lượt sử dụng}}'
+        total_uses: '{totalUses, plural, one {Đã sử dụng {totalUses} lần} other {Đã sử dụng {totalUses} lần}}'
+        used_times: '{remaining, plural, =0 {Không giới hạn lượt sử dụng} one {{remaining} lượt sử dụng còn lại} other {{remaining} lượt sử dụng còn lại}}"'
         warning: 'Mã mời này đã được sử dụng số lần tối đa.'
       title: 'Người gác cửa'
   forum:

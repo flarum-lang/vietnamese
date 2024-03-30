@@ -12,3 +12,10 @@ glowingblue-localizd:
       help: 'Tùy chọn này đa ngôn ngữ thông qua <b>Localizd</b> + <a>Linguist</a>.'
       modal_title: 'Thêm bản dịch bằng Linguist'
       translate: Dịch
+  forum:
+    errors:
+      causes: 'Điều này có thể vì một hoặc nhiều lý do sau'
+      deleted: 'Trang này có thể đã bị xóa'
+      does_not_exist: 'Trang này có thể không tồn tại'
+      logged_in_only: 'Trang này chỉ có thể có sẵn cho người dùng đã đăng nhập'
+      no_permission: 'Bạn có thể không có quyền xem trang này'

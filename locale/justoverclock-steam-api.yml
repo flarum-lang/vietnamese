@@ -13,6 +13,7 @@ justoverclock-steam-api:
     gamesOwned: 'Các trò chơi sở hữu: '
     lastLogOff: 'Lần cuối đăng xuất: '
     lastLogin: 'Đăng nhập gần đây: '
+    lastLogoff: 'Lần đăng xuất cuối cùng: '
     noCountry: 'Chưa điền'
     noGamesAvailable: 'Không có trò chơi chơi trong hai tuần qua.'
     privateProfile: 'Hồ sơ riêng tư'

@@ -15,5 +15,6 @@ fof-split:
       was_split_from: '{count, plural, one {{count} bài viết đã được tách khỏi {target}.} other {{count} bài viết đã được tách khỏi {target}.}}'
       was_split_to: '{count, plural, one {{count} bài viết đã được tách đến {target}.} other {{count} bài viết đã được tách đến {target}.}}'
     split:
+      cancel: 'Huỷ bỏ tách'
       from: 'Tách ở đây'
       to: 'Tách đến đây'

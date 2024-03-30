@@ -18,6 +18,7 @@ sycho-private-facade:
       screen_banner_description: 'Thông báo màn hình'
       screen_banner_heading: 'Biểu ngữ màn hình'
       screen_banner_title: 'Tiêu đề màn hình'
+      url_exclusions: 'URL cần loại trừ khỏi chuyển hướng đến trang đăng nhập/đăng ký.'
       use_welcome_hero_text: 'Sử dụng văn bản Biểu ngữ chào mừng'
   forum:
     log_in_label: '=> core.ref.log_in'

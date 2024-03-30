@@ -21,7 +21,7 @@ datlechin-birthdays:
     invalid_dob_message: 'Ngày sinh của bạn không hợp lệ'
   forum:
     change_dob:
-      date_of_birth_text: 'Ngày sinh'
+      date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date: 'Hiển thị ngày và tháng sinh'
       show_dob_year: 'Hiển thị năm sinh'
       show_dob_year_help: 'Điều này sẽ cho phép mọi người xem tuổi của bạn.'
@@ -29,7 +29,7 @@ datlechin-birthdays:
       title: 'Chỉnh sửa ngày sinh'
     edit_user:
       birthdays_heading: 'Ngày sinh'
-      dob_heading: 'Ngày sinh'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     header:
       edit_dob_button: 'Sửa ngày sinh'
     nav:
@@ -40,10 +40,14 @@ datlechin-birthdays:
     settings:
       birthday_heading: 'Sinh nhật'
       change_dob_label: 'Sửa ngày sinh'
-      dob_heading: 'Ngày sinh'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'Hiển thị ngày tháng sinh'
       show_dob_year_help: 'Cho phép mọi người có thể nhìn thấy tuổi của bạn.'
       show_dob_year_label: 'Hiển thị năm sinh'
+    sign_up:
+      dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     user:
       age_text: 'Tuổi: {age}'
       birthday_text: 'Sinh nhật: {date}'
+  ref:
+    date_of_birth: 'Ngày sinh'

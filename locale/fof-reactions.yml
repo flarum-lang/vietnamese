@@ -5,6 +5,11 @@
 fof-reactions:
   admin:
     page:
+      cdn:
+        default-url: 'Mặc định: {url}'
+        help: "Theo mặc định, chúng tôi cung cấp các tệp tài nguyên phản ứng từ CDN của Cloudflare. Bạn cũng có tùy chọn chỉ định bất kỳ địa chỉ CDN nào khác\ntheo yêu cầu. <code>[codepoint]</code> sẽ được thay thế bằng mã điểm của emoji.\n\nVí dụ: để chuyển sang Noto Emoji thông qua jsdelivr, bạn sẽ nhập <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Trường này KHÔNG BAO GIỜ được để trống.\n"
+        label: URL
+        title: CDN
       convert:
         button: 'Chuyển sang biểu cảm cũ'
         converted: 'Đã chuyển đổi thành công tất cả {number} lượt thích'
@@ -12,12 +17,15 @@ fof-reactions:
         help: 'Nếu bạn vừa cập nhật tiện ích mở rộng của mình, biểu cảm của bạn sẽ phải được chuyển đổi. Nếu bạn vừa cài đặt tiện ích mở rộng này, bạn có thể bỏ qua thông báo này một cách an toàn.'
       reactions:
         Helptext: 'Nhập tên (số nhận dạng) của biểu tượng cảm xúc hoặc biểu tượng font awesome và chọn loại bạn muốn.'
+        delete_confirmation: 'Bạn có chắc chắn muốn xóa phản ứng này không? Thao tác này không thể hoàn tác.'
         help:
           display: 'Hiển thị'
           identifier: 'Số nhận dạng'
         reactions: 'Biểu cảm hiện tại'
         title: 'Tùy chỉnh biểu cảm'
       settings:
+        allow-anonymous: 'Cho phép bày tỏ cảm xúc ẩn danh (khách)'
+        allow-anonymous-help: 'Nếu được kích hoạt, khách và người dùng ẩn danh sẽ có thể phản hồi bài đăng. Lưu ý rằng các phản hồi ẩn danh sẽ không được liên kết với hồ sơ người dùng và sẽ được tổng hợp trong danh sách phản hồi.'
         integrations:
           gamification:
             downvoteHelptext: 'Nhập mã nhận dạng của biểu cảm mà bạn muốn tự động chuyển đổi thành phản đối'
@@ -32,15 +40,18 @@ fof-reactions:
             legend: Thích
           warning: 'Biểu cảm giống nhau <strong>không thể</strong> chuyển thành lượt thích <strong>và</strong> lượt bình chọn'
         react_own_posts_help: 'Khi được bật, tùy thuộc vào quyền, người dùng có thể bày tỏ cảm xúc với các bài viết của chính họ trên diễn đàn. Để ngăn người dùng bày tỏ cảm xúc bài viết của riêng họ, hãy tắt cài đặt này.'
-        react_own_posts_label: 'Người dùng có thể bày tỏ cảm xúc bài viết của riêng họ'
+        react_own_posts_label: 'Người dùng có thể bày tỏ cảm xúc bài viết của riêng họ,'
         save_settings: 'Lưu thay đổi'
     permissions:
+      delete_post_reactions_label: 'Xoá lượt bày tỏ cảm xúc trên bài viết'
       react_posts_label: 'Bày tỏ cảm xúc bài viết'
       see_reactions_label: 'Xem ai đã bày tỏ cảm xúc trong bài viết'
   forum:
     disabled-reaction: 'Bạn không thể sử dụng biểu cảm này ngay bây giờ, vui lòng làm mới trang'
     mod_item: 'Xem bày tỏ cảm xúc'
     modal:
+      anonymous_count: '{count, plural, one {# người dùng ẩn danh} other {# người dùng ẩn danh}}'
+      no_reactions: 'Chưa có lượt bày tỏ cảm xúc nào'
       title: 'Bày tỏ cảm xúc'
     notification: '{username} đã bày tỏ cảm xúc {reaction} với bài viết của bạn'
     react_button_label: 'Cảm xúc'

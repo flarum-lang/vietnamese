@@ -17,6 +17,7 @@ fof-webhooks:
       deleted: 'Đã xóa nhóm `{1} '''
       renamed: 'Đã đổi tên nhóm thành `{1}`'
     post:
+      approved: 'Bài viết được phê duyệt trong `{1}`'
       deleted: 'Đã xóa bài viết trong `{1}`'
       hidden: 'Đã ẩn bài viết trong `{1}`'
       posted: 'Bài viết mới trong `{1}`'
@@ -34,6 +35,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'Không thể tìm thấy dịch vụ "{service}".'
+      tag_disabled: 'Webhook này đã có cấu hình hạn chế theo thẻ. Tiện ích Thẻ đã bị vô hiệu hóa. Hạn chế này sẽ không được áp dụng. Hãy đảm bảo rằng điều này là ý định của bạn.'
       tag_invalid: 'Webhook này bị hạn chế đối với thẻ không hợp lệ. Hạn chế sẽ không áp dụng. Hãy chắc chắn rằng điều này được dự định.'
       url_invalid: 'URL không hợp lệ cho dịch vụ đã chọn.'
     nav:
@@ -41,6 +43,9 @@ fof-webhooks:
     settings:
       actions:
         flarum:
+          approval:
+            postwasapproved: 'Bài viết được phê duyệt'
+            title: 'Phê duyệt Flarum'
           discussion:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'
@@ -70,9 +75,10 @@ fof-webhooks:
       help:
         disabled: 'Webhook này bị vô hiệu hóa vì nó không có bất kỳ sự kiện nào được bật.'
         general: 'Tại đây, bạn có thể thêm, chỉnh sửa và xóa webhook khỏi diễn đàn.'
+        tags: 'Bạn có thể hạn chế webhook cho các thẻ cụ thể. Nếu bạn chọn bất kỳ thẻ nào, webhook sẽ chỉ được kích hoạt nếu sự kiện được kích hoạt trên một tài nguyên có bất kỳ thẻ nào được chọn.'
         url: 'Điểm cuối của webhook sẽ được thực thi'
       item:
-        tag_any_label: 'Bất kỳ'
+        tag_any_label: 'Bất kỳ thẻ nào'
       modal:
         description: 'Tại đây, bạn sửa đổi những sự kiện mà webhook được kích hoạt.'
         events_label: 'Sự kiện'
