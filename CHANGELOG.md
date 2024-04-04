@@ -31,6 +31,7 @@ CHANGELOG
 * [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
 * [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 * [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
 * [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
 * [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
