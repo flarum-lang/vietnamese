@@ -2,6 +2,89 @@ CHANGELOG
 =========
 
 
+1.9.0 (2024-05-03)
+------------------
+
+**Thay đổi chung**:
+
+* Đã cập nhật các bản dịch Day.js.
+
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
+* [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji)
+* [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji)
+* [`danirod/flarum-plausible`](https://github.com/danirod/flarum-plausible)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+* [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
+* [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+* [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
+* [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
+
+
+Tất cả các thay đổi: [v1.8.0...v1.9.0](https://github.com/flarum-lang/vietnamese/compare/v1.8.0...v1.9.0).
+
+
 1.8.0 (2023-06-01)
 ------------------
 
