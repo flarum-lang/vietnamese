@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.9.1 (XXXX-XX-XX)
+------------------
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+
+
+Tất cả các thay đổi: [v1.9.0...v1.9.1](https://github.com/flarum-lang/vietnamese/compare/v1.9.0...v1.9.1).
+
+
 1.9.0 (2024-05-03)
 ------------------
 
