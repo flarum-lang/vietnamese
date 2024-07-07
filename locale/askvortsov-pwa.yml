@@ -22,6 +22,12 @@ askvortsov-pwa:
         heading: 'Màu sắc'
         theme_color_label: 'Màu chủ đề'
         theme_color_text: 'Màu này đôi khi được các thiết bị sử dụng khi hiển thị ứng dụng của bạn, chẳng hạn như trên trình chuyển đổi tác vụ của Android, làm màu bao quanh trang web.'
+      firebase_config:
+        heading: Firebase
+        help_text: 'Để thêm hỗ trợ thông báo đẩy khi xuất bản ứng dụng của bạn trên App Store của Apple, bạn cần sử dụng Firebase để thêm thông báo đẩy vào ứng dụng của mình. Vui lòng tạo cấu hình dịch vụ Firebase của bạn và tải nó lên đây.'
+        see_documentation_here: 'Xem tài liệu tại đây'
+        upload_file: 'Tải tệp lên'
+        upload_successful: 'Cấu hình Firebase của bạn đã được tải lên thành công'
       heading: 'Cấu hình ứng dụng web hiện đại'
       logo_heading: 'Logo và Icon'
       logo_size_text: 'Tải lên logo sẽ được chia tỷ lệ thành kích thước {size} pixel x {size} pixel.'
@@ -40,6 +46,8 @@ askvortsov-pwa:
         push_notif_preference_default_to_email_text: 'Nếu bật, người dùng sẽ bật thông báo đẩy theo mặc định cho tất cả các loại thông báo trong đó thông báo email được bật theo mặc định. Nếu tắt, người dùng sẽ tắt thông báo đẩy theo mặc định.'
         user_max_subscriptions_label: 'Số lượng đăng ký đẩy tối đa cho mỗi người dùng'
         user_max_subscriptions_text: 'Mỗi người dùng có thể có bao nhiêu đăng ký đẩy tại một thời điểm? Khi người dùng nhận được thông báo đẩy, mỗi đăng ký sẽ dẫn đến lệnh gọi API. Mỗi đăng ký thường tương ứng với một trình duyệt mà người dùng đã sử dụng.'
+        window_controls_overlay_label: 'Bật lớp phủ điều khiển cửa sổ?'
+        window_controls_overlay_text: "Nếu bật, người dùng sẽ có trải nghiệm giống như ứng dụng gốc hơn bằng cách ẩn thanh tiêu đề gốc. Việc bật hoặc không bật Lớp phủ điều khiển cửa sổ phụ thuộc vào sở thích của người dùng và tính tương thích của trình duyệt. Bạn phải tùy chỉnh thanh tiêu đề của mình bằng cách thêm một số CSS/JS sau khi bật, nếu không các điều khiển sẽ chồng lên một số phần tử của thanh điều hướng trên cùng của diễn đàn và cửa sổ hầu như không thể kéo, dẫn đến trải nghiệm tồi tệ.\n\nXem thêm: <compatibilitylink>Tính tương thích của Lớp phủ điều khiển cửa sổ</compatibilitylink> & <learnlink>Về Lớp phủ điều khiển cửa sổ trên Microsoft Learn</learnlink>\n"
       refreshed_message: 'Đã làm mới cấu hình PWA thành công.'
       status_check_heading: 'Kiểm tra tình trạng'
       submit_button: 'Lưu thiết lập'

@@ -25,6 +25,12 @@ datitisev-backup:
         bucket:
           description: 'Nhóm S3 để tải lên.'
           label: Bucket
+        credentials-key:
+          description: 'Khóa thông tin xác thực AWS'
+          label: Khóa
+        credentials-secret:
+          description: 'Khóa bí mật thông tin xác thực AWS'
+          label: 'Khóa bí mật'
         credentials:
           key:
             description: 'Mã khoá đăng nhập AWS'
@@ -96,6 +102,12 @@ datitisev-backup:
           description: 'Tên người dùng để xác thực trên máy chủ FTP.'
           label: 'Tên tài khoản'
       gdrive:
+        client-id:
+          description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và truy xuất ID khách hàng và bí mật khách hàng của bạn.\n"
+          label: 'ID khách hàng'
+        client-secret:
+          description: ' '
+          label: 'Mã bí mật khách hàng'
         client:
           id:
             description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và lấy ID khách hàng & mã bí mật khách hàng của bạn.\n"
@@ -106,6 +118,9 @@ datitisev-backup:
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'ID thư mục'
+        help:
+          test_button: 'Kiểm tra kết nối'
+          test_success_alert: 'Đã kết nối thành công với Google Drive! Lưu các thay đổi để lưu trữ cài đặt.'
         refresh-token:
           description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy mã làm mới cho ứng dụng Google oAuth của bạn.\n"
           label: 'Làm mới token'
@@ -113,6 +128,7 @@ datitisev-backup:
         target:
           description: 'Xác định thư mục cục bộ để lưu các bản sao lưu vào.'
           label: 'Đường dẫn'
+      name_label: 'Tên vị trí'
       title: 'Cấu hình {adapter}'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
@@ -128,6 +144,9 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Lưu trữ Zip'
+    create_button: 'Thêm adapter mới'
+    delete_button: Xóa
+    delete_confirmation: 'Bạn có chắc chắn muốn xóa “{name}” ({adapter}) không?'
     nav:
       description: 'Lưu trữ các bản sao của diễn đàn.'
       label: 'Sao lưu'

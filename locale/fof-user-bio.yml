@@ -14,5 +14,10 @@ fof-user-bio:
       bioLimit: 'Giới hạn kí tự tiểu sử'
       maxLines: 'Số dòng tối đa hiển thị cùng một lúc'
   forum:
+    profile:
+      cancel_button: 'Hủy bỏ'
+      cancel_confirm: 'Bạn có chắc chắn muốn hủy chỉnh sửa tiểu sử của bạn không? Bạn sẽ mất bất kỳ thay đổi nào đã thực hiện.'
+      edit_bio_label: 'Chỉnh sửa tiểu sử'
+      save_button: 'Lưu lại'
     userbioPlaceholder: 'Viết vài điều về bản thân'
     userbioPlaceholderOtherUser: 'Viết tiểu sử cho {username}'

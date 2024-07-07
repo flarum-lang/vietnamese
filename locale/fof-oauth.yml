@@ -5,8 +5,20 @@
 fof-oauth:
   admin:
     configure_button_label: 'Cấu hình với FoF OAuth'
+    permissions:
+      moderate_user_providers: 'Kiểm duyệt các tài khoản liên kết của người dùng'
     settings:
+      advanced:
+        heading: 'Nâng cao'
+        log-oauth-errors-help: 'Nếu được kích hoạt, các lỗi OAuth sẽ được ghi vào nhật ký của Flarum. Điều này có thể hữu ích để gỡ lỗi các vấn đề liên quan đến OAuth, nhưng cũng có thể chứa thông tin nhạy cảm.'
+        log-oauth-errors-label: 'Ghi lại các lỗi OAuth'
+      fullscreen_popup_help: 'Khi được kích hoạt, đăng nhập OAuth sẽ mở trong một cửa sổ popup toàn màn hình. Nếu điều này được kích hoạt, các thiết lập chiều rộng và chiều cao sẽ bị bỏ qua.'
+      fullscreen_popup_label: 'Sử dụng cửa sổ popup toàn màn hình cho OAuth'
       only_icons_label: 'Chỉ hiển thị các biểu tượng Nút đăng nhập (bố cục thay thế)'
+      popup_height_help: 'Đặt chiều cao của cửa sổ popup OAuth. Cài đặt này sẽ bị bỏ qua nếu "Sử dụng cửa sổ popup toàn màn hình cho OAuth" được kích hoạt.'
+      popup_height_label: 'Chiều cao của cửa sổ popup OAuth'
+      popup_width_help: 'Đặt chiều rộng của cửa sổ popup OAuth. Cài đặt này sẽ bị bỏ qua nếu "Sử dụng cửa sổ popup toàn màn hình cho OAuth" được kích hoạt.'
+      popup_width_label: 'Chiều rộng của cửa sổ popup OAuth'
       providers:
         callback_url_text: 'Nếu cần, hãy đặt URL callback thành {url}.'
         discord:
@@ -30,6 +42,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Tạo ứng dụng tại {link}.'
+          hosted_domain_label: 'Tên miền được lưu trữ (G Suite/Google Apps for Business, tùy chọn)'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
@@ -38,6 +51,8 @@ fof-oauth:
           api_key_label: 'Mã khoá API'
           api_secret_label: 'Mã bí mật API'
           description: 'Tạo ứng dụng tại {link}. Bạn sẽ cần đặt URL Điều khoản dịch vụ và URL Chính sách quyền riêng tư. Đảm bảo sau đó thêm quyền yêu cầu email.'
+      update_email_from_provider_help: 'Nếu được kích hoạt, địa chỉ email của người dùng sẽ được cập nhật để khớp với địa chỉ được cung cấp bởi nhà cung cấp OAuth mỗi khi đăng nhập vào diễn đàn. Tuy nhiên, không phải tất cả các nhà cung cấp đều cung cấp địa chỉ email đã cập nhật, trong trường hợp này, cài đặt này sẽ không có tác dụng với những nhà cung cấp đó.'
+      update_email_from_provider_label: 'Cập nhật địa chỉ email từ nhà cung cấp'
     settings_accessibility_label: 'cài đặt {name}'
   forum:
     error:
