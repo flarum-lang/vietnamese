@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.9.1 (XXXX-XX-XX)
+1.9.1 (2024-07-07)
 ------------------
 
 **Cập nhật bản dịch cho các tiện ích mở rộng**:
