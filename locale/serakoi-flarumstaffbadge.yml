@@ -4,6 +4,11 @@
 
 serakoi-flarumstaffbadge:
   admin:
+    permissions:
+      canEditStaffBadge:
+        label: 'Có thể chỉnh sửa huy hiệu nhân viên'
+      canEditTagList:
+        label: 'Có thể chỉnh sửa danh sách thẻ'
     staffBadge:
       help: 'Chữ huy hiệu nhân viên (Mặc định là ''STAFF'')'
       label: 'Chữ huy hiệu nhân viên'

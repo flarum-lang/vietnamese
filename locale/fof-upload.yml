@@ -2,11 +2,19 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-upload/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Loại bỏ tham chiếu người dùng từ các tệp đã tải lên. Các tệp vẫn có thể được truy cập bởi những người dùng đã có thể xem chúng trước khi ẩn danh.'
+        delete_description: 'Xóa tất cả các tệp đã được người dùng tải lên.'
+        export_description: 'Tất cả các tệp được tải lên bởi người dùng.'
 fof-upload:
   admin:
     help_texts:
       client_extension: "Theo mặc định, Tải lên sẽ chọn một phần mở rộng tệp an toàn dựa trên loại MIME.\nĐối với một số loại tệp dựa trên dữ liệu ZIP hoặc nhị phân, điều này có thể dẫn đến việc sử dụng các phần mở rộng chung thay vì phần mở rộng như mong đợi.\nTại đây, bạn có thể nhập danh sách các phần mở rộng tệp được phân tách bằng dấu phẩy sẽ được giữ nguyên văn.\n"
       composer_buttons: "Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n"
+      custom_s3_url: "Sử dụng cài đặt này nếu bạn đang sử dụng dịch vụ tương thích S3 yêu cầu định dạng URL cụ thể (ví dụ như Backblaze B2), hoặc nếu bạn gặp vấn đề với định dạng URL mặc định. Điều này thường không cần thiết đối với hầu hết các dịch vụ. Đảm bảo URL bao gồm giao thức (https://) và được định dạng đúng. Ví dụ: https://your-bucket.s3.your-region.backblazeb2.com\n"
       disable-download-logging: "Tắt ghi nhật ký tải xuống do người dùng diễn đàn của bạn thực hiện. Giữ nó được bật cho phép bạn xem số lượt tải xuống và các chỉ số khác trong tương lai gần.\n"
       disable-hotlink-protection: "Bảo vệ hotlink ngăn chặn việc mở các bản tải xuống từ các trang khác. Phương pháp hiện tại yêu cầu mã thông báo csrf và id bài đăng.\n"
       download_templates: "Các mẫu tải xuống là cách các nội dung tải lên được hiển thị trên diễn đàn của bạn, ví dụ như các bản xem trước, các nút. Hiện đang có sẵn:\n"
@@ -33,6 +41,7 @@ fof-upload:
         acl: 'Danh sách kiểm soát truy cập (ACL)'
         advanced_title: 'Thiết lập lưu trữ S3 nâng cao'
         bucket: Bucket
+        custom_url: 'URL tùy chỉnh S3'
         endpoint: 'Điểm cuối'
         key: 'Mã khóa'
         region: 'Khu vực'
@@ -80,14 +89,24 @@ fof-upload:
         position: 'Vị trí đóng dấu'
         title: 'Hình đóng dấu'
         toggle: 'Hình đóng dấu'
+    nav:
+      shared-uploads-button: 'Tải lên được chia sẻ'
     pane:
       description: 'Thiết lập các dịch vụ và tùy chọn tải lên.'
       title: 'Tải lên'
     permissions:
+      access_shared_label: 'Truy cập các tệp được chia sẻ trong Trình quản lý Phương tiện'
       delete_uploads_of_others_label: 'Xóa tệp của người dùng'
       download_label: 'Tải xuống tập tin'
       upload_label: 'Tải lên tập tin'
+      upload_shared_label: 'Tải lên các tệp được chia sẻ'
       view_user_uploads_label: 'Xem tệp của người dùng'
+    shared-uploads:
+      description: 'Tải lên các tệp có thể được sử dụng bởi tất cả người dùng của diễn đàn của bạn.'
+      introduction: "Các tệp tải lên chia sẻ là các tệp có thể được sử dụng bởi tất cả người dùng của diễn đàn của bạn. Chúng không được đính kèm vào bài đăng nào, nhưng có thể được chèn vào bài đăng bằng cách sử dụng trình quản lý phương tiện.\n\n<strong>Cảnh báo:</strong> Các tệp tải lên chia sẻ không được bảo vệ bởi bất kỳ quyền hạn nào. Bất cứ ai có URL đều có thể xem chúng.\n"
+      no-files: 'Chưa có tệp chia sẻ nào được tải lên cho đến nay.'
+      title: 'Tải lên được chia sẻ'
+      upload-new-button: 'Tải lên tệp mới'
     templates:
       bbcode-image: 'Mẫu hình ảnh BBCode'
       bbcode-image_description: "Hiển thị hình ảnh hoàn chỉnh bằng cách sử dụng BBCode. <strong>Bạn phải cài đặt và kích hoạt tiện ích flarum/bbcode để nó hoạt động.</strong> Không có chức năng tải xuống, không có thống kê và bảo vệ hotlink bị tắt.\n"
@@ -111,15 +130,25 @@ fof-upload:
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'Không thể ghi vào đĩa.'
       could_not_detect_mime: 'Không thể phát hiện loại MIME của tệp này, vui lòng thử lại.'
       forbidden_type: 'Các loại tệp này không được phép tải lên.'
+      max_upload_file_size_form: 'Bạn đã vượt quá giới hạn kích thước tệp tối đa được đặt trong biểu mẫu tải lên.'
+      max_upload_file_size_ini: 'Bạn đã đạt đến giới hạn kích thước tệp tối đa được cấu hình trong tệp php.ini.'
+      no_file_uploaded: 'Không có tệp nào được tải lên.'
+      no_files_made_it_to_upload: 'Vui lòng tải lên các tệp có kích thước không lớn hơn {max} KB.'
+      no_upload_tmp_folder: 'Không có thư mục tmp để tải lên tệp.'
+      partial_upload: 'Tải lên một phần.'
       unsupported_type: 'Bộ điều hợp tải lên không hỗ trợ loại mime được cung cấp: {mime}.'
+      upload_blocked_by_php_extension: 'Một tiện ích PHP đã chặn việc tải lên.'
   forum:
     buttons:
       attach: 'Đính kèm'
       cancel: Hủy
       media: 'Tệp của tôi'
+      shared_media: 'Phương tiện được chia sẻ'
       upload: 'Tải lên'
+      upload_shared: 'Được chia sẻ'
       user_uploads: 'Tệp của người dùng'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Chưa chọn} one {Chọn tệp tin} other {Chọn tệp tin}}'
@@ -149,3 +178,40 @@ fof-upload:
       no_snippet_preview: '<bản xem trước sẽ xuất hiện ở đây sau khi đăng>'
     validation:
       max_size: 'Kích thước tệp trên {max} kb không được chấp nhận.'
+  lib:
+    file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Không có tệp nào được chọn} one {Chọn tệp} other {Chọn các tệp}}'
+      delete_confirmation: 'Bạn có chắc chắn muốn xóa "{fileName}" không?'
+      delete_file_a11y_label: 'Xóa tệp "{fileName}"'
+      empty: 'Không có tệp tin nào để hiển thị.'
+      hide_file:
+        btn_a11y_label_hide: 'Ẩn "{fileName}" khỏi trình quản lý phương tiện'
+        btn_a11y_label_show: 'Hiển thị "{fileName}" trong trình quản lý media'
+        hide_confirmation: 'Bạn có chắc chắn muốn ẩn "{fileName}"? Việc ẩn tệp chỉ xóa tệp khỏi trình quản lý media của bạn và không ảnh hưởng đến các bài đăng hiện có.'
+        hide_fail: 'Không thể ẩn tệp "{fileName}"'
+        hide_success: 'Tệp đã được ẩn'
+        loading: 'Đang ẩn tệp...'
+        show_confirmation: 'Bạn có chắc chắn muốn hiển thị "{fileName}"? Hiển thị tệp sẽ làm cho tệp xuất hiện lại trong trình quản lý media của bạn.'
+        show_fail: 'Không thể hiển thị tệp "{fileName}"'
+        show_success: 'Tệp đã được hiển thị'
+      hide_shared_file:
+        btn_a11y_label_hide: 'Đặt "{fileName}" thành riêng tư (không có URL công khai)'
+        btn_a11y_label_show: 'Đặt "{fileName}" thành công khai (có URL công khai)'
+        hide_confirmation: 'Bạn có chắc chắn muốn đặt "{fileName}" ở chế độ riêng tư không? Đặt tệp ở chế độ riêng tư sẽ xóa URL công khai của tệp nhưng sẽ không ảnh hưởng đến các bài đăng hiện có. Nó cũng sẽ không còn hiển thị trong trình quản lý phương tiện đối với người dùng trái phép.'
+        hide_fail: 'Không thể đặt tệp "{fileName}" ở chế độ riêng tư'
+        hide_success: 'Tệp được đặt ở chế độ riêng tư'
+        loading: 'Đang đặt tập tin ở chế độ riêng tư...'
+        show_confirmation: 'Bạn có chắc chắn muốn công khai "{fileName}" không? Đặt tệp ở chế độ công khai sẽ giúp bất kỳ ai có URL công khai đều có thể truy cập tệp đó và bất kỳ ai cũng có thể chia sẻ tệp đó bằng trình quản lý phương tiện.'
+        show_fail: 'Không thể đặt tệp "{fileName}" ở chế độ công khai'
+        show_success: 'Tệp được công khai'
+      load_more_files_btn: 'Tải thêm tệp tin'
+      loading: 'Đang tải tệp tin...'
+      modal_empty_desktop: 'Danh sách tệp của bạn trống. Nhấp vào nút hoặc kéo một tệp vào đây để tải lên.'
+      modal_empty_phone: 'Danh sách tệp của bạn trống. Chạm vào nút phía trên để tải lên một tệp.'
+      release_to_upload: 'Thả để tải lên'
+      select_file_a11y_label: 'Chọn tệp "{fileName}"'
+    upload-shared-file-modal:
+      dropzone: 'Kéo và thả tệp vào đây hoặc nhấp để duyệt'
+      hide-from-media-gallery: 'Ẩn khỏi thư viện phương tiện của người dùng'
+      title: 'Tệp chia sẻ mới'
+      upload: 'Tải lên'
