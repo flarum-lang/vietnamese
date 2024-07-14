@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.0 (XXXX-XX-XX)
+-------------------
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+
+
+Tất cả các thay đổi: [v1.9.1...v1.10.0](https://github.com/flarum-lang/vietnamese/compare/v1.9.1...v1.10.0).
+
+
 1.9.1 (2024-07-07)
 ------------------
 
