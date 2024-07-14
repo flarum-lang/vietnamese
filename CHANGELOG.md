@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.10.0 (XXXX-XX-XX)
+1.10.0 (2024-07-14)
 -------------------
 
 **Thêm hỗ trợ cho các tiện ích mở rộng mới**:
