@@ -7,7 +7,22 @@ CHANGELOG
 
 **Thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all)
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
+
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
 
 
 Tất cả các thay đổi: [v1.9.1...v1.10.0](https://github.com/flarum-lang/vietnamese/compare/v1.9.1...v1.10.0).
