@@ -36,4 +36,4 @@ const locale = {
   }
 }
 
-dayjs.locale(locale, null, true)
+dayjs.locale(locale, null, false)
