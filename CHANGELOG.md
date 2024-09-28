@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+1.10.2 (2024-09-28)
+-------------------
+
+**Full Changelog**: https://github.com/flarum-lang/vietnamese/compare/v1.10.1...v1.10.2
+
+
+1.10.1 (2024-09-07)
+-------------------
+
+**Full Changelog**: https://github.com/flarum-lang/vietnamese/compare/v1.10.0...v1.10.1
+
 
 1.10.0 (2024-07-14)
 -------------------
