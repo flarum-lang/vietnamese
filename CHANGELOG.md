@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+1.11.0 (XXXX-XX-XX)
+-------------------
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+Tất cả các thay đổi: [v1.10.2...v1.11.0](https://github.com/flarum-lang/vietnamese/compare/v1.10.2...v1.11.0).
+
+
 1.10.2 (2024-09-28)
 -------------------
 
