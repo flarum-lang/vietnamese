@@ -82,6 +82,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Các tài khoản được liên kết này cho phép bạn đăng nhập vào diễn đàn bằng cách sử dụng các nhà cung cấp khác.'
+          identification-label: 'ID {provider}'
           identifier-label: '{provider} ID'
           label: 'Tài khoản đã liên kết'
           last-used-label: 'Lần cuối sử dụng'

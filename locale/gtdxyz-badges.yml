@@ -90,6 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: 'Bạn có thể chọn {limit, plural, one {<b>một huy hiệu</b>} other {<b># huy hiệu</b>}} để hiển thị trên thẻ người dùng của bạn.'
       title: 'Huy hiệu trên thẻ người dùng'
     give_badge: 'Gán huy hiệu'
+    hidden_badges: 'Người dùng này hiện chưa có huy hiệu nào.'
     moderation:
       give_badge: 'Gán huy hiệu'
       remove_badge: 'Gỡ huy hiệu'

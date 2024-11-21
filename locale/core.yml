@@ -239,6 +239,8 @@ core:
             title: Nhóm
           join_time:
             title: 'Tham gia lúc'
+          user_actions:
+            title: 'Thao tác'
           user_id:
             title: ID
           username:
@@ -511,6 +513,10 @@ core:
       hidden_tooltip: 'Bị ẩn'
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: 'D MMM'
+      scrubber: 'MMMM YYYY'
     debug_button: 'Gỡ lỗi'
     dropdown:
       toggle_dropdown_accessible_label: 'Chuyển đổi menu thả xuống'
