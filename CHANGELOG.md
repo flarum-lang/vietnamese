@@ -4,9 +4,20 @@ CHANGELOG
 1.11.0 (XXXX-XX-XX)
 -------------------
 
+**Thay đổi chung**:
+
+* Đã cập nhật các bản dịch Flarum core.
+
+
 **Thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Tất cả các thay đổi: [v1.10.2...v1.11.0](https://github.com/flarum-lang/vietnamese/compare/v1.10.2...v1.11.0).
