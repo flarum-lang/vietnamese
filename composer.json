@@ -1,6 +1,6 @@
 {
     "name": "flarum-lang/vietnamese",
-    "description": "Vietnamese language pack for Flarum",
+    "description": "Vietnamese language pack for Flarum.",
     "type": "flarum-extension",
     "keywords": [
         "extension",
@@ -26,8 +26,8 @@
     "homepage": "https://ngoquocdat.dev",
     "funding": [
         {
-            "type": "website",
-            "url": "https://nhantien.momo.vn/0372124043"
+            "type": "github",
+            "url": "https://github.com/sponsors/datlechin"
         }
     ],
     "require": {
@@ -35,11 +35,16 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.x-dev"
+            "dev-master": "2.x-dev"
         },
         "flarum-extension": {
             "title": "Vietnamese",
             "category": "language",
+            "info": {
+                "donate": "https://github.com/sponsors/datlechin",
+                "website": "https://ngoquocdat.dev",
+                "support": "https://discuss.flarum.org/d/28471"
+            },
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
@@ -50,9 +55,6 @@
         "flarum-locale": {
             "code": "vi",
             "title": "Tiếng Việt"
-        },
-        "extiverse": {
-            "discuss": "https://discuss.flarum.org/d/28471"
         },
         "flarum-cli": {
             "modules": {
