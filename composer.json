@@ -31,7 +31,7 @@
         }
     ],
     "require": {
-        "flarum/core": "^1.7"
+        "flarum/core": "^2.0.0-beta"
     },
     "extra": {
         "branch-alias": {
