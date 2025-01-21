@@ -39,3 +39,6 @@ flarum-suspend:
       suspended_tooltip: 'Bị cấm'
     user_controls:
       suspend_button: Cấm
+  validation:
+    attributes:
+      suspendedUntil: 'bị đình chỉ cho đến khi'

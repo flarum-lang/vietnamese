@@ -20,6 +20,7 @@ fof-moderator-notes:
       created_text: '{username} đã tạo ghi chú này lúc {date}'
       delete: Xóa
       dismiss_button: Xong
+      filter_by_me: 'Chỉ những ghi chú tôi tạo ra'
       input_heading: 'Nhập ghi chú của bạn cho <strong>{username}</strong>, (hỗ trợ markdown)'
       noNotes: 'Hiện không có ghi chú nào ở đây.'
       no_content_given: 'Ghi chú trống không được phép.'

@@ -141,3 +141,22 @@ flarum-extension-manager:
       updater_title: 'Cập nhật'
     why_not_modal:
       title: 'Tại sao nó không cập nhật'
+  validation:
+    attributes:
+      bearer: 'HTTP Bearer'
+      'bearer.*': 'HTTP Bearer'
+      extension_id: 'ID tiện ích mở rộng'
+      github_oauth: 'GitHub OAuth'
+      'github_oauth.*': 'GitHub OAuth'
+      gitlab_oauth: 'GitLab OAuth'
+      'gitlab_oauth.*': 'GitLab OAuth'
+      gitlab_token: 'GitLab Token'
+      'gitlab_token.*': 'GitLab Token'
+      minimum_stability: 'độ ổn định tối thiểu'
+      package: gói
+      repositories: 'kho lưu trữ'
+      'repositories.*': 'kho lưu trữ'
+      'repositories.*.type': 'loại kho lưu trữ'
+      'repositories.*.url': 'URL kho lưu trữ'
+      update_mode: 'chế độ cập nhật'
+      version: 'phiên bản'

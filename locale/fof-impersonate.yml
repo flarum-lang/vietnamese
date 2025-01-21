@@ -19,3 +19,12 @@ fof-impersonate:
       title: 'Đăng nhập với tư cách người dùng khác'
     user_controls:
       impersonate_button: 'Đăng nhập với tư cách người dùng'
+  lib:
+    modal:
+      impersonate_username: 'Đăng nhập bằng {username}'
+      label: 'Với sức mạnh lớn đi kèm trách nhiệm lớn. Bằng cách tiếp tục, bạn sẽ trở thành {username} cho đến khi bạn đăng xuất.'
+      placeholder_optional: '(Tùy chọn) Cung cấp lý do bạn chuyển sang người dùng này'
+      placeholder_required: 'Bạn phải cung cấp lý do chuyển sang người dùng này trước khi tiếp tục'
+      title: 'Đăng nhập với tư cách là người dùng khác'
+    user_controls:
+      impersonate_button: 'Đăng nhập với tư cách là người dùng'

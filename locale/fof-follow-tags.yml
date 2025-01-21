@@ -8,6 +8,12 @@ blomstra-gdpr:
       tagsubscription:
         anonymize_description: 'Xóa gói đăng ký của người dùng vào thẻ.'
         export_description: 'Xuất chi tiết cấp độ đăng ký của thẻ, nếu có.'
+flarum-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Xóa bỏ đăng ký của người dùng vào thẻ.'
+        export_description: 'Xuất thông tin chi tiết về cấp độ đăng ký của thẻ, nếu có.'
 fof-follow-tags:
   admin:
     settings:

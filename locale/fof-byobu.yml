@@ -19,8 +19,14 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Nếu được bật, các PD sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu khi người dùng cuối cùng rời đi. Nếu không, PD sẽ bị xoá tạm/ẩn.'
       enable-make-public-option: 'Bật tuỳ chọn "đặt ở chế độ công khai"'
       enable-make-public-option-help: 'Thêm tuỳ chọn cho những người có quyền xóa tất cả người nhận, chỉ định thẻ mới và hiển thị cuộc thảo luận ở chế độ công khai (cộng với cài đặt hiển thị của thẻ đã chọn).'
+      general:
+        heading: 'Cài đặt chung'
+        help: 'Các thiết lập này kiểm soát các tính năng cơ bản của byobu.'
       hide_from_all_discussions_page: 'Ẩn PD khỏi trang "Tất cả cuộc thảo luận"'
       hide_from_all_discussions_page_help: 'Các cuộc thảo luận riêng tư sẽ chỉ có thể truy cập được từ trang "Thảo luận riêng tư" hoặc hồ sơ người dùng'
+      icon:
+        heading: 'Cài đặt biểu tượng'
+        help: 'Các thiết lập này kiểm soát các biểu tượng được sử dụng bởi thành viên trên diễn đàn.'
       post-event-icon: 'Sự kiện đăng bài của Byobu'
   email:
     body:

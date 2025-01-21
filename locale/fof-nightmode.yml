@@ -12,10 +12,14 @@ fof-default-user-preferences:
 fof-nightmode:
   admin:
     settings:
+      general:
+        heading: 'Cài đặt chung'
+        help: 'Các thiết lập này kiểm soát hành vi cơ bản của tiện ích mở rộng.'
       modal:
         always_show_theme_toggle_on_header: 'Luôn hiển thị nút chuyển đổi chủ đề trên đầu trang diễn đàn'
         default_theme: 'Chủ đề mặc định'
         default_theme_helper: 'Chủ đề mặc định tự động được đặt cho người dùng mới, khách và những ai chưa đặt.'
+        show_theme_toggle_in_solid: 'Hiển thị biểu tượng chủ đề trong biểu tượng rắn'
         theme_auto: '=> fof-nightmode.ref.auto'
         theme_dark: '=> fof-nightmode.ref.dark'
         theme_light: '=> fof-nightmode.ref.light'

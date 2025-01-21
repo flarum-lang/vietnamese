@@ -8,6 +8,12 @@ blomstra-gdpr:
       twofactordata:
         delete_description: 'Xóa tất cả dữ liệu liên quan đến 2FA.'
         export_description: 'Xuất trạng thái 2FA và mã sao lưu được mã hóa.'
+flarum-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Xóa tất cả dữ liệu liên quan đến 2FA.'
+        export_description: 'Xuất trạng thái 2FA và mã sao lưu được mã hóa.'
 ianm-twofactor:
   admin:
     edit_group:

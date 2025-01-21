@@ -88,6 +88,8 @@ fof-webhooks:
         group_label: Nhóm
         max_post_content_length_help: 'Nhập độ dài để giới hạn nội dung bài viết trong tất cả các sự kiện liên quan đến bài viết. Sửa thành 0 hoặc để trống để không giới hạn.'
         max_post_content_length_label: 'Độ dài tối đa nội dung bài viết'
+        name_help: 'Tên của webhook. Tên này sẽ được sử dụng cho những thứ như tên người dùng Discord, tên bot Slack, v.v.'
+        name_label: Tên
         title: 'Thiết lập Webhook'
         use_plain_text_label: 'Giảm số lượng định dạng trong nội dung bài viết'
       services:
