@@ -40,11 +40,19 @@ flarum-gdpr:
       default_erasure_options:
         anonymization: 'Ẩn danh'
         deletion: 'Xóa bỏ'
+      gdpr_page:
+        help_text: 'Trước khi quyết định sử dụng hành động nào trên diễn đàn của bạn, điều quan trọng là phải hiểu dữ liệu nào được tích hợp và cách nó được xử lý cho cả ẩn danh hóa và xóa. Truy cập tổng quan GDPR để hiểu cách dữ liệu được xử lý và những tiện ích mở rộng tùy chọn nào đã đăng ký dữ liệu của họ để được xử lý bởi tiện ích mở rộng này.'
+        title: 'Tích hợp và hành động dữ liệu'
+    userlist:
+      columns:
+        gdpr_actions:
+          export: 'Yêu cầu dữ liệu cho {username}'
   email:
     confirm_erasure:
       body: "Xin chào {display_name}!\n\nCó người (hy vọng là bạn) vừa yêu cầu xóa tài khoản `{display_name}`.\n\nĐể xác nhận hành động này, vui lòng theo liên kết sau, sau đó yêu cầu của bạn sẽ được nhóm của chúng tôi xử lý.\n\n{erasure_confirm_url}\n"
       subject: 'Xác nhận yêu cầu xóa tài khoản của bạn'
     erasure_cancelled:
+      body: "Xin chào {display_name}!\n\nĐây là thông báo tự động rằng yêu cầu hủy xóa tài khoản của bạn đã được xử lý.\n\nTài khoản của bạn sẽ không còn bị xóa nữa.\n"
       subject: 'Yêu cầu xóa tài khoản đã bị hủy'
     erasure_completed:
       anonymization:
@@ -54,6 +62,7 @@ flarum-gdpr:
         body: "Xin chào {display_name}!\n\nĐây là thông báo tự động, cuối cùng rằng tài khoản của bạn đã bị xóa.\n"
         subject: 'Đã xóa tài khoản hoàn tất'
     export_available:
+      body: "Xin chào {display_name}!\n\nBạn đã yêu cầu xuất dữ liệu tài khoản cho {username}. Bản xuất này đã được tạo thành công và hiện đã sẵn sàng:\n\n{url}\n\nBản xuất này sẽ còn khả dụng cho đến {destroys_at}.\n"
       subject: 'Có thể xuất dữ liệu'
   forum:
     badges:
@@ -61,6 +70,7 @@ flarum-gdpr:
     delete_user:
       delete_button: 'Xóa bỏ'
       modal_delete_button: 'Xóa bằng hành động mặc định'
+      text: "Bạn có chắc chắn muốn xóa tài khoản của {username}?\n\nHành động này không thể hoàn tác.\n"
       title: 'Xóa tài khoản của {username}'
     erasure_request_confirmed: 'Bạn đã xác nhận yêu cầu xóa tài khoản của mình. Hành động sẽ được thực hiện trong vòng 30 ngày, theo yêu cầu của GDPR.'
     erasure_requests:
@@ -68,8 +78,48 @@ flarum-gdpr:
       item_text: '{name} đã yêu cầu xóa tài khoản'
       title: 'Yêu cầu xóa tài khoản'
       tooltip: 'Yêu cầu xóa tài khoản'
+    export_file: 'Xuất dữ liệu người dùng cho {username} ({email}) được chuẩn bị vào ngày {date} từ {forumTitle} ({url})'
+    notification:
+      export-ready: 'Dữ liệu xuất của {username} hiện đã sẵn sàng để tải xuống.'
+    process_erasure:
+      anonymization_button: 'Ẩn danh người dùng'
+      comments_label: 'Bình luận (tùy chọn)'
+      confirm: 'Bạn có chắc chắn muốn xóa tài khoản của {name} trong chế độ {mode}?'
+      deletion_button: 'Xóa người dùng'
+      text: '{name} đã yêu cầu xóa tài khoản.'
+      title: 'Xử lý yêu cầu xóa'
+    request_erasure:
+      cancel_button: 'Hủy yêu cầu'
+      password_label: 'Xác nhận Mật khẩu'
+      reason: 'Bạn đã cung cấp lý do sau: {reason}'
+      reason_label: 'Lý do (tùy chọn)'
+      request_button: 'Yêu cầu xóa'
+      status:
+        awaiting_user_confirmation: "Bạn nên đã nhận được email để xác nhận yêu cầu xóa tài khoản của mình.\n"
+        user_confirmed: "Bạn đã xác nhận yêu cầu xóa tài khoản của mình. Hành động sẽ được thực hiện trong vòng 30 ngày, theo yêu cầu của GDPR.\n"
+      text: 'Sau khi nhận được và xác nhận, một quản trị viên sẽ xem xét yêu cầu của bạn trong vòng 30 ngày, theo yêu cầu của GDPR.'
+      title: 'Yêu cầu xóa tài khoản'
+    settings:
+      data:
+        heading: 'Dữ liệu cá nhân'
+      export_data_button: 'Xuất Dữ liệu'
+      export_data_help: 'Yêu cầu xuất dữ liệu sẽ cung cấp cho bạn một bản sao có thể tải xuống của tất cả thông tin liên quan đến tài khoản của bạn. Điều này bao gồm bài viết, bình luận và chi tiết hồ sơ.'
+      request_erasure_button: 'Xóa Tài khoản'
+      request_erasure_help: 'Yêu cầu xóa sẽ xóa vĩnh viễn tài khoản của bạn và tất cả dữ liệu liên quan. Hành động này không thể hoàn tác. Trước khi tiếp tục, hãy đảm bảo bạn đã lưu bất kỳ nội dung nào bạn muốn giữ lại.'
   lib:
     data:
+      avatar:
+        delete_description: 'Xóa ảnh đại diện của người dùng khỏi hệ thống tệp.'
+        export_description: 'Lấy ảnh đại diện của người dùng từ hệ thống tệp và đưa vào bản xuất.'
+      discussions:
+        export_description: 'Xuất tất cả cuộc thảo luận mà người dùng đã bắt đầu. Dữ liệu giới hạn ở tiêu đề và ngày tạo.'
+      forum:
+        export_description: 'Xuất tiêu đề diễn đàn, url, tên người dùng, email và ngày hiện tại.'
+      no_action: 'Không có hành động nào được thực hiện.'
+      posts:
+        anonymize_description: 'Xóa địa chỉ IP khỏi tất cả bài viết mà người dùng đã tạo.'
+        delete_description: 'Xóa tất cả bài viết mà người dùng đã tạo.'
+        export_description: 'Xuất tất cả bài viết mà người dùng đã tạo. Dữ liệu giới hạn ở nội dung, ngày tạo, địa chỉ IP và ID cuộc thảo luận.'
       tokens:
         delete_description: 'Xóa tất cả mã token mà người dùng đã tạo.'
         export_description: 'Xuất tất cả các mã token mà người dùng đã tạo. Dữ liệu bị giới hạn ở ngày tạo và loại mã token.'

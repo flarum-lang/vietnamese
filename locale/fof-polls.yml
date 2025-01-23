@@ -99,6 +99,7 @@ fof-polls:
       cannot_start_poll_button: 'Không thể bắt đầu cuộc thăm dò'
       start_poll_button: 'Bắt đầu cuộc thăm dò toàn cục'
       submit_button: 'Bỏ phiếu'
+      total_votes: '{count, plural, one {# phiếu bầu đã bỏ} other {# phiếu bầu đã bỏ}}'
     poll_controls:
       delete_confirmation: 'Bạn có chắc chắn muốn xóa cuộc thăm dò ý kiến này không?'
       delete_error_message: 'Đã xảy ra lỗi khi xóa cuộc thăm dò.'

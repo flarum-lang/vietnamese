@@ -7,6 +7,10 @@ gbcl-userip:
     permissions:
       view_ip_info_label: 'Hiển thị thông tin IP'
     service:
+      ipinfo:
+        description: 'Sử dụng <b>https://ipinfo.io</b> để có thông tin IP chính xác hơn (yêu cầu mã token)'
+        key: 'Mã token IpInfo (Bắt buộc)'
+        label: IpInfo
       ipsb:
         description: 'Sử dụng <b>https://ip.sb</b> để nhận thông tin vị trí IP miễn phí (vui lòng lưu ý giới hạn)'
         label: IP.SB
