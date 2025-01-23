@@ -11,6 +11,7 @@ CHANGELOG
 
 **Thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 
@@ -36,6 +37,7 @@ CHANGELOG
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
