@@ -13,6 +13,7 @@ CHANGELOG
 
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 
 
