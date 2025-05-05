@@ -11,6 +11,7 @@ CHANGELOG
 
 **Thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
