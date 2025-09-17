@@ -1,6 +1,56 @@
 CHANGELOG
 =========
 
+1.11.0 (XXXX-XX-XX)
+-------------------
+
+**Thay đổi chung**:
+
+* Đã cập nhật các bản dịch Flarum core.
+
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+
+
+Tất cả các thay đổi: [v1.10.2...v1.11.0](https://github.com/flarum-lang/vietnamese/compare/v1.10.2...v1.11.0).
+
+
 1.10.2 (2024-09-28)
 -------------------
 
