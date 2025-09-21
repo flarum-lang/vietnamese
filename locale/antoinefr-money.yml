@@ -12,10 +12,13 @@ antoinefr-money:
       - 'Khi một cuộc thảo luận/bài viết bị ẩn hoặc khôi phục (mặc định)'
       - 'Khi một cuộc thảo luận/bài viết bị xóa'
     permissions:
+      disable_money_label: 'Vô hiệu hóa tiền'
       edit_money_label: 'Chỉnh sửa tiền'
     settings:
       autoremove: 'Tự động cập nhật tiền'
+      cascaderemove: 'Xóa tiền cho các bài đăng khi một cuộc thảo luận bị xóa'
       helpextensionlikes: 'Yêu cầu bật tiện ích <code>flarum/likes</code>'
+      ignore_notifying_users: 'Khi kiểm tra số lượng từ của câu trả lời, chỉ tập trung vào phần nội dung'
       moneyfordiscussion: 'Số tiền cho một cuộc thảo luận mới'
       moneyforlike: 'Cộng tiền khi có bài viết được thích'
       moneyforpost: 'Số tiền cho một bài viết mới'

@@ -15,6 +15,8 @@ fof-user-directory:
   forum:
     header:
       back_to_user_directory_tooltip: 'Quay lại Danh sách người dùng'
+    hero:
+      title: '=> fof-user-directory.forum.page.nav'
     page:
       empty_text: 'Chúng tôi không thể tìm thấy bất kỳ người dùng nào phù hợp với tìm kiếm của bạn.'
       filter_button: 'Lọc nhóm'

@@ -10,10 +10,18 @@ kilowhat-rich-embeds:
       refreshOnAnyPost: 'Làm mới bản nhúng trên bất kỳ bài đăng nào'
       refreshOnOwnPost: 'Làm mới bản nhúng trên bài đăng của chính mình'
       useOnOwnPost: 'Sử dụng nhúng trong bài đăng của riêng mình'
+      viewGoogleDriveThumbnails: 'Xem hình thu nhỏ Google Drive do API cung cấp'
     preview:
       loading: 'Đang tải...'
       refresh: 'Làm mới'
       title: 'Xem trước'
+    section:
+      flarum: Flarum
+      github: GitHub
+      google: Google
+      googledrive: 'Google Drive'
+      siteSpecificHelp: "Dưới đây là các cài đặt cụ thể cho trang web cải thiện nhúng bằng cách sử dụng dữ liệu không có sẵn thông qua OpenGraph và quét HTML. Tất cả các tùy chọn đều tùy chọn. Một số tùy chọn yêu cầu quyền truy cập API của bên thứ ba có thể có giới hạn tốc độ hoặc phí.\n"
+      youtube: YouTube
     settings:
       blacklist: 'Danh sách đen URL'
       blacklistHelp: 'Kiểm tra tài liệu để biết định dạng. Các URL này sẽ không bao giờ có nhiều nhúng và không thể được ủy quyền thông qua proxy hình ảnh'
@@ -26,6 +34,11 @@ kilowhat-rich-embeds:
       githubOrgWhitelist: 'Danh sách cho phép của tổ chức'
       githubOrgWhitelistHelp: "Danh sách các tổ chức GitHub được phân tách bằng dấu phẩy sẽ sử dụng bản xem trước do API cung cấp. Sử dụng trường này để ngăn mọi kho lưu trữ riêng tư có thể truy cập bằng khóa API bị lộ, để giảm mức sử dụng API hoặc chỉ thay đổi kiểu nhúng của tổ chức của riêng bạn. Nếu để trống, bạn có thể xem trước bất kỳ repo nào mà khóa API có thể truy cập.\n"
       googleApiAuthConfig: 'Đường dẫn cấu hình xác thực SDK của Google hoặc JSON'
+      googleApiAuthConfigHelp: "Cài đặt này được sử dụng kết hợp với các cài đặt YouTube và Google Drive bên dưới. Nó phải chứa đường dẫn tuyệt đối đến tệp xác thực JSON trên hệ thống tệp cục bộ, hoặc nội dung của tệp đó. Nếu để trống, khóa API hoặc tài khoản dịch vụ sẽ tự động được phát hiện thông qua các biến môi trường bởi Google API SDK.\n"
+      googleApiKey: 'Khóa API Google SDK'
+      googleApiKeyHelp: "Cài đặt này được sử dụng kết hợp với các cài đặt YouTube và Google Drive bên dưới. Nếu để trống, khóa API hoặc tài khoản dịch vụ sẽ tự động được phát hiện thông qua các biến môi trường bởi Google API SDK.\n"
+      googledriveApiPreviews: 'Bật bản xem trước Google Drive phong phú nâng cao do API cung cấp'
+      googledriveApiPreviewsHelp: "Google API SDK phải được cấu hình ở trên. Tính năng này sẽ hiển thị tiêu đề và bản xem trước của tệp Google Drive. Sử dụng tài khoản dịch vụ với quyền truy cập vào Drive riêng tư để bật xem trước tệp riêng tư.\n"
       imageEmbeds: 'Rich Embeds cho Ảnh'
       imageEmbedsHelp: "Tính năng này truy xuất và hiển thị thông tin bổ sung về hình ảnh bên ngoài được chèn trong bài đăng bằng mã bbcode hoặc dấu xuống. Tại thời điểm này, nó sử dụng lại cùng một danh sách đen / danh sách trắng và các quyền như các liên kết phong phú. Những hình ảnh này không được hỗ trợ thông qua proxy hình ảnh OpenGraph. Bạn phải xóa bộ đệm Flarum sau khi thay đổi cài đặt này.\n"
       imageProxy: 'Proxy ảnh OpenGraph'
@@ -35,6 +48,9 @@ kilowhat-rich-embeds:
         block: Khối
         inline: '1 dòng'
         separated: 'Phân cách'
+      maxImageCount: 'Số lượng hình ảnh tối đa trong bản xem trước'
+      maxImageCountHelp: "Bao nhiêu hình ảnh từ Opengraph hoặc trình phân tích dự phòng sẽ được hiển thị. Tất cả URL hình ảnh luôn được lưu, cho phép bạn thay đổi cài đặt này sau.\n"
+      maxImageCountPlaceholder: 'Để trống để không giới hạn'
       position: 'Vị trí'
       positionOptions:
         above: 'Liên kết ở trên'
@@ -48,7 +64,71 @@ kilowhat-rich-embeds:
       whitelistHelp: 'Kiểm tra tài liệu để biết định dạng. Nếu một giá trị được đặt, tất cả các URL khác sẽ được coi là danh sách đen'
       withoutOpengraph: 'Tạo rich embed cho các trang ngoại trừ dữ liệu OpenGraph'
       withoutOpengraphHelp: 'Tiêu đề, mô tả và ảnh sẽ được quét khỏi trang HTML'
+      youtubeApiPreviews: 'Bật bản xem trước YouTube phong phú nâng cao do API cung cấp'
+      youtubeApiPreviewsHelp: "Google API SDK phải được cấu hình ở trên. Tính năng này sẽ hiển thị thêm thống kê về video và có thể hiển thị video riêng tư mà người dùng SDK có quyền truy cập.\n"
+      youtubeNoCookie: 'Sử dụng tên miền iframe no-cookie của YouTube'
+      youtubeNoCookieHelp: "Chuyển sang tên miền no-cookie thay thế được YouTube cung cấp. Một số video có thể không thể phát trong iframe với tùy chọn này được bật. Tính năng này có thể được sử dụng mà không cần quyền truy cập API.\n"
+      youtubePlayer: 'Cho phép phát video YouTube từ bản xem trước'
+      youtubePlayerHelp: "Trình phát iframe sẽ được tải theo yêu cầu khi người dùng nhấp vào nút phát trong bản xem trước. Bạn phải cấu hình CSP và tiêu đề frame để cho phép frame từ tên miền YouTube. Tính năng này có thể được sử dụng mà không cần quyền truy cập API.\n"
   api:
+    embed:
+      flarum:
+        discussion:
+          stats:
+            commentCount: 'Trả lời'
+            createdAt: 'Ngày bắt đầu'
+            participantCount: 'Người tham gia'
+          type: 'Thảo luận'
+        user:
+          avatarAlt: 'Ảnh đại diện'
+          stats:
+            commentCount: 'Bình luận'
+            discussionCount: 'Thảo luận'
+            joinTime: 'Ngày tham gia'
+          type: 'Hồ sơ'
+      github:
+        issue:
+          stats:
+            commentCount: 'Bình luận'
+            createdAt: 'Tạo lúc'
+          type: 'Vấn đề'
+        privateRepoSuffix: '[riêng tư]'
+        pull:
+          stats:
+            commentCount: 'Bình luận'
+            commitCount: Commit
+            createdAt: 'Tạo lúc'
+            reviewCount: 'Đánh giá'
+          type: 'Pull request'
+        repo:
+          stats:
+            forkCount: Fork
+            openIssueCount: 'Vấn đề mở'
+            stargazerCount: Sao
+            subscriberCount: 'Người theo dõi'
+          type:
+            private: 'Kho riêng tư'
+            public: 'Kho công khai'
+        siteName: GitHub
+      googledrive:
+        file:
+          stats:
+            createdTime: 'Tạo lúc'
+            modifiedTime: 'Sửa đổi lúc'
+            size: 'Kích thước tệp'
+          thumbnailAlt: 'Bản xem trước tệp Google Drive'
+          type: Tệp
+        siteName: 'Google Drive'
+      youtube:
+        siteName: YouTube
+        video:
+          stats:
+            commentCount: 'Bình luận'
+            likeCount: Thích
+            publishedAt: 'Xuất bản lúc'
+            viewCount: 'Lượt xem'
+          thumbnailAlt: 'Hình thu nhỏ video'
+          type: Video
     error:
       blacklistedUrl: 'URL {url} chưa được đưa vào danh sách cho phép để nhúng.'
       invalidUrl: 'URL {url} không hợp lệ.'
@@ -56,10 +136,16 @@ kilowhat-rich-embeds:
     controls:
       disable: 'Tắt nhúng trên bài viết này'
       disableConfirmation: 'Tất cả các nhúng sẽ bị xóa khỏi bài đăng này. Tiếp tục?'
+      expandDescription: 'Mở rộng mô tả'
       imgCopied: 'Đã sao chép!'
       imgCopy: 'Sao chép URL ảnh'
       imgOpen: 'Mở ảnh trong tab mới'
+      play: 'Nhấp để phát phương tiện bằng trình phát nhúng'
       refresh: 'Tải dữ liệu lại'
     embed:
+      altAvatar: 'Hình ảnh đại diện tác giả'
       altFavicon: 'Biểu tượng {website}'
       altImageFallback: 'Ảnh Opengraph {website}'
+      missing:
+        other: 'Không thể tạo bản xem trước cho liên kết này'
+        retrieving: 'Đang tải...'

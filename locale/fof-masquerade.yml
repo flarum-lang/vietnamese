@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-masquerade/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      masqueradeanswers:
+        anonymize_description: '=> flarum-gdpr.lib.data.masqueradeanswers.delete_description'
+        delete_description: 'Xóa tất cả các câu trả lời trong trường hồ sơ khỏi tài khoản của người dùng'
+        export_description: 'Vô hiệu hóa avatar từ nhà cung cấp'
 fof-masquerade:
   admin:
     buttons:

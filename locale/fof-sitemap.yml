@@ -6,6 +6,8 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Tùy chọn nâng cao'
+      exclude_tags: 'Loại trừ tất cả các trang thẻ khỏi sơ đồ trang web'
+      exclude_tags_help: 'Theo mặc định, bất kỳ thẻ nào khách có thể nhìn thấy sẽ được lập chỉ mục'
       exclude_users: 'Loại bỏ tất cả hồ sơ người dùng khỏi sitemap'
       exclude_users_help: 'Mặc định bất kỳ người dùng nào đều cũng sẽ được lập chỉ mục'
       frequency:
@@ -13,6 +15,10 @@ fof-sitemap:
         hourly: 'Hàng giờ'
         twice_daily: 'Hai lần mỗi ngày'
       frequency_label: 'Bao lâu thì trình lên lịch nên tạo lại sơ đồ trang được lưu trong bộ nhớ cache?'
+      include_changefreq: 'Bao gồm các giá trị tần suất thay đổi trong sơ đồ trang web'
+      include_changefreq_help: 'Google bỏ qua các giá trị tần suất thay đổi nhưng có thể được các công cụ tìm kiếm khác sử dụng để lập lịch thu thập thông tin'
+      include_priority: 'Bao gồm các giá trị ưu tiên trong sơ đồ trang web'
+      include_priority_help: 'Các giá trị ưu tiên bị Google bỏ qua nhưng có thể được các công cụ tìm kiếm khác như Bing và Yandex sử dụng'
       mode_help: 'Chọn chế độ chính xác cho quy mô diễn đàn của bạn là cực kỳ quan trọng.'
       mode_help_cache_disk: 'Tốt nhất cho các diễn đàn vừa hoặc nhỏ, rất có thể trên các môi trường lưu trữ cho phép cronjobs và bật bộ lập lịch Flarum (xem bên dưới), và với các cuộc thảo luận, người dùng, thẻ và trang được tổng hợp dưới 50.000 mục.'
       mode_help_cache_disk_label: 'Chế độ bộ nhớ đệm/Chế độ đĩa'

@@ -13,5 +13,7 @@ blazite-turnstile:
       site_key: 'Mã khoá trang'
   forum:
     not_loaded_error: 'Không thể tải Cloudflare Turnstile. Vui lòng làm mới trang và kiểm tra trình chặn quảng cáo của bạn.'
+    validation_error: 'Vui lòng hoàn thành thử thách Turnstile.'
 validation:
+  required: 'Vui lòng hoàn thành thử thách Turnstile.'
   turnstile: 'Chúng tôi không thể xác minh xem bạn có phải là người máy hay không. Hãy làm mới trang và thử lại.'

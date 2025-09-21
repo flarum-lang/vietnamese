@@ -91,6 +91,11 @@ fof-upload:
         max_width: 'Chiều rộng/chiều cao hình ảnh tối đa'
         title: 'Thay đổi kích thước hình ảnh'
         toggle: 'Thay đổi kích thước hình ảnh'
+      svg-sanitizer:
+        allow_animate: 'Cho phép SVG chuyển động'
+        allow_animate_help: 'Việc bật hoạt ảnh SVG có thể gây ra lỗ hổng bảo mật vì SVG có thể chứa mã độc. Vui lòng tự chịu rủi ro khi bật cài đặt này và chỉ bật khi bạn tin tưởng người dùng của mình.'
+        help: 'Cấu hình cách xử lý và khử trùng tệp SVG khi tải lên. Tệp SVG có thể chứa các tập lệnh có khả năng gây hại và cần được xử lý cẩn thận. Các tệp SVG đã tải lên sẽ được khử trùng khi tải lên, đồng thời các tập lệnh và thẻ độc hại sẽ bị xóa.'
+        title: 'Trình làm sạch SVG'
       watermark:
         file: 'Tải lên hình ảnh đóng dấu của bạn'
         position: 'Vị trí đóng dấu'

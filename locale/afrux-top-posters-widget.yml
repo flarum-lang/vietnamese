@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 afrux-top-posters-widget:
+  admin:
+    settings:
+      info: 'Người dùng của các nhóm được chọn sẽ bị loại khỏi kết quả tiện ích.'
   forum:
     widget:
       title: 'Người đăng bài của tháng'

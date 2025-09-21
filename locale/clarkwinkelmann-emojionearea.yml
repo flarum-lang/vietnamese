@@ -5,6 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Đóng trình chọn khi biểu tượng cảm xúc được chọn'
       enableRecent: 'Cho phép gần đây'
       enableSearch: 'Cho phép tìm kiếm'
       enableTones: 'Cho phép bật âm'
@@ -12,5 +13,16 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'Ẩn nút chọn biểu tượng cảm xúc Flarum'
       searchPosition: 'Di chuyển tìm kiếm và âm báo xuống dưới cùng'
   forum:
+    filters:
+      activity: 'Hoạt động'
+      animals_nature: 'Động vật & Thiên nhiên'
+      flags: Cờ
+      food_drink: 'Đồ ăn & thức uống'
+      objects: 'Đồ vật'
+      recent: 'Gần đây'
+      smileys_people: 'Biểu tượng mặt cười & Con người'
+      symbols: 'Ký hiệu'
+      tones: 'Đa dạng'
+      travel_places: 'Du lịch & Địa điểm'
     picker_button: 'Bộ chọn biểu tượng cảm xúc'
     search_placeholder: 'Tìm kiếm...'

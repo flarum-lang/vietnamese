@@ -12,6 +12,8 @@ fof-oauth:
         heading: 'Nâng cao'
         log-oauth-errors-help: 'Nếu được kích hoạt, các lỗi OAuth sẽ được ghi vào nhật ký của Flarum. Điều này có thể hữu ích để gỡ lỗi các vấn đề liên quan đến OAuth, nhưng cũng có thể chứa thông tin nhạy cảm.'
         log-oauth-errors-label: 'Ghi lại các lỗi OAuth'
+      disable_avatars_help: "Nếu được bật, ảnh đại diện của người dùng sẽ không được cập nhật để khớp với ảnh đại diện của nhà cung cấp khi đăng ký. Lưu ý rằng tính năng này chỉ ảnh hưởng đến các lần đăng ký sau này và sẽ không thay đổi ảnh đại diện của người dùng hiện tại.\n"
+      disable_avatars_label: 'Vô hiệu hóa avatar từ nhà cung cấp'
       fullscreen_popup_help: 'Khi được kích hoạt, đăng nhập OAuth sẽ mở trong một cửa sổ popup toàn màn hình. Nếu điều này được kích hoạt, các thiết lập chiều rộng và chiều cao sẽ bị bỏ qua.'
       fullscreen_popup_label: 'Sử dụng cửa sổ popup toàn màn hình cho OAuth'
       only_icons_label: 'Chỉ hiển thị các biểu tượng Nút đăng nhập (bố cục thay thế)'
@@ -43,10 +45,13 @@ fof-oauth:
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Tạo ứng dụng tại {link}.'
           hosted_domain_label: 'Tên miền được lưu trữ (G Suite/Google Apps for Business, tùy chọn)'
+        group_help: 'Chọn một nhóm để tự động chỉ định cho người dùng đăng ký sử dụng nhà cung cấp này.'
+        group_label: 'Gán nhóm'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Tạo ứng dụng tại {link}.'
+        no_group_label: 'Không có gán nhóm'
         twitter:
           api_key_label: 'Mã khoá API'
           api_secret_label: 'Mã bí mật API'

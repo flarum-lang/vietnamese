@@ -18,6 +18,21 @@ kilowhat-wordpress:
       title: 'Kiểm tra sức khỏe'
     permissions:
       gambits: 'Wordpress Gambits của bên thứ ba (xem tài liệu)'
+    role-group-sync:
+      choose:
+        group: 'Chọn một nhóm'
+        role: 'Chọn vai trò WordPress...'
+      custom:
+        group: 'Tùy chỉnh...'
+        role: 'Tùy chỉnh...'
+      delete: 'Xóa quy tắc'
+      head:
+        group: 'Nhóm Flarum'
+        role: 'Vai trò WordPress'
+      role-loader:
+        error: 'Có vấn đề khi tải danh sách vai trò từ WordPress. Bạn vẫn có thể nhập tên vai trò thủ công.'
+        loading: 'Đang tải vai trò từ WordPress...'
+      selected-custom-group: 'Tùy chỉnh'
     save-controls:
       no-unsaved-changes: 'Mọi thứ đã được lưu'
       save: Lưu
@@ -26,12 +41,20 @@ kilowhat-wordpress:
       validation-errors: 'Chúng tôi đã tìm thấy một số lỗi trong bài gửi của bạn'
     settings:
       api_key: 'Mã khoá API Flarum'
+      api_key_reset: 'Tạo mã khóa API mới'
+      api_key_reset_confirm: "Bạn có thực sự muốn tạo một mã khóa API chung mới không? Mã cũ sẽ ngừng hoạt động và sẽ phải được cập nhật thủ công trong cài đặt plugin WordPress.\n"
+      comment_author_sync: 'Gán tác giả thảo luận từ SSO'
+      comment_author_sync_help: 'Nếu tác giả WordPress đã tạo tài khoản Flarum thông qua SSO, tài khoản Flarum đó sẽ được đặt làm chủ sở hữu thảo luận bình luận.'
       comment_tag: 'Gắn thẻ cho các chủ đề bình luận mới'
       comment_tag_custom: 'Tuỳ chỉnh giá trị'
       comment_tag_custom_help: 'Danh sách ID thẻ được phân tách bằng dấu phẩy'
       comment_tag_none: 'Không gán một thẻ'
       cookie_domain: 'Miền cookie'
-      cookie_domain_help: 'Chỉ cần thiết nếu khác với miền Flarum'
+      cookie_domain_help: "Chỉ cần thiết nếu khác với miền Flarum\n"
+      default_actor: 'Tác nhân mặc định'
+      default_actor_help: "Người dùng Flarum này sẽ được gán làm tác nhân của tất cả các hành động tạm ngưng, khóa, xóa. Nó cũng sẽ được sử dụng làm chủ sở hữu của các cuộc thảo luận và bài đăng trừ khi \"Gán tác giả thảo luận từ SSO\" được bật.\n"
+      default_actor_placeholder_invalid: 'Có thể giá trị không hợp lệ: {value} - Gõ để tìm kiếm người dùng...'
+      default_actor_placeholder_search: 'Gõ để tìm kiếm người dùng...'
       enable_comments: 'Bật tích hợp bình luận'
       enable_sso: 'Bật tích hợp SSO'
       excerpt_html_nodes: 'Độ dài của đoạn trích nội dung (tính theo số nút HTML)'
@@ -39,6 +62,14 @@ kilowhat-wordpress:
       excerpt_length: 'Độ dài của đoạn trích nội dung (tính bằng ký tự)'
       force_username_choice: 'Làm cho người dùng chọn tên tài khoản của họ trong lần truy cập đầu tiên'
       force_username_choice_help: 'Giá trị mặc định sẽ được cung cấp với quy tắc đã chọn ở trên.'
+      iframe_redirect_delay: 'Độ trễ chuyển hướng Iframe (mili giây)'
+      iframe_redirect_delay_help: "Cài đặt này chỉ được sử dụng khi sử dụng cơ chế đăng nhập \"Hidden Iframe\". Bao lâu sau khi tải trang Flarum ban đầu, tiện ích mở rộng vẫn sẽ cố gắng đăng nhập và làm mới trang mà không cần tương tác của người dùng. Nếu mất nhiều thời gian hơn giá trị này để nhận được câu trả lời từ WordPress, người dùng sẽ chỉ nhận được gợi ý đăng nhập và làm mới. Đặt thành 0 để luôn gợi ý đăng nhập cho người dùng thay vì tự động làm mới.\n"
+      login_method: 'Cơ chế đăng nhập toàn cầu'
+      login_method_help: "\"Cookie\" chỉ hoạt động nếu WordPress và Flarum chia sẻ một miền cấp cao nhất. \"Redirect\" sẽ gây ra chuyển hướng sau mỗi lần đăng nhập từ WordPress ngay cả khi người dùng không có ý định truy cập diễn đàn. \"Hidden Iframe\" sẽ chỉ kết nối khi truy cập Flarum, gây ra làm mới trang khi tải trang đầu tiên. Kết hợp với \"Iframe delay\" bên dưới, điều này có thể được sử dụng để chỉ đăng nhập theo yêu cầu.\n"
+      login_method_options:
+        cookie: Cookie
+        iframe: 'Iframe ẩn'
+        redirect: 'Chuyển hướng'
       post_delete: 'Hành động khi một bài viết Wordpress bị xóa vĩnh viễn'
       post_delete_options:
         delete: 'Xóa vĩnh viễn cuộc thảo luận khỏi Flarum'
@@ -51,6 +82,12 @@ kilowhat-wordpress:
         hide: 'Ẩn thảo luận trong Flarum'
         ignore: 'Bỏ qua (khóa thảo luận theo Cho phép Nhận xét)'
         lock: 'Khóa cuộc thảo luận trong Flarum'
+      post_thumbnail_list: 'Hiển thị hình thu nhỏ bài viết WordPress trong danh sách thảo luận Flarum'
+      post_thumbnail_summary: 'Hiển thị hình thu nhỏ bài viết WordPress phía trên đoạn trích'
+      report_http_errors: 'Gửi lỗi HTTP REST API WordPress đến các báo cáo Flarum đã cấu hình'
+      report_http_errors_help: "Bất kể giá trị của cài đặt này, các yêu cầu luôn được ghi lại dưới dạng văn bản vào trình ghi mặc định. Tùy chọn này hữu ích nếu bạn muốn gửi lỗi API đến Sentry hoặc các công cụ giám sát khác dưới dạng ngoại lệ với dấu vết ngăn xếp.\n"
+      role_group_sync: 'Đồng bộ hóa Vai trò với Nhóm'
+      role_group_sync_help: "Các nhóm được chọn ở đây sẽ được tiện ích mở rộng tự động thêm vào và loại bỏ khỏi người dùng, vì vậy có lẽ tốt nhất là sử dụng các nhóm Flarum chuyên dụng mà bạn không bao giờ gán thủ công và cũng không được quản lý bởi các tiện ích mở rộng khác. Bạn có thể không nên gán nhóm quản trị theo cách này, cả vì lý do bảo mật và để đảm bảo bạn không bị khóa ngoài ý muốn. Bạn có thể gán nhiều nhóm cho một vai trò và một nhóm có thể được ánh xạ với nhiều vai trò. Bạn có thể tạo thêm nhóm Flarum trên <a>trang Quyền</a> của Flarum.\n"
       section_comments_intro: "Tính năng này thay thế các bình luận Wordpress bằng iframe Flarum. Không thể đăng bài của khách được nữa. Các cuộc thảo luận chỉ được tạo cho các bài viết có bật bình luận trong Wordpress. Bật hoặc tắt nhận xét được đồng bộ hóa với khóa thảo luận của Flarum. Nếu blog của bạn đã có các bài viết khi bạn bật tính năng này, bạn cần bật và tắt nhận xét lại trên mỗi bài viết để thảo luận Flarum được tạo.\n"
       section_general_intro: 'Các cài đặt cơ bản cần thiết để tiện ích mở rộng hoạt động.'
       section_sso_intro: "Tính năng này sẽ kết nối người dùng Wordpress với Flarum. Một tài khoản sẽ tự động được tạo cho họ và được giữ đồng bộ với Wordpress. Nếu bạn có tài khoản hiện tại trong Flarum, chúng sẽ tự động được đối sánh với email của họ. Nếu bạn xóa một người dùng trong Flarum, nó sẽ được tạo lại vào lần đăng nhập tài khoản Wordpress tiếp theo. Để chặn người dùng Flarum, hãy tạm ngưng tài khoản trong Flarum.\n"
@@ -72,6 +109,8 @@ kilowhat-wordpress:
         user_login: 'Tên tài khoản từ Wordpress'
       welcome_message: 'Thông báo giới thiệu'
       welcome_message_help: 'Thông báo này sẽ được hiển thị lần đầu tiên người dùng truy cập diễn đàn, cùng với lựa chọn tên người dùng nếu được bật.'
+      wordpress_login_full_page: 'Mở đăng nhập WordPress dưới dạng trang thay vì popup'
+      wordpress_login_full_page_help: "Theo mặc định, nhấp vào liên kết đăng nhập từ Flarum sẽ mở trang đăng nhập WordPress trong popup, giống như các phương thức OAuth khác. Khi cài đặt này được bật, tab trình duyệt hiện tại sẽ điều hướng đến trang đăng nhập WordPress và chuyển hướng đến Flarum sau đó.\n"
       wordpress_login_only: 'Chỉ cho phép đăng nhập Wordpress'
       wordpress_login_only_help: "Tắt đăng nhập Flarum và mở trực tiếp modal đăng nhập Wordpress khi yêu cầu đăng nhập. Thao tác này sẽ tự động đặt quyền \"Đăng ký\" thành Đã đóng.\n"
       wordpress_login_path: 'Đường dẫn đăng nhập Wordpress'
@@ -99,11 +138,43 @@ kilowhat-wordpress:
       login: 'Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để kết nối.'
       password_reset: 'Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để đặt lại mật khẩu của bạn.'
     health:
+      api-error-401: 'Cố gắng truy cập API WordPress dẫn đến lỗi 401. Xác minh "Mã khóa API chung" khớp giữa cài đặt Flarum và WordPress'
+      api-error-json: 'Cố gắng truy cập API WordPress dẫn đến lỗi: {message} - Nội dung: {body}'
+      api-error-other: 'Cố gắng truy cập API WordPress dẫn đến lỗi: {message}'
+      api-key-mismatch: 'Cài đặt "Mã khóa API chung" trong WordPress không khớp với cài đặt "Mã khóa API chung" trong Flarum (mong đợi: "{expected}", thực tế: "{actual}")'
+      api-key-missing: '"Mã khóa API Flarum" bị thiếu. Thử làm mới bảng điều khiển quản trị và kiểm tra tệp nhật ký để tìm lỗi có thể xảy ra'
+      comments-mismatch-flarum: 'Tích hợp Bình luận được bật trong Flarum, nhưng không được bật trong WordPress'
+      comments-mismatch-wordpress: 'Tích hợp Bình luận được bật trong WordPress, nhưng không được bật trong Flarum'
+      config-url-https: 'URL Flarum được định nghĩa trong config.php nên là HTTPS (giá trị hiện tại: "{url}")'
+      config-url-trailing-slash: 'URL Flarum được định nghĩa trong config.php không nên có dấu gạch chéo ở cuối (giá trị hiện tại: "{url}")'
       cookie-domain-format: 'Miền cookie dường như không phải là một miền hợp lệ. Kiểm tra xem đó chỉ là một miền không có bất kỳ giao thức hoặc đường dẫn nào'
+      debug-mode: 'Chế độ gỡ lỗi Flarum đã được bật. Tắt nó khi bạn hoàn thành việc gỡ lỗi'
+      default-actor-not-found: 'Cài đặt "Tác nhân mặc định" không tham chiếu đến người dùng hợp lệ'
+      default-actor-not-set: 'Cài đặt "Tác nhân mặc định" phải được điền'
+      flarum-url-mismatch: 'Cài đặt "URL Flarum" trong WordPress không khớp với URL được cấu hình trong Flarum config.php (mong đợi: "{expected}", thực tế: "{actual}")'
+      lock-extension-required: 'Tiện ích mở rộng Lock phải được bật để sử dụng tích hợp Bình luận'
       login-only-signup-open: 'Bạn cần tắt Đăng ký theo quyền Flarum để cài đặt "Chỉ cho phép đăng nhập Wordpress" có hiệu lực đầy đủ'
+      role-group-sync-incomplete: 'Cài đặt đồng bộ hóa vai trò với nhóm chưa được điền đầy đủ'
+      role-group-sync-invalid-group: 'ID nhóm Flarum không hợp lệ được chọn cho đồng bộ hóa vai trò với nhóm: {id}'
+      role-group-sync-invalid-role: 'Vai trò WordPress không hợp lệ được chọn cho đồng bộ hóa vai trò với nhóm: {role}'
+      role-group-sync-syntax: 'Cài đặt đồng bộ hóa vai trò với nhóm có vấn đề về mã hóa'
+      sso-mismatch-flarum: 'Tích hợp SSO được bật trong Flarum, nhưng không được bật trong WordPress'
+      sso-mismatch-wordpress: 'Tích hợp SSO được bật trong WordPress, nhưng không được bật trong Flarum'
       suspend-extension-required: 'Tiện ích mở rộng Suspend phải được bật để sử dụng tùy chọn "Cấm" của "Hành động khi người dùng xóa"'
+      tag-not-exist: 'ID thẻ {id} được chọn cho tùy chọn "ID thẻ cho chuỗi bình luận mới" không tồn tại'
+      tags-extension-required: 'Tiện ích mở rộng Tags phải được bật để sử dụng tùy chọn "Gắn thẻ cho chuỗi bình luận mới"'
+      user-id-not-admin: "Cài đặt \"ID người dùng Flarum\" trong WordPress không khớp với quản trị viên Flarum (giá trị hiện tại: \"{actual}\"). Để sử dụng người dùng hiện đang đăng nhập, bạn có thể sử dụng ID \"{suggested}\"\n"
+      user-id-not-found: "Cài đặt \"ID người dùng Flarum\" trong WordPress không khớp với bất kỳ người dùng Flarum nào đã biết (giá trị hiện tại: \"{actual}\"). Để sử dụng người dùng hiện đang đăng nhập, bạn có thể sử dụng ID \"{suggested}\"\n"
+      wordpress-url-https: 'Cài đặt "URL WordPress" nên là HTTPS (giá trị hiện tại: "{url}")'
+      wordpress-url-index-php: 'Cài đặt "URL WordPress" không nên bao gồm "/index.php" (giá trị hiện tại: "{url}")'
+      wordpress-url-invalid: 'Cài đặt "URL WordPress" dường như không phải là URL hợp lệ (giá trị hiện tại: "{url}")'
+      wordpress-url-mismatch: 'Cài đặt "URL WordPress" trong Flarum không khớp với cài đặt "WordPress Address (URL)" từ WordPress (mong đợi: "{expected}", thực tế: "{actual}")'
+      wordpress-url-missing: 'Cài đặt "URL WordPress" phải được điền'
+      wordpress-url-trailing-slash: 'Cài đặt "URL WordPress" không nên bao gồm dấu gạch chéo ở cuối (giá trị hiện tại: "{url}")'
+    sync_setting_error: "Lỗi đồng bộ hóa cài đặt với WordPress. Kiểm tra thủ công rằng các hộp kiểm ở phía WordPress được đặt thành cùng giá trị như trong Flarum. Lỗi: {exception}.\n"
     wizard:
       already_installed: "Flarum đã được kết nối với Wordpress. Để chạy lại trình hướng dẫn, hãy xóa cài đặt \"URL Wordpress\" trong Flarum và cài đặt \"khóa API Flarum\" trong Wordpress.\n"
+      api_error_generic: "Lỗi khi thực hiện yêu cầu POST đến điểm cuối thiết lập plugin WordPress ({exception}). Đảm bảo plugin Tích hợp Flarum WordPress được cài đặt và bật.\n"
       api_error_get: 'Lỗi khi thực hiện yêu cầu GET đối với cài đặt Wordpress ({exception}).'
       api_error_post: 'Lỗi khi thực hiện yêu cầu ĐĂNG lên cài đặt Wordpress ({exception}).'
       api_unauthorized: "Chúng tôi không thể xác thực bằng các thông tin xác thực đã cho. Kiểm tra kỹ URL, tên người dùng và mật khẩu. Kiểm tra tài liệu để biết thêm các bước khắc phục sự cố.\n"
@@ -116,8 +187,18 @@ kilowhat-wordpress:
       unlink: 'Hủy liên kết người dùng này khỏi người dùng wordpress'
       unlink_help: 'Nếu email khớp với người dùng Wordpress, email đó sẽ được liên kết lại vào lần sau khi người dùng đó kết nối trong Wordpress.'
       warning: "Người dùng này được giữ đồng bộ với Wordpress. Bạn nên chỉnh sửa email và mật khẩu từ Wordpress.\n"
+    embed-link-modal:
+      message: 'Trang đang cố gắng chuyển hướng bạn đến {href}'
+      open: 'Mở liên kết'
+      title: 'Thoát chuỗi bình luận'
     embed:
       title: 'Bình luận'
+    instant-login:
+      avatar_alt_text: 'Ảnh đại diện WordPress'
+      button: 'Đăng nhập ngay và làm mới'
+      message: 'Bạn có thể sử dụng diễn đàn với tài khoản trang web chính của mình'
+      welcome_known_user: 'Chào mừng trở lại, {avatar} <strong>{name}</strong>!'
+      welcome_unknown_user: 'Chào mừng trở lại!'
     log_in:
       with_wordpress_button: 'Đăng nhập bằng Wordpress'
     settings:
@@ -126,6 +207,7 @@ kilowhat-wordpress:
       blog_link: 'Đọc trên blog'
       head_label: 'Bài viết trên Wordpress'
       read_more: 'Đọc thêm'
+    thumbnail_alt_fallback: 'Hình thu nhỏ bài viết WordPress'
     welcome-modal:
       default_message: 'Chào mừng bạn đến với diễn đàn. Chọn một tên người dùng và bạn đã sẵn sàng để sử dụng!'
       not_now: 'Bỏ qua và đọc với tư cách khách ngay bây giờ'

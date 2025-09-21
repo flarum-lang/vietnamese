@@ -86,6 +86,7 @@ fof-webhooks:
         extra_text_label: 'Văn bản bổ sung'
         group_help: 'Gửi tài nguyên mà nhóm này có thể nhìn thấy'
         group_label: Nhóm
+        include_matching_tags_label: 'Bao gồm các thẻ phù hợp -- đối với các webhook bị giới hạn ở các thẻ cụ thể, hãy hiển thị thẻ nào sự kiện khớp'
         max_post_content_length_help: 'Nhập độ dài để giới hạn nội dung bài viết trong tất cả các sự kiện liên quan đến bài viết. Sửa thành 0 hoặc để trống để không giới hạn.'
         max_post_content_length_label: 'Độ dài tối đa nội dung bài viết'
         name_help: 'Tên của webhook. Tên này sẽ được sử dụng cho những thứ như tên người dùng Discord, tên bot Slack, v.v.'
