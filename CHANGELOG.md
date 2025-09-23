@@ -7,12 +7,19 @@ CHANGELOG
 **Thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 * [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
 
 
@@ -20,6 +27,9 @@ CHANGELOG
 
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
 
 Tất cả các thay đổi: [v1.11.0...v1.12.0](https://github.com/flarum-lang/vietnamese/compare/v1.11.0...v1.12.0).
