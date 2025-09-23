@@ -9,6 +9,27 @@ blomstra-s3-assets:
       configured_by_environment: 'Cài đặt nhóm của bạn đã được định cấu hình trước, không có gì để xem ở đây.'
       s3-compatible-section: 'Các cài đặt này chỉ bắt buộc đối với các nhóm tương thích với S3'
       s3-compatible-section-help: 'Để trống các cài đặt này nếu sử dụng AWS S3'
+      s3acl:
+        help: 'Chỉ định ACL cho bucket này'
+        label: ACL
+      s3bucket:
+        help: 'Bucket S3'
+        label: Bucket
+      s3endpoint:
+        help: 'Endpoint S3'
+        label: Endpoint
       s3key:
         help: 'trợ giúp'
         label: Khóa
+      s3path-style-endpoint:
+        help: 'Chuyển sang lưu trữ kiểu đường dẫn'
+        label: 'Endpoint kiểu đường dẫn S3'
+      s3region:
+        help: 'Vùng S3'
+        label: 'Khu vực'
+      s3secret:
+        help: 'Khóa bí mật truy cập S3'
+        label: 'Khóa bí mật'
+      s3url:
+        help: 'Địa chỉ URL S3'
+        label: URL
