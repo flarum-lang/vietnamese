@@ -1,6 +1,30 @@
 CHANGELOG
 =========
 
+1.12.0 (XXXX-XX-XX)
+-------------------
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
+
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+
+
+Tất cả các thay đổi: [v1.11.0...v1.12.0](https://github.com/flarum-lang/vietnamese/compare/v1.11.0...v1.12.0).
+
+
 1.11.0 (2025-09-21)
 -------------------
 
