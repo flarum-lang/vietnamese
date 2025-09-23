@@ -10,12 +10,26 @@ flarum-calendar:
       add: 'Tạo lịch sự kiện mới'
       moderate: 'Xóa hoặc chỉnh sửa sự kiện lịch (tất cả người dùng đều có thể chỉnh sửa sự kiện của riêng mình)'
       view: 'Xem sự kiện'
+    settings:
+      hide_host: 'Ẩn người chủ trì (chủ trì bởi...)'
   forum:
     button:
       create: 'Sự kiện mới'
       landing: 'Lịch sự kiện'
       login: 'Thêm sự kiện '
     event:
+      confirm_delete: 'Bạn có chắc xóa sự kiện này không?'
+      deleted: 'Sự kiện này đã bị xóa'
       details: 'Xem chi tiết sự kiện này'
+      ends: 'Kết thúc:'
+      hosted_by: 'Chủ trì:'
+      starts: 'Bắt đầu:'
     modal:
+      dates_label: 'Khi nào'
+      description_label: 'Chi tiết'
+      description_placeholder: 'Chi tiết sự kiện'
+      requirement_message: 'Sự kiện cần có tên và mô tả'
       submit: 'Đồng ý'
+      title_create: 'Tạo sự kiện mới'
+      title_edit: 'Sửa chi tiết sự kiện'
+      title_label: 'Cái gì'

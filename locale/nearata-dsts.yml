@@ -8,8 +8,11 @@ nearata-dsts:
       can_bypass_like: 'Có thể bỏ qua thích'
       can_bypass_login: 'Có thể bỏ qua đăng nhập'
       can_bypass_reply: 'Có thể bỏ qua trả lời'
+      can_use_bbcode: 'Có thể sử dụng BBCode'
     settings:
+      enabled: Bật
       fof_upload:
+        enabled: Bật
         require_like: 'Yêu cầu thích'
         require_like_help: 'Yêu cầu tiện ích mở rộng <strong>flarum/likes</strong>.'
         require_reply: 'Yêu cầu trả lời'
@@ -23,10 +26,25 @@ nearata-dsts:
       require_reply: 'Yêu cầu trả lời'
   forum:
     button: DSTS
+    composer:
+      dsts_tooltip: DSTS
     fof_upload:
       like: 'Bạn phải thích để xem tệp tin.'
       login: 'Bạn phải đăng nhập để xem tệp tin.'
       reply: 'Bạn phải trả lời để xem tệp tin.'
     like: 'Bạn phải thích bài viết để xem nội dung.'
     login: 'Bạn phải đăng nhập để xem nội dung.'
+    post:
+      bbcode:
+        hidden_content: 'Nội dung ẩn'
+        like_text: 'Bạn phải thích bài viết để xem nội dung này'
+        login_text: 'Bạn phải đăng nhập để xem nội dung này'
+        reply_text: 'Bạn phải trả lời cuộc thảo luận để xem nội dung này'
+      fof_upload:
+        like_text: 'Bạn phải thích bài viết để xem tệp tin'
+        login_text: 'Bạn phải đăng nhập để xem tệp tin'
+        reply_text: 'Bạn phải trả lời cuộc thảo luận để xem tệp tin'
+      like_tooltip: 'Bạn phải thích bài viết để xem nội dung'
+      login_tooltip: 'Bạn phải đăng nhập để xem nội dung'
+      reply_tooltip: 'Bạn phải trả lời cuộc thảo luận để xem nội dung'
     reply: 'Bạn phải trả lời cuộc thảo luận để xem nội dung.'
