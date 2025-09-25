@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-1.12.0 (XXXX-XX-XX)
+1.12.0 (2025-09-25)
 -------------------
 
 **Thêm hỗ trợ cho các tiện ích mở rộng mới**:
