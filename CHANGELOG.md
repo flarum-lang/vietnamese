@@ -1,6 +1,19 @@
 CHANGELOG
 =========
 
+1.13.0 (XXXX-XX-XX)
+-------------------
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
+
+
+Tất cả các thay đổi: [v1.12.0...v1.13.0](https://github.com/flarum-lang/vietnamese/compare/v1.12.0...v1.13.0).
+
+
 1.12.0 (2025-09-25)
 -------------------
 
