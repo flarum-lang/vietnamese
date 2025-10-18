@@ -4,6 +4,12 @@ CHANGELOG
 1.13.0 (XXXX-XX-XX)
 -------------------
 
+**Thay đổi chung**:
+
+* Đã cập nhật các bản dịch Flarum core.
+* Đã cập nhật bản dịch xác thực.
+
+
 **Thêm hỗ trợ cho các tiện ích mở rộng mới**:
 
 * [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
