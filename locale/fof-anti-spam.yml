@@ -29,7 +29,7 @@ fof-anti-spam:
         delete_user_help: 'Thao tác này sẽ xóa vĩnh viễn người dùng. Khi tắt, người dùng sẽ bị tạm ngưng thay vì xóa.'
         delete_user_label: 'Xóa người dùng'
         heading: 'Hành động kiểm duyệt mặc định'
-        introduction: "Khi một người dùng bị đánh dấu là spammer, người kiểm duyệt có thể chọn nhiều cách xử lý khác nhau. Các cài đặt này cho phép bạn đặt sẵn các hành động thường dùng để tăng tốc quy trình, đồng thời vẫn có thể linh hoạt điều chỉnh khi cần.\n"
+        introduction: 'Khi một người dùng bị đánh dấu là spammer, người kiểm duyệt có thể chọn nhiều cách xử lý khác nhau. Các cài đặt này cho phép bạn đặt sẵn các hành động thường dùng để tăng tốc quy trình, đồng thời vẫn có thể linh hoạt điều chỉnh khi cần.'
         move_discussions_to_tags_help: 'Sẽ chuyển tất cả thảo luận do người dùng này tạo sang thẻ bạn chỉ định. Xóa lựa chọn thẻ để giữ thảo luận ở thẻ gốc. Không có hiệu lực nếu tùy chọn ''Xóa thảo luận'' được bật.'
         move_discussions_to_tags_label: 'Chuyển thảo luận sang thẻ'
       stopforumspam:
