@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-1.13.0 (XXXX-XX-XX)
+1.12.1 (XXXX-XX-XX)
 -------------------
 
 **Thay đổi chung**:
@@ -25,7 +25,7 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 
 
-Tất cả các thay đổi: [v1.12.0...v1.13.0](https://github.com/flarum-lang/vietnamese/compare/v1.12.0...v1.13.0).
+Tất cả các thay đổi: [v1.12.0...v1.12.1](https://github.com/flarum-lang/vietnamese/compare/v1.12.0...v1.12.1).
 
 
 1.12.0 (2025-09-25)
