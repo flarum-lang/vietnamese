@@ -15,6 +15,7 @@ CHANGELOG
 * [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
 * [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 * [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
