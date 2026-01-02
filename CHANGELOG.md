@@ -1,6 +1,35 @@
 CHANGELOG
 =========
 
+1.12.1 (2026-01-02)
+-------------------
+
+**Thay đổi chung**:
+
+* Đã cập nhật các bản dịch Flarum core.
+* Đã cập nhật bản dịch xác thực.
+
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
+
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+Tất cả các thay đổi: [v1.12.0...v1.12.1](https://github.com/flarum-lang/vietnamese/compare/v1.12.0...v1.12.1).
+
+
 1.12.0 (2025-09-25)
 -------------------
 
