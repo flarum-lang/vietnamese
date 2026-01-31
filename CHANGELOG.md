@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+1.12.2 (XXXX-XX-XX)
+-------------------
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+Tất cả các thay đổi: [v1.12.1...v1.12.2](https://github.com/flarum-lang/vietnamese/compare/v1.12.1...v1.12.2).
+
+
 1.12.1 (2026-01-02)
 -------------------
 
