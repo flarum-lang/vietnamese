@@ -11,7 +11,7 @@
 Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) cùng với một số tiện ích mở rộng chính thức và bên thứ ba.
 
 ### Yêu cầu phiên bản
-- Tương thích với phiên bản Flarum v1.7 trở lên.
+- Tương thích với phiên bản Flarum 2.0.0 trở lên.
 
 ### Cài đặt
 
