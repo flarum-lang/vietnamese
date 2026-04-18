@@ -18,7 +18,7 @@ Gói ngôn ngữ tiếng Việt cho diễn đàn [Flarum](https://flarum.org) c�
 Cài đặt bằng composer:
 
 ```sh
-composer require flarum-lang/vietnamese
+composer require "flarum-lang/vietnamese:*"
 ```
 
 ### Cập nhật
