@@ -497,7 +497,7 @@ CHANGELOG
 * [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * `v17development-flarum-seo`
-* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+* [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/flarum-seo)
 * `v17development-support`
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
