@@ -114,6 +114,7 @@ CHANGELOG
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
@@ -500,7 +501,6 @@ CHANGELOG
 * [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/seo)
 * `v17development-support`
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
-* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 * [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator)
 * [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
