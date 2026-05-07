@@ -108,6 +108,7 @@ CHANGELOG
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`ramon/colored`](https://github.com/ram0ng1/colored)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
@@ -466,7 +467,6 @@ CHANGELOG
 * [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime)
 * `reflar-recache`
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
-* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 * `serakoi-flarumdiscordtheme`
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
