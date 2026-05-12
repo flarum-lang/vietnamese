@@ -107,6 +107,7 @@ CHANGELOG
 * [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`ramon/colored`](https://github.com/ram0ng1/colored)
@@ -430,7 +431,6 @@ CHANGELOG
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * `michaelbelgium-flarum-profile-views`
-* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami)
 * [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
 * [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
