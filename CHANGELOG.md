@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
@@ -137,7 +138,6 @@ CHANGELOG
 * [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
 * [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
 * [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
-* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online)
 * [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image)
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
