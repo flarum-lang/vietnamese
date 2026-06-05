@@ -72,6 +72,7 @@ php flarum cache:clear
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/vi/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/vi/) |
+| [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/vi/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-best-answer/vi/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-byobu/vi/) |
 | [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-clockwork/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-clockwork/vi/) |
