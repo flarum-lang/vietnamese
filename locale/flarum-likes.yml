@@ -27,3 +27,9 @@ flarum-likes:
       notify_post_liked_label: 'Ai đó thích bài viết của tôi'
     user:
       likes_link: 'Lượt thích'
+  lib:
+    gambits:
+      posts:
+        likedBy:
+          hint: 'ID hoặc tên người dùng'
+          key: 'Được thích bởi'
