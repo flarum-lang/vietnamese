@@ -10,6 +10,11 @@ CHANGELOG
 * Đã xóa các bản dịch xác thực lỗi thời (phiên bản `2.0 'trở lên được hỗ trợ).
 
 
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`flarum/messages`](https://github.com/flarum/messages)
+
+
 **Cập nhật và xóa các bản dịch lỗi thời cho các tiện ích mở rộng**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
