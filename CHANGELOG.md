@@ -15,6 +15,7 @@ CHANGELOG
 * [`flarum/messages`](https://github.com/flarum/messages)
 * [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+* [`forumaker/statser`](https://github.com/forumaker/Statser)
 
 
 **Cập nhật và xóa các bản dịch lỗi thời cho các tiện ích mở rộng**:
