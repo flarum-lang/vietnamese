@@ -15,13 +15,13 @@ clarkwinkelmann-author-change:
       created_at: 'Tạo lúc'
       edited_at: 'Sửa lúc'
       submit: Lưu
-      sync-impossible: 'Không thể tìm thấy bài viết đầu tiên. Hãy thử cuộn để bắt đầu cuộc thảo luận.'
+      sync-impossible: 'Không thể tìm thấy bài viết đầu tiên. Hãy thử cuộn lên đầu cuộc thảo luận.'
       sync-with-discussion: 'Đồng bộ với cuộc thảo luận'
-      sync-with-post: 'Đồng bộ với bài viết'
+      sync-with-post: 'Đồng bộ với bài viết đầu tiên'
       title-discussion: 'Sửa người đăng thảo luận và thời gian'
       title-post: 'Sửa người đăng bài viết và thời gian'
       user: 'Người đăng'
     search:
       no-results: 'Không có kết quả'
       placeholder: 'Tìm kiếm người dùng'
-      type-more: 'Nhập 3 ký tự để tìm kiếm dữ liệu'
+      type-more: 'Nhập 3 ký tự để tìm trong cơ sở dữ liệu'

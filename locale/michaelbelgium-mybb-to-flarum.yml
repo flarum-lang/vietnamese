@@ -6,7 +6,7 @@ michaelbelgium-mybb-to-flarum:
   admin:
     content:
       convert_button: 'Di chuyển'
-      description_text: 'Chuyển diễn đàn Mybb thành Flarum. Điền vào các dữ liệu cần thiết, sau đó nhấp vào "di chuyển".'
+      description_text: 'Di chuyển một diễn đàn MyBB vào trang Flarum này. Điền các dữ liệu cần thiết, sau đó nhấp vào "di chuyển".'
       form:
         general:
           migrate_avatars_label: 'Di chuyển ảnh đại diện'
@@ -23,7 +23,7 @@ michaelbelgium-mybb-to-flarum:
           password_label: 'Mật khẩu cơ sở dữ liệu'
           path_label: 'Đường dẫn tuyệt đối MyBB'
           prefix_label: 'Tiền tố bảng'
-          title: 'Thiết lập MyBB'
+          title: 'Cài đặt MyBB'
           user_label: 'User cơ sở dữ liệu'
         options:
           migrate_attachments_label: 'Chuyển các tệp đính kèm'

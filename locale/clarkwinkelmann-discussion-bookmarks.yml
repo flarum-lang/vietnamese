@@ -5,14 +5,14 @@
 clarkwinkelmann-discussion-bookmarks:
   admin:
     settings:
-      independentButton: 'Hiển thị kiểm soát dấu trang trong thanh bên thảo luận thay vì trình đơn thả xuống'
+      independentButton: 'Hiển thị nút đánh dấu ở thanh bên của thảo luận thay vì trong trình đơn thả xuống'
   forum:
     badge: 'Đã đánh dấu'
     dropdownButton:
       add: 'Thêm vào dấu trang'
       remove: 'Xóa khỏi dấu trang'
     independentButton:
-      add: 'Dấu trang'
+      add: 'Đánh dấu'
       remove: 'Đã đánh dấu'
     page:
       link: 'Cuộc thảo luận đã đánh dấu'

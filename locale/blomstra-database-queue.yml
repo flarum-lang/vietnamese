@@ -6,11 +6,11 @@ blomstra-database-queue:
   admin:
     settings:
       backoff_help: "Số giây chờ trước khi thử lại công việc gặp lỗi ngoại lệ chưa được xử lý.\n"
-      backoff_label: 'Thời gian chờ'
+      backoff_label: 'Thời gian chờ thử lại'
       memory_help: "Giới hạn bộ nhớ tính bằng megabyte.\n"
       memory_label: 'Bộ nhớ'
       rest_help: "Số giây nghỉ giữa các công việc.\n"
-      rest_label: 'Nghỉ ngơi'
+      rest_label: 'Thời gian nghỉ'
       retries_help: "Số lần thử lại công việc trước khi ghi nhật ký là thất bại.\n"
       retries_label: 'Số lần thử lại'
       timeout_help: "Số giây mà một tiến trình con có thể chạy.\n"
@@ -26,4 +26,4 @@ blomstra-database-queue:
           label: 'Trạng thái'
           running: 'Đang chạy'
       heading: 'Tổng quan hàng đợi'
-      refresh: 'Tải lại'
+      refresh: 'Làm mới'

@@ -14,10 +14,10 @@ fof-discussion-language:
       errors:
         loading_data: 'Đã xảy ra lỗi khi truy xuất dữ liệu ngôn ngữ và quốc gia. Thử tắt và bật lại tiện ích.'
         missing_assets: 'Chúng tôi không thể tải tài nguyên mà tiện ích mở rộng này cần. Hãy thử chạy <code>php flarum assets:publish</code> và xem nó có khắc phục được hay không.'
-      locale_sort_label: 'Sử dụng phát hiện ngôn ngữ cho bộ lọc thảo luận mặc định'
-      native_label: 'Sử dụng ngôn ngữ chính'
-      show_any_lang_opt_label: 'Hiển thị tuỳ chọn để chọn "Ngôn ngữ bất kỳ"'
-      show_flag_label: 'Hiển thị cờ với tên ngôn ngữ'
+      locale_sort_label: 'Sử dụng ngôn ngữ được phát hiện cho bộ lọc thảo luận mặc định'
+      native_label: 'Sử dụng tên ngôn ngữ bản địa'
+      show_any_lang_opt_label: 'Hiển thị tuỳ chọn "Mọi ngôn ngữ"'
+      show_flag_label: 'Hiển thị cờ quốc gia kèm tên ngôn ngữ'
       tags_page_discussion_locale_label: 'Chỉ hiển thị các cuộc thảo luận từ ngôn ngữ hiện tại của người dùng trên trang Thẻ'
   api:
     discussion:
@@ -30,7 +30,7 @@ fof-discussion-language:
     composer_discussion:
       choose_language_link: 'Ngôn ngữ'
     discussion_controls:
-      change_language_button: 'Cài ngôn ngữ'
+      change_language_button: 'Đặt ngôn ngữ'
     index_language:
       any: 'Mọi ngôn ngữ'
     sub_controls:

@@ -6,8 +6,8 @@ blessing-oauth-client:
   admin:
     popup:
       field:
-        app-id: 'ID khách hàng OAuth'
-        app-secret: 'Mã bí mật Blessing Skin'
+        app-id: 'Client ID OAuth'
+        app-secret: 'Client secret OAuth'
         base-url: 'URL gốc Blessing Skin'
         button-icon: 'Biểu tượng nút đăng nhập'
         button-title: 'Tên nút đăng nhập'

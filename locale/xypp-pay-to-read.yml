@@ -17,7 +17,7 @@ xypp-pay-to-read:
       paid: 'Bạn đã thanh toán cho nội dung này. Vui lòng tải lại trang.'
     haspaidTip: '{0} người đã thanh toán'
     nopaidTip: 'Chưa có ai thanh toán'
-    payment-notfound: 'Không tìm thấy thanh toán ID#{0}。Hãy kiểm tra ID trong bài viết hoặc xóa ‘id={0}’.'
+    payment-notfound: 'Không tìm thấy thanh toán ID#{0}. Hãy kiểm tra ID trong bài viết hoặc xóa ‘id={0}’.'
     payment-req:
       btn: 'Thanh toán'
       text: 'Tác giả đã đặt nội dung này cần trả phí. Giá {0} 量见币'

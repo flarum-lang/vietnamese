@@ -10,9 +10,9 @@ justoverclock-job-cards:
     availableForHireField: 'Sẵn sàng làm việc'
     avatarField: 'Ảnh đại diện (URL)'
     companyNameField: 'Tên công ty'
-    fieldNotFilled: 'Chưa điền trường!'
+    fieldNotFilled: 'Trường này chưa được điền!'
     formSaved: 'Lưu biểu mẫu thành công'
-    fullNameField: 'Họ và Tên'
+    fullNameField: 'Họ và tên'
     jobFormTitle: 'Thẻ công việc'
     jobProfile: 'Hồ sơ công việc'
     'no': Không

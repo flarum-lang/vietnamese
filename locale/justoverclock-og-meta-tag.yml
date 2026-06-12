@@ -9,7 +9,7 @@ justoverclock-og-meta-tag:
     ogimage: 'Ảnh Open Graph'
     ogimage-help: 'URL hình ảnh sẽ đại diện cho object của bạn trong graph.'
     ogtitle: 'Tiêu đề Open Graph'
-    ogtitle-help: 'Tiêu đề object của bạn khi nó sẽ xuất hiện trong graph, ví dụ: The Rock.'
+    ogtitle-help: 'Tiêu đề object của bạn khi xuất hiện trong graph, ví dụ: The Rock.'
     ogurl: 'Url Open Graph'
     ogurl-help: 'URL chuẩn của object sẽ được sử dụng làm ID cố định của nó trong graph, ví dụ: https://www.imdb.com/title/tt0117500/.'
     siteName: 'Tên trang web'

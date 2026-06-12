@@ -5,14 +5,14 @@
 fof-share-social:
   admin:
     settings:
-      canonical-urls: 'Sử dụng URL gốc để chia sẻ'
+      canonical-urls: 'Sử dụng URL chuẩn (canonical) để chia sẻ'
       default-option: 'Tùy chọn chia sẻ mặc định'
-      default-option-help: "Chọn một tùy chọn mặc định sẽ chuyển đổi hộp thoại thành một nút dropdown. Nếu chọn \"Chia sẻ Native\", nó chỉ sẽ hiển thị nếu trình duyệt hỗ trợ, nếu không, hành vi sẽ quay trở lại hộp thoại ban đầu.\n"
-      plain-copy: 'Hiển thị URL sao chép đơn giản'
+      default-option-help: "Chọn một tùy chọn mặc định sẽ chuyển hộp thoại thành một nút thả xuống. Nếu chọn \"Chia sẻ Native\", tùy chọn này sẽ chỉ hiển thị nếu trình duyệt hỗ trợ, nếu không sẽ quay lại hộp thoại như ban đầu.\n"
+      plain-copy: 'Hiển thị mục sao chép URL thuần'
   forum:
     discussion:
       share_button: 'Chia sẻ'
-      share_dropdown_accessible_label: 'Chuyển đổi menu dropdown chia sẻ thảo luận'
+      share_dropdown_accessible_label: 'Bật/tắt menu thả xuống chia sẻ thảo luận'
     modal:
       copy_button: 'Sao chép'
       title: 'Chia sẻ'
@@ -27,6 +27,6 @@ fof-share-social:
       qzone: QZone
       reddit: Reddit
       telegram: Telegram
-      twitter: Twitter
+      twitter: 'X (trước đây là Twitter)'
       vkontakte: VKontakte
       whatsapp: WhatsApp

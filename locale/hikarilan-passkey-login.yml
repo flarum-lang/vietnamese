@@ -7,25 +7,25 @@ hikarilan-passkey-login:
     settings:
       relying_party:
         id:
-          help: 'ID Đơn Vị Phụ Thuộc là một định danh duy nhất cho trang web của bạn. Nó sẽ là tên miền của trang web mà không có phần scheme. Ví dụ, nếu trang web của bạn là https://example.com, thì ID Đơn Vị Phụ Thuộc sẽ là example.com. Nếu để trống, tên miền hiện tại sẽ được sử dụng.'
-          label: 'ID Đơn Vị Phụ Thuộc'
+          help: 'Relying Party ID là định danh duy nhất cho trang web của bạn. Đó là tên miền của trang web không bao gồm phần scheme. Ví dụ, nếu trang web của bạn là https://example.com thì Relying Party ID sẽ là example.com. Nếu để trống, tên miền hiện tại sẽ được sử dụng.'
+          label: 'Relying Party ID'
         name:
-          help: 'Tên Đơn Vị Phụ Thuộc là tên dễ đọc cho trang web của bạn. Nếu để trống, tiêu đề diễn đàn sẽ được sử dụng.'
-          label: 'Tên Đơn Vị Phụ Thuộc'
+          help: 'Tên Relying Party là tên dễ đọc đối với người dùng cho trang web của bạn. Nếu để trống, tiêu đề diễn đàn sẽ được sử dụng.'
+          label: 'Tên Relying Party'
       timeout:
         help: 'Thời gian chờ xác thực khóa truy cập tính bằng giây. Giá trị mặc định là 60 giây.'
         label: 'Thời gian chờ'
   forum:
     login:
-      with-passkey: 'Đăng nhập bằng Khóa truy cập'
+      with-passkey: 'Đăng nhập bằng khóa truy cập'
     user:
       settings:
         alias-modal:
-          label: 'Và bây giờ, hãy đặt cho khóa truy cập của bạn một tên gọi khác.'
+          label: 'Bây giờ, hãy đặt biệt danh cho khóa truy cập của bạn.'
           title: 'Đã đăng ký khóa truy cập!'
         item:
           revoke: '=> core.forum.security.revoke_access_token'
-          revoke_success: 'Khóa truy cập đã bị thu hồi thành công.'
+          revoke_success: 'Đã thu hồi khóa truy cập thành công.'
         passkeys:
           add-new-passkey: 'Thêm khóa truy cập'
           error: 'Đã xảy ra lỗi nội bộ. Vui lòng thử lại sau.'

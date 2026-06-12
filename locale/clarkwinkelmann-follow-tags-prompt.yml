@@ -8,7 +8,7 @@ clarkwinkelmann-follow-tags-prompt:
       following: 'Đang theo dõi'
     settings:
       allDiscussionsOnFollowingPageForGuests: 'Hiển thị tất cả cuộc thảo luận trên trang Đang theo dõi cho khách'
-      availableTagStrategy: 'Thẻ để cung cấp trong modal'
+      availableTagStrategy: 'Các thẻ hiển thị trong hộp thoại'
       buttonOnFollowingPage: 'Hiển thị nút trên trang Đang theo dõi'
       tagStrategy:
         all: 'Tất cả thẻ'

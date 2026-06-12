@@ -6,12 +6,12 @@ clarkwinkelmann-emojionearea:
   admin:
     settings:
       closeOnPick: 'Đóng trình chọn khi biểu tượng cảm xúc được chọn'
-      enableRecent: 'Cho phép gần đây'
+      enableRecent: 'Bật mục gần đây'
       enableSearch: 'Cho phép tìm kiếm'
-      enableTones: 'Cho phép bật âm'
+      enableTones: 'Bật tông màu da'
       filtersPosition: 'Di chuyển danh mục xuống dưới cùng'
       hideFlarumButton: 'Ẩn nút chọn biểu tượng cảm xúc Flarum'
-      searchPosition: 'Di chuyển tìm kiếm và âm báo xuống dưới cùng'
+      searchPosition: 'Di chuyển tìm kiếm và tông màu da xuống dưới cùng'
   forum:
     filters:
       activity: 'Hoạt động'

@@ -8,8 +8,8 @@ clarkwinkelmann-group-invitation:
       use: 'Sử dụng liên kết mời nhóm'
     settings:
       create: Tạo
-      delete: Nhóm
-      empty: 'Không có lời mời nào được tạo cho đến nay.'
+      delete: Xóa
+      empty: 'Chưa có lời mời nào được tạo.'
       head:
         code: Mã
         group: Nhóm
@@ -17,7 +17,7 @@ clarkwinkelmann-group-invitation:
       placeholder:
         code: 'Tự động tạo'
         group: Chọn...
-        usage: 'Để trống cho không giới hạn'
+        usage: 'Để trống nếu không giới hạn'
       unlimited: 'không giới hạn'
   api:
     error:

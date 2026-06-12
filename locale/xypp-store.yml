@@ -55,7 +55,7 @@ xypp-store:
       use: 'Sử dụng'
     item:
       expire: 'Thời hạn {0}'
-      infinity_count: 'Không giới hạn khả dụng'
+      infinity_count: 'Số lượng không giới hạn'
       no_available: 'Không có vật phẩm khả dụng'
       not_found: 'Không tìm thấy vật phẩm'
       rest_cnt: 'Còn lại {0}'
@@ -93,7 +93,7 @@ xypp-store:
         cannot: 'Không thể sử dụng vật phẩm này'
         error: 'Lỗi khi sử dụng vật phẩm'
         expired: 'Vật phẩm đã hết hạn'
-        fail_expire: 'Lỗi khi cố gắng hết hạn vật phẩm này'
+        fail_expire: 'Lỗi khi xử lý hết hạn vật phẩm này'
         id_not_found: 'Không tìm thấy ID vật phẩm'
         not_enough: 'Không đủ số lần sử dụng'
         unknown: 'Lỗi không xác định'

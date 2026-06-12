@@ -9,11 +9,11 @@ askvortsov-markdown-tables:
         column: Cột
         insert_column_after: 'Chèn cột vào đằng sau'
         insert_column_before: 'Chèn cột vào đằng trước'
-        insert_row_after: 'Chèn cột vào đằng sau'
-        insert_row_before: 'Chèn cột vào đằng trước'
+        insert_row_after: 'Chèn hàng vào đằng sau'
+        insert_row_before: 'Chèn hàng vào đằng trước'
         label_cells: '# Gắn nhãn ô?'
         num_cols: '# Cột'
-        num_rows: '# Hàng (bao gồm cả header)'
+        num_rows: '# Hàng (bao gồm cả hàng tiêu đề)'
         remove_column: 'Xóa cột'
         remove_row: 'Xóa hàng'
         row: Hàng

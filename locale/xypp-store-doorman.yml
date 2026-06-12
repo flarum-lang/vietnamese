@@ -19,6 +19,6 @@ xypp-store-doorman:
       email: Email
       failed: 'Gửi email thất bại'
       submit: Gửi
-      title: 'Gửi Email Mời'
+      title: 'Gửi email mời'
       url: 'URL mời'
     showcase: 'Có thể mời {count} lần, vào nhóm {group} sau khi đăng ký, tự động kích hoạt: {activate}'

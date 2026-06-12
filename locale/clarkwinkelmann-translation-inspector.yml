@@ -10,15 +10,15 @@ clarkwinkelmann-translation-inspector:
     modal:
       actual: 'Bản dịch hiện tại'
       edit: 'Chỉnh sửa trên GitHub'
-      extension: 'Định nghĩa bởi'
+      extension: 'Được định nghĩa bởi'
       extension-unknown: 'Tiện ích không xác định'
-      key: 'Từ khoá bản dịch'
+      key: 'Khóa bản dịch'
       original: 'Bản dịch tiếng Anh gốc'
-      path: 'Định nghĩa trong'
-      title: 'Kiểm tra bản dịch'
+      path: 'Được định nghĩa trong'
+      title: 'Trình kiểm tra bản dịch'
     nav:
       inspect: 'Kiểm tra bản dịch'
     tooltip:
-      cancel: Huỷ
+      cancel: Hủy
       description: 'Nhấp vào bản dịch mà bạn muốn kiểm tra'
       title: 'Kiểm tra bản dịch'

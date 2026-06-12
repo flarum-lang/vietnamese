@@ -15,7 +15,7 @@ muhammedsaidckr-gemini:
       enabled_tags_label: 'Thẻ đã bật'
       model_help: 'Chọn mô hình sẽ được sử dụng.'
       model_label: 'Mô hình'
-      prompt_help: 'Nhập prompt sẽ được sử dụng để tạo câu trả lời. Biến [title] cần được giữ nguyên.'
+      prompt_help: 'Nhập prompt sẽ được sử dụng để tạo câu trả lời. Các biến: [title], [author_name], [forum_title].'
       prompt_label: Prompt
       role_help: 'Chọn vai trò sẽ được sử dụng để tạo câu trả lời.'
       role_label: 'Vai trò'

@@ -5,9 +5,9 @@
 swaggymacro:
   admin:
     setting_only_starter: 'Chỉ OP'
-    setting_show_topic_starter: 'Hiển thị cờ OP'
+    setting_show_topic_starter: 'Hiển thị nhãn OP'
   forum:
     blog_article_author: 'Tác giả'
-    not_only_starter: 'Không chỉ hiển thị OP'
+    not_only_starter: 'Bỏ chế độ chỉ hiện OP'
     only_starter: 'Chỉ hiện OP'
-    topic_starter: 'Người đăng gốc'
+    topic_starter: 'Người tạo chủ đề'

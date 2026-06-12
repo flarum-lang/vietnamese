@@ -20,7 +20,7 @@ xypp-forum-quests:
       title: 'Tạo nhiệm vụ'
     data: 'Dữ liệu'
     re_available:
-      day: 'Trước X ngày'
+      day: 'Sau X ngày'
       hour: 'Sau X giờ'
       none: 'Một lần'
     settings: 'Cài đặt'

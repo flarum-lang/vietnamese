@@ -13,7 +13,7 @@ fof-oauth:
           oauth_domain_label: 'Tên miền của ứng dụng Clerk của bạn (clerk.xxx.com hoặc xxx.clerk.accounts.dev)'
   forum:
     log_in:
-      with_clerk_button: 'Đăng nhập với Clerk'
+      with_clerk_button: 'Đăng nhập bằng Clerk'
     providers:
       clerk: '=> fof-oauth.lib.providers.clerk'
   lib:

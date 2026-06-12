@@ -5,7 +5,7 @@
 nearata-twofactor:
   admin:
     permissions:
-      can_enable_twofactor: 'Có thể bật xác thực 2 yếu tố'
+      can_enable_twofactor: 'Có thể bật xác thực hai yếu tố'
     settings:
       generate_app_backups: 'Tạo mã sao lưu ứng dụng'
       generate_backups: 'Tạo mã sao lưu.'

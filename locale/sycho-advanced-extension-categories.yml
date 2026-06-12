@@ -6,7 +6,7 @@ sycho-ace:
   admin:
     categories:
       disabled: 'Đã tắt'
-      enabled: 'Đã kích hoạt'
+      enabled: 'Đã bật'
       feature: 'Tính năng'
       language: 'Ngôn ngữ'
       none: A-Z
@@ -16,6 +16,6 @@ sycho-ace:
       options:
         availability: 'Khả dụng'
         default: 'Mặc định'
-        none: 'Thứ tự A-Z'
+        none: 'Không phân loại'
         vendor: 'Nhà cung cấp'
     extensions: 'Tiện ích mở rộng'

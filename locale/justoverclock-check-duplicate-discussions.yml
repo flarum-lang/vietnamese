@@ -7,7 +7,7 @@ justoverclock-check-duplicate-discussions:
     similarNumber: 'Các cuộc thảo luận tương tự để hiển thị'
     similarNumber-help: 'Số lượng cuộc thảo luận tương tự để hiển thị trên Composer'
   forum:
-    foundDiscussion: 'Chúng tôi muốn làm nổi bật cuộc thảo luận khác có thể phù hợp với chủ đề của bạn. Chúng tôi đánh giá cao nếu bạn kiểm tra chúng để tránh tạo ra các cuộc thảo luận trùng lặp trong cộng đồng của chúng tôi.'
-    identicalWarning: 'Cảnh báo: tiêu đề của cuộc thảo luận của bạn giống với một cuộc thảo luận đã tồn tại!'
+    foundDiscussion: 'Chúng tôi muốn gợi ý các thảo luận khác có thể phù hợp với chủ đề của bạn. Rất mong bạn xem qua để tránh tạo thảo luận trùng lặp trong cộng đồng của chúng ta.'
+    identicalWarning: 'Cảnh báo: tiêu đề thảo luận của bạn trùng với một thảo luận đã tồn tại!'
     solvedSimilar: '- Đã giải quyết'
-    title: 'Tìm thấy các chủ đề tương tự!'
+    title: 'Tìm thấy các thảo luận tương tự!'

@@ -18,7 +18,7 @@ nearata-embed-video:
         can_create_video_player: 'Có thể tạo trình phát video'
         can_view_video_player: 'Có thể xem trình phát video'
       video_types:
-        dash: 'Gạch ngang'
+        dash: Dash
         flv: Flv
         hls: Hls
         shaka: Shaka
@@ -42,7 +42,7 @@ nearata-embed-video:
       title: 'Nhúng video'
       video_type_label: 'Kiểu video'
       video_types:
-        dash: 'Gạch ngabg'
+        dash: Dash
         flv: Flv
         hls: Hls
         normal: 'Bình thường'

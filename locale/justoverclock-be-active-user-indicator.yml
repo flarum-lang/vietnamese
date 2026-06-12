@@ -4,6 +4,6 @@
 
 justoverclock-be-active-user-indicator:
   admin:
-    active: 'Kích hoạt'
+    active: 'Đã kích hoạt'
     activeUI: 'Tài khoản đã được kích hoạt?'
     notActive: 'Chưa kích hoạt'

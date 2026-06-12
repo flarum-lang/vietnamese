@@ -28,7 +28,7 @@ clarkwinkelmann-money-rewards:
       optionCustom: 'Tùy chỉnh'
       submit: Gửi
       success: 'Phần thưởng đã được gửi đến tác giả bài viết!'
-      target: 'Thưởng cho bài viết #{number} bởi {username}'
+      target: 'Thưởng cho bài viết #{number} của {username}'
       title: 'Thưởng bài viết'
     post:
       action: Thưởng

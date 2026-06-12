@@ -11,10 +11,10 @@ sycho-profile-cover:
   forum:
     added:
       error: 'Không thể tải lên hình ảnh.'
-      success: 'Đã cập nhật bìa cá nhân.'
+      success: 'Đã cập nhật ảnh bìa.'
     cover: 'Ảnh bìa'
     edit_cover: 'Đổi ảnh bìa'
     notice: 'Kích thước tối đa: {size}'
     removed:
       error: 'Không thể xóa ảnh bìa, hãy thử lại sau.'
-      success: 'Đã xóa bìa cá nhân.'
+      success: 'Đã xóa ảnh bìa.'

@@ -6,7 +6,7 @@ blomstra-conversations:
   admin:
     permissions:
       view-conversation-source: 'Xem nguồn hội thoại'
-      view-raw-source: 'Xem nguồn gốc HTML hoặc HTML của các bài viết'
+      view-raw-source: 'Xem HTML gốc hoặc mã nguồn HTML của các bài viết gửi đến'
   forum:
     post:
       controls:

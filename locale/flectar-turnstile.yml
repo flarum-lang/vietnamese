@@ -12,6 +12,7 @@ flectar-turnstile:
       signup: '=> core.forum.sign_up.title'
       site_key: 'Mã khoá trang'
   forum:
+    error: 'Đã xảy ra lỗi khi xác minh bạn là con người. Vui lòng thử lại.'
     not_loaded_error: 'Không thể tải Cloudflare Turnstile. Vui lòng làm mới trang và kiểm tra trình chặn quảng cáo của bạn.'
     validation_error: 'Vui lòng hoàn thành thử thách Turnstile.'
 validation:

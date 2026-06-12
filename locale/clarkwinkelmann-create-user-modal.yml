@@ -7,7 +7,7 @@ clarkwinkelmann-create-user-modal:
     permissions:
       view: 'Hiện modal tạo người dùng'
   forum:
-    link: 'Tạo người dùng'
+    link: 'Tạo người dùng mới'
     modal:
       submit: 'Tạo người dùng'
       title: 'Tạo người dùng'

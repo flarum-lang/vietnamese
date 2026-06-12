@@ -4,10 +4,10 @@
 
 datlechin-copy-links:
   forum:
-    copy_link_button: 'Sao chép link'
+    copy_link_button: 'Sao chép liên kết'
     discussion_controls:
       copy_link_button: '=> datlechin-copy-links.lib.copy_link_button'
-    link_copied_message: 'Đã sao chéo link vào bộ nhớ tạm!'
+    link_copied_message: 'Đã sao chép liên kết vào bộ nhớ tạm!'
     post_controls:
       copy_link_button: '=> datlechin-copy-links.lib.copy_link_button'
     user_controls:

@@ -19,17 +19,17 @@ fof-mason:
     fields:
       add: 'Thêm trường {field}'
       description: 'Mô tả trường'
-      description-help: "Mô tả tùy chọn để giải thích việc sử dụng/nhu cầu của trường này.\n"
+      description-help: "Mô tả tùy chọn để giải thích mục đích sử dụng của trường này.\n"
       edit: 'Chỉnh sửa trường {field}'
-      enable-user-values-for-validation: 'Bật "giá trị người dùng" để định cấu hình quy tắc xác thực'
-      icon: Icon
+      enable-user-values-for-validation: 'Bật "giá trị người dùng" để cấu hình quy tắc xác thực'
+      icon: 'Biểu tượng'
       icon-help: "Hiển thị biểu tượng phía trước các giá trị do người dùng nhập. Để tham khảo các biểu tượng có sẵn, hãy xem <a>trang web FontAwesome</a>. Sử dụng tên lớp biểu tượng đầy đủ bao gồm tiền tố, ví dụ: \"fas fa-bolt\".\n"
       icon-preview: 'xem trước: {preview}'
       is_suggested: 'Đề xuất câu trả lời cho người dùng'
       name: 'Tên trường'
       name-help: "Nhãn trường hiển thị công khai (không thể dịch).\n"
       new-answer: 'Câu trả lời mới'
-      new-answer-placeholder: 'Nhập cái gì đó'
+      new-answer-placeholder: 'Nhập nội dung'
       required: 'Bắt buộc'
       save-field-for-answers: 'Lưu trường để thêm câu trả lời'
       show_when_empty: 'Hiển thị khi trống'
@@ -44,13 +44,13 @@ fof-mason:
     permissions:
       fill-fields: 'Điền vào các trường trên các cuộc thảo luận mới'
       see-other-fields: 'Xem các trường trên tất cả các cuộc thảo luận hiện có'
-      see-own-fields: 'Xem các trường trên các cuộc thảo luận hiện có'
+      see-own-fields: 'Xem các trường trên các thảo luận hiện có của mình'
       skip-required-fields: 'Được phép bỏ qua các trường bắt buộc'
       update-other-fields: 'Cập nhật các trường của bất kỳ cuộc thảo luận nào'
-      update-own-fields: 'Cập nhật các trường thảo luận riêng'
+      update-own-fields: 'Cập nhật các trường trên thảo luận của mình'
     settings:
       column-count: 'Số cột khi hiển thị các trường'
-      fields-in-hero: 'Hiển thị các trường trong biểu ngữ thảo luận thay vì bài đăng đầu tiên'
+      fields-in-hero: 'Hiển thị các trường trong biểu ngữ thảo luận thay vì bài viết đầu tiên'
       fields-section-title: 'Tiêu đề của phần trường tùy chỉnh'
       fields-section-title-help: "Người dùng sẽ thấy văn bản này phía trên các trường tùy chỉnh trong trình chỉnh sửa và trên cuộc thảo luận.\n"
       fields-section-title-placeholder: 'Theo mặc định, không có tiêu đề nào được hiển thị'
@@ -64,21 +64,21 @@ fof-mason:
       tags-field-name: 'Nhãn của trường thẻ'
       tags-field-name-placeholder: '=> fof-mason.forum.tags.tags-label'
     titles:
-      field-answers: 'Trả lời trường'
-      field-settings: 'Thiết lập trường'
+      field-answers: 'Câu trả lời của trường'
+      field-settings: 'Cài đặt trường'
       fields: Trường
-      settings: 'Thiết lập'
+      settings: 'Cài đặt'
   forum:
     answers-modal:
-      edit-title: 'Chỉnh sửa CÁC trường cho {title}'
+      edit-title: 'Chỉnh sửa các trường cho {title}'
       save: 'Lưu các trường'
     answers:
       choose-option: 'Chọn một tùy chọn'
       no-option-selected: 'Không có tùy chọn nào được chọn'
     discussion-controls:
-      edit-answers: 'Chỉnh Sửa các trường'
+      edit-answers: 'Chỉnh sửa các trường'
     post-answers:
-      no-answer: 'Không có trả lời'
+      no-answer: 'Chưa có câu trả lời'
     tags:
       inadequate-settings: "Cài đặt thẻ không được cấu hình chính xác. Cho phép tối đa một thẻ chính và thẻ phụ hoặc tắt tính năng \"Thẻ dưới dạng trường\".\n"
       tags-label: Thẻ

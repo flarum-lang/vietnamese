@@ -7,13 +7,13 @@ datitisev-backup:
     adapter-settings-modal:
       aliyun:
         access-id:
-          description: 'ID mã token truy cập xác thực của bạn'
+          description: 'ID của access token dùng để xác thực'
           label: 'ID truy cập'
         access-key:
-          description: 'Mã khóa mã token truy cập xác thực của bạn'
+          description: 'Khóa của access token dùng để xác thực'
           label: 'Mã khóa truy cập'
         bucket:
-          description: 'Thùng lưu trữ để sử dụng.'
+          description: 'Bucket lưu trữ sẽ sử dụng.'
           label: Bucket
         endpoint:
           description: 'URL đến điểm cuối lưu trữ của bạn.'
@@ -23,7 +23,7 @@ datitisev-backup:
           label: 'Tiền tố đường dẫn'
       aws:
         bucket:
-          description: 'Nhóm S3 để tải lên.'
+          description: 'Bucket S3 để tải lên.'
           label: Bucket
         credentials-key:
           description: 'Khóa thông tin xác thực AWS'
@@ -42,7 +42,7 @@ datitisev-backup:
           description: 'Tiền tố đường dẫn mặc định tùy chọn cho các tệp.'
           label: 'Tiền tố đường dẫn'
         region:
-          description: 'Khu vực trong nhóm của bạn.'
+          description: 'Khu vực của bucket.'
           label: 'Khu vực'
         version:
           description: 'Xác định phiên bản hoặc để trống cho phiên bản mới nhất.'
@@ -60,16 +60,16 @@ datitisev-backup:
           label: 'Mã Access Token OAuth2'
         help:
           obtain-access-code-button: 'Mở Dropbox'
-          obtain-access-code-label: 'Lấy mã access token (yêu cầu key ứng dụng)'
-          obtain-refresh-token-button: 'Sử dụng code'
-          obtain-refresh-token-label: 'Sử dụng mã access token để nhận mã refresh token(yêu cầu key ứng dụng & bí mật)'
-          obtain-refresh-token-success: 'Lấy mã refresh token thành công & được cập nhật ở trên! Lưu các thay đổi để lưu trữ nó.'
+          obtain-access-code-label: 'Lấy mã truy cập (yêu cầu app key)'
+          obtain-refresh-token-button: 'Dùng mã'
+          obtain-refresh-token-label: 'Dùng mã truy cập để lấy refresh token (yêu cầu app key và secret)'
+          obtain-refresh-token-success: 'Đã lấy refresh token thành công và cập nhật ở trên! Hãy lưu thay đổi để lưu lại.'
         key:
           description: 'Mã key của ứng dụng Dropbox.'
           label: 'Mã key ứng dụng'
         refresh-token:
           description: 'Sử dụng các trường bên dưới để nhận mã refresh token hoặc làm theo hướng dẫn thủ công tại https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
-          label: 'Làm mới token'
+          label: 'Refresh token'
         secret:
           description: 'Mã bí mật của ứng dụng Dropbox.'
           label: 'Mã bí mật ứng dụng'
@@ -78,8 +78,8 @@ datitisev-backup:
           description: 'Tên máy chủ để kết nối với FTP, ví dụ: <em>ftp.yourdomain.local</em>.'
           label: 'Tên máy chủ từ xa'
         passive:
-          description: 'Có sử dụng kết nối FTP bị động với máy chủ hay không.'
-          toggle: 'Kết nối bị động'
+          description: 'Có sử dụng kết nối FTP thụ động với máy chủ hay không.'
+          toggle: 'Kết nối thụ động'
         password:
           description: 'Mật khẩu người dùng để xác thực trên máy chủ FTP.'
           label: 'Mật khẩu'
@@ -103,18 +103,18 @@ datitisev-backup:
           label: 'Tên tài khoản'
       gdrive:
         client-id:
-          description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và truy xuất ID khách hàng và bí mật khách hàng của bạn.\n"
-          label: 'ID khách hàng'
+          description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và lấy Client ID & Client Secret của bạn.\n"
+          label: 'Client ID'
         client-secret:
           description: ' '
-          label: 'Mã bí mật khách hàng'
+          label: 'Client Secret'
         client:
           id:
-            description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và lấy ID khách hàng & mã bí mật khách hàng của bạn.\n"
-            label: 'ID khách hàng'
+            description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và lấy Client ID & Client Secret của bạn.\n"
+            label: 'Client ID'
           secret:
             description: ' '
-            label: 'Mã bí mật khách hàng'
+            label: 'Client Secret'
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'ID thư mục'
@@ -122,8 +122,8 @@ datitisev-backup:
           test_button: 'Kiểm tra kết nối'
           test_success_alert: 'Đã kết nối thành công với Google Drive! Lưu các thay đổi để lưu trữ cài đặt.'
         refresh-token:
-          description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy mã làm mới cho ứng dụng Google oAuth của bạn.\n"
-          label: 'Làm mới token'
+          description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy refresh token cho ứng dụng Google OAuth của bạn.\n"
+          label: 'Refresh token'
       local:
         target:
           description: 'Xác định thư mục cục bộ để lưu các bản sao lưu vào.'
@@ -143,7 +143,7 @@ datitisev-backup:
       rackspace: Rackspace
       sftp: SFTP
       webdav: Webdav
-      zip: 'Lưu trữ Zip'
+      zip: 'Tệp nén Zip'
     create_button: 'Thêm adapter mới'
     delete_button: Xóa
     delete_confirmation: 'Bạn có chắc chắn muốn xóa “{name}” ({adapter}) không?'
@@ -151,7 +151,7 @@ datitisev-backup:
       description: 'Lưu trữ các bản sao của diễn đàn.'
       label: 'Sao lưu'
     required-package-modal:
-      content: "Để sử dụng trình điều khiển này, bạn cần cài đặt một gói cụ thể. Bạn có thể làm như vậy bằng cách chạy lệnh composer sau: <code>composer request {package}</code> trong thư mục cài đặt Flarum của bạn.\n"
+      content: "Để sử dụng trình điều khiển này, bạn cần cài đặt một gói cụ thể. Bạn có thể thực hiện bằng cách chạy lệnh composer sau: <code>composer require {package}</code> trong thư mục cài đặt Flarum của bạn.\n"
       title: 'Gói cần thiết cho {adapter}'
     required_package_button: 'Thiết lập'
     settings_button: 'Cấu hình'

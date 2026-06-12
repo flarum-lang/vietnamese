@@ -4,17 +4,17 @@
 
 xypp-sticky-card:
   api:
-    already_sticky: 'Thảo luận đã được dính rồi.'
+    already_sticky: 'Thảo luận này đã được ghim rồi.'
   forum:
-    already: 'Thảo luận đã được dính rồi.'
+    already: 'Thảo luận này đã được ghim rồi.'
     default: 'Mặc định'
-    giveup: 'Từ bỏ Mua'
+    giveup: 'Hủy mua'
     loading: 'Đang tải...'
     no-card: 'Không có thẻ nào có thể sử dụng.'
     not-used: 'Chưa sử dụng'
-    sticky-card: 'Thẻ Dính'
-    sticky_card_expire: 'Thẻ Dính của {username} đã hết hạn'
-    sticky_card_take_effect: '{username} đã sử dụng Thẻ Dính'
+    sticky-card: 'Thẻ Ghim'
+    sticky_card_expire: 'Thẻ Ghim của {username} đã hết hạn'
+    sticky_card_take_effect: '{username} đã sử dụng Thẻ Ghim'
     success: 'Sử dụng thành công'
-    use-sticky-card: 'Sử dụng Thẻ Dính'
+    use-sticky-card: 'Sử dụng Thẻ Ghim'
     used: 'Đã sử dụng trên {0}'

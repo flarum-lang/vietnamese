@@ -4,11 +4,11 @@
 
 zhihe-primary-posts:
   forum:
-    all_posts: 'Hiển thị Tất cả'
+    all_posts: 'Hiển thị tất cả'
     chapter_n: 'Chương {number}'
-    filter_posts: 'Lọc Bài viết'
-    mark_primary: 'Đánh dấu là Chính'
-    primary_checkbox: Chính
-    primary_only: 'Chỉ Chính'
-    primary_post: Chính
-    unmark_primary: 'Bỏ đánh dấu Chính'
+    filter_posts: 'Lọc bài viết'
+    mark_primary: 'Đánh dấu là bài chính'
+    primary_checkbox: 'Bài chính'
+    primary_only: 'Chỉ bài chính'
+    primary_post: 'Bài chính'
+    unmark_primary: 'Bỏ đánh dấu bài chính'

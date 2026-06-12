@@ -6,20 +6,20 @@ danirod-plausible:
   admin:
     settings:
       domain:
-        help: 'Miền sẽ sử dụng khi gửi phân tích.'
+        help: 'Tên miền sẽ dùng khi gửi dữ liệu phân tích.'
         label: 'Tên miền'
       enable:
-        help: 'Bật tùy chọn này để thực sự bao gồm mã theo dõi.'
+        help: 'Bật tùy chọn này để chèn mã theo dõi vào trang.'
         label: 'Đã bật'
       exclude_admin:
         help: 'Khi bật chức năng này, lượt xem của quản trị viên khi đang đăng nhập sẽ không được tính vào thống kê.'
         label: 'Loại trừ quản trị viên'
       proxy_domain:
-        help: 'Lưu trữ mã JS: Để trống để sử dụng plausible.io. Điều này giúp tránh trình chặn quảng cáo loại bỏ mã theo dõi. Kiểm tra tài liệu của Plausible.'
+        help: 'Nơi phân phối mã JS. Để trống để sử dụng plausible.io. Điều này giúp ngăn trình chặn quảng cáo xóa mã theo dõi. Xem tài liệu của Plausible.'
         label: 'Tên miền proxy'
     validation:
       domain:
         regex: 'Tên miền không hợp lệ'
-        required: 'Một tên miền phải được cung cấp'
+        required: 'Cần cung cấp tên miền'
       proxy_domain:
         regex: 'Tên miền proxy không hợp lệ'

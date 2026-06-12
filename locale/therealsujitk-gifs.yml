@@ -4,7 +4,7 @@
 
 therealsujitk-gifs:
   admin:
-    apiKey: 'Mã khóa API'
+    apiKey: 'Khóa API'
     engine: 'Công cụ tìm kiếm'
     rating: 'Xếp hạng nội dung / Bộ lọc nội dung'
     ratingHigh: 'G / Cao'

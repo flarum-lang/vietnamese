@@ -5,7 +5,7 @@
 kilowhat-cimaise:
   admin:
     permissions:
-      attachCimaiseAlbum: 'Thủ công đính kèm album vào thảo luận'
+      attachCimaiseAlbum: 'Đính kèm album vào thảo luận theo cách thủ công'
       createCommunityAlbums: 'Tạo album cộng đồng'
       createPersonalAlbums: 'Tạo album cá nhân'
       editOwnAlbum: 'Thay đổi tiêu đề và mô tả album của mình'
@@ -15,7 +15,7 @@ kilowhat-cimaise:
       hideOwnPicture: 'Ẩn hình ảnh của mình'
       licenseOwnPublishedPicture: 'Thay đổi giấy phép hình ảnh của mình sau khi xuất bản'
       moderate: 'Kiểm duyệt'
-      publishSilently: 'Xuất bản hình ảnh im lặng (không có bài đăng sự kiện)'
+      publishSilently: 'Xuất bản hình ảnh âm thầm (không tạo bài viết sự kiện)'
       renameOwnPublishedPicture: 'Thay đổi tiêu đề và mô tả hình ảnh của mình sau khi xuất bản'
       uploadCommunityPicturesWithoutApproval: 'Tải lên hình ảnh không cần phê duyệt trong album cộng đồng'
       uploadPersonalPicturesWithoutApproval: 'Tải lên hình ảnh không cần phê duyệt trong album cá nhân'
@@ -25,7 +25,7 @@ kilowhat-cimaise:
     settings:
       autoCreateDiscussionAlbum: 'Tự động tạo album cho mỗi thảo luận mới'
       autoCreateDiscussionAlbumHelp: "Tự động tạo album mới với cùng tiêu đề như thảo luận và tác giả làm chủ sở hữu. Tính năng này bỏ qua quyền tạo album và áp dụng trong tất cả các thẻ.\n"
-      columnTheme: 'Chủ đề Cột'
+      columnTheme: 'Giao diện dạng cột'
       columnThemeHelp: 'Sử dụng kiểu dáng bảng điều khiển bên khi hiển thị hình ảnh thay vì bảng điều khiển dưới.'
       license-add: 'Thêm giấy phép'
       license-description: 'Mô tả'
@@ -47,10 +47,10 @@ kilowhat-cimaise:
       watermarkFileHelp: 'Hình ảnh được cung cấp sẽ được áp dụng 1:1 lên trên mỗi lần tải lên ngoại trừ bản xem trước nhỏ nhất.'
       watermarkPlacement: 'Vị trí đặt watermark'
       watermarkPlacementOptions:
-        bottomLeft: 'Dưới trái'
-        bottomRight: 'Dưới phải'
-        topLeft: 'Trên trái'
-        topRight: 'Trên phải'
+        bottomLeft: 'Góc dưới bên trái'
+        bottomRight: 'Góc dưới bên phải'
+        topLeft: 'Góc trên bên trái'
+        topRight: 'Góc trên bên phải'
     status:
       loading: 'Đang tải...'
       pictures:
@@ -64,20 +64,20 @@ kilowhat-cimaise:
   api:
     picture-edit:
       unauthorized:
-        author: 'Tác giả không hợp lệ, chỉnh sửa không được ủy quyền'
-        crop: 'Cắt không hợp lệ, chỉnh sửa không được ủy quyền'
-        description: 'Mô tả không hợp lệ, chỉnh sửa không được ủy quyền'
+        author: 'Tác giả không hợp lệ, không được phép chỉnh sửa'
+        crop: 'Thông số cắt không hợp lệ, không được phép chỉnh sửa'
+        description: 'Mô tả không hợp lệ, không được phép chỉnh sửa'
         isApprovedApprove: 'Trạng thái phê duyệt không hợp lệ, không được phép phê duyệt'
         isApprovedUnApprove: 'Trạng thái phê duyệt không hợp lệ, không được phép bỏ phê duyệt'
         isDraftSubmit: 'Trạng thái bản nháp không hợp lệ, không được phép gửi'
         isDraftUnSubmit: 'Trạng thái bản nháp không hợp lệ, không được phép bỏ gửi'
-        isFavorite: 'Trạng thái yêu thích không hợp lệ, chỉnh sửa không được ủy quyền'
+        isFavorite: 'Trạng thái yêu thích không hợp lệ, không được phép chỉnh sửa'
         isHiddenHide: 'Trạng thái ẩn không hợp lệ, không được phép ẩn'
         isHiddenRestore: 'Trạng thái ẩn không hợp lệ, không được phép khôi phục'
-        license: 'Giấy phép không hợp lệ, chỉnh sửa không được ủy quyền'
-        stickers: 'Nhãn dán không hợp lệ, chỉnh sửa không được ủy quyền'
-        takenAt: 'Ngày chụp không hợp lệ, chỉnh sửa không được ủy quyền'
-        title: 'Tiêu đề không hợp lệ, chỉnh sửa không được ủy quyền'
+        license: 'Giấy phép không hợp lệ, không được phép chỉnh sửa'
+        stickers: 'Nhãn dán không hợp lệ, không được phép chỉnh sửa'
+        takenAt: 'Ngày chụp không hợp lệ, không được phép chỉnh sửa'
+        title: 'Tiêu đề không hợp lệ, không được phép chỉnh sửa'
     post-edit:
       cannotAttachAlreadySubmitted: 'Không thể đính kèm hình ảnh {id} vì nó đã được gửi'
       cannotAttachFromExternalAlbum: 'Không thể đính kèm hình ảnh {id} vì nó thuộc về album bên ngoài'
@@ -187,7 +187,7 @@ kilowhat-cimaise:
     upload-modal:
       drop-file: 'hoặc kéo và thả vào đây'
       processing: 'Đang xử lý'
-      publishSilently: 'Xuất bản im lặng'
+      publishSilently: 'Xuất bản âm thầm'
       reload: 'Tải lại danh sách bản nháp'
       select-file: 'Chọn tệp'
       submit: Gửi

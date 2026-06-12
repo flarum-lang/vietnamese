@@ -35,14 +35,14 @@ foskym-issue-tracking:
     discussion:
       issue_link: Xem
     header:
-      back_to_issues_tooltip: 'Quay lại sự cố'
+      back_to_issues_tooltip: 'Quay lại danh sách sự cố'
     hero:
       complete: 'Hoàn thành {progress}'
       last_updated: '=> foskym-issue-tracking.forum.last_updated'
       resolved: 'Đã giải quyết'
       tasks_done: '{number} trên {total}'
       unresolved: 'Chưa giải quyết'
-    issue_opened_by: 'Sự cố được mở vào {time} bởi {username}'
+    issue_opened_by: 'Sự cố do {username} mở vào {time}'
     last_updated: 'Cập nhật lần cuối {time}'
     new_issue: 'Sự cố mới'
     progress: 'Tiến độ'

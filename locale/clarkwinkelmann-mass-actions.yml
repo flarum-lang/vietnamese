@@ -12,7 +12,7 @@ clarkwinkelmann-mass-actions:
       deleteConfirmation: '{count, plural, one {Bạn có chắc chắn muốn xóa vĩnh viễn cuộc thảo luận đã chọn không?} other {Bạn có chắc chắn muốn xóa vĩnh viễn # cuộc thảo luận đã chọn không?}}'
       hide: 'Xóa đã chọn'
       lock: 'Khóa đã chọn'
-      markAsRead: 'Đánh dấu đã đọc'
+      markAsRead: 'Đánh dấu mục đã chọn là đã đọc'
       restore: 'Khôi phục đã chọn'
       sticky: 'Ghim đã chọn'
       tags: Thẻ
@@ -27,5 +27,5 @@ clarkwinkelmann-mass-actions:
       none: 'Không chọn'
       read: Đọc
       unlocked: 'Đã mở khóa'
-      unread: 'Không đọc'
+      unread: 'Chưa đọc'
       visible: 'Không bị xóa'

@@ -9,8 +9,8 @@ clarkwinkelmann-typewriter:
       defaultFile: 'Tệp âm thanh mặc định'
       head:
         file: Tệp
-        keys: 'Mã khoá'
-      muteByDefault: 'Tắt theo mặc định'
+        keys: Phím
+      muteByDefault: 'Tắt tiếng theo mặc định'
       showIntroductionPopup: 'Hiện popup giới thiệu cho lần đầu'
       sounds: 'Âm thanh bổ sung'
   forum:

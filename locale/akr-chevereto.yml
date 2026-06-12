@@ -5,9 +5,9 @@
 akr-chevereto:
   admin:
     setting:
-      insert_type: 'Nhúng mã để tự động chèn vào nội dung có thể chỉnh sửa đích'
+      insert_type: 'Mã nhúng để tự động chèn vào nội dung được chỉnh sửa'
       url: 'URL của trang web Chevereto'
   forum:
     composer:
       upload_button: 'Tải ảnh lên'
-      upload_button_details: 'Tải và nhập ảnh lên'
+      upload_button_details: 'Tải lên và chèn ảnh'

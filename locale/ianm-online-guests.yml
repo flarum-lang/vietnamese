@@ -7,7 +7,7 @@ ianm-online-guests:
     permissions:
       view_online_guests_label: 'Xem khách đang trực tuyến'
     settings:
-      cache_duration_label: 'Thời gian lưu bộ nhớ tạm'
+      cache_duration_label: 'Thời gian lưu bộ nhớ đệm'
       online_duration_label: 'Thời lượng trực tuyến'
   forum:
     widget:

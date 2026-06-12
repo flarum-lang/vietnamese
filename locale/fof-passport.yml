@@ -11,7 +11,7 @@ fof-passport:
         app-scopes: 'Scope OAuth yêu cầu'
         app-secret: 'Mã bí mật ứng dụng OAuth'
         app-token-url: 'URL mã token OAuth'
-        app-user-url: 'URL Api cung cấp thông tin chi tiết về người dùng khi được xác thực'
+        app-user-url: 'URL API cung cấp thông tin người dùng khi được xác thực'
         button-icon: 'Biểu tượng cho nút đăng nhập'
         button-title: 'Nhãn cho nút đăng nhập'
         button-title-placeholder: '=> fof-passport.api.default-login-button-title'

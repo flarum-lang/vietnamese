@@ -4,8 +4,8 @@
 
 foskym-better-user-directory:
   admin:
-    go_to_this_extension: 'Đi đến tiện ích mở rộng Thư mục Người dùng Tốt hơn với nhiều cài đặt hơn'
-    go_to_user_directory_extension: 'Đi đến tiện ích mở rộng Thư mục Người dùng với nhiều cài đặt hơn'
+    go_to_this_extension: 'Mở tiện ích mở rộng Better User Directory để xem thêm cài đặt'
+    go_to_user_directory_extension: 'Mở tiện ích mở rộng User Directory để xem thêm cài đặt'
     settings:
       hide_filter_groups: 'Ẩn nhóm bộ lọc'
       hide_search: 'Ẩn tìm kiếm'

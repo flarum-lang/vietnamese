@@ -4,7 +4,7 @@
 
 justoverclock-steam-api:
   admin:
-    steamApiKey: 'Mã key API Steam'
+    steamApiKey: 'Khóa API Steam'
     steamApiKey-help: 'Lấy API key miễn phí tại https://steamcommunity.com/dev/apikey'
   forum:
     LatestGamesPlayed: 'Các trò chơi đã chơi gần đây'
@@ -15,19 +15,19 @@ justoverclock-steam-api:
     lastLogin: 'Đăng nhập gần đây: '
     lastLogoff: 'Lần đăng xuất cuối cùng: '
     noCountry: 'Chưa điền'
-    noGamesAvailable: 'Không có trò chơi chơi trong hai tuần qua.'
+    noGamesAvailable: 'Không chơi trò chơi nào trong hai tuần qua.'
     privateProfile: 'Hồ sơ riêng tư'
     profile: 'Hồ sơ: '
     publicProfile: 'Hồ sơ công khai'
     realName: 'Tên thật: '
     status: 'Trạng thái: '
-    statusAway: 'Ra ngoài'
+    statusAway: 'Vắng mặt'
     statusBusy: Bận
     statusOffline: 'Ngoại tuyến'
     statusOnline: 'Trực tuyến'
-    statusPlay: 'Tìm cách chơi'
-    statusSnooze: 'Ngủ trưa'
-    statusTrade: 'Tìm kiếm để giao dịch'
+    statusPlay: 'Muốn tìm người chơi cùng'
+    statusSnooze: 'Tạm vắng'
+    statusTrade: 'Muốn trao đổi vật phẩm'
     steamId: 'ID hồ sơ Steam hoặc biệt danh'
     steamIdSaved: 'ID Steam đã lưu thành công'
     visitProfile: 'Xem hồ sơ'

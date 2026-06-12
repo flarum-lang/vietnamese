@@ -5,10 +5,10 @@
 askvortsov-help-tags:
   admin:
     permissions:
-      view_tag_label: 'Xem Thẻ'
+      view_tag_label: 'Xem thẻ'
   forum:
     badge:
       show_to_all_tooltip: 'Cuộc thảo luận này hiển thị cho tất cả người dùng có thể đăng trong thẻ của nó.'
     discussion_controls:
       show_to_all_button: 'Hiển thị cho tất cả những người có thể đăng bài ở đây.'
-      unshow_to_all_button: 'Chỉ hiển thị cho những người có thể xem'
+      unshow_to_all_button: 'Chỉ hiển thị cho những người có quyền xem diễn đàn'

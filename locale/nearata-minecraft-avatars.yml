@@ -5,7 +5,7 @@
 nearata-minecraft-avatars:
   admin:
     retrieve_avatar_on_register:
-      help: 'Nếu không có Tài khoản Minecraft với tên người dùng như vậy, Steve hoặc Alex làm skin mặc định.'
+      help: 'Nếu không có tài khoản Minecraft với tên người dùng đó, Steve hoặc Alex sẽ được dùng làm skin mặc định.'
       label: 'Nhận ảnh đại diện khi Đăng ký'
   forum:
     avatar_changed: 'Ảnh đại diện đã được thay đổi thành công.'
