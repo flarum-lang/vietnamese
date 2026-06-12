@@ -9,7 +9,7 @@ sycho-github-milestone:
     default_filter: 'Bộ lọc mặc định'
     milestone: 'ID Milestone'
     open: '=> sycho-github-milestone.ref.open'
-    repository: 'Kho lưu trữ Github'
+    repository: 'Kho lưu trữ GitHub'
   forum:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'

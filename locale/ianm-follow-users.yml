@@ -7,7 +7,7 @@ flarum-gdpr:
     data:
       followuser:
         anonymize_description: '=> flarum-gdpr.lib.data.followuser.delete_description'
-        delete_description: 'Xóa tất cả dữ liệu liên quan đến người dùng theo dõi.'
+        delete_description: 'Xóa tất cả dữ liệu liên quan đến việc theo dõi người dùng.'
         export_description: 'Xuất thông tin chi tiết về người dùng được theo dõi và người dùng đang theo dõi.'
 ianm-follow-users:
   admin:
@@ -19,12 +19,13 @@ ianm-follow-users:
   forum:
     badge:
       label:
-        follow: 'Cuộc thảo luận đang theo dõi'
+        follow: 'Đang theo dõi thảo luận'
         lurk: 'Đang theo dõi tất cả'
     filter:
       following: 'Người dùng đã theo dõi'
     followed: 'Đã theo dõi'
     followers: '{count, plural, one {Người theo dõi} other {Người theo dõi}}'
+    followers_link: 'Người theo dõi'
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
@@ -35,8 +36,8 @@ ianm-follow-users:
         follow_levels_heading: 'Cấp độ theo dõi'
         follow_select_label: 'Kiểu theo dõi'
         no_user_attr_provided_err: 'Rất tiếc, đã xảy ra sự cố khi mở modal này.'
-        no_user_attr_provided_err_debug: 'Không có thuộc tính `user` nào được truyền sang modal SelectFollowUserLevel khi tạo. Modal thức không thể hiển thị.'
-        save_btn: 'Lưu lại'
+        no_user_attr_provided_err_debug: 'Không có thuộc tính `user` nào được truyền vào modal SelectFollowUserLevel khi khởi tạo. Không thể hiển thị modal.'
+        save_btn: Lưu
         title: 'Chọn cấp độ theo dõi cho {username}'
     notifications:
       new_discussion_text: '{username} đã tạo cuộc thảo luận mới'
@@ -45,12 +46,13 @@ ianm-follow-users:
       new_unfollower_text: '{username} đã bỏ theo dõi bạn'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
+      no_followers: 'Có vẻ như bạn chưa có người theo dõi nào.'
       no_following: 'Hiện bạn không theo dõi người nào.'
     settings:
       block_follow: 'Chặn người dùng theo dõi tôi'
-      notify_new_discussion_label: 'Ai đó đang theo dõi tôi tạo cuộc thảo luận'
+      notify_new_discussion_label: 'Người tôi đang theo dõi tạo cuộc thảo luận mới'
       notify_new_follower_label: 'Ai đó theo dõi tôi'
-      notify_new_post_label: 'Ai đó đang theo dõi tôi đăng một bài viết trong cuộc thảo luận hiện có'
+      notify_new_post_label: 'Người tôi đang theo dõi đăng bài viết trong cuộc thảo luận hiện có'
       notify_new_unfollower_label: 'Ai đó ngừng theo dõi tôi'
     user_controls:
       change_button: '=> ianm-follow-users.lib.change_follow_type'
@@ -64,7 +66,7 @@ ianm-follow-users:
         description: "Nhận thông báo khi <em>{username}</em> tạo cuộc thảo luận mới.\n"
         name: 'Theo dõi cuộc thảo luận'
       lurk:
-        description: "Nhận thông báo khi <em>{username}</em> tạo cuộc thảo luận mới hoặc đăng bài trong bất kỳ cuộc thảo luận nào\n"
+        description: "Nhận thông báo khi <em>{username}</em> tạo cuộc thảo luận mới hoặc đăng bài trong bất kỳ cuộc thảo luận nào.\n"
         name: 'Theo dõi tất cả'
       unfollow:
         description: "Không nhận bất kỳ thông báo nào về hoạt động của <em>{username}</em>.\n"

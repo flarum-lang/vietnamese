@@ -9,20 +9,20 @@ fof-analytics:
     popup:
       field:
         googleGTMCode: 'ID mã GTM (tùy chọn)'
-        googleTrackingCode: 'Mã theo dõi ID'
-        optTrackingCode: 'Tối ưu hóa mã theo dõi (tùy chọn)'
+        googleTrackingCode: 'ID mã theo dõi'
+        optTrackingCode: 'Mã theo dõi Optimize (tùy chọn)'
         piwikAliasUrl: 'URL bí danh'
         piwikAuthToken: 'Mã xác thực'
-        piwikHideAliasUrl: 'Trong báo cáo "Liên kết ngoài", hãy ẩn các nhấp chuột đến các URL bí danh đã biết'
+        piwikHideAliasUrl: 'Trong báo cáo "Liên kết ngoài", ẩn các lượt nhấp vào những URL bí danh đã biết'
         piwikPrependDomain: 'Thêm tên miền trang web vào tiêu đề trang khi theo dõi'
         piwikSiteId: 'ID trang'
-        piwikTrackAccounts: 'Theo dõi tài khoản người dùng cá nhân'
+        piwikTrackAccounts: 'Theo dõi từng tài khoản người dùng'
         piwikTrackSubdomain: 'Theo dõi khách truy cập trên tất cả các miền phụ của Flarum'
         piwikUrl: 'Tên miền hoặc URL Matomo'
         statusGoogle: 'Bật Google Analytics (UA/GA4)'
         statusPiwik: 'Bật Matomo'
       placeholder:
-        piwikAuthToken: "Điền mã thông báo này để kích hoạt tiện ích con số liệu thống kê Matomo trong bảng điều khiển quản trị.\nBạn có thể tìm thấy nó trong Cài đặt > Cá nhân > Mã xác thực API.\n"
+        piwikAuthToken: "Điền mã này để bật widget thống kê Matomo trong trang quản trị.\nBạn có thể tìm thấy nó trong Cài đặt > Cá nhân > Mã xác thực API.\n"
       section:
         googleAnalytics: 'Google Analytics'
         piwik: Matomo

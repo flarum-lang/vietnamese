@@ -19,11 +19,11 @@ migratetoflarum-fake-data:
       date-interval-placeholder: 'Khoảng thời gian (mặc định: 1 giây)'
       date-start-placeholder: 'Ngày bắt đầu (mặc định: bây giờ)'
       discussion-count: 'Số lượng cuộc thảo luận muốn tạo'
-      discussion-tags: 'Các thẻ cho các cuộc thảo luận'
+      discussion-tags: 'Thẻ cho các cuộc thảo luận mới'
       discussion-tags-none: Không
       discussion-tags-random: 'Ngẫu nhiên'
       post-count: 'Số lượng bài viết muốn tạo'
       refresh: 'Đóng và tải lại trang'
-      reset: 'Tạo thành công! Nhấn để tải lại form'
+      reset: 'Tạo xong! Nhấn để đặt lại biểu mẫu'
       send: 'Tạo dữ liệu'
       user-count: 'Số lượng người dùng muốn tạo'

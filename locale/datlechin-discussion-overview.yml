@@ -4,7 +4,7 @@
 
 datlechin-discussion-overview:
   forum:
-    created: 'Đã tạo'
+    created: 'Ngày tạo'
     last_reply: 'Trả lời gần đây'
     likes: 'Lượt thích'
     replies: 'Câu trả lời'

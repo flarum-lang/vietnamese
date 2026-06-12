@@ -19,7 +19,7 @@ fof-username-request:
       action:
         approval_label: 'Phê duyệt'
         decision_title: 'Quyết định'
-        help_text: 'Hãy đảm bảo rằng sự thay đổi biệt hiệu được yêu cầu này tuân theo các nguyên tắc của diễn đàn.'
+        help_text: 'Hãy đảm bảo rằng yêu cầu thay đổi biệt hiệu này tuân theo các nguyên tắc của diễn đàn.'
         name: '{name} đã yêu cầu thay đổi biệt hiệu của họ thành "{requestedName}"'
         reason_title: 'Lý do từ chối'
         rejected_label: 'Từ chối'
@@ -41,7 +41,7 @@ fof-username-request:
         reason: 'Lý do từ chối: <i>"{reason}"</i>.'
         rejected: 'Yêu cầu thay đổi biệt hiệu của bạn đã bị từ chối'
         resubmit: 'Tại thời điểm này, bạn có thể gửi lại yêu cầu thay đổi biệt hiệu mới từ cài đặt tài khoản của mình nếu bạn muốn.'
-        title: 'Yêu cầu đổi tên người dùng'
+        title: 'Yêu cầu thay đổi biệt hiệu'
     pending_requests:
       empty_text: 'Không tìm thấy yêu cầu thay đổi tên.'
       nickname_exerpt: 'Biệt hiệu yêu cầu: {requestedName}'

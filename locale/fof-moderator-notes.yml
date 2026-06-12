@@ -5,9 +5,9 @@
 fof-moderator-notes:
   admin:
     permissions:
-      createnotes: 'Người kiểm duyệt tạo ghi chú'
-      deletenotes: 'Xóa ghi chú của người kiểm duyệt'
-      viewnotes: 'Xem ghi chú của người kiểm duyệt'
+      createnotes: 'Tạo ghi chú điều hành viên'
+      deletenotes: 'Xóa ghi chú điều hành viên'
+      viewnotes: 'Xem ghi chú điều hành viên'
   api:
     auto_note: '_Tôi chuyển sang người dùng này:_ {reason}'
     auto_note_actor: '_Chuyển sang_ @{username}: {reason}'
@@ -16,7 +16,7 @@ fof-moderator-notes:
     moderatorNotes:
       add_button: 'Ghi chú mới'
       confirm: 'Bạn có chắc chắn muốn xóa ghi chú này không?'
-      create-heading: 'Tạo mới ghi chú'
+      create-heading: 'Tạo ghi chú điều hành viên mới'
       created_text: '{username} đã tạo ghi chú này lúc {date}'
       delete: Xóa
       dismiss_button: Xong
@@ -24,6 +24,6 @@ fof-moderator-notes:
       input_heading: 'Nhập ghi chú của bạn cho <strong>{username}</strong>, (hỗ trợ markdown)'
       noNotes: 'Hiện không có ghi chú nào ở đây.'
       submit_button: 'Lưu ghi chú'
-    no_content_given: 'Một ghi chú trống không được phép.'
+    no_content_given: 'Không được phép tạo ghi chú trống.'
     user:
-      notes: 'Ghi chú của người kiểm duyệt'
+      notes: 'Ghi chú điều hành viên'
