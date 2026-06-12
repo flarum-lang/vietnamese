@@ -156,6 +156,7 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
@@ -163,6 +164,7 @@ CHANGELOG
 * [`ianm/html-head`](https://github.com/imorland/html-head)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
@@ -363,7 +365,6 @@ CHANGELOG
 * [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * `glowingblue-localizd`
-* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
@@ -382,7 +383,6 @@ CHANGELOG
 * [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
 * [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
 * [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
-* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * `ianm-translate`
 * [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert)
