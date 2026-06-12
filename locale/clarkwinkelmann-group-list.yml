@@ -9,8 +9,8 @@ clarkwinkelmann-group-list:
     permissions:
       see: 'Xem danh sách nhóm'
     settings:
-      showAvatarBadges: 'Hiển thị huy hiệu bên cạnh hình đại diện'
+      showAvatarBadges: 'Hiển thị các huy hiệu khác bên cạnh ảnh đại diện'
       showOnlineStatus: 'Hiển thị trạng thái trực tuyến'
-      showSideNavLink: 'Hiển thị liên kết trong điều hướng trang'
+      showSideNavLink: 'Hiển thị liên kết trong thanh điều hướng bên'
   forum:
     nav: 'Danh sách nhóm'

@@ -7,8 +7,8 @@ flarum-ext-dontgoaway:
     altdesc: 'Đặt thuộc tính "alt" cho ảnh'
     altext: 'Thuộc tính alt cho ảnh'
     btn: 'Tùy chỉnh Nút. Ví dụ cú pháp trong placeholder'
-    btndesc: 'bạn có thể thiết lập biểu tượng fontawesome và chữ cho nút'
-    enableExtLink: 'Kích hoạt Cửa sổ bật lên trên liên kết bên ngoài'
+    btndesc: 'Bạn có thể thiết lập biểu tượng Font Awesome và chữ cho nút'
+    enableExtLink: 'Bật cửa sổ bật lên khi nhấp vào liên kết bên ngoài'
     heightdesc: 'Đặt chiều cao ảnh (vd: 450)'
     heightext: 'Chiều cao ảnh'
     modtext: 'Văn bản modal'
@@ -22,5 +22,5 @@ flarum-ext-dontgoaway:
   forum:
     cancelbutton: 'Ở lại!'
     confbutton: 'Tiếp tục'
-    extlinktext: 'Bạn rời khỏi trang web bằng cách nhấp vào một liên kết bên ngoài'
+    extlinktext: 'Bạn sắp rời khỏi trang web khi nhấp vào liên kết bên ngoài này'
     extlinktitle: 'Liên kết bên ngoài'

@@ -5,26 +5,26 @@
 xypp-answer-bounty:
   admin:
     permissions:
-      moderate: 'Quản lý Thưởng của người khác'
-      use: 'Đặt Thưởng'
+      moderate: 'Quản lý thưởng của người khác'
+      use: 'Đặt thưởng'
   api:
-    bounty: 'Phần thưởng cho Câu trả lời hay nhất của bạn'
-    bounty_clear: 'Xóa Thưởng'
-    bounty_sent: 'Phần thưởng đã được gửi. Vui lòng bỏ chọn câu trả lời hay nhất trước khi đặt mới.'
-    bounty_set: 'Đặt Thưởng'
+    bounty: 'Phần thưởng cho câu trả lời hay nhất của bạn'
+    bounty_clear: 'Xóa thưởng'
+    bounty_sent: 'Phần thưởng đã được gửi. Vui lòng bỏ chọn câu trả lời hay nhất hiện tại trước khi chọn câu mới.'
+    bounty_set: 'Đặt thưởng'
     not_enough_money: 'Bạn không đủ tiền để đặt thưởng.'
   forum:
     badge: Thưởng
     composer:
       edit: 'Thưởng ({bounty})'
-      set: 'Đặt Thưởng'
+      set: 'Đặt thưởng'
     discussion:
-      edit: 'Chỉnh sửa Thưởng ({bounty})'
-      set: 'Đặt Thưởng'
+      edit: 'Chỉnh sửa thưởng ({bounty})'
+      set: 'Đặt thưởng'
     modal:
       clear: Xóa
       label: 'Số tiền'
       submit: Gửi
-      title: 'Đặt Thưởng'
+      title: 'Đặt thưởng'
     tip: 'Thảo luận này đang tìm câu trả lời hay nhất với phần thưởng <span>{money}</span>.'
     tip-ans: 'Đã gửi thưởng <span>{money}</span>'

@@ -27,7 +27,7 @@ nearata-cloudflare:
         section_title: R2
       refer_to: 'Tham khảo <strong><url>trang này</url></strong> để biết thêm thông tin.'
       refresh_zone_button_label: 'Làm mới Zone ID'
-      refresh_zone_help: 'Chỉ nhấp vào nút trên <strong>khi</strong> tên miền đã thay đổi.'
+      refresh_zone_help: '<strong>Chỉ</strong> nhấp vào nút trên khi tên miền đã thay đổi.'
       security_level_label: 'Mức độ bảo mật'
       security_level_options:
         essentially_off: 'Hầu như tắt'

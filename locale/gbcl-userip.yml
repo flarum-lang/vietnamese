@@ -12,7 +12,7 @@ gbcl-userip:
         key: 'Mã token IpInfo (Bắt buộc)'
         label: IpInfo
       ipsb:
-        description: 'Sử dụng <b>https://ip.sb</b> để nhận thông tin vị trí IP miễn phí (vui lòng lưu ý giới hạn)'
+        description: 'Sử dụng <b>https://ip.sb</b> để nhận thông tin vị trí IP miễn phí (vui lòng lưu ý giới hạn số lần truy cập)'
         label: IP.SB
       label: 'Dịch vụ'
   forum:

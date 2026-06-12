@@ -6,9 +6,9 @@ ffans-geetest:
   admin:
     settings:
       config:
-        id_help_text: 'Mã xác minh của sự kiện ngữ cảnh bạn đã áp dụng trên <a>bảng điều khiển GeeTest</a>.'
+        id_help_text: 'Mã xác minh của sự kiện ngữ cảnh mà bạn đã đăng ký trên <a>bảng điều khiển GeeTest</a>.'
         id_label: 'Mã xác minh'
-        key_help_text: 'Khóa xác minh của sự kiện ngữ cảnh bạn đã áp dụng trên <a>bảng điều khiển GeeTest</a>.'
+        key_help_text: 'Khóa xác minh của sự kiện ngữ cảnh mà bạn đã đăng ký trên <a>bảng điều khiển GeeTest</a>.'
         key_label: 'Khóa xác minh'
         product_bind_help_text: 'Kích hoạt bảng xác minh bằng một nút cụ thể.'
         product_bind_label: 'Gắn với nút'
@@ -24,7 +24,7 @@ ffans-geetest:
         title: 'Cấu hình cho {context}'
       context_event_forgot_label: '=> core.forum.forgot_password.title'
       context_event_help_text: 'Bật để sử dụng GeeTest CAPTCHA trong các sự kiện ngữ cảnh hoặc loại nghiệp vụ khác nhau, bạn có thể đặt cấu hình độc lập cho từng ngữ cảnh.'
-      context_event_label: 'Ngữ cảnh sự kiện'
+      context_event_label: 'Sự kiện ngữ cảnh'
       context_event_login_label: '=> core.ref.log_in'
       context_event_signup_label: '=> core.ref.sign_up'
       product_service_help_text: 'Phiên bản GeeTest CAPTCHA bạn muốn sử dụng.'

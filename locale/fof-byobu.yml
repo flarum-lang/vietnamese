@@ -6,7 +6,7 @@ fof-byobu:
   admin:
     permission:
       add_more_than_two_user_recipients: 'Thêm nhiều hơn 2 người dùng vào cuộc thảo luận riêng tư'
-      create_private_discussions_with_blocking_users: 'Tạo cuộc thảo luận riêng tư với những người đã chặn'
+      create_private_discussions_with_blocking_users: 'Tạo cuộc thảo luận riêng tư với những người dùng đã chặn tính năng này'
       create_private_discussions_with_groups: 'Tạo cuộc thảo luận riêng tư với nhóm'
       create_private_discussions_with_users: 'Tạo cuộc thảo luận riêng tư với người dùng'
       edit_group_recipients: 'Thay đổi nhóm tham gia trong cuộc thảo luận riêng tư'
@@ -18,7 +18,7 @@ fof-byobu:
       delete_on_last_recipient_left: 'Xóa PD khi người dùng cuối cùng rời đi'
       delete_on_last_recipient_left_help: 'Nếu được bật, các PD sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu khi người dùng cuối cùng rời đi. Nếu không, PD sẽ bị xoá tạm/ẩn.'
       enable-make-public-option: 'Bật tuỳ chọn "đặt ở chế độ công khai"'
-      enable-make-public-option-help: 'Thêm tuỳ chọn cho những người có quyền xóa tất cả người nhận, chỉ định thẻ mới và hiển thị cuộc thảo luận ở chế độ công khai (cộng với cài đặt hiển thị của thẻ đã chọn).'
+      enable-make-public-option-help: 'Thêm tuỳ chọn cho những người có quyền xóa tất cả người nhận, chỉ định thẻ mới và hiển thị cuộc thảo luận ở chế độ công khai (theo cài đặt hiển thị của thẻ đã chọn).'
       general:
         heading: 'Cài đặt chung'
         help: 'Các thiết lập này kiểm soát các tính năng cơ bản của byobu.'
@@ -26,14 +26,14 @@ fof-byobu:
       hide_from_all_discussions_page_help: 'Các cuộc thảo luận riêng tư sẽ chỉ có thể truy cập được từ trang "Thảo luận riêng tư" hoặc hồ sơ người dùng'
       icon:
         heading: 'Cài đặt biểu tượng'
-        help: 'Các thiết lập này kiểm soát các biểu tượng được sử dụng bởi thành viên trên diễn đàn.'
+        help: 'Các thiết lập này kiểm soát các biểu tượng mà byobu sử dụng trên diễn đàn.'
       post-event-icon: 'Sự kiện đăng bài của Byobu'
   email:
     body:
-      private_discussion_added: "Chào {recipient_display_name},\n\n{actor_display_name} đã thêm bạn vào một cuộc thảo luận riêng tư có sẵn: {discussion_title}.\n\nXem nó ở đây\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
-      private_discussion_created: "Chào {recipient_display_name},\n\n{actor_display_name} đã tạo cuộc thảo luận riêng tư mới với bạn với tư cách là người nhận: {discussion_title}.\n\nXem nó ở đây\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
-      private_discussion_replied: "Chào {recipient_display_name},\n\n{actor_display_name} đã đăng bài trong cuộc thảo luận riêng tư với bạn với tư cách là người nhận: {discussion_title}.\n\nXem nó ở đây\n{post_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
-      recipient_removed: "Chào {recipient_display_name},\n\n{actor_display_name} đã rời khỏi cuộc thảo luận riêng tư: {discussion_title}. Họ sẽ không thể xem bất kỳ nội dung nào trong đó nữa.\n\nXem nó ở đây:\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
+      private_discussion_added: "Chào {recipient_display_name},\n\n{actor_display_name} đã thêm bạn vào một cuộc thảo luận riêng tư có sẵn: {discussion_title}.\n\nXem tại đây:\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
+      private_discussion_created: "Chào {recipient_display_name},\n\n{actor_display_name} đã tạo cuộc thảo luận riêng tư mới với bạn với tư cách là người nhận: {discussion_title}.\n\nXem tại đây:\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
+      private_discussion_replied: "Chào {recipient_display_name},\n\n{actor_display_name} đã đăng bài trong cuộc thảo luận riêng tư với bạn với tư cách là người nhận: {discussion_title}.\n\nXem tại đây:\n{post_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
+      recipient_removed: "Chào {recipient_display_name},\n\n{actor_display_name} đã rời khỏi cuộc thảo luận riêng tư: {discussion_title}. Họ sẽ không thể xem bất kỳ nội dung nào trong đó nữa.\n\nXem tại đây:\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
     subject:
       private_discussion_added: '[Thảo luận riêng tư] {display_name} đã thêm bạn vào cuộc thảo luận riêng tư'
       private_discussion_created: '[Thảo luận riêng tư] {display_name} đã tạo cuộc thảo luận riêng tư mới với bạn'
@@ -47,12 +47,12 @@ fof-byobu:
       add_recipients: 'Người nhận'
       cancel: Hủy
       edit_recipients: 'Sửa người nhận'
-      make_public: 'Đặt cuộc thảo luận này thành công khai'
+      make_public: 'Đặt cuộc thảo luận này ở chế độ công khai'
       remove_from_discussion: 'Rời khỏi cuộc thảo luận này'
-      send_pd: 'Thảo luận với {username}'
+      send_pd: 'Nhắn tin cho {username}'
       submit: OK
     composer_private_discussion:
-      submit_button: 'Đăng cuộc thảo luận'
+      submit_button: 'Đăng thảo luận riêng tư'
       title_placeholder: 'Tiêu đề thảo luận riêng tư'
     confirm:
       make_public: 'Bạn có chắc chắn muốn xóa người nhận và hiển thị cuộc thảo luận này cho bất kỳ ai có thể xem thẻ được chỉ định không?'
@@ -89,7 +89,7 @@ fof-byobu:
     post:
       recipients_modified:
         added: '{username} đã thêm người nhận {added}.'
-        added_and_removed: '{username} đã thêm người nhận {added} và xóa {remove}.'
+        added_and_removed: '{username} đã thêm người nhận {added} và xóa {removed}.'
         made_public: '{username} đã xóa tất cả người nhận và đặt cuộc thảo luận ở chế độ công khai'
         redmove: '{username} đã loại bỏ người nhận {remove}.'
         removed: '{username} đã gỡ người nhận {removed}.'

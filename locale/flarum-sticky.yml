@@ -5,7 +5,7 @@
 flarum-sticky:
   admin:
     permissions:
-      sticky_discussions_label: 'Ghim bài viết'
+      sticky_discussions_label: 'Ghim thảo luận'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'

@@ -5,7 +5,7 @@
 justoverclock-feedback:
   admin:
     background-color: 'Màu nền Widget'
-    background-color-help: 'Mã màu hệ lục phân để sử dụng làm màu nền, tức là ''#fff'''
+    background-color-help: 'Nhập mã màu hex để dùng làm màu nền, ví dụ: ''#fff'''
     box-title: 'Tiêu đề hộp'
     box-title-help: 'Đặt tiêu đề widget phản hồi bật lên (cũ là "Phản hồi Flarum")'
     collect-email: 'Hiển thị trường địa chỉ email (tùy chọn) cho người dùng'
@@ -25,7 +25,7 @@ justoverclock-feedback:
     feedback3-title: 'Phản hồi loại 3'
     feedback3-title-help: 'Tuỳ chỉnh tên "Phản hồi loại 3"'
     font-color: 'Màu phông chữ Widget'
-    font-color-help: 'Mã màu hệ lục phân để sử dụng làm màu phông chữ, tức là ''#000'''
+    font-color-help: 'Nhập mã màu hex để dùng làm màu phông chữ, ví dụ: ''#000'''
     left_label: Trái
     position: 'Vị trí Widget'
     position-help: 'Chọn dưới cùng bên trái hoặc dưới cùng bên phải để hiển thị nút phản hồi'
@@ -43,13 +43,13 @@ justoverclock-feedback:
       contact-text: 'Hoặc gửi email!'
       email-field-placeholder: 'Email (trường tuỳ chọn)'
       email-placeholder: 'Email (tuỳ chọn)'
-      failed-message: 'Vui lòng thử lại. Nếu điều này tiếp tục xảy ra, hãy thử gửi email khác.'
+      failed-message: 'Vui lòng thử lại. Nếu lỗi vẫn tiếp diễn, hãy thử gửi email thay thế.'
       failed-title: 'Úi, có lỗi xảy ra'
       placeholder: 'Nhập phản hồi của bạn vào đây'
       submit: Gửi
       success: 'Cảm ơn!👊'
       title: 'Phản hồi Flarum'
-      type-message: 'Bạn có phản hồi gì không?'
+      type-message: 'Bạn muốn gửi phản hồi gì?'
       types:
         bug: 'Báo cáo lỗi'
         general: 'Phản hồi chung'

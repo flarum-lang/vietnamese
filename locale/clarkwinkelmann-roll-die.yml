@@ -5,10 +5,10 @@
 clarkwinkelmann-roll-die:
   admin:
     settings:
-      clearOnEdit: 'Tạo số mới trên bài chỉnh sửa'
+      clearOnEdit: 'Tạo số mới khi chỉnh sửa bài viết'
   forum:
     composer:
-      rollDie: 'Cuộn một Die'
+      rollDie: 'Gieo xúc xắc'
     tooltip:
-      preview: 'Cuộn ngẫu nhiên khi lưu'
-      render: 'Cuộn ngẫu nhiên: {number}'
+      preview: 'Gieo ngẫu nhiên khi lưu'
+      render: 'Gieo ngẫu nhiên: {number}'

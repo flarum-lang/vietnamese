@@ -8,7 +8,7 @@ justoverclock-profile-stories:
       createStory: 'Tạo câu chuyện mới'
       deleteStory: 'Xóa câu chuyện'
       editStory: 'Chỉnh sửa câu chuyện'
-      viewStory: 'Xem các câu chuyện toàn cục'
+      viewStory: 'Xem câu chuyện của mọi người dùng'
     uploadLabel: 'Tải banner cho trang câu chuyện người dùng'
     uploadLabelHelp: 'Lưu ý rằng hình ảnh phải có chiều rộng tối thiểu 1920px'
   forum:
@@ -24,7 +24,7 @@ justoverclock-profile-stories:
     nextPage: tiếp
     nextStepBtn: 'bước tiếp'
     notifications:
-      newStory: 'Bạn có một câu chuyện hồ sơ mới!'
+      newStory: 'Bạn có một câu chuyện mới trên trang cá nhân!'
     prevPage: trước
     previousStepBtn: 'bước trước'
     saveBtn: Lưu

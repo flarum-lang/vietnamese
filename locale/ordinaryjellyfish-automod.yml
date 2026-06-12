@@ -22,7 +22,7 @@ ordinaryjellyfish-automod:
       threshold: 'Ngưỡng độ tin cậy'
       threshold_help: 'Ngưỡng độ tin cậy nằm trong khoảng từ 0.00 đến 1.00, phản ánh khả năng đầu vào hoặc phản hồi thuộc về một danh mục nhất định. Ngưỡng thấp hơn sẽ giảm số lượng dương tính giả, nhưng có thể làm tăng số lượng âm tính giả. Ngưỡng cao hơn sẽ làm tăng số lượng dương tính giả, nhưng có thể giảm số lượng âm tính giả.'
   forum:
-    flag_reason: 'Tự động kiểm duyệt đã gắn cờ bài viết này vì {reason}'
+    flag_reason: 'Hệ thống kiểm duyệt tự động đã gắn cờ bài viết này vì {reason}'
   lib:
     moderate_categories:
       death: 'Cái chết, tổn hại & bi kịch'
@@ -30,7 +30,7 @@ ordinaryjellyfish-automod:
       derogatory: 'Xúc phạm'
       derogatory_help: 'Bình luận tiêu cực hoặc gây hại nhắm vào danh tính và/hoặc các thuộc tính được bảo vệ.'
       drugs: 'Ma túy'
-      drugs_help: 'Ma túy giải trí và bất hợp pháp; dụng cụ và việc trồng trọt, cửa hàng bán phụ kiện… Bao gồm cả việc sử dụng y tế của các loại ma túy thường được dùng để giải trí (ví dụ: cần sa).'
+      drugs_help: 'Ma túy giải trí và bất hợp pháp; dụng cụ sử dụng ma túy và việc trồng cây ma túy, các cửa hàng bán dụng cụ liên quan, v.v. Bao gồm cả việc sử dụng vì mục đích y tế của các chất thường được dùng để giải trí (ví dụ: cần sa).'
       finance: 'Tài chính'
       finance_help: 'Dịch vụ tài chính cho cá nhân và doanh nghiệp, chẳng hạn như ngân hàng, cho vay, tín dụng, đầu tư và bảo hiểm.'
       health: 'Sức khỏe'
@@ -38,9 +38,9 @@ ordinaryjellyfish-automod:
       insult: 'Lăng mạ'
       insult_help: 'Bình luận mang tính xúc phạm, kích động hoặc tiêu cực hướng tới một người hoặc một nhóm người.'
       legal: 'Pháp lý'
-      legal_help: 'Nội dung liên quan đến luật pháp, bao gồm các hãng luật, thông tin pháp lý, tài liệu pháp lý chính, dịch vụ pháp lý, ấn phẩm và công nghệ pháp lý, nhân chứng chuyên môn, tư vấn kiện tụng và các nhà cung cấp dịch vụ pháp lý khác.'
+      legal_help: 'Nội dung liên quan đến luật pháp, bao gồm các hãng luật, thông tin pháp lý, tài liệu pháp lý gốc, dịch vụ trợ lý pháp lý, ấn phẩm và công nghệ pháp lý, nhân chứng chuyên gia, tư vấn tranh tụng và các nhà cung cấp dịch vụ pháp lý khác.'
       politics: 'Chính trị'
-      politics_help: 'Tin tức và phương tiện chính trị; thảo luận về xã hội, chính phủ và chính sách công.'
+      politics_help: 'Tin tức và truyền thông chính trị; thảo luận về chính sách xã hội, chính phủ và chính sách công.'
       profanity: 'Ngôn từ thô tục'
       profanity_help: 'Ngôn từ tục tĩu hoặc thô tục như chửi thề.'
       public_safety: 'An toàn công cộng'
@@ -54,6 +54,6 @@ ordinaryjellyfish-automod:
       violent: 'Bạo lực'
       violent_help: 'Mô tả các tình huống miêu tả bạo lực đối với một cá nhân hoặc nhóm, hoặc mô tả chung về máu me.'
       war: 'Chiến tranh & Xung đột'
-      war_help: 'Chiến tranh, xung đột quân sự và xung đột thể chất lớn liên quan đến nhiều người. Bao gồm thảo luận về các dịch vụ quân sự, ngay cả khi không liên quan trực tiếp đến chiến tranh hoặc xung đột.'
+      war_help: 'Chiến tranh, xung đột quân sự và các cuộc xung đột lớn liên quan đến nhiều người. Bao gồm thảo luận về quân đội, ngay cả khi không liên quan trực tiếp đến chiến tranh hoặc xung đột.'
       weapons: 'Vũ khí & súng đạn'
       weapons_help: 'Nội dung đề cập đến dao, súng, vũ khí cá nhân và các phụ kiện như đạn dược, bao đựng, v.v.'

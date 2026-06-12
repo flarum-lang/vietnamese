@@ -10,10 +10,10 @@ jslirola-login2seeplus:
     link: 'Liên kết'
     post:
       title: 'Ẩn nội dung vượt quá độ dài này (<em>-1</em> để hiển thị tất cả.)'
-    title: 'Đăng nhập để xem'
+    title: Login2SeePlus
   forum:
-    code: 'ĐĂNG NHẬP ĐỂ XEM CODE'
-    image: 'ĐĂNG NHẬP ĐỂ XEM ẢNH'
-    link: 'ĐĂNG NHẬP ĐỂ XEM LIÊN KẾT'
+    code: 'Đăng nhập để xem code'
+    image: 'Đăng nhập để xem ảnh'
+    link: 'Đăng nhập để xem liên kết'
     post: 'Bạn cần {login} hoặc {register} để xem đầy đủ bài viết'
     post_login: 'Bạn phải {login} để xem đầy đủ bài viết'

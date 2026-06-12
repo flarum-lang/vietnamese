@@ -6,10 +6,10 @@ flarum-msemoji:
   admin:
     settings:
       base: Gốc
-      basehelp: 'Mẹo: Gõ $ sẽ thay thế bằng số phiên bản tự động. Trường hợp nhạy cảm.'
+      basehelp: 'Mẹo: Gõ $ sẽ được thay thế bằng số phiên bản tự động. Có phân biệt chữ hoa chữ thường.'
       baseph: 'Ví dụ: https://www.example.com/'
       disable_autocomplete: 'Tắt tự động gợi ý'
-      ext: 'Tiện ích mở rộng'
+      ext: 'Phần mở rộng tệp'
       extph: 'Ví dụ: .gif'
       folder: 'Thư mục'
       folderph: 'Ví dụ: svg'

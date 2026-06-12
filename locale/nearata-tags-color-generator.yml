@@ -4,7 +4,7 @@
 
 nearata-tags-color-generator:
   admin:
-    color_hue_label: 'Màu Hue'
+    color_hue_label: 'Tông màu (Hue)'
     color_hue_options:
       blue: 'Xanh nước biển'
       green: 'Xanh lá cây'

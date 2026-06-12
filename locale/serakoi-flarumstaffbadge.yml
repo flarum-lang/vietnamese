@@ -13,10 +13,10 @@ serakoi-flarumstaffbadge:
       help: 'Chữ huy hiệu nhân viên (Mặc định là ''STAFF'')'
       label: 'Chữ huy hiệu nhân viên'
     staffBadgeTextBg:
-      help: 'Màu nền huy hiêuh (Mặc định là ''rgb(70, 209, 96)'')'
+      help: 'Màu nền huy hiệu (Mặc định là ''rgb(70, 209, 96)'')'
       label: 'Màu nền huy hiệu nhân viên'
     staffBadgeTextColor:
-      help: 'Màu huy hiệu (Mặc định lạc ''#fff'')'
+      help: 'Màu huy hiệu (Mặc định là ''#fff'')'
       label: 'Màu huy hiệu nhân viên'
   forum:
     edit_user:

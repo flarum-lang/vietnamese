@@ -7,7 +7,7 @@ davwheat:
     admin:
       settings_page:
         display_options:
-          heading: 'Thiết lập hiển thị'
+          heading: 'Cài đặt hiển thị'
           labels:
             bottom_spacer: 'Hiển thị khoảng trống bên dưới'
             position: 'Vị trí liên kết'
@@ -19,18 +19,18 @@ davwheat:
         link_table:
           add_link_btn: 'Thêm liên kết mới'
           alert:
-            fix_errors: 'Bạn cần khắc phục các sự cố ở trên trước khi lưu các thay đổi của mình.'
+            fix_errors: 'Bạn cần khắc phục các lỗi ở trên trước khi lưu thay đổi.'
           confirm_delete: 'Xác nhận xóa liên kết "{link}"'
           heading: 'Tùy chỉnh liên kết'
           save_btn:
-            dirty: 'Lưu thiết lập'
+            dirty: 'Lưu cài đặt'
             fix_errors: 'Khắc phục các lỗi trước khi lưu'
             saved: 'Không có thay đổi để lưu'
             saving: 'Đang lưu thay đổi...'
           table:
             header:
               delete: Xóa
-              icon: 'Icon liên kết'
+              icon: 'Biểu tượng liên kết'
               internal: 'Đây là URL Flarum?'
               position: 'Vị trí'
               text: 'Văn bản liên kết'
@@ -40,7 +40,7 @@ davwheat:
               text: 'Nhập tiêu đề cho liên kết'
               url: 'https://flarum.org'
             tooltips:
-              icon_preview: 'Xem trước Icon'
+              icon_preview: 'Xem trước biểu tượng'
               move_down: 'Đưa xuống dưới'
               move_up: 'Đưa lên trên'
         new_link_modal:

@@ -24,13 +24,13 @@ mattoid-store:
       goods-hide: 'Không có quyền ẩn sản phẩm trong thời gian có hạn'
       goods-icon: 'Biểu tượng'
       goods-item-delete: 'Bạn có chắc chắn muốn xóa mục này?'
-      goods-item-status-0: 'Bạn có chắc chắn muốn liệt kê mục này?'
+      goods-item-status-0: 'Bạn có chắc chắn muốn đăng bán mặt hàng này?'
       goods-item-status-1: 'Bạn có chắc chắn muốn gỡ mục này khỏi kệ?'
       goods-outtime: 'Hết hạn'
       goods-price: Giá
       goods-repeat: 'Cho phép trùng lặp hàng hóa'
       goods-status: 'Trạng thái'
-      goods-stock: Kho
+      goods-stock: 'Tồn kho'
       goods-title: 'Tiêu đề'
       goods-type: 'Loại mua'
       goods-upload-button: 'Tải lên'
@@ -39,7 +39,7 @@ mattoid-store:
       store-name: 'Tên cửa hàng'
       store-name-requirement: 'Tên cửa hàng sẽ được hiển thị trong menu trang chủ và thanh tiêu đề'
       store-timezone: 'Múi giờ'
-      store-timezone-requirement: '设置时区。默认为 "Asia/Shanghai"'
+      store-timezone-requirement: 'Đặt múi giờ. Mặc định là "Asia/Shanghai"'
   forum:
     auto-deduction: 'Tự động khấu trừ phí cho sản phẩm: {title}'
     button: Mua
@@ -56,8 +56,8 @@ mattoid-store:
       cart-no-use: 'Hàng hóa này không có chức năng sử dụng nào'
       cart-use-fail: 'Sử dụng hàng hóa thất bại'
       file-exist: 'tệp đã tồn tại'
-      goods-invalid-event-fail: 'Đẩy sự kiện thất bại hàng hóa [{message}]'
-      goods-invalid-fail: 'Thực thi logic thất bại hàng hóa [{message}]'
+      goods-invalid-event-fail: 'Đẩy sự kiện vô hiệu hàng hóa thất bại [{message}]'
+      goods-invalid-fail: 'Thực thi logic vô hiệu hàng hóa thất bại [{message}]'
       insufficient-inventory: 'Không đủ hàng tồn kho'
       invalid-product: 'Sản phẩm không hợp lệ'
       store-goods-non-existent: 'Sản phẩm không tồn tại hoặc đã bị gỡ bỏ'
@@ -96,7 +96,7 @@ mattoid-store:
     item-status-all: 'Tất cả trạng thái sản phẩm'
     item-status-down: 'Ngừng bán'
     item-status-up: 'Đang bán'
-    item-stock: Kho
+    item-stock: 'Tồn kho'
     item-title: 'Tiêu đề hàng hóa'
     item-type: 'Loại hàng hóa'
     item-type-all: 'Tất cả loại hàng hóa'

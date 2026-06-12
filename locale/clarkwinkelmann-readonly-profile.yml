@@ -9,7 +9,7 @@ clarkwinkelmann-readonly-profile:
       disableAvatarEdit: 'Tắt sửa ảnh đại diện'
       disableEmailChange: 'Tắt đổi email'
       disableLogin: 'Tắt đăng nhập'
-      disablePasswordChange: 'Tắt Khôi phục và Đổi mật khẩu'
+      disablePasswordChange: 'Tắt đổi và đặt lại mật khẩu'
   api:
     blocked_actions:
       accessToken: 'Tạo mã token truy cập đã bị tắt'

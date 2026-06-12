@@ -8,13 +8,13 @@ fof-split:
       split_discussion_label: 'Tách bài viết khỏi các cuộc thảo luận'
   forum:
     modal:
-      new_discussion_label: 'Gán tiêu đề cho cuộc thảo luận mới'
+      new_discussion_label: 'Nhập tiêu đề cho cuộc thảo luận mới'
       submit_button: Tách
       title: 'Tách cuộc thảo luận'
     post:
       was_split_from: '{count, plural, one {{count} bài viết đã được tách khỏi {target}.} other {{count} bài viết đã được tách khỏi {target}.}}'
-      was_split_to: '{count, plural, one {{count} bài viết đã được tách đến {target}.} other {{count} bài viết đã được tách đến {target}.}}'
+      was_split_to: '{count, plural, one {{count} bài viết đã được tách sang {target}.} other {{count} bài viết đã được tách sang {target}.}}'
     split:
-      cancel: 'Huỷ bỏ tách'
+      cancel: 'Hủy tách'
       from: 'Tách ở đây'
       to: 'Tách đến đây'

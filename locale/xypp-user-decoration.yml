@@ -23,13 +23,13 @@ xypp-user-decoration:
     settings:
       avatar_hijack:
         desc: 'Plugin sẽ thử ghi đè phương thức avatar của mô hình user và chèn một số thông tin định danh để nhận diện người dùng. Nếu plugin khác gặp sự cố do việc ghi đè này, bạn có thể tắt chức năng để khắc phục.'
-        title: 'Chiếm quyền Avatar'
+        title: 'Ghi đè ảnh đại diện'
       no_decorate_class_filter:
-        desc: 'Các tên lớp (class) giúp ngăn avatar/tên người dùng bên trong bị áp dụng trang trí. Mỗi dòng một lớp, không có dấu chấm ở đầu'
+        desc: 'Các tên lớp (class) giúp ngăn ảnh đại diện/tên người dùng bên trong bị áp dụng trang trí. Mỗi dòng một lớp, không có dấu chấm ở đầu'
         title: 'Bộ lọc lớp không trang trí'
       username_hijack:
         desc: 'Plugin sẽ thử ghi đè phương thức tên người dùng của mô hình user và chèn một số thông tin định danh để nhận diện người dùng. Nếu plugin khác gặp sự cố do việc ghi đè này, bạn có thể tắt chức năng để khắc phục.'
-        title: 'Chiếm quyền Tên người dùng'
+        title: 'Ghi đè tên người dùng'
       view-all:
         desc: 'Bật quyền "xem tất cả"?'
         title: 'Xem tất cả'
@@ -46,14 +46,14 @@ xypp-user-decoration:
       tip: 'Dùng bộ chọn .base để chọn mục tiêu, .element-xxx để thêm phần tử mới'
       title: 'Tạo trang trí'
       type:
-        avatar: Avatar
+        avatar: 'Ảnh đại diện'
         post: 'Bài viết'
         title: Loại
         usercard: 'Thẻ người dùng'
         username: 'Tên người dùng'
     create-success: 'Tạo trang trí thành công'
     decoration-box:
-      avatar: 'Kiểu avatar'
+      avatar: 'Kiểu ảnh đại diện'
       card: 'Kiểu thẻ người dùng'
       closed: 'Đã đóng'
       error: 'Kiểu không xác định'

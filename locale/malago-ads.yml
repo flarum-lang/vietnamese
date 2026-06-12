@@ -21,7 +21,7 @@ flagrow-ads:
       adsense-enable: 'Đã bật AdSense'
       adsense-title: 'Thiết lập AdSense'
       between-n-posts: 'Chỉ định sau bao nhiêu bài viết để đặt một quảng cáo'
-      header-only-frontpage: 'Dưới đầu trang điều hướng và chỉ hiển thị trên trang đầu'
+      header-only-frontpage: 'Quảng cáo dưới đầu trang điều hướng chỉ hiển thị trên trang chủ'
       position-title: 'Vị trí Quảng cáo'
       start-from-post: 'Chỉ định từ bài viết nào sẽ bắt đầu hiển thị quảng cáo'
     tab:

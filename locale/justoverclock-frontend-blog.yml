@@ -6,18 +6,18 @@ justoverclock-frontend-blog:
   admin:
     charLim: 'Giới hạn ký tự'
     charLim-help: 'Nhập số ký tự tối đa để hiển thị'
-    defaultImage: 'Ảnh bait viết mặc định'
+    defaultImage: 'Ảnh bài viết mặc định'
     defaultImage-help: 'Bạn có thể đặt ảnh mặc định của bài viết khi không có ảnh nào'
     numberOfPost: 'Số lượng bài viết'
     numberOfPost-help: 'Nhập số lượng bài viết mà bạn muốn hiển thị'
     setBlogIndexPage: 'Đặt tiện ích Frontend Blog làm trang chính'
     showHeaderHero: 'Hiển thị Welcome Hero'
-    showPinnedDiscussions: 'Hiện 3 cuộc thảo luận gần đây được ghim'
+    showPinnedDiscussions: 'Hiện 3 cuộc thảo luận được ghim gần đây nhất'
     sorting: 'Cuộc thảo luận mới nhất hay hot nhất? (mặc định là mới nhất)'
     sorting-help: 'Nếu bạn muốn hiển thị cuộc thảo luận mới nhất thì nhập "-createdAt", cuộc thảo luận hot là "-commentCount"'
   forum:
     allDiscussions: 'Diễn đàn'
-    linkToDiscussion: ' Liên kết với cuộc thảo luận'
+    linkToDiscussion: ' Liên kết đến cuộc thảo luận'
     loginButton: 'Đăng nhập'
     menuButton: Menu
     post: '{count, plural, one {# BÀI VIẾT} other {# BÀI VIẾT}}'
@@ -26,4 +26,4 @@ justoverclock-frontend-blog:
     recentDiscussions: 'Cuộc thảo luận gần đây:'
     signupButton: 'Đăng ký'
     stickyTitle: 'Cuộc thảo luận được ghim'
-    titlePage: 'Diễn đàn thảo luận'
+    titlePage: 'Thảo luận trên diễn đàn'

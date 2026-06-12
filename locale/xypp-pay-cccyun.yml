@@ -7,7 +7,7 @@ xypp-pay-cccyun:
     other:
       add-row: 'Thêm dòng'
       color: 'Màu sắc'
-      confirm-delete: 'Bạn có chắc chắn xóa bản ghi này?'
+      confirm-delete: 'Bạn có chắc chắn muốn xóa bản ghi này?'
       delete-row: 'Xóa dòng'
       display: 'Tên hiển thị'
       icon: 'Biểu tượng'
@@ -38,7 +38,7 @@ xypp-pay-cccyun:
     invalid_amount: 'Số tiền không hợp lệ'
     invalid_pay_type: 'Loại thanh toán không hợp lệ'
     pay_item_name: 'Nạp {money} cho {u}'
-    pay_type_disabled: 'Loại thanh toán đã chọn đã bị vô hiệu hóa'
+    pay_type_disabled: 'Loại thanh toán được chọn đã bị vô hiệu hóa'
     payment_is_done: 'Thanh toán đã hoàn tất'
     payment_is_expired: 'Thanh toán đã hết hạn'
     unknown_error: 'Lỗi không xác định'
@@ -68,13 +68,13 @@ xypp-pay-cccyun:
       done: Xong
       invalid-amount: 'Số tiền không hợp lệ (cho phép từ {min} đến {max})'
       no-limit: '[bất kỳ]'
-      open_wechat: 'Nếu không có thanh toán nào hiển thị, hãy nhấp vào đây.'
+      open_wechat: 'Nếu màn hình thanh toán không hiển thị, hãy nhấp vào đây.'
       open_window: 'Nếu không có cửa sổ popup, hãy nhấp vào đây.'
       qr: 'Quét mã QR để hoàn tất thanh toán'
       qr-fail: 'Không thể tải mã QR'
       tip: 'Bạn sắp nạp {money} cho {u}'
       title: 'Thanh toán'
-      wechat: 'Gọi WeChat để thanh toán'
+      wechat: 'Đang mở WeChat để thanh toán'
       window: 'Vui lòng hoàn tất thanh toán trong cửa sổ mới'
     recharge-modal:
       amount: 'Số tiền'

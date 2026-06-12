@@ -4,7 +4,7 @@
 
 colored:
   admin:
-    donate: 'Hỗ trợ tiện ích mở rộng này'
+    donate: 'Ủng hộ tiện ích mở rộng này'
     settings:
       custom_css_help: 'Thêm bất kỳ kiểu CSS tùy chỉnh nào bạn muốn áp dụng tại đây.'
       custom_css_label: 'CSS tùy chỉnh'

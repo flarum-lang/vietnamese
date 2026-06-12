@@ -17,7 +17,7 @@ clarkwinkelmann-post-bookmarks:
       show-bookmarks: 'Tới dấu trang'
     badge: 'Đã đánh dấu'
     button:
-      add: 'Dấu trang'
+      add: 'Đánh dấu'
       remove: 'Đã đánh dấu'
     page:
       link: 'Dấu trang'

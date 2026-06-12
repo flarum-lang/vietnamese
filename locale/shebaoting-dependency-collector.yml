@@ -11,7 +11,7 @@ shebaoting-dependency-collector:
     confirm:
       approve: 'Phê duyệt phụ thuộc'
       delete: 'Xóa phụ thuộc'
-      delete_tag: 'Xóa thẻ "{name}"? Thao tác này sẽ xóa khỏi tất cả các phụ thuộc liên quan.'
+      delete_tag: 'Xóa thẻ "{name}"? Thao tác này sẽ gỡ thẻ khỏi tất cả các phụ thuộc liên quan.'
       reject: 'Từ chối phụ thuộc'
     modal:
       create_tag_title: 'Tạo thẻ mới'

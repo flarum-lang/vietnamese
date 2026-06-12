@@ -7,7 +7,7 @@ nomiscz-auth-wechat:
     settings:
       api_app_id: 'ID ứng dụng API'
       api_app_secret: 'Mã bí mật ứng dụng API'
-      title: 'Thiết lập xác thực WeChat'
+      title: 'Cài đặt xác thực WeChat'
   forum:
     alerts:
       already_linked: 'Tài khoản WeChat đã được liên kết!'

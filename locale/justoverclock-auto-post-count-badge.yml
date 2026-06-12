@@ -12,7 +12,7 @@ justoverclock-auto-post-count-badge:
     levelOne-help: 'Dán icon fontawesome mà bạn muốn cấp 1 hiện (ví dụ "fas fa-square")'
     levelSix: 'Đổi icon cấp 6 - "Huyền thoại"'
     levelSix-help: 'Dán icon fontawesome mà bạn muốn cấp 6 hiện (ví dụ "fas fa-square")'
-    levelThree: 'Thay đổi biểu tượng cho cấp 3 - "The Talker"'
+    levelThree: 'Đổi icon cấp 3 - "Người kể chuyện"'
     levelThree-help: 'Dán biểu tượng Font Awesome mà bạn muốn hiển thị cho cấp độ 3 vào đây (ví dụ: "fas fa-square").'
     levelTree: 'Đổi icon cấp 3 - "Người kể chuyện"'
     levelTree-help: 'Dán icon fontawesome mà bạn muốn cấp 3 hiện (ví dụ "fas fa-square")'
@@ -24,8 +24,8 @@ justoverclock-auto-post-count-badge:
         title: 'Trình quản lý icon'
       label-manager:
         help: 'Tùy chỉnh tên cấp độ'
-        title: 'Trình quản lý văn bản nhãn'
-      tier: 'Cấp 2 {tier}: từ {from} đến {to} bài viết'
+        title: 'Trình quản lý nhãn văn bản'
+      tier: 'Cấp {tier}: từ {from} đến {to} bài viết'
   forum:
     hasWritten: '{count, plural, one {đã viết # bài viết} other {đã viết # bài viết}}'
     less1000post: 'Huyền thoại!'

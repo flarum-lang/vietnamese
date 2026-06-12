@@ -15,8 +15,8 @@ clarkwinkelmann-clippy:
       cdn-options:
         custom: 'Tuỳ chỉnh'
         jsdelivr: jsDelivr
-        s3: 'Amazone S3'
+        s3: 'Amazon S3'
       events: 'Sự kiện'
-      events-help: 'Chọn ảnh động và bong bóng speach để hiển thị trên mỗi sự kiện này'
-      path: 'Tuỳ chỉnh đường dẫn CDN'
-      path-help: 'Một URL đủ điều kiện không có dấu gạch chéo ở cuối thư mục chứa nội dung của <a>kho lưu trữ clippy.js</a>.'
+      events-help: 'Chọn hoạt ảnh và bong bóng thoại sẽ hiển thị ở mỗi sự kiện này'
+      path: 'Đường dẫn CDN tùy chỉnh'
+      path-help: 'URL đầy đủ (không có dấu gạch chéo ở cuối) trỏ đến thư mục chứa nội dung của <a>kho lưu trữ clippy.js</a>.'

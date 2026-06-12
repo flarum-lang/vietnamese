@@ -14,7 +14,7 @@ michaelbelgium-umami:
         help: 'Tùy chọn. Mật khẩu của tên người dùng ở trên. (được sử dụng cho widget bảng điều khiển quản trị)'
         label: 'Mật khẩu tài khoản'
       site_id:
-        help: 'ID trang web của phiên bản Flarum này trên Umami. Bạn có thể tìm thấy điều này trong chi tiết cài đặt trang web trên Umami.'
+        help: 'ID trang web của phiên bản Flarum này trên Umami. Bạn có thể tìm thấy ID này trong phần chi tiết cài đặt trang web trên Umami.'
         label: 'ID Trang web'
       username:
         help: 'Tùy chọn. Tên người dùng của tài khoản umami trên tên miền ở trên. (được sử dụng cho widget bảng điều khiển quản trị)'

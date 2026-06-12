@@ -8,13 +8,13 @@ fof-oauth:
       providers:
         apple:
           client_id_label: 'Định danh ID dịch vụ'
-          description: 'Đăng ký vào diễn đàn của bạn bằng Apple {link}'
-          key_file_id_label: 'Mã định danh tệp'
+          description: 'Đăng ký diễn đàn của bạn với Apple {link}'
+          key_file_id_label: 'Mã định danh tệp khóa'
           keyfile_upload:
             remove_button: 'Xoá keyfile'
             upload_button: 'Tải lên keyfile'
           keyfile_upload_help: 'Tạo <a>keyfile</a> và tải nó lên đây'
-          keyfile_upload_label: 'Key tệp'
+          keyfile_upload_label: 'Tệp khóa'
           team_id_label: 'ID team'
   forum:
     log_in:

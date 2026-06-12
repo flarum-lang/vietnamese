@@ -11,20 +11,20 @@ fof-webhooks:
         description: 'Tiêu đề mới: {1}'
         title: 'Đã thay đổi tiêu đề cuộc thảo luận `{1}`'
       restored: 'Đã khôi phục cuộc thảo luận `{1}`'
-      started: 'Đã đăng cuộc thảo luận `{1}`'
+      started: 'Đã tạo cuộc thảo luận `{1}`'
     group:
       created: 'Đã tạo nhóm `{1}`'
-      deleted: 'Đã xóa nhóm `{1} '''
+      deleted: 'Đã xóa nhóm `{1}`'
       renamed: 'Đã đổi tên nhóm thành `{1}`'
     post:
-      approved: 'Bài viết được phê duyệt trong `{1}`'
+      approved: 'Đã phê duyệt bài viết trong `{1}`'
       deleted: 'Đã xóa bài viết trong `{1}`'
       hidden: 'Đã ẩn bài viết trong `{1}`'
       posted: 'Bài viết mới trong `{1}`'
       restored: 'Đã khôi phục bài viết trong `{1}`'
       revised: 'Đã sửa bài viết trong `{1}`'
     user:
-      deleted: 'Đã xoá người dùng `{1}`'
+      deleted: 'Đã xóa người dùng `{1}`'
       registered: 'Người dùng mới đăng ký'
       renamed:
         description: 'Tên người dùng mới: {1}'
@@ -35,8 +35,8 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'Không thể tìm thấy dịch vụ "{service}".'
-      tag_disabled: 'Webhook này đã có cấu hình hạn chế theo thẻ. Tiện ích Thẻ đã bị vô hiệu hóa. Hạn chế này sẽ không được áp dụng. Hãy đảm bảo rằng điều này là ý định của bạn.'
-      tag_invalid: 'Webhook này bị hạn chế đối với thẻ không hợp lệ. Hạn chế sẽ không áp dụng. Hãy chắc chắn rằng điều này được dự định.'
+      tag_disabled: 'Webhook này có cấu hình giới hạn theo thẻ, nhưng tiện ích Thẻ đã bị tắt. Giới hạn sẽ không được áp dụng. Hãy đảm bảo đây là điều bạn muốn.'
+      tag_invalid: 'Webhook này bị giới hạn theo một thẻ không hợp lệ. Giới hạn sẽ không được áp dụng. Hãy đảm bảo đây là điều bạn muốn.'
       url_invalid: 'URL không hợp lệ cho dịch vụ đã chọn.'
     nav:
       desc: 'Webhook gửi đi có thể tùy chỉnh cho diễn đàn của bạn.'
@@ -80,19 +80,19 @@ fof-webhooks:
       item:
         tag_any_label: 'Bất kỳ thẻ nào'
       modal:
-        description: 'Tại đây, bạn sửa đổi những sự kiện mà webhook được kích hoạt.'
+        description: 'Tại đây bạn có thể tùy chỉnh các sự kiện sẽ kích hoạt webhook.'
         events_label: 'Sự kiện'
         extra_text_help: 'Văn bản bổ sung để đưa vào webhook đã gửi.'
         extra_text_label: 'Văn bản bổ sung'
         group_help: 'Gửi tài nguyên mà nhóm này có thể nhìn thấy'
         group_label: Nhóm
-        include_matching_tags_label: 'Bao gồm các thẻ phù hợp -- đối với các webhook bị giới hạn ở các thẻ cụ thể, hãy hiển thị thẻ nào sự kiện khớp'
+        include_matching_tags_label: 'Bao gồm các thẻ khớp -- với webhook bị giới hạn theo thẻ cụ thể, hiển thị những thẻ mà sự kiện đã khớp'
         max_post_content_length_help: 'Nhập độ dài để giới hạn nội dung bài viết trong tất cả các sự kiện liên quan đến bài viết. Sửa thành 0 hoặc để trống để không giới hạn.'
         max_post_content_length_label: 'Độ dài tối đa nội dung bài viết'
         name_help: 'Tên của webhook. Tên này sẽ được sử dụng cho những thứ như tên người dùng Discord, tên bot Slack, v.v.'
         name_label: Tên
-        title: 'Thiết lập Webhook'
-        use_plain_text_label: 'Giảm số lượng định dạng trong nội dung bài viết'
+        title: 'Cài đặt Webhook'
+        use_plain_text_label: 'Giảm bớt định dạng trong nội dung bài viết'
       services:
         discord: Discord
         microsoft-teams: 'Microsoft Teams'

@@ -15,14 +15,14 @@ clarkwinkelmann-catch-the-fish:
       alert-round: 'Hiển thị cảnh báo với tên vòng và thời lượng trên trang chủ'
       animate-flip: 'Lật hình ảnh cá dựa trên hướng'
       discussion: 'Cuộc thảo luận'
-      discussion-age: 'Các cuộc thảo luận cũ có thể được đặt trên đó như thế nào (ngày)'
-      discussion-tags: 'Danh sách trắng Thẻ'
+      discussion-age: 'Thảo luận có thể cũ tối đa bao nhiêu ngày để được đặt cá (ngày)'
+      discussion-tags: 'Danh sách trắng thẻ'
       discussion-tags-help: "Nếu bạn không chọn bất kỳ thẻ nào, bạn có thể chọn bất kỳ cuộc thảo luận nào phù hợp với cài đặt thời gian ở trên. Nếu bất kỳ số lượng thẻ nào được chọn, một cuộc thảo luận cần phải có ít nhất một trong các thẻ đã chọn để được chọn. Xác suất là cơ hội được chọn sau khi tất cả các lựa chọn trước đó đã được thử. Thẻ cuối cùng trong danh sách sẽ luôn hoạt động như một dự phòng, vì vậy hãy đảm bảo rằng thẻ đó có ít nhất một cuộc thảo luận hợp lệ bên trong.\n"
       discussion-tags-unavailable: 'Thiết lập không khả dụng vì tiện ích Tags bị vô hiệu hoá.'
       general: Chung
       post: 'Bài viết'
-      post-age: 'Bài viết cũ có thể được đặt trên đó bao nhiêu (ngày)'
-      post-probability: 'Xác suất đặt trên một bài viết hơn là cuộc thảo luận (%)'
+      post-age: 'Bài viết có thể cũ tối đa bao nhiêu ngày để được đặt cá (ngày)'
+      post-probability: 'Xác suất đặt cá trên bài viết thay vì trên thảo luận (%)'
       tags-control:
         add: 'Thêm vào danh sách trắng'
         choose: 'Chọn thẻ'
@@ -37,7 +37,7 @@ clarkwinkelmann-catch-the-fish:
         tag: Thẻ
       time-to-place: 'Thời gian cho phép đặt cá trước khi đặt ngẫu nhiên (phút)'
       user: 'Người dùng'
-      user-age: 'Người dùng phải hoạt động trong bao lâu để đặt cá lên đó (ngày)'
+      user-age: 'Người dùng phải có hoạt động trong vòng bao nhiêu ngày để có thể được đặt cá lên trang cá nhân (ngày)'
       user-probability: 'Xác suất được đưa vào trang cá nhân người dùng (%)'
   api:
     cannot-catch-hold-fish: 'Người bắt trước cần thả cá trước khi bạn có thể bắt được nó'
@@ -46,13 +46,13 @@ clarkwinkelmann-catch-the-fish:
     fish-update-expired: 'Quá muộn, bạn không thể chỉnh sửa con cá này được nữa. Nó đã tự động được đặt ở đâu đó trong thời gian chờ đợi'
     fish-update-wrong-user: 'Bạn không thể chỉnh sửa con cá này được nữa. Ai đó có thể đã bắt được nó'
     inactive-discussion: 'Không thể đặt cá vào cuộc thảo luận không hoạt động trong hơn {days} ngày'
-    inactive-post: 'Không thể đặt cá trên bài đăng đã tạo cách đây hơn {days} ngày'
+    inactive-post: 'Không thể đặt cá trên bài viết được tạo cách đây hơn {days} ngày'
     inactive-user: 'Không thể đặt cá cho người dùng không hoạt động trong hơn {days} ngày'
     invalid-discussion-id: 'Thảo luận dường như không tồn tại, có thể nó đã bị xóa gần đây'
-    invalid-post-id: 'Bài đăng dường như không tồn tại, có thể nó đã bị xóa gần đây'
+    invalid-post-id: 'Bài viết dường như không tồn tại, có thể nó đã bị xóa gần đây'
     invalid-user-id: 'Người dùng dường như không tồn tại, có thể gần đây người dùng đã bị xóa'
-    model-deleted: 'Không thể đặt cá trên một cuộc thảo luận hoặc bài đăng đã xóa'
-    model-private: 'Không thể đặt cá trên một cuộc thảo luận hoặc bài đăng riêng tư'
+    model-deleted: 'Không thể đặt cá trên thảo luận hoặc bài viết đã bị xóa'
+    model-private: 'Không thể đặt cá trên thảo luận hoặc bài viết riêng tư'
     non-comment-post: 'Chỉ có thể đặt cá trên các bài viết bình luận'
     random-error: 'Không thể tạo vị trí cá ngẫu nhiên'
     round-finished: 'Vòng này đã kết thúc'
@@ -60,10 +60,10 @@ clarkwinkelmann-catch-the-fish:
     tag-not-allowed: 'Bạn không thể đặt cá bên dưới thẻ này'
     too-many-placement-models: 'Mỗi lần chỉ có thể có một vị trí'
     user-suspended: 'Không thể đặt cá trên người dùng bị đình chỉ'
-    wrong-catch-placement: 'Không có cá ở đây. Có thể bạn không đủ nhanh và người khác đã nhận được nó trước'
+    wrong-catch-placement: 'Không có cá ở đây. Có thể bạn chưa đủ nhanh và người khác đã bắt được nó trước'
   forum:
     basket:
-      drag-help: 'Kéo và thả cá trên một cuộc thảo luận, bài đăng hoặc hồ sơ người dùng'
+      drag-help: 'Kéo và thả cá vào một thảo luận, bài viết hoặc trang cá nhân người dùng'
       time: 'Đặt cho đến khi: {time}'
       title: 'Giỏ cá'
     caught-fish-modal:
@@ -72,7 +72,7 @@ clarkwinkelmann-catch-the-fish:
       name-help: 'Bạn có thể đổi tên cá nếu muốn. Tên phải tôn trọng các nguyên tắc của diễn đàn.'
       named-by: 'Đặt tên bởi'
       placed-by: 'Đặt bởi'
-      placement-help: 'Bạn có thể ẩn cá ở nơi bạn muốn trên diễn đàn trong các cuộc thảo luận gần đây và hồ sơ người dùng đang hoạt động. Bạn không thể bắt một con cá mà bạn đã đặt cho mình.'
+      placement-help: 'Bạn có thể giấu cá ở nơi bạn muốn trên diễn đàn, trong các thảo luận gần đây và trang cá nhân của người dùng đang hoạt động. Bạn không thể bắt con cá do chính bạn đặt.'
       submit-continue: 'Tiếp tục'
       submit-name: 'Lưu tên'
       submit-name-place-later: 'Lưu tên và chọn nơi ẩn náu'
@@ -138,7 +138,7 @@ clarkwinkelmann-catch-the-fish:
       name: Tên
       new: 'Cá mới'
       new-from-image: 'Tạo cá mới thông qua nhập hàng loạt hình ảnh'
-      no-user-name: 'Không đổi tên'
+      no-user-name: 'Chưa đổi tên'
       no-user-place: 'Ngẫu nhiên'
       placement: 'Vị trí hiện tại'
       title: 'Cá cho vòng {name}'

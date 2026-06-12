@@ -5,27 +5,27 @@
 clarkwinkelmann-shadow-ban:
   admin:
     permission:
-      ban: 'Cấm ẩn người dùng'
-      hide: 'Ẩn shadow cuộc thảo luận và bài viết'
+      ban: 'Cấm ngầm (shadow ban) người dùng'
+      hide: 'Ẩn ngầm thảo luận và bài viết'
     setting:
-      hideUsers: 'Ẩn hồ sơ người dùng bị cấm ẩn'
+      hideUsers: 'Ẩn hồ sơ của người dùng bị cấm ngầm'
   forum:
     badge:
-      discussion: 'Bị ẩn'
-      post: 'Bị ẩn'
-      user: 'Đã cấm ẩn'
+      discussion: 'Bị ẩn ngầm'
+      post: 'Bị ẩn ngầm'
+      user: 'Bị cấm ngầm'
     banUser:
       quick: 'Chọn nhanh'
       quickChoiceDays: '{count, plural, one {# ngày} other {# ngày}}'
       quickChoiceReset: 'Không cấm'
-      submit: 'Lưu lại'
+      submit: Lưu
       title: 'Đình chỉ {username}'
       until: 'Cho đến ngày (UTC)'
     discussionControl:
-      hide: 'Ẩn shadow'
-      restore: 'Bỏ ẩn'
+      hide: 'Ẩn ngầm'
+      restore: 'Bỏ ẩn ngầm'
     postControl:
-      hide: 'Ẩn shadow'
-      restore: 'Bỏ ẩn'
+      hide: 'Ẩn ngầm'
+      restore: 'Bỏ ẩn ngầm'
     userControl:
-      ban: 'Cấm ẩn'
+      ban: 'Cấm ngầm'

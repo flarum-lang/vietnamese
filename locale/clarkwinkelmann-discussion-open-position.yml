@@ -5,20 +5,20 @@
 clarkwinkelmann-discussion-open-position:
   admin:
     settings:
-      defaultOpenLastRead: 'Mở cuộc thảo luận ở bài đọc cuối cùng mặc định'
+      defaultOpenLastRead: 'Mặc định mở thảo luận ở bài viết đã đọc gần nhất'
       openLastOptions:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
         never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'
         unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'
-      suggestFirstTime: 'Hiển thị lời nhắc cho người dùng thay đổi cài đặt lần đầu tiên họ mở cuộc thảo luận'
+      suggestFirstTime: 'Hiển thị lời nhắc để người dùng thay đổi cài đặt này khi họ mở một thảo luận lần đầu'
   forum:
     firstTimePrompt:
       fromAlways: 'Các liên kết thảo luận dẫn đến bài viết đã đọc cuối cùng của bạn'
       fromNever: 'Các liên kết thảo luận mở bài viết đầu tiên'
       more: 'Lựa chọn khác'
       openLastOptions:
-        always: 'Luôn mở ở bài viết cuối cùng tôi đọc để thay thế'
-        never: 'Luôn mở ở bài viết đầu tiên'
+        always: 'Thay vào đó, luôn mở ở bài viết tôi đã đọc gần nhất'
+        never: 'Thay vào đó, luôn mở ở bài viết đầu tiên'
     preferences:
       discussionOpenLastRead: 'Danh sách cuộc thảo luận'
       openLastOptions:
@@ -27,6 +27,6 @@ clarkwinkelmann-discussion-open-position:
         unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'
   ref:
     openLastOptions:
-      always: 'Luôn mở các cuộc thảo luận ở bài đọc cuối cùng'
+      always: 'Luôn mở thảo luận ở bài viết đã đọc gần nhất'
       never: 'Luôn mở các cuộc thảo luận ở bài viết đầu tiên'
-      unread: 'Chỉ mở các cuộc thảo luận ở bài đã đọc cuối cùng nếu có câu trả lời mới'
+      unread: 'Chỉ mở thảo luận ở bài viết đã đọc gần nhất nếu có trả lời mới'

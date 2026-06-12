@@ -15,7 +15,7 @@ gtdxyz-flarum-badges:
       metric_drivers:
         badges_received: 'Huy hiệu đã nhận'
       not_installed:
-        content: 'Tiện ích mở rộng này cung cấp nhiều chức năng hơn khi <a>Người kiểm duyệt tự động</a> được cài đặt và kích hoạt. Khi bạn cài đặt tiện ích mở rộng này, người dùng có thể tự động được gán huy hiệu mà không cần sự can thiệp của bạn!'
+        content: 'Tiện ích mở rộng này cung cấp nhiều chức năng hơn khi <a>Auto Moderator</a> được cài đặt và kích hoạt. Khi bạn cài đặt tiện ích mở rộng này, người dùng có thể tự động được gán huy hiệu mà không cần điều hành viên can thiệp!'
         dismiss: 'Không hiện lại'
         install: 'Cài đặt'
         title: 'Tự động gán huy hiệu cho người dùng'
@@ -35,8 +35,8 @@ gtdxyz-flarum-badges:
       visible: 'Hiển thị'
       visible_description: 'Bật huy hiệu này. Khi bị vô hiệu hóa, huy hiệu sẽ không hiển thị.'
     badge_category:
-      blockview: 'Chế độ xem block'
-      blockview_description: 'Hiển thị danh mục-huy hiệu trong chế độ xem block trên tổng quan về huy hiệu. Khi bị vô hiệu hóa, tất cả các huy hiệu sẽ được hiển thị trong một bảng.'
+      blockview: 'Chế độ xem dạng khối'
+      blockview_description: 'Hiển thị các huy hiệu của danh mục theo dạng khối trên trang tổng quan huy hiệu. Khi tắt, tất cả huy hiệu sẽ được hiển thị trong một bảng.'
       description: 'Mô tả danh mục'
       enabled: 'Đã bật'
       enabled_description: 'Kích hoạt danh mục này. Khi bị vô hiệu hóa, tất cả các huy hiệu sẽ bị vô hiệu hóa và danh mục sẽ bị ẩn.'
@@ -56,8 +56,8 @@ gtdxyz-flarum-badges:
     number_of_badges_on_user_card_help: 'Số lượng huy hiệu hiển thị trên thẻ người dùng'
     permissions:
       badge_detail_users: 'Có thể xem người dùng trên trang chi tiết huy hiệu'
-      edit_card_badges: 'Chỉnh sửa huy hiệu thẻ người dùng'
-      edit_own_card_badges: 'Chỉnh sửa thẻ huy hiệu người dùng của chính mình'
+      edit_card_badges: 'Chỉnh sửa huy hiệu trên thẻ người dùng'
+      edit_own_card_badges: 'Chỉnh sửa huy hiệu trên thẻ người dùng của chính mình'
       give_badge: 'Gán huy hiệu cho người dùng'
       take_badge: 'Gỡ huy hiệu khỏi người dùng'
     show_badges_on_user_card: 'Hiển thị huy hiệu trên thẻ người dùng'
@@ -90,7 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: 'Bạn có thể chọn {limit, plural, one {<b>một huy hiệu</b>} other {<b># huy hiệu</b>}} để hiển thị trên thẻ người dùng của bạn.'
       title: 'Huy hiệu trên thẻ người dùng'
     give_badge: 'Gán huy hiệu'
-    hidden_badges: 'Người dùng này hiện chưa có huy hiệu nào.'
+    hidden_badges: 'Người dùng này chưa hiển thị huy hiệu nào.'
     moderation:
       give_badge: 'Gán huy hiệu'
       remove_badge: 'Gỡ huy hiệu'

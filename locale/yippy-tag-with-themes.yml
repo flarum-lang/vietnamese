@@ -32,7 +32,7 @@ yippy-tag-with-themes:
       title: 'Chủ đề thiết kế tùy chỉnh cho Thẻ'
     helps:
       design_default: 'Chọn bố cục thiết kế mặc định'
-      display_themes: 'Chỉ cho phép chủ đề với các nhóm cụ thể'
+      display_themes: 'Chỉ cho phép các nhóm cụ thể sử dụng chủ đề'
     labels:
       design_default: 'Bố cục thiết kế thảo luận'
       display_themes: 'Bật quyền sử dụng Chủ đề theo Thẻ'

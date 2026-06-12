@@ -7,9 +7,23 @@ ianm-translate:
     glossary:
       button: 'Từ điển'
       create_button: 'Tạo thuật ngữ mới'
+      create_not_implemented: 'Việc tạo thuật ngữ qua giao diện chưa được hỗ trợ. Hãy dùng PHP extender.'
+      delete_not_available: 'Thuật ngữ này được định nghĩa trong mã nguồn và không thể xóa qua giao diện'
+      delete_term: 'Xóa thuật ngữ'
+      edit_not_available: 'Thuật ngữ này được định nghĩa trong mã nguồn và không thể chỉnh sửa qua giao diện'
+      edit_term: 'Chỉnh sửa thuật ngữ'
+      extender_info: 'Có thể thêm thuật ngữ từ điển bằng PHP extender của tiện ích mở rộng trong tệp extend.php của bạn.'
+      no_terms: 'Hiện chưa có thuật ngữ từ điển nào được định nghĩa.'
+      refresh_button: 'Làm mới'
       section:
         heading: 'Cấu hình từ điển'
         help: 'Các từ hoặc thuật ngữ từ điển được định nghĩa để dịch vụ dịch thuật sẽ không dịch chúng. Điều này hữu ích cho danh từ riêng, thuật ngữ kỹ thuật hoặc các từ khác không nên được dịch.'
+      source:
+        code: 'Định nghĩa trong mã nguồn'
+        database: 'Lưu trong cơ sở dữ liệu'
+        default: 'Mặc định tích hợp sẵn'
+      terms:
+        current: '{count, plural, one {# thuật ngữ} other {# thuật ngữ}} hiện đang được định nghĩa'
     permission:
       edit-translation: 'Chỉnh sửa bản dịch thủ công'
       refresh-translation: 'Buộc dịch lại bản dịch đã lưu trong bộ nhớ cache'
@@ -24,18 +38,30 @@ ianm-translate:
           help: 'Đăng ký tại {link}. Trình điều khiển sẽ tự động phát hiện loại khóa miễn phí/pro.'
           label: '=> ianm-translate.lib.settings.api-key'
         en_choice:
-          help: 'Khi dịch sang tiếng Anh, chọn biến thể nào nên được sử dụng.'
+          help: 'Khi dịch sang tiếng Anh, hãy chọn biến thể sẽ được sử dụng.'
           label: 'Biến thể tiếng Anh'
           options:
             en-GB: 'English (UK) en-GB'
             en-US: 'English (US) en-US'
         formality:
-          help: 'Ở nơi có sẵn, bản dịch có thể sử dụng các mức độ trang trọng khác nhau. Chọn sở thích của bạn ở đây.'
-          label: 'Trang trọng'
+          help: 'Khi khả dụng, bản dịch có thể sử dụng các mức độ trang trọng khác nhau. Hãy chọn mức độ bạn muốn ở đây.'
+          label: 'Mức độ trang trọng'
           options:
             default: 'Mặc định'
             prefer_less: 'Ít trang trọng hơn'
             prefer_more: 'Trang trọng hơn'
+        glossary:
+          options:
+            none: 'Không dùng từ điển'
+          pair:
+            help: 'Chọn một từ điển khi dịch {source} sang {target}, hoặc chọn "Không dùng từ điển" nếu cặp ngôn ngữ này không cần từ điển.'
+            label: 'Từ điển {source} sang {target}'
+        model_type:
+          help: 'Chọn mô hình DeepL nào sẽ dùng để dịch.'
+          label: 'Loại mô hình'
+          options:
+            latency_optimized: 'Tối ưu cho tốc độ'
+            prefer_quality_optimized: 'Ưu tiên chất lượng khi khả dụng'
       general:
         heading: 'Cài đặt chung'
         help: 'Các cài đặt này kiểm soát hành vi chung của hệ thống dịch thuật.'
@@ -55,6 +81,52 @@ ianm-translate:
           label: 'URL máy chủ'
       multi-lang-search: 'Tìm kiếm đa ngôn ngữ'
       multi-lang-search-help: 'Khi được bật, tìm kiếm sẽ bao gồm tất cả các bản dịch của nội dung.'
+      openai:
+        api_key:
+          help: 'Đăng ký khóa API tại {link}. Trình điều khiển này hỗ trợ các mô hình GPT-4o và GPT-4o-mini.'
+          label: '=> ianm-translate.lib.settings.api-key'
+        de_variant:
+          help: 'Khi dịch sang tiếng Đức, hãy chọn biến thể sẽ được sử dụng.'
+          label: 'Biến thể tiếng Đức'
+          options:
+            casual: 'Tiếng Đức thân mật'
+            swiss: 'Tiếng Đức Thụy Sĩ'
+        detection_model:
+          help: 'Chọn mô hình OpenAI nào sẽ dùng để phát hiện ngôn ngữ. Khuyến nghị dùng GPT-3.5-turbo vì phát hiện ngôn ngữ là tác vụ đơn giản, không cần mô hình mạnh nhất.'
+          label: 'Mô hình phát hiện ngôn ngữ'
+          options:
+            gpt-3:
+              5-turbo: 'GPT-3.5 Turbo (Tiết kiệm)'
+              5-turbo-0125: 'GPT-3.5 Turbo mới nhất (Tiết kiệm+)'
+            gpt-4o: 'GPT-4o (Cao cấp)'
+            gpt-4o-mini: 'GPT-4o Mini (Cân bằng)'
+        en_variant:
+          help: 'Khi dịch sang tiếng Anh, hãy chọn biến thể sẽ được sử dụng.'
+          label: 'Biến thể tiếng Anh'
+          options:
+            en-GB: 'Tiếng Anh (Anh)'
+            en-US: 'Tiếng Anh (Mỹ)'
+        max_tokens:
+          help: 'Số token tối đa cho đầu ra bản dịch. Giá trị cao hơn cho phép bản dịch dài hơn nhưng tăng chi phí. 1024 token ≈ 750 từ. GPT-4o tốn ~$0.03 mỗi 1K token đầu ra, GPT-4o-mini tốn ~$0.0006 mỗi 1K token đầu ra.'
+          label: 'Số token đầu ra tối đa'
+          options:
+            1024: '1.024 token (~750 từ)'
+            2048: '2.048 token (~1.500 từ)'
+            4096: '4.096 token (~3.000 từ)'
+            6144: '6.144 token (~4.500 từ)'
+            8192: '8.192 token (~6.000 từ)'
+        timeout:
+          help: 'Thời gian chờ của yêu cầu tính bằng giây. Hãy tăng lên nếu bạn gặp lỗi hết thời gian chờ.'
+          label: 'Thời gian chờ (giây)'
+        translation_model:
+          help: 'Chọn mô hình OpenAI nào sẽ dùng để dịch. GPT-4o cho chất lượng cao nhất, GPT-4o-mini cân bằng tốt, còn GPT-3.5-turbo tiết kiệm chi phí nhất.'
+          label: 'Mô hình dịch'
+          options:
+            gpt-3:
+              5-turbo: 'GPT-3.5 Turbo (Tiết kiệm)'
+              5-turbo-0125: 'GPT-3.5 Turbo mới nhất (Tiết kiệm+)'
+            gpt-4o: 'GPT-4o (Cao cấp)'
+            gpt-4o-mini: 'GPT-4o Mini (Cân bằng)'
       provider: 'Nhà cung cấp dịch thuật'
       providers:
         heading: 'Cài đặt nhà cung cấp dịch thuật'
@@ -68,6 +140,8 @@ ianm-translate:
         default-lang-help: 'Khi được bật, ngôn ngữ mặc định của diễn đàn sẽ được thêm vào đường dẫn cho thẻ hreflang <code>x-default</code>.'
         heading: 'Cài đặt SEO'
         help: 'Các cài đặt này kiểm soát hành vi của hệ thống dịch thuật liên quan đến tối ưu hóa công cụ tìm kiếm.'
+      short-content-length: 'Nội dung ngắn'
+      short-content-length-help: 'Khi được bật, nội dung ngắn hơn độ dài chỉ định sẽ được dịch và được coi là viết bằng ngôn ngữ hiện tại của giao diện. 0 sẽ tắt tính năng này.'
       translate-all-enabled: 'Bật tất cả ngôn ngữ dịch thuật'
       translate-all-help: 'Khi được bật, người dùng quản trị và những người khác có quyền có thể dịch nội dung sang bất kỳ ngôn ngữ diễn đàn nào đã cài đặt.'
       translate-polls: 'Dịch thăm dò ý kiến'
@@ -77,12 +151,14 @@ ianm-translate:
       use-native-locale-names: 'Sử dụng tên ngôn ngữ gốc'
       use-native-locale-names-help: 'Khi được bật, tên ngôn ngữ gốc sẽ được sử dụng thay vì phiên bản tên ngôn ngữ hiện tại.'
   forum:
-    detected-language: 'Bài đăng này bằng {postLang}'
+    composer_edit:
+      language: 'Cập nhật nội dung đã dịch bằng {language}'
+    detected-language: 'Bài viết này được viết bằng {postLang}'
     discussion:
       post:
         close-translation: 'Đóng bản dịch'
         translated-header: 'Bản dịch AI từ {from} sang {to}'
-        translated-updated: 'Bản dịch được cập nhật lần cuối {time} sử dụng {provider}'
+        translated-updated: 'Bản dịch được cập nhật lần cuối {time} bằng {provider}'
       title:
         detected-language: '{postLang}'
     manage-translations:
@@ -90,6 +166,9 @@ ianm-translate:
       discussion:
         title: 'Quản lý bản dịch tiêu đề thảo luận'
       original-language: 'Ngôn ngữ gốc ({detectedLang})'
+      poll-group:
+        name: 'Tên nhóm'
+        title: 'Quản lý bản dịch nhóm thăm dò ý kiến'
       poll:
         image-alt: 'Văn bản ALT hình ảnh (nếu có)'
         option: 'Tùy chọn {number}'
@@ -98,10 +177,10 @@ ianm-translate:
         subtitle: 'Phụ đề'
         title: 'Quản lý bản dịch thăm dò ý kiến'
       post:
-        title: 'Quản lý bản dịch bài đăng'
+        title: 'Quản lý bản dịch bài viết'
       quiz:
         answer-additional: 'Giải thích câu trả lời đúng'
-        option: 'Trả lời {number}'
+        option: 'Câu trả lời {number}'
         question: 'Câu hỏi'
         subtitle: 'Phụ đề'
         title: 'Quản lý bản dịch câu đố'
@@ -110,6 +189,8 @@ ianm-translate:
     original-content:
       title: 'Nội dung gốc'
       view: 'Xem nội dung gốc'
+    post:
+      translation-error: 'Đã xảy ra sự cố khi hiển thị bản dịch của bài viết này. Lỗi đã được ghi lại với ID {uuid}. Vui lòng báo cáo nếu sự cố vẫn tiếp diễn.'
     refresh-translation: 'Làm mới bản dịch'
     translate-button-label: Dịch
     unknown-language: '[không phát hiện]'
@@ -125,5 +206,6 @@ ianm-translate:
       google-cloud: 'Google Cloud Translate'
       google-free: 'Google Translate'
       libre: 'Libre Translate'
+      openai: OpenAI
     settings:
       api-key: 'Khóa API'

@@ -10,15 +10,15 @@ tpokorra-post-notification:
       post_approval: 'Nhãn để mô tả một bài viết mới cần được phê duyệt'
       recipients:
         new_discussion:
-          bcc: 'Danh sách địa chỉ email được phân tách bằng dấu phẩy cho người nhận BCC cho các cuộc thảo luận mới'
-          to: 'Danh sách địa chỉ email được phân tách bằng dấu phẩy cho Người nhận để thảo luận mới'
+          bcc: 'Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (BCC) khi có thảo luận mới'
+          to: 'Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (To) khi có thảo luận mới'
         new_post:
-          bcc: 'Danh sách địa chỉ email được phân tách bằng dấu phẩy cho người nhận BCC cho các bài viết mới'
-          to: 'Danh sách địa chỉ email được phân tách bằng dấu phẩy cho Người nhận cho các bài viết mới'
+          bcc: 'Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (BCC) khi có bài viết mới'
+          to: 'Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (To) khi có bài viết mới'
         post_approval:
-          to: 'Danh sách địa chỉ email được phân tách bằng dấu phẩy cho Người nhận để phê duyệt các bài viết mới'
+          to: 'Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (To) khi có bài viết mới cần phê duyệt'
         revised_post:
-          bcc: 'Danh sách địa chỉ email được phân tách bằng dấu phẩy cho người nhận BCC cho các bài viết đã sửa đổi'
-          to: 'Danh sách địa chỉ email được phân tách bằng dấu phẩy cho Người nhận cho các bài viết đã sửa đổi'
+          bcc: 'Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (BCC) khi có bài viết được sửa đổi'
+          to: 'Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (To) khi có bài viết được sửa đổi'
       revised_post: 'Nhãn để mô tả một bài viết đã sửa đổi'
       title: 'Cấu hình thông báo bài viết'

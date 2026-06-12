@@ -11,7 +11,7 @@ clarkwinkelmann-collapsible-posts:
       explanationUrl: 'URL giải thích'
       explanationUrlHelp: 'Không bắt buộc. Hiển thị dưới các bài viết đã thu gọn'
       header:
-        explanation: 'Tin nhắn giải thịch tuỳ chỉnh'
+        explanation: 'Thông báo giải thích tùy chỉnh'
         key: 'Khoá cơ sở dữ liệu duy nhất'
         label: Nhãn
       reasons: 'Lý do'
@@ -25,6 +25,6 @@ clarkwinkelmann-collapsible-posts:
       collapse: 'Thu gọn'
       uncollapse: 'Huỷ thu gọn'
     stream:
-      explanation: 'Tại sao tôi lại thấy cái này?'
+      explanation: 'Tại sao tôi thấy nội dung này?'
       hidden: '{count, plural, one {# bài viết bị ẩn vì {reason}} other {# bài viết bị ẩn vì {reason}}}'
       load: 'Tải thêm'

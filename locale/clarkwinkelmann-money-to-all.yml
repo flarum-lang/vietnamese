@@ -12,10 +12,10 @@ clarkwinkelmann-money-to-all:
   lib:
     modal:
       amount: 'Số tiền'
-      lastActivity: 'Hạn chế cho những người dùng hoạt động sau ngày sau đây'
+      lastActivity: 'Chỉ áp dụng cho người dùng có hoạt động sau ngày dưới đây'
       message: 'Tin nhắn'
       messageHelp: 'Tùy chọn. Tin nhắn sẽ ghi đè lên văn bản thông báo mặc định. Bạn nên đề cập đến số tiền trong văn bản của mình vì nó sẽ không được hiển thị nữa.'
-      messagePlaceholder: 'Bật thông báo để bao gồm một thông điệp'
+      messagePlaceholder: 'Bật thông báo để có thể kèm tin nhắn'
       notify: 'Gửi thông báo trên web cho người dùng'
       preview: 'Các cài đặt hiện tại phù hợp với {count} người dùng.'
       submit: Gửi

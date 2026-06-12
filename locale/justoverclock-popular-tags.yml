@@ -7,5 +7,5 @@ justoverclock-popular-tags:
     limit: 'Số lượng thẻ hiển thị'
     limit-help: 'Nhập số lượng thẻ mà bạn muốn hiển thị'
   forum:
-    count: 'Tổng chủ đề: '
-    widgetTitle: 'Thẻ nổi bật'
+    count: 'Tổng số thảo luận: '
+    widgetTitle: 'Thẻ phổ biến'

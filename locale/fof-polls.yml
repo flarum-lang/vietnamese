@@ -13,16 +13,16 @@ fof-polls:
       start: 'Tạo cuộc thăm dò'
       start_global: 'Bắt đầu một cuộc thăm dò toàn cục'
       start_group: 'Tạo nhóm thăm dò ý kiến'
-      upload_images: 'Cho phép người dùng tải lên hình ảnh để thăm dò ý kiến'
+      upload_images: 'Cho phép người dùng tải lên hình ảnh cho cuộc thăm dò'
       view_group: 'Xem nhóm thăm dò ý kiến'
       view_results_without_voting: 'Xem kết quả mà không cần bỏ phiếu'
       vote: 'Bình chọn cuộc thăm dò'
     settings:
-      allow_image_uploads: 'Cho phép tải hình ảnh lên để thăm dò ý kiến và các tùy chọn của họ'
+      allow_image_uploads: 'Cho phép tải lên hình ảnh cho cuộc thăm dò và các tùy chọn'
       allow_image_uploads_help: 'Nếu được bật, người dùng sẽ có thể tải hình ảnh lên cùng với việc cung cấp URL hình ảnh (nếu được bật cho tùy chọn, luôn được bật cho chính cuộc thăm dò).'
-      allow_option_image: 'Cho phép URL ảnh cho mỗi tuỳ chọn thăm do ý kiến'
+      allow_option_image: 'Cho phép cung cấp URL ảnh cho mỗi tùy chọn thăm dò'
       enable_global_polls: 'Cho phép thăm dò toàn cục'
-      enable_global_polls_help: 'Các cuộc thăm dò toàn cầu không liên quan đến một bài viết cụ thể và có thể được truy cập từ một trang thăm dò chuyên dụng.'
+      enable_global_polls_help: 'Các cuộc thăm dò toàn cục không gắn với một bài viết cụ thể và có thể được truy cập từ một trang thăm dò chuyên dụng.'
       enabled_poll_groups: 'Bật nhóm thăm dò ý kiến'
       enabled_poll_groups_help: 'Nhóm thăm dò ý kiến cho phép bạn nhóm các cuộc thăm dò toàn cục lại với nhau và hiển thị chúng trên một trang chuyên dụng.'
       general:
@@ -38,22 +38,32 @@ fof-polls:
       image_width: 'Thay đổi kích thước chiều rộng hình ảnh'
       max_options: 'Số lượng tùy chọn tối đa cho mỗi cuộc thăm dò'
       options_color_blend: 'Pha trộn màu văn bản trong tùy chọn thăm dò ý kiến'
-      options_color_blend_help: 'Sử dụng tính năng này để sử dụng trộn màu để làm cho các tùy chọn thăm dò dễ đọc hơn. Tắt nếu tính năng này gây ra sự cố với giao diện diễn đàn của bạn, làm giảm khả năng đọc.'
+      options_color_blend_help: 'Sử dụng tính năng trộn màu để các tùy chọn thăm dò dễ đọc hơn. Tắt nếu tính năng này gây ra sự cố với giao diện diễn đàn của bạn, làm giảm khả năng đọc.'
   forum:
     answers: 'Câu trả lời'
     compose:
       add_title: 'Thêm một cuộc thăm dò'
       continue_editing: 'Tiếp tục chỉnh sửa'
+      draft_saved: 'Đã lưu bản nháp'
       edit_title: 'Chỉnh sửa cuộc thăm dò'
       polls_manager: 'Quản lý thăm dò'
       polls_preview: 'Xem cuộc thăm dò'
+      publish: 'Xuất bản'
+      save_as_draft: 'Lưu thành bản nháp'
+      schedule: 'Lên lịch'
+      schedule_datetime_label: 'Xuất bản lúc'
+      schedule_publication: 'Lên lịch xuất bản'
+      schedule_publication_edit: 'Chỉnh sửa lịch xuất bản'
+      schedule_submit: 'Lên lịch'
+      submit: Gửi
       success: 'Đã lưu cuộc thăm dò thành công.'
+      update_draft: 'Cập nhật bản nháp'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
       no_permission_alert: 'Bạn không có quyền bắt đầu cuộc thăm dò.'
     days_remaining: 'Cuộc thăm dò kết thúc {time}.'
-    max_votes_allowed: 'Cuộc thăm dò cho phép bỏ phiếu cho {max, plural, one {# tùy chọn} khác {# tùy chọn}}.'
+    max_votes_allowed: 'Cuộc thăm dò cho phép bỏ phiếu cho {max, plural, one {# tùy chọn} other {# tùy chọn}}.'
     modal:
       add_option_label: 'Thêm tùy chọn'
       add_title: 'Thêm cuộc thăm dò'
@@ -62,6 +72,7 @@ fof-polls:
       date_placeholder: 'Ngày kết thúc cuộc thăm dò (Tùy chọn)'
       delete: '=> core.ref.delete'
       edit_title: 'Chỉnh sửa cuộc thăm dò'
+      empty_answers: '{count, plural, one {# câu trả lời đang để trống — vui lòng điền vào hoặc xóa đi.} other {# câu trả lời đang để trống — vui lòng điền vào hoặc xóa đi.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Ẩn phiếu bầu cho đến khi cuộc thăm dò kết thúc'
       hide_votes_label_help: 'Người dùng bắt đầu cuộc thăm dò sẽ luôn có thể xem được số phiếu bầu.'
@@ -85,7 +96,7 @@ fof-polls:
         label: 'Hình ảnh câu trả lời thăm dò'
       public_poll_label: 'Cho phép mọi người xem ai đã bình chọn'
       question_placeholder: 'Câu hỏi'
-      submit: 'Đồng ý'
+      submit: Gửi
       subtitle_placeholder: 'Phụ đề/Mô tả (tùy chọn)'
       tooltip:
         options:
@@ -103,15 +114,28 @@ fof-polls:
     poll:
       cannot_change_vote: 'Bạn không thể thay đổi phiếu bầu của mình sau khi bỏ phiếu.'
       cannot_start_poll_button: 'Không thể bắt đầu cuộc thăm dò'
+      draft_label: 'Bản nháp'
+      scheduled_error_tooltip: 'Lần xuất bản theo lịch này đã thất bại. Hãy mở cuộc thăm dò để xem lý do.'
+      scheduled_label: 'Đã lên lịch vào {date}'
       start_poll_button: 'Bắt đầu cuộc thăm dò toàn cục'
       submit_button: 'Bỏ phiếu'
       total_votes: '{count, plural, one {# phiếu bầu đã bỏ} other {# phiếu bầu đã bỏ}}'
     poll_controls:
+      cancel_schedule_label: 'Hủy lịch xuất bản'
+      cancel_schedule_success: 'Đã hủy lịch xuất bản.'
       delete_confirmation: 'Bạn có chắc chắn muốn xóa cuộc thăm dò ý kiến này không?'
       delete_error_message: 'Đã xảy ra lỗi khi xóa cuộc thăm dò.'
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Đã xóa cuộc thăm dò thành công.'
       edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Chỉnh sửa lịch xuất bản'
+      publish_label: 'Xuất bản ngay'
+      publish_success: 'Đã xuất bản cuộc thăm dò.'
+      schedule_publish_label: 'Lên lịch xuất bản'
+      unpublish_confirmation: 'Chuyển cuộc thăm dò này về bản nháp? Nó sẽ biến mất khỏi trang trưng bày.'
+      unpublish_error_has_votes: 'Không thể hủy xuất bản — cuộc thăm dò đã có phiếu bầu. Thay vào đó, hãy xóa nó.'
+      unpublish_label: 'Chuyển về bản nháp'
+      unpublish_success: 'Đã chuyển cuộc thăm dò về bản nháp.'
       view_label: '=> core.ref.view'
     poll_ended: 'Cuộc thăm dò này đã kết thúc.'
     poll_form:
@@ -147,12 +171,23 @@ fof-polls:
     polls_list:
       empty_text: 'Có vẻ như không có cuộc thăm dò ý kiến nào trên toàn cộng đồng ở đây.'
       load_more_button: '=> core.ref.load_more'
+      sort_dropdown:
+        least_voted: 'Ít phiếu nhất'
+        most_voted: 'Nhiều phiếu nhất'
+        newest: 'Mới nhất'
+        oldest: 'Cũ nhất'
+        sort_dropdown:
+          default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: 'Tất cả'
+        draft: 'Bản nháp'
+        published: 'Đã xuất bản'
     polls_page:
       title: 'Cuộc thăm dò'
     public_poll: 'Xem người bình chọn'
     showcase:
       active-polls: 'Các cuộc thăm dò đang diễn ra'
-      ended-polls: 'Kết thúc cuộc thăm dò'
+      ended-polls: 'Các cuộc thăm dò đã kết thúc'
       no-active-polls: 'Hiện tại không có cuộc thăm dò nào đang diễn ra.'
       no-recent-polls: 'Hiện tại không có cuộc thăm dò nào kết thúc gần đây.'
     tooltip:

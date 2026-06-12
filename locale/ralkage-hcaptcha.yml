@@ -7,9 +7,13 @@ ralkage-hcaptcha:
     permissions:
       post_without_hcaptcha: 'Tạo bài viết và cuộc thảo luận không cần hCaptcha'
     settings:
+      dark_mode_help: 'Sử dụng giao diện tối cho tiện ích hCaptcha. Bật tùy chọn này nếu diễn đàn của bạn dùng giao diện tối.'
+      dark_mode_label: 'Chế độ tối'
+      enable_login_help: 'Yêu cầu hCaptcha khi người dùng đăng nhập. Giúp bảo vệ chống lại các cuộc tấn công dò mật khẩu.'
+      enable_login_label: 'Yêu cầu khi đăng nhập'
       help_text: 'Nhận thông tin xác thực hCaptcha của bạn <a>tại đây</a>.'
       secret_key_label: 'Khóa bí mật'
-      site_key_label: 'Mã khoá trang'
+      site_key_label: 'Khóa trang (Site Key)'
       type_label: 'Loại hCaptcha'
   forum:
     error: 'Đã xảy ra lỗi khi gửi hCaptcha. Vui lòng thử lại.'

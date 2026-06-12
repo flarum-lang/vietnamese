@@ -6,7 +6,7 @@ flamarkt-matomo:
   admin:
     settings:
       siteId: 'ID trang'
-      trackAccounts: 'Theo dõi tài khoản người dùng cá nhân'
+      trackAccounts: 'Theo dõi từng tài khoản người dùng'
       trackAccountsOptions:
         email: 'Theo dõi theo email'
         none: 'Không theo dõi'

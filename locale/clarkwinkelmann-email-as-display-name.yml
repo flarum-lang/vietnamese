@@ -6,7 +6,7 @@ clarkwinkelmann-email-as-display-name:
   admin:
     permissions:
       view-all: 'Xem email trên tất cả trang cá nhân'
-      view-own: 'Xem email riêng trên trang cá nhân'
+      view-own: 'Xem email trên trang cá nhân của chính mình'
     settings:
       remove-username-registration: 'Xóa tên người dùng khỏi biểu mẫu đăng ký'
   forum:

@@ -9,7 +9,7 @@ migratetoflarum-canonical:
         status: 'Loại chuyển hướng'
         wrong_url: 'Cài đặt tiện ích mở rộng sẽ xuất hiện khi bạn truy cập diễn đàn của mình qua URL chuẩn'
       option:
-        301: '301 (Chuyển hướng vĩnh viễn, dành cho sản xuất)'
+        301: '301 (Chuyển hướng vĩnh viễn, cho môi trường chính thức)'
         302: '302 (Chuyển hướng tạm thời, để thử nghiệm)'
         disabled: 'Đã tắt (tiện ích mở rộng sẽ không thực hiện bất kỳ điều gì)'
       step:
@@ -18,6 +18,6 @@ migratetoflarum-canonical:
         enable_permanent: 'Bật chuyển hướng vĩnh viễn'
         enable_temporary: 'Bật chuyển hướng tạm thời và kiểm tra mọi thứ hoạt động'
         how_to: 'Cách bật chuyển hướng chuẩn'
-        suggestions: 'Các đề xuất khác mà tiện ích mở rộng này không thực thi hoặc bao gồm'
+        suggestions: 'Các gợi ý khác mà tiện ích mở rộng này không thực thi hay xử lý'
         use_hsts: 'Sử dụng HSTS để ngăn chặn các cuộc tấn công hạ cấp'
         use_https: 'Sử dụng URL chuẩn HTTPS'

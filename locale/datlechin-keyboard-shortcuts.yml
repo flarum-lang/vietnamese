@@ -17,7 +17,7 @@ datlechin-keyboard-shortcuts:
     discussion_page_heading: 'Trang thảo luận'
     global_heading: Chung
     shortcuts:
-      back: 'Trợ lại'
+      back: 'Trở lại'
       close: Đóng
       first_post: 'Bài viết đầu tiên'
       flags: 'Gắn cờ'
@@ -26,11 +26,11 @@ datlechin-keyboard-shortcuts:
       last_post: 'Bài viết mới nhất'
       login: 'Đăng nhập'
       mark_all_as_read: 'Đánh dấu tất cả đã đọc'
-      new_discussion: 'Tạo cuộc thảo luận'
+      new_discussion: 'Tạo thảo luận mới'
       notifications: 'Thông báo'
       pin_nav: 'Ghim thanh điều hướng'
       refresh: 'Làm mới'
       reply: 'Trả lời'
       search: 'Tìm kiếm'
-      session: 'Trình thả xuống người dùng'
+      session: 'Menu người dùng'
       signup: 'Đăng ký'

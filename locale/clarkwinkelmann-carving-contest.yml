@@ -10,19 +10,19 @@ clarkwinkelmann-carving-contest:
       custom-help: 'Danh sách giá trị #hex hoặc rgb() được phân tách bằng dấu phẩy'
       simple: 'Màu đơn giản'
     permissions:
-      like: 'Thích các mục nhập'
+      like: 'Thích bài dự thi'
       moderate: 'Kiểm duyệt'
       participate: 'Tham gia'
-      view: 'Xem các mục nhập'
+      view: 'Xem bài dự thi'
     settings:
-      colorMode: 'Sử dụng màu thay vì khắc chạm'
+      colorMode: 'Sử dụng chế độ tô màu thay vì chế độ chạm khắc'
       maxEntriesPerUser: 'Số lần gửi tối đa mỗi người dùng'
   forum:
     likes_modal:
-      title: 'Người dùng thích mục này'
+      title: 'Những người đã thích bài dự thi này'
     modal:
-      name: 'Đặt tên'
-      submit: 'Đồng ý'
+      name: 'Đặt tên cho tác phẩm của bạn'
+      submit: Gửi
       title: 'Tham gia'
       tools:
         circle: 'Hình tròn'
@@ -30,22 +30,22 @@ clarkwinkelmann-carving-contest:
     nav:
       contest: 'Cuộc thi chạm khắc'
     page:
-      already-liked: 'Tôi thích nó'
+      already-liked: 'Đã thích'
       already-participated: 'Đã tham gia rồi'
-      delete-confirmation: 'Bạn có muốn xoá "{name}" theo {username} không?'
+      delete-confirmation: 'Bạn có thực sự muốn xóa "{name}" của {username} không?'
       like: Thích
       likes:
         liked_by_self_text: '{users} đã thích.'
         liked_by_text: '{count, plural, one {{users} đã thích.} other {{users} đã thích.}}'
         others_link: '=> core.ref.some_others'
         you_text: '=> core.ref.you'
-      load-more: 'Tải thêm dữ liệu'
-      loading: 'Đang tải dữ liệu...'
+      load-more: 'Tải thêm bài dự thi'
+      loading: 'Đang tải bài dự thi...'
       participate: 'Tham gia'
       refresh: 'Làm mới'
       sort:
         fewerLikes: 'Ít lượt thích nhất'
-        leastRecent: 'Gần đây'
+        leastRecent: 'Đăng lâu nhất'
         mostLikes: 'Nhiều lượt thích nhất'
         mostRecent: 'Đăng gần đây'
       title: 'Cuộc thi chạm khắc bí ngô'

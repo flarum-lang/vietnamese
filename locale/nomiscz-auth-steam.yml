@@ -6,7 +6,7 @@ nomiscz-auth-steam:
   admin:
     settings:
       api_key_label: 'Mã khoá API'
-      title: 'Thiết lập xác thực Steam'
+      title: 'Cài đặt xác thực Steam'
       use_steam_powered_domain: 'Sử dụng miền steampowered.com thay vì steamcommunity.com (bị chặn ở Trung Quốc)'
   forum:
     alerts:
