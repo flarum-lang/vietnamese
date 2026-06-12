@@ -6,13 +6,13 @@ sycho-ace:
   admin:
     categories:
       disabled: 'Đã tắt'
-      enabled: 'Đã kích hoạt'
+      enabled: 'Đã bật'
       none: A-Z
     category_selection:
       label: 'Phân loại theo'
       options:
         availability: 'Khả dụng'
         default: 'Mặc định'
-        none: 'Thứ tự A-Z'
+        none: 'Không phân loại'
         vendor: 'Nhà cung cấp'
     extensions: 'Tiện ích mở rộng'

@@ -88,7 +88,7 @@ fof-oauth:
         linked-account:
           help: 'Các tài khoản được liên kết này cho phép bạn đăng nhập vào diễn đàn bằng cách sử dụng các nhà cung cấp khác.'
           identification-label: 'ID {provider}'
-          identifier-label: '{provider} ID'
+          identifier-label: 'ID {provider}'
           label: 'Tài khoản đã liên kết'
           last-used-label: 'Lần cuối sử dụng'
           link-created-label: 'Đã tạo liên kết'
@@ -107,5 +107,5 @@ fof-oauth:
     settings:
       app_id: 'ID ứng dụng'
       app_secret: 'Mã bí mật ứng dụng'
-      client_id: 'ID khách hàng'
-      client_secret: 'Mã bí mật khách hàng'
+      client_id: 'Client ID'
+      client_secret: 'Client Secret'

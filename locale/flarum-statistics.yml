@@ -25,10 +25,10 @@ flarum-statistics:
       mini_heading: 'Thống kê diễn đàn'
       no_data: 'Không có dữ liệu trong khoảng thời gian này.'
       posts_heading: '=> core.ref.posts'
-      previous_28_days_label: '28 ngày trước'
-      previous_7_days_label: '7 ngày trước'
+      previous_28_days_label: '28 ngày trước đó'
+      previous_7_days_label: '7 ngày trước đó'
       previous_period: 'Giai đoạn trước'
       today_label: 'Hôm nay'
-      total_label: 'Toàn bộ'
+      total_label: Tổng
       users_heading: '=> core.ref.users'
       view_full: 'Xem thêm thống kê'

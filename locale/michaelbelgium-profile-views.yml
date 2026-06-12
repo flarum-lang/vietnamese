@@ -5,7 +5,7 @@
 michaelbelgium-flarum-profile-views:
   admin:
     settings:
-      max_viewcount_label: 'Mục trong danh sách khách truy cập tối đa'
+      max_viewcount_label: 'Số mục tối đa trong danh sách khách truy cập'
       track_guests_label: 'Theo dõi khách'
   forum:
     user:

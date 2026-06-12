@@ -20,8 +20,8 @@ fof-subscribed:
     subject:
       newDiscussion: '[Đã đăng ký | Cuộc thảo luận mới] {title}'
       newUser: '[Đã đăng ký | Người dùng mới] {username}'
-      postCreated: '[Đăng ký | Bài viết mới] {username} đã đăng bài viết mới trong {title}'
-      postFlagged: '[Đăng ký | Gắn cờ mới] {username} đã gắn cờ bài viết trong {title}'
+      postCreated: '[Đã đăng ký | Bài viết mới] {username} đã đăng bài viết mới trong {title}'
+      postFlagged: '[Đã đăng ký | Gắn cờ mới] {username} đã gắn cờ bài viết trong {title}'
       postUnapproved: '[Đã đăng ký | Chưa duyệt] {username} đã đăng trong {title}'
   forum:
     notifications:

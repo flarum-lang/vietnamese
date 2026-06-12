@@ -8,7 +8,7 @@ flarum-gdpr:
       masqueradeanswers:
         anonymize_description: '=> flarum-gdpr.lib.data.masqueradeanswers.delete_description'
         delete_description: 'Xóa tất cả các câu trả lời trong trường hồ sơ khỏi tài khoản của người dùng'
-        export_description: 'Vô hiệu hóa avatar từ nhà cung cấp'
+        export_description: 'Xuất các câu trả lời trong trường hồ sơ của người dùng'
 fof-masquerade:
   admin:
     buttons:
@@ -17,11 +17,12 @@ fof-masquerade:
       edit-field: 'Lưu thay đổi'
     fields:
       add: 'Thêm trường {field}'
+      delete-confirmation: 'Bạn có chắc muốn xóa trường {field} không? Hành động này không thể hoàn tác.'
       description: 'Mô tả trường'
-      description-help: "Mô tả tùy chọn để giải thích việc sử dụng/nhu cầu của trường này.\n"
+      description-help: "Mô tả tùy chọn để giải thích mục đích sử dụng của trường này.\n"
       edit: 'Sửa trường {field}'
       force-user-to-completion: 'Buộc người dùng hoàn thành hồ sơ'
-      icon: Icon
+      icon: 'Biểu tượng'
       icon-help: "Hiển thị biểu tượng phía trước các giá trị do người dùng nhập. Để tham khảo các biểu tượng có sẵn, hãy xem <a>trang web FontAwesome</a>. Sử dụng tên biểu tượng với tiền tố \"fa-\", như \"fas fa-info\".\n"
       name: 'Tên trường'
       name-help: "Nhãn trường hiển thị công khai (không thể dịch).\n"
@@ -43,7 +44,7 @@ fof-masquerade:
       advanced: 'Nâng cao'
       boolean: 'Hộp kiểm'
       email: Email
-      select: Dropdown
+      select: 'Danh sách thả xuống'
       url: URL
   forum:
     alerts:
@@ -51,12 +52,12 @@ fof-masquerade:
       profile-completion-required: "Vui lòng hoàn thành các trường hồ sơ cần thiết bên dưới.\n"
     buttons:
       edit-profile: 'Chỉnh sửa hồ sơ'
-      save-profile: 'Lưu lại'
+      save-profile: Lưu
       view-profile: 'Xem hồ sơ'
     fields:
       boolean:
         'no': Không
         'yes': Có
       select:
-        none-optional: 'Không có tùy chọn nào được chọn (tùy chọn)'
+        none-optional: 'Chưa chọn tùy chọn nào (không bắt buộc)'
         none-required: 'Vui lòng chọn một tùy chọn (bắt buộc)'

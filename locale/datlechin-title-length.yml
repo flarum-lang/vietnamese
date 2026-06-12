@@ -5,7 +5,7 @@
 datlechin-title-length:
   admin:
     settings:
-      limit_help: 'Bật đế tùy chỉnh độ dài tiêu đề. Nếu tắt, sẽ sử dụng độ dài mặc định của Flarum.'
+      limit_help: 'Bật để sử dụng giới hạn độ dài tiêu đề tùy chỉnh. Nếu tắt, giới hạn độ dài tiêu đề mặc định của Flarum sẽ được sử dụng.'
       limit_label: 'Bật giới hạn độ dài tiêu đề'
       max_help: 'Độ dài tối đa của tiêu đề, độ dài tối đa là 1000.'
       max_label: 'Độ dài tối đa'

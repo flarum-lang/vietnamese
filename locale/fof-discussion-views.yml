@@ -12,6 +12,6 @@ fof-discussion-views:
     discussion_controls:
       resetviews_button: 'Đặt lượt xem'
     modal_resetviews:
-      label: 'Đặt để xem số lượng'
-      submit: 'Đồng ý'
+      label: 'Đặt số lượt xem thành'
+      submit: Gửi
       title: 'Đặt lại lượt xem cuộc thảo luận'
