@@ -403,7 +403,7 @@ CHANGELOG
 * [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
 * [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
-* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`v17development/flarum-blog`](https://github.com/FriendsOfFlarum/blog)
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
