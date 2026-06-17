@@ -58,7 +58,7 @@ CHANGELOG
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
 * [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
-* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+* `resofire-discussion-participants`
 * [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
 * [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks)
