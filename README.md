@@ -72,6 +72,7 @@ php flarum cache:clear
 
 | Tiện ích mở rộng | Trạng thái |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/vi/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/vi/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/vi/) |
 | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) | [![Trạng thái bản dịch](https://weblate.rob006.net/widgets/flarum2/vi/fof-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-badges/vi/) |
