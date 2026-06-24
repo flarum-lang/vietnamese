@@ -36,6 +36,7 @@ CHANGELOG
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 * [`forumaker/statser`](https://github.com/forumaker/Statser)
+* [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history)
 * [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
