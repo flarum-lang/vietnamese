@@ -529,9 +529,9 @@ CHANGELOG
 * `serakoi-flarumdiscordtheme`
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
 * [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile)
-* [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector)
-* [`shebaoting/money`](https://github.com/shebaoting/money)
-* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
 * [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
