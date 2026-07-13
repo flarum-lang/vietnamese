@@ -369,7 +369,7 @@ CHANGELOG
 * [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
 * [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
-* `glowingblue-localizd`
+* [`glowingblue/localizd`](https://github.com/glowingblue/flarum-ext-localizd)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
