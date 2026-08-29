@@ -37,6 +37,7 @@ CHANGELOG
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 * [`forumaker/statser`](https://github.com/forumaker/Statser)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 * [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history)
 * [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
@@ -114,6 +115,7 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
@@ -346,7 +348,6 @@ CHANGELOG
 * `flarumi-oauth-vkontakte`
 * [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
 * [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers)
-* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * `fof-email-checker`
