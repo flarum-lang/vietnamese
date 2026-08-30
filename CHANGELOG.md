@@ -90,6 +90,7 @@ CHANGELOG
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/approval`](https://github.com/flarum/approval)
 * [`flarum/bbcode`](https://github.com/flarum/bbcode)
@@ -340,7 +341,6 @@ CHANGELOG
 * [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs)
-* [`ffans/geetest`](https://github.com/FFans/geetest)
 * `finteger-ratings`
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`flamarkt/matomo`](https://github.com/flamarkt/matomo)
