@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+1.12.3 (XXXX-XX-XX)
+-------------------
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
+Tất cả các thay đổi: [v1.12.2...v1.12.3](https://github.com/flarum-lang/vietnamese/compare/v1.12.2...v1.12.3).
+
+
 1.12.2 (2026-06-16)
 -------------------
 
