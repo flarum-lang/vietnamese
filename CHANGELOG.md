@@ -10,6 +10,11 @@ CHANGELOG
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 
 
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
 Tất cả các thay đổi: [v2.0.0...v2.0.1](https://github.com/flarum-lang/vietnamese/compare/v2.0.0...v2.0.1).
 
 
