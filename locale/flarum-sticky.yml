@@ -6,6 +6,8 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Ghim thảo luận'
+    settings:
+      pin_sticky_on_all_discussions_label: 'Ghim các cuộc thảo luận được ghim trên trang Tất cả thảo luận'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'

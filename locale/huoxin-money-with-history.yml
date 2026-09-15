@@ -9,6 +9,18 @@ huoxin-money-with-history:
       edit_money_label: 'Chỉnh sửa tiền'
       query_others_history: 'Xem lịch sử tiền của người khác'
     settings:
+      cascade_money_removal: 'Trừ tiền của các bài viết khi một cuộc thảo luận bị xóa'
+      discussion_reward_amount: 'Số tiền thưởng cho một cuộc thảo luận mới'
+      exclude_mentions_from_length: 'Khi đếm số từ của bài trả lời, chỉ tính phần nội dung'
+      help_extension_likes: 'Yêu cầu tiện ích <code>flarum/likes</code>'
+      hide_zero_balances: 'Không hiển thị khi số tiền bằng không'
+      like_reward_amount: 'Số tiền thưởng khi một bài viết được thích'
+      min_post_length: 'Độ dài tối thiểu của bài viết để được thưởng (0 để tắt)'
+      money_name: 'Tên của loại tiền (ví dụ: [money] điểm)'
+      post_reward_amount: 'Số tiền thưởng cho một bài viết mới'
+      remove_money_trigger: 'Tự động cập nhật tiền'
+      reward_private_discussion: 'Cho phép kiếm tiền trong các cuộc thảo luận riêng tư'
+      reward_self_like: 'Cho phép người dùng kiếm tiền bằng cách tự thích bài viết của mình'
       title: 'Cài đặt'
   forum:
     list-empty: 'Không tìm thấy bản ghi nào'
