@@ -1,6 +1,55 @@
 CHANGELOG
 =========
 
+1.12.3 (2026-09-15)
+-------------------
+
+**Thay đổi chung**:
+
+* Đã cập nhật các bản dịch Flarum core.
+
+
+**Thêm hỗ trợ cho các tiện ích mở rộng mới**:
+
+* [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot)
+* [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager)
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
+* [`linkrobins/link-gate`](https://github.com/linkrobins/flarum-link-gate)
+* [`tapao/auto-ai-moderation`](https://github.com/Tapao-NonSen/Auto-AI-Moderation)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
+* [`tapao/line-notification`](https://github.com/Tapao-NonSen/LINE-Notification)
+
+
+**Cập nhật bản dịch cho các tiện ích mở rộng**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+
+
+Tất cả các thay đổi: [v1.12.2...v1.12.3](https://github.com/flarum-lang/vietnamese/compare/v1.12.2...v1.12.3).
+
+
 1.12.2 (2026-06-16)
 -------------------
 
