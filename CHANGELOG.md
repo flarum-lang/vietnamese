@@ -23,6 +23,7 @@ CHANGELOG
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 * [`forumfortress/flarum`](https://github.com/forum-fortress/flarum)
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager)
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
