@@ -6,24 +6,45 @@ pianotell-flamoji:
   admin:
     custom_emojis_section:
       edit_emoji:
+        category_label: 'Danh mục'
+        category_placeholder: 'ví dụ: Memes'
+        category_text: 'Tùy chọn. Các emoji tùy chỉnh cùng danh mục sẽ xuất hiện chung trong một tab riêng của bảng chọn. Để trống để dùng tab Tùy chỉnh mặc định.'
         delete_emoji_button: 'Xóa emoji'
         delete_emoji_confirmation: 'Bạn có chắc chắn muốn xóa emoji này không?'
         emoji_title_label: 'Tiêu đề Emoji'
+        emoji_title_text: 'Tên thân thiện hiển thị trong phần xem trước của bảng chọn và được dùng khi tìm kiếm. Tùy chọn.'
+        intro_text: 'Emoji tùy chỉnh là hình ảnh của riêng bạn mà thành viên chèn vào bằng cách gõ một mã tắt. Mã tắt và hình ảnh là bắt buộc; tiêu đề và danh mục là tùy chọn.'
         modal_title: 'Thêm Emoji'
         path_or_url_label: 'Đường dẫn hoặc URL'
+        path_or_url_text: 'Nơi lưu trữ hình ảnh: một URL đầy đủ (https://…) hoặc một đường dẫn tương đối của diễn đàn (/assets/…). Bắt buộc. Hãy tự tải hình ảnh lên trước — ô này chỉ ghi lại vị trí của nó.'
         saved_message: '=> core.admin.settings.saved_message'
+        shortcode_invalid: 'Hãy đặt mã tắt giữa hai dấu hai chấm và chỉ dùng chữ cái, chữ số và _ + - (ví dụ :myemoji_partyparrot:).'
         submit_button: '=> core.ref.save_changes'
         text_to_replace_label: 'Văn bản cần thay thế'
+        text_to_replace_text: 'Đoạn chữ mà thành viên gõ để chèn emoji này. Phải được đặt giữa hai dấu hai chấm và chỉ chứa chữ cái, chữ số cùng các ký tự _ + - (ví dụ :myemoji_partyparrot:). Bắt buộc và phải là duy nhất. Mẹo: hãy thêm tiền tố cho mã tắt của bạn để chúng dễ đọc và không trùng với emoji tiêu chuẩn.'
       emoji_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
+        rename_cancel_button: Hủy
+        rename_save_button: Lưu
+        uncategorized: 'Chưa phân loại'
       export_json_button: 'Xuất JSON'
       heading_title: 'Emoji tùy chỉnh'
       import_emojis_message: 'Thao tác này chỉ nhập cấu hình emoji. Bạn cần tải lên ảnh emoji theo cách thủ công.'
       import_json_button: 'Nhập JSON'
+      import_legacy_shortcodes: 'Đã nhập {count} emoji có mã tắt không tuân theo quy ước :word: được khuyến nghị: {shortcodes}. Chúng được nhập nguyên trạng và vẫn hoạt động, nhưng bạn nên cân nhắc cập nhật lại.'
+      import_override_confirm: 'Có, tôi muốn thay thế toàn bộ emoji hiện có.'
+      import_override_mode: 'Chế độ ghi đè (thay thế toàn bộ emoji hiện có)'
+      import_override_warning: 'Cảnh báo: Thao tác này sẽ xóa toàn bộ emoji tùy chỉnh hiện tại của bạn!'
+      upload_json_button: 'Tải lên JSON'
     settings:
       auto_hide_label: 'Tự động ẩn'
       auto_hide_text: 'Ẩn bộ chọn khi một emoji được chọn.'
       category_settings_heading: 'Cài đặt danh mục'
+      cdn_advanced_text: 'Các giá trị mặc định được ghim theo đúng phiên bản emoji-mart mà tiện ích này được xây dựng cùng, kèm mã băm SRI tương ứng. Nếu bạn đổi một URL, hãy cập nhật mã băm SRI của nó cho khớp (hoặc xóa trống để tắt kiểm tra tính toàn vẹn), và giữ phiên bản dữ liệu khớp với bộ sprite emoji — phiên bản không khớp có thể khiến emoji hiển thị sai. Để trống một URL để buộc tài nguyên đó tải từ máy chủ của bạn.'
+      cdn_data_sri_label: 'Mã băm SRI của dữ liệu (tùy chọn)'
+      cdn_data_url_label: 'URL dữ liệu của CDN'
+      cdn_js_sri_label: 'Mã băm SRI của JavaScript (tùy chọn)'
+      cdn_js_url_label: 'URL JavaScript của CDN'
       emoji_categories:
         activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
         flags: '=> pianotell-flamoji.ref.emoji_categories.flags'
@@ -56,6 +77,10 @@ pianotell-flamoji:
       show_variants_text: 'Một số emoji có các biến thể tông màu da. Khi người dùng chọn một emoji có biến thể trong bộ chọn, một cửa sổ biến thể sẽ hiện ra để người dùng chọn biến thể mong muốn.'
       specify_categories_label: 'Chỉ định danh mục'
       specify_categories_text: 'Bạn có thể chỉ định một danh sách danh mục tại đây, và bộ chọn sẽ chỉ hiển thị những danh mục đó.'
+      sticker_mode_label: 'Chế độ nhãn dán'
+      sticker_mode_text: 'Hiển thị emoji tùy chỉnh dưới dạng nhãn dán lớn — trong bài viết, trong bản xem trước trực tiếp của trình soạn thảo và trong lưới chọn emoji được phóng to. Vì chỉ emoji tùy chỉnh được phóng to, bảng chọn sẽ chỉ hiển thị emoji tùy chỉnh của bạn khi bật tùy chọn này. Mặc định là tắt.'
+      use_cdn_label: 'Tải Emoji-Mart qua CDN'
+      use_cdn_text: 'Tải thư viện emoji-mart và dữ liệu emoji từ một CDN của bên thứ ba (ví dụ jsDelivr) thay vì phục vụ chúng từ máy chủ của bạn. Mặc định là tắt. Nếu CDN không tải được — hoặc mã băm Subresource Integrity (SRI) không khớp — bảng chọn sẽ tự động dùng bản đi kèm tiện ích này. Lưu ý rằng việc tải từ một nguồn bên ngoài đòi hỏi Content-Security-Policy của bạn (nếu có) phải cho phép điều đó.'
   forum:
     composer:
       emoji_tooltip: 'Chèn emoji'

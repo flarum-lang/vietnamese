@@ -16,10 +16,25 @@ flarum-gdpr:
         export_description: 'Xuất thông tin chi tiết về cấp độ đăng ký của thẻ, nếu có.'
 fof-follow-tags:
   admin:
+    basics:
+      following_label: '=> flarum-subscriptions.forum.index.following_link'
     settings:
+      all_discussions_on_following_page_for_guests_label: 'Hiển thị tất cả cuộc thảo luận trên trang Đang theo dõi cho khách'
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Bộ lọc mặc định của trang Đang theo dõi'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+      prompt_button_on_following_page_label: 'Hiển thị nút "Chọn thẻ để theo dõi" trên trang Đang theo dõi'
+      prompt_new_users_help: "Những người dùng chưa xác nhận lựa chọn của mình sẽ thấy một hộp thoại mời họ theo dõi thẻ. Hộp thoại này sẽ tiếp tục xuất hiện trong mỗi lần truy cập cho đến khi họ nhấn \"Tiếp tục vào diễn đàn\".\n"
+      prompt_new_users_label: 'Nhắc người dùng mới chọn thẻ để theo dõi'
+      prompt_tag_ids_label: 'Các thẻ để đề xuất'
+      prompt_tag_strategy_label: 'Các thẻ được đề xuất trong hộp thoại'
+      prompt_tag_strategy_options:
+        all: 'Tất cả thẻ'
+        list: 'Các thẻ được chọn bên dưới'
+        primary: 'Thẻ chính cấp một'
+        primaryAndChildren: 'Tất cả thẻ chính ở mọi cấp'
+        primaryAndSecondary: 'Thẻ chính cấp một và thẻ phụ'
+        secondary: 'Chỉ thẻ phụ'
   email:
     body:
       newDiscussionInTag: "Chào {recipient_display_name},\n\n{actor_display_name} đã bắt đầu một cuộc thảo luận trong một thẻ mà bạn đang theo dõi: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n{discussion_url}\n\n---\n\n{post_content}\n"
@@ -45,6 +60,11 @@ fof-follow-tags:
       new_discussion_tag_text: '{username} đã thay đổi thẻ'
       new_discussion_text: '{username} đã đăng thảo luận mới'
       new_post_text: '{username} đã đăng trả lời mới'
+    prompt:
+      choose_button: 'Chọn thẻ để theo dõi'
+      continue_button: 'Tiếp tục vào diễn đàn'
+      later_button: 'Nhắc tôi sau'
+      modal_title: 'Chọn thẻ để theo dõi'
     settings:
       notify_new_discussion_label: 'Ai đó tạo cuộc thảo luận trong thẻ mà tôi đang theo dõi'
       notify_new_discussion_tag_label: 'Ai đó gắn thẻ lại cuộc thảo luận vào thẻ mà tôi đang theo dõi'

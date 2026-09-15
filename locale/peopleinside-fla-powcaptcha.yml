@@ -19,6 +19,7 @@ peopleinside-powcaptcha:
       enabled_signup_help: 'Hiển thị thử thách bảo mật PoW trong biểu mẫu Đăng ký.'
       enabled_signup_label: 'Bật CAPTCHA khi đăng ký'
   forum:
+    challenge_not_ready: 'Thử thách bảo mật vẫn đang được xử lý hoặc chưa hoàn tất. Vui lòng đợi.'
     error: 'Kiểm tra bảo mật thất bại. Vui lòng thử lại.'
     retry: 'Thử lại'
     solving: 'Đang giải thử thách bảo mật…'
