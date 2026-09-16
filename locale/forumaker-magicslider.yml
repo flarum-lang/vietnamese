@@ -8,6 +8,8 @@ forumaker-magicslider:
       add_slide: 'Thêm slide'
       autoplay: 'Khoảng thời gian tự chạy'
       autoplay_help: '0 sẽ tắt tự động chuyển slide. Tính bằng giây'
+      clicks: 'Số lượt bấm vào slide này'
+      confirm_delete: 'Xóa slide này?'
       delete: Xóa
       disable_desktop: 'Tắt slider trên máy tính'
       disable_desktop_help: 'Ẩn trên màn hình rộng hơn 768px'

@@ -20,4 +20,7 @@ ianm-log-viewer:
       file_size: 'Kích thước (byte): {size}'
       last_updated: 'Cập nhật lần cuối: {updated}'
       no_file_selected: 'Chọn một tệp log để xem nội dung.'
+      no_log_files: 'Không tìm thấy tệp nhật ký nào.'
+      scroll_to_bottom: 'Cuộn xuống dưới'
+      scroll_to_top: 'Cuộn lên đầu'
       view_log: 'Xem tệp log'

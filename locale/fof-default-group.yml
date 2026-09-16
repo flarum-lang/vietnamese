@@ -6,3 +6,4 @@ fof-default-group:
   admin:
     settings:
       info: 'Bên dưới, bạn có thể chọn nhóm sẽ được gán cho người dùng khi tài khoản của họ được kích hoạt.'
+      label: 'Nhóm mặc định'

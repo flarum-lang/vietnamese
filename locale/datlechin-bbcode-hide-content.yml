@@ -8,6 +8,10 @@ datlechin-bbcode-hide-content:
       bypass_like_label: 'Bỏ qua yêu cầu thích'
       bypass_reply_label: 'Bỏ qua yêu cầu trả lời'
   forum:
+    composer:
+      hide_like_tooltip: 'Ẩn cho tới khi được thích'
+      hide_login_tooltip: 'Ẩn với khách'
+      hide_reply_tooltip: 'Ẩn cho tới khi có trả lời'
     must_be_logged_in: 'Bạn cần phải đăng nhập để xem nội dung này'
     must_liked: 'Bạn phải thích nội dung này để xem'
     must_replied: 'Bạn phải trả lời nội dung này để xem'

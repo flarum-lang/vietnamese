@@ -46,12 +46,15 @@ flarum-audit:
         filterUser: 'Xem nhật ký ảnh hưởng đến cùng người dùng'
         hideRaw: 'Ẩn nhật ký thô'
         showRaw: 'Hiện nhật ký thô'
+        title: 'Điều khiển'
+      core: lõi
       deletedResource:
         discussion: 'Cuộc thảo luận #{id}'
         group: 'Nhóm #{id}'
         post: 'Bài viết #{id}'
         tag: 'Thẻ #{id}'
         user: 'Người dùng #{id}'
+      developer_token_created: 'Đã tạo token truy cập dành cho nhà phát triển "{title}" cho {username}'
       discussion:
         created: 'Đã tạo cuộc thảo luận {discussion}'
         deleted: 'Đã xóa cuộc thảo luận {discussion}'
@@ -77,6 +80,10 @@ flarum-audit:
       genericResource:
         comment: 'Bình luận'
         post: 'Bài viết'
+      group:
+        created: 'Đã tạo nhóm {name}'
+        deleted: 'Đã xóa nhóm {name}'
+        renamed: 'Đã đổi tên nhóm từ {old_name} thành {new_name}'
       help:
         multiple: 'Kết hợp nhiều giá trị bằng dấu phẩy để khớp bất kỳ giá trị nào, ví dụ action:post.created,post.deleted'
         negate: 'Thêm dấu trừ trước bộ lọc để loại trừ kết quả khớp, ví dụ -client:cli'
@@ -94,9 +101,13 @@ flarum-audit:
         hidden: 'Đã ẩn {post} của {postuser} trong {discussion}'
         restored: 'Đã khôi phục {post} của {postuser} trong {discussion}'
         revised: 'Đã chỉnh sửa {post} của {postuser} trong {discussion}'
+      queue:
+        paused: 'Đã tạm dừng xử lý hàng đợi trên {queue} ({connection})'
+        resumed: 'Đã tiếp tục xử lý hàng đợi trên {queue} ({connection})'
       refresh: 'Làm mới'
       setting_changed: 'Đã sửa cài đặt {key}'
       setting_changed_with_values: 'Đã sửa cài đặt {key} từ {old_value} thành {new_value}'
+      settings_reset: 'Đã đặt lại các cài đặt {keys} của {extension}'
       user:
         activated: 'Đã kích hoạt thủ công tài khoản của {username}'
         activated_with_email: 'Đã kích hoạt tài khoản của {username} qua liên kết xác nhận'

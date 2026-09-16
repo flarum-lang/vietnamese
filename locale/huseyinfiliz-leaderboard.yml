@@ -11,6 +11,8 @@ huseyinfiliz-leaderboard:
       save: Lưu
       select_groups: 'Chọn nhóm'
       select_tags: 'Chọn thẻ'
+    permissions:
+      view_leaderboard: 'Xem bảng xếp hạng'
     settings:
       already_running: 'Một quá trình tính lại đang diễn ra. Vui lòng đợi quá trình này hoàn tất.'
       excluded_groups_help: 'Người dùng trong các nhóm được chọn sẽ bị loại khỏi bảng xếp hạng.'
@@ -83,6 +85,7 @@ huseyinfiliz-leaderboard:
       quarterly: 'Hằng quý'
       weekly: 'Hằng tuần'
       yearly: 'Hằng năm'
+    permission_denied: 'Bạn không có quyền xem bảng xếp hạng.'
     podium:
       first: 'Hạng 1'
       second: 'Hạng 2'

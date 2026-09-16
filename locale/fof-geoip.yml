@@ -92,6 +92,7 @@ fof-geoip:
     copy_ip_label: 'Sao chép IP vào bộ nhớ tạm'
     custom_flag:
       none: 'Không dùng cờ tùy chỉnh'
+      placeholder: 'Tìm một quốc gia…'
     map_button_label: 'Thông tin IP'
     map_modal:
       as: ASN

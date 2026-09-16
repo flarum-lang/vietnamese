@@ -78,6 +78,11 @@ fof-webhooks:
         tags: 'Bạn có thể hạn chế webhook cho các thẻ cụ thể. Nếu bạn chọn bất kỳ thẻ nào, webhook sẽ chỉ được kích hoạt nếu sự kiện được kích hoạt trên một tài nguyên có bất kỳ thẻ nào được chọn.'
         url: 'Điểm cuối của webhook sẽ được thực thi'
       item:
+        create_button: Tạo
+        delete_confirm_alert: 'Bạn có chắc chắn muốn xóa webhook {service} này không?'
+        delete_tooltip: 'Xóa webhook'
+        edit_tags_button: 'Sửa thẻ'
+        edit_tooltip: 'Sửa cài đặt webhook'
         tag_any_label: 'Bất kỳ thẻ nào'
       modal:
         description: 'Tại đây bạn có thể tùy chỉnh các sự kiện sẽ kích hoạt webhook.'

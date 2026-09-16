@@ -49,6 +49,7 @@ tapao-line-notification:
       connection_success_settings_hint: 'Bạn có thể quản lý tùy chọn thông báo của mình trong trang Cài đặt của diễn đàn.'
       fallback_title: 'Thông báo mới'
       notification_default: '🔔 Thông báo mới từ {forum}'
+      notification_from_user: 'Từ {user}'
       notification_newPost: '🔔 Có bài viết mới trong cuộc thảo luận bạn theo dõi'
       notification_postLiked: '❤️ Có người đã thích bài viết của bạn'
       notification_postMentioned: '💬 Có người đã nhắc đến bài viết của bạn'

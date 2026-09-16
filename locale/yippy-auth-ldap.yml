@@ -15,6 +15,7 @@ yippy-auth-ldap:
           admin_password: 'Mật khẩu'
           admin_password_help: 'Để trống để bind ẩn danh'
           base_dn: 'Base DN'
+          base_dn_help: 'Phân tách bằng dấu chấm phẩy nếu có nhiều Base DN.'
           filter: 'Bộ lọc áp dụng'
           filter_help: 'Tùy chọn, phải loại trừ ''Trường tìm kiếm'' trong bộ lọc. Ví dụ nhập bộ lọc ''(objectclass=user)'' và chọn ''uid'' trong ''Trường tìm kiếm'' sẽ sửa bộ lọc thành ''(&(objectclass=user)(uid=[User''s Input]))"'
           follow_referrals: 'Theo dõi referrals để bind tới máy chủ LDAP'
@@ -65,6 +66,7 @@ yippy-auth-ldap:
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
       csrf_token_mismatch: 'Bạn đã không hoạt động quá lâu, vui lòng làm mới trang và thử lại'
       domains:
+        connection_failed: 'Kết nối thất bại với Miền {domain_index}, mã lỗi `{data}`'
         empty_base_dn: 'Tên miền {domain_index} chưa đặt Base DN, hãy chỉnh lại cài đặt tiện ích.'
         empty_host: 'Tên miền {domain_index} chưa đặt Tên miền hoặc địa chỉ IP máy chủ, hãy chỉnh lại cài đặt tiện ích.'
         empty_search_field: 'Tên miền {domain_index} đang để trống mục Tìm kiếm tài khoản LDAP - ''Trường tìm kiếm'', hãy chỉnh lại cài đặt tiện ích.'

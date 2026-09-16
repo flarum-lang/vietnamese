@@ -30,3 +30,16 @@ fof-analytics:
         email: 'Theo dõi qua email'
         none: 'Không theo dõi'
         username: 'Theo dõi qua tên người dùng'
+  forum:
+    consent:
+      cookies:
+        ga: 'Phân biệt các lượt truy cập, để những lượt quay lại không bị tính thành người mới.'
+        gat: 'Giới hạn tần suất dữ liệu được gửi tới Google.'
+        gid: 'Phân biệt các lượt truy cập, được giữ trong 24 giờ.'
+        matomo_sessid: 'Giữ phiên Matomo của bạn trong lúc nó đang được ghi lại.'
+        pk_cvar: 'Lưu các thông tin tùy chỉnh về lượt truy cập hiện tại.'
+        pk_hsr: 'Ghi lại lượt truy cập hiện tại để dựng bản đồ nhiệt và ghi hình phiên.'
+        pk_id: 'Phân biệt các lượt truy cập, để những lượt quay lại không bị tính thành người mới.'
+        pk_ref: 'Ghi lại cách bạn tìm đến trang này.'
+        pk_ses: 'Theo dõi lượt truy cập hiện tại, được giữ trong 30 phút.'
+        utm: 'Các cookie Google Analytics đời cũ, ghi lại cách bạn tìm đến trang này.'

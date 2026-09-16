@@ -11,6 +11,7 @@ linkrobins-birdseye:
       collect_label: 'Thu thập dữ liệu phân tích'
       country_header_help: 'Header của proxy mang mã quốc gia hai chữ cái của mỗi khách truy cập — CF-IPCountry trên Cloudflare, hoặc ví dụ X-Country từ nginx-geoip. Header này được tin cậy nguyên trạng, nên chỉ đặt header mà proxy của bạn thực sự gửi; hãy để trống nếu bạn không có proxy như vậy và muốn dựa vào tiền tố IP đã ẩn danh.'
       country_header_label: 'Header quốc gia tin cậy'
+      geo_ip_prefix_help: 'Khi không có tiêu đề quốc gia từ proxy, hãy giữ một phần đầu địa chỉ IP đã cắt bớt (không bao giờ là địa chỉ đầy đủ) trong bộ đệm 72 giờ để có thể xác định quốc gia của khách truy cập ngay tại chỗ. Hãy tắt để bỏ qua thống kê quốc gia với lưu lượng không đi qua proxy.'
       geo_ip_prefix_label: 'Tra cứu quốc gia qua tiền tố IP đã ẩn danh'
       geoip_db_path_help: 'Đường dẫn đầy đủ trên máy chủ này tới một cơ sở dữ liệu quốc gia của MaxMind, chẳng hạn GeoLite2-Country.mmdb miễn phí (tải về từ maxmind.com bằng tài khoản của bạn). Chỉ được dùng khi không có header proxy tin cậy cung cấp quốc gia; mọi truy vấn đều diễn ra trên máy chủ này.'
       geoip_db_path_label: 'Tệp cơ sở dữ liệu quốc gia (tùy chọn)'
@@ -20,12 +21,20 @@ linkrobins-birdseye:
     digest:
       footer: '— Link Robins Birdseye. Bạn có thể tắt bản tóm tắt này bất cứ lúc nào tại Quản trị → Birdseye.'
       heading: '{forum} — tuần {start}–{end}'
+      pageviews_label: 'Lượt xem trang'
       pageviews_line: 'Lượt xem trang: {count} ({change})'
+      posts_label: 'Bài viết'
       posts_line: 'Bài viết: {count} ({change})'
+      registrations_label: 'Lượt đăng ký'
       registrations_line: 'Lượt đăng ký: {count} ({change})'
+      searches_suffix: '{count} lượt tìm kiếm'
       subject: '{forum} tuần qua: {visitors} khách truy cập'
+      top_discussion_label: 'Cuộc thảo luận hàng đầu'
       top_discussion_line: 'Cuộc thảo luận nổi bật nhất: "{title}" ({views} lượt xem)'
+      top_search_label: 'Từ khóa tìm kiếm hàng đầu'
       top_search_line: 'Từ khóa tìm kiếm nhiều nhất: "{query}" ({count} lượt tìm kiếm)'
+      views_suffix: '{views} lượt xem'
+      visitors_label: 'Khách truy cập'
       visitors_line: 'Khách truy cập: {count} ({change})'
   forum:
     session_menu:
@@ -34,6 +43,8 @@ linkrobins-birdseye:
     dashboard:
       avg_visit: 'Thời lượng truy cập TB'
       bounce_rate: 'Tỷ lệ thoát'
+      by_month: Tháng
+      by_year: Năm
       col_label: Nhãn
       col_members: 'Thành viên mới'
       col_searches: 'Lượt tìm kiếm'
@@ -46,6 +57,7 @@ linkrobins-birdseye:
       direct: 'Trực tiếp / không rõ'
       export: 'Xuất ra CSV'
       export_all: 'Xuất CSV'
+      history: 'Lịch sử'
       map_collapse: 'Thoát toàn màn hình'
       map_expand: 'Toàn màn hình'
       members_word: 'thành viên'
@@ -60,6 +72,7 @@ linkrobins-birdseye:
       searches: 'Lượt tìm kiếm'
       searches_word: 'lượt tìm kiếm'
       signups: 'Lượt đăng ký'
+      so_far: 'tính đến nay'
       sources: 'Nguồn truy cập'
       tags: 'Thẻ hàng đầu'
       title: 'Phân tích'

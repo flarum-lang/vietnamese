@@ -88,6 +88,10 @@ fof-best-answer:
     this_best_answer: 'Chọn câu trả lời hay nhất'
     user:
       best-answer-count: '{count, plural, one { {count} câu trả lời hay nhất} other {{count} câu trả lời hay nhất}}'
+  lib:
+    gambits:
+      solved-discussions:
+        key: 'đã giải quyết'
 fof-user-directory:
   lib:
     sort:

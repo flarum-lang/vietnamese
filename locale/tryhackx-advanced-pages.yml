@@ -5,10 +5,14 @@
 tryhackx-advanced-pages:
   admin:
     edit_page:
+      allow_scripts_help: 'Kiểm soát các thẻ script trong trang này (mặc định tắt): khi tắt thì chúng không chạy, khi bật thì script nội tuyến và script bên ngoài đều chạy trong trình duyệt của mọi khách truy cập. Đây KHÔNG phải là môi trường cách ly — HTML thô vẫn có thể chạy JavaScript bằng cách khác (ví dụ các thuộc tính xử lý sự kiện nội tuyến như onerror), nên chỉ đăng những trang HTML/PHP mà bạn hoàn toàn tin tưởng.'
+      allow_scripts_label: 'Cho phép thẻ script chạy trên trang này'
       cancel_button: Hủy
       content_label: 'Nội dung'
       content_type_label: 'Loại nội dung'
       create_title: 'Tạo trang'
+      custom_breadcrumbs_css_help: 'Tạo kiểu (hoặc ẩn) phần breadcrumb cho trang này và mọi trang lồng bên dưới nó. Hãy nhắm vào .AdvancedPages-breadcrumbs — ví dụ display:none để ẩn hoàn toàn.'
+      custom_breadcrumbs_css_label: 'CSS breadcrumb tùy chỉnh?'
       delete_button: Xóa
       delete_confirmation: 'Bạn có chắc chắn muốn xóa trang này không? Hành động này không thể hoàn tác.'
       delete_title: 'Xóa trang'
@@ -22,12 +26,26 @@ tryhackx-advanced-pages:
       newline_flarum: 'Flarum (mặc định — nhiều lần xuống dòng = một ngắt dòng)'
       newline_mode_label: 'Chế độ xuống dòng'
       newline_preserve: 'Giữ nguyên (giữ mọi lần xuống dòng)'
+      parent_help: 'Không bắt buộc. Hãy lồng trang này dưới một trang khác để tạo cấu trúc phân cấp (ví dụ /p/docs/getting-started). Khi chọn trang cha, một đường dẫn tương ứng sẽ được gợi ý — bạn vẫn có thể sửa nó.'
+      parent_label: 'Trang cha'
+      parent_none: '— Không có (cấp cao nhất) —'
       php_warning: 'Trang PHP thực thi mã phía máy chủ. Chỉ tạo trang PHP nếu bạn hiểu rõ các rủi ro bảo mật. Lỗi sẽ được ghi log nhưng không bao giờ hiển thị cho khách truy cập.'
+      pin_icon_help: 'Lớp FontAwesome cho liên kết menu, ví dụ "fas fa-book" hoặc "far fa-file-alt". Để trống để dùng biểu tượng mặc định.'
+      pin_icon_label: 'Biểu tượng menu (không bắt buộc)'
+      pin_short_name_help: 'Một nhãn ngắn hơn cho menu, phòng khi tiêu đề trang quá dài. Để trống để dùng tiêu đề trang.'
+      pin_short_name_label: 'Tên rút gọn (không bắt buộc)'
+      pin_to_nav_help: 'Hiển thị trang này thành một liên kết trong thanh điều hướng bên của diễn đàn (cạnh Tất cả cuộc thảo luận, Thành viên, v.v.). Các trang được ghim đi theo đúng thứ tự của danh sách trang và tôn trọng mức hiển thị của từng trang.'
+      pin_to_nav_label: 'Ghim vào menu điều hướng'
       preview: 'Xem trước'
       raw: Thô
+      redirect_immediate_help: 'Bật: người truy cập được chuyển thẳng tới đích (một lệnh chuyển hướng HTTP thật). Tắt: trang hiện ra trong chốc lát rồi tự chuyển tiếp sau khoảng một giây. Dù thế nào thì lượt truy cập vẫn được đếm trước.'
+      redirect_immediate_label: 'Chuyển hướng ngay lập tức'
+      redirect_url_help: 'Nơi người truy cập trang này được đưa tới. Hãy dùng địa chỉ https:// đầy đủ (ví dụ https://example.com) hoặc một đường dẫn tính từ gốc của diễn đàn này (ví dụ /tags). Hãy ghim trang để thêm nó thành một liên kết trong menu điều hướng — số lượt bấm vẫn được đếm.'
+      redirect_url_label: 'URL chuyển hướng'
       slug_label: 'Slug URL'
       submit_button: 'Lưu trang'
       title_label: 'Tiêu đề'
+      type_redirect: 'Chuyển hướng'
       type_text: 'Văn bản thuần'
       unsaved_message: 'Bạn có những thay đổi chưa được lưu. Bạn có chắc chắn muốn đóng mà không lưu không?'
       unsaved_title: 'Thay đổi chưa được lưu'
@@ -37,6 +55,7 @@ tryhackx-advanced-pages:
       actions_column: 'Hành động'
       create_button: 'Tạo trang'
       draft: 'Bản nháp'
+      drag_hint: 'Kéo để sắp xếp lại — thả lên một trang để lồng nó vào bên dưới trang đó'
       edit_button: 'Chỉnh sửa'
       empty: 'Chưa có trang nào được tạo.'
       everyone: 'Mọi người'
@@ -48,7 +67,12 @@ tryhackx-advanced-pages:
       status_column: 'Trạng thái'
       title_column: 'Tiêu đề'
       type_column: Loại
+      views_column: 'Lượt xem'
     permissions:
+      create_bbcode_label: 'Tạo trang: BBCode'
+      create_markdown_label: 'Tạo trang: Markdown'
+      create_redirect_label: 'Tạo trang: Chuyển hướng'
+      create_text_label: 'Tạo trang: Văn bản thuần'
       manage_pages_label: 'Quản lý Trang nâng cao'
       view_spoilers_label: 'Xem nội dung spoiler'
     settings:
@@ -57,6 +81,7 @@ tryhackx-advanced-pages:
       bbcode_spoiler: '[spoiler] — Spoiler/Chi tiết'
       bbcode_table: '[table] [tr] [th] [td] — Bảng'
       bbcode_url: '[url] — Trình phân tích URL mở rộng (chấp nhận các URL bị Flarum từ chối)'
+      code_buttons_in_posts: 'Hiện nút Chọn / Sao chép trên các khối mã trong bài viết diễn đàn'
       forum_help: 'Ghi đè cách hiển thị spoiler trong các bài viết thông thường trên diễn đàn. Yêu cầu xóa bộ nhớ đệm trình định dạng (php flarum cache:clear).'
       forum_title: 'Tích hợp diễn đàn'
       replace_forum_spoiler: 'Thay thế spoiler mặc định của Flarum bằng kiểu spoiler của Advanced Pages (details/summary)'
@@ -68,7 +93,16 @@ tryhackx-advanced-pages:
       thanks: 'Cảm ơn sự hỗ trợ của bạn!'
       title: 'Hỗ trợ tiện ích mở rộng này'
   forum:
+    code:
+      copied: 'Đã sao chép!'
+      copy: 'Sao chép'
+      select: Chọn
     page:
       loading: 'Đang tải...'
       not_found_message: 'Trang bạn đang tìm không tồn tại hoặc bạn không có quyền xem trang này.'
       not_found_title: 'Không tìm thấy trang'
+    redirect:
+      countdown: 'Bạn sẽ được chuyển hướng sau {seconds} giây…'
+      invalid: 'Lệnh chuyển hướng này chưa được cấu hình với một đích hợp lệ.'
+    spoiler:
+      locked: 'Bạn không có quyền xem nội dung spoiler.'

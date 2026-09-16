@@ -5,10 +5,73 @@
 fof-cookie-consent:
   admin:
     settings:
+      allowedCookies: 'Không bao giờ xóa những cookie này'
+      allowedCookies_help: "Mỗi dòng một tên. Hãy đặt giữa hai dấu gạch chéo nếu muốn dùng mẫu, ví dụ /^app_/.\nNhững cookie do chính Flarum đặt thì luôn được giữ lại.\n"
+      appearance_title: 'Giao diện'
       backgroundColor: Nền
       buttonBackgroundColor: Nền
       buttonTextColor: Chữ
+      catchall_title: 'Cookie chưa được khai báo'
+      colors_help: "Biểu ngữ đi theo giao diện của diễn đàn bạn, kể cả chế độ tối. Chỉ nên đặt màu\nkhi bạn muốn ghi đè — để trống để kế thừa.\n"
+      configuration_button_title: 'Liên kết Tìm hiểu thêm'
       configuration_title: 'Tùy chọn cấu hình'
+      equalWeightButtons: 'Cho hai nút có trọng lượng ngang nhau'
+      equalWeightButtons_help: 'Được khuyến nghị. Việc tạo kiểu giống hệt nhau cho nút chấp nhận và từ chối giúp tránh hướng khách truy cập nghiêng về phía chấp nhận.'
+      layout: 'Bố cục'
+      layout_help: 'Quy định hình dạng của biểu ngữ xin đồng ý.'
+      layouts:
+        bar: Thanh
+        bar_inline: 'Thanh (một dòng)'
+        box: Hộp
+        box_inline: 'Hộp (một dòng)'
+        box_wide: 'Hộp (rộng)'
+        cloud: 'Đám mây'
+        cloud_inline: 'Đám mây (một dòng)'
       learnMoreLinkUrl: 'Liên kết'
+      learnMoreLinkUrl_help: 'Để trống để ẩn liên kết.'
+      position: 'Vị trí'
+      positions:
+        bottom_center: 'Dưới cùng, giữa'
+        bottom_left: 'Góc dưới bên trái'
+        bottom_right: 'Góc dưới bên phải'
+        middle_center: 'Chính giữa'
+        middle_left: 'Giữa, bên trái'
+        middle_right: 'Giữa, bên phải'
+        top_center: 'Trên cùng, giữa'
+        top_left: 'Góc trên bên trái'
+        top_right: 'Góc trên bên phải'
+      sweepUndeclared: 'Xóa những cookie chưa được tiện ích nào khai báo'
+      sweepUndeclared_help: "Khi khách truy cập từ chối, hãy xóa luôn những cookie mà không tiện ích nào khai báo\nqua bộ mở rộng cookie consent. Cách này bắt được các công cụ theo dõi từ\nnhững tiện ích chưa hỗ trợ — nhưng cũng sẽ xóa cả những cookie mà một\ntiện ích thực sự cần, và có thể làm nó hỏng. Hãy dùng danh sách cho phép bên dưới\nđể giữ lại chúng.\n"
       textColor: Chữ
+      text_help: "Nội dung hiển thị cho khách truy cập nằm trong các tệp ngôn ngữ của tiện ích này nên\ncó thể dịch được. Hãy ghi đè nó bằng FoF Linguist hoặc một gói ngôn ngữ.\n"
+      theme_dismiss_title: 'Màu của nút'
       theme_popup_title: 'Màu cửa sổ'
+  forum:
+    banner:
+      accept: 'Chấp nhận'
+      decline: 'Từ chối'
+      description: 'Trang này có sử dụng cookie. Bạn có thể quản lý tùy chọn của mình hoặc chấp nhận tất cả cookie.'
+      learn_more: 'Tìm hiểu thêm'
+      preferences: 'Quản lý tùy chọn'
+    categories:
+      analytics:
+        description: 'Giúp chúng tôi hiểu diễn đàn được sử dụng ra sao để cải thiện nó. Không có mục nào ở đây là cần thiết để diễn đàn hoạt động.'
+        title: 'Phân tích'
+      marketing:
+        description: 'Được dùng để đo lường quảng cáo và hiển thị quảng cáo cho bạn trên những trang khác.'
+        title: 'Tiếp thị'
+      necessary:
+        description: 'Cần thiết để trang hoạt động — đăng nhập, duy trì đăng nhập và ghi nhớ lựa chọn cookie của bạn. Những cookie này không thể tắt.'
+        title: 'Thiết yếu'
+    cookies:
+      cc_cookie: 'Ghi nhớ lựa chọn về cookie của bạn để không hỏi lại.'
+      flarum_remember: 'Tự động đăng nhập lại cho bạn trong lần truy cập tới.'
+      flarum_session: 'Giữ cho bạn luôn đăng nhập trong lúc duyệt diễn đàn.'
+      locale: 'Ghi nhớ ngôn ngữ bạn đã chọn.'
+    preferences:
+      cookie_table:
+        description: 'Mục đích'
+        name: Cookie
+      description: 'Cookie là những tệp nhỏ mà trang này lưu trong trình duyệt của bạn. Bên dưới là những gì được lưu và vì sao. Bạn có thể thay đổi lựa chọn bất cứ lúc nào.'
+      save: 'Lưu tùy chọn'
+      title: 'Tùy chọn cookie'

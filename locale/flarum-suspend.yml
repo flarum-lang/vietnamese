@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-suspend/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        suspended: 'Đã đình chỉ {username} đến {until}'
+        unsuspended: 'Đã bỏ đình chỉ {username}'
 flarum-suspend:
   admin:
     permissions:
@@ -9,8 +15,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Không có lý do nào được đưa ra cho việc đình chỉ này.'
     suspended:
+      html:
+        body: 'Bạn đã bị đình chỉ khỏi {forumTitle} vì lý do sau:'
+      plain:
+        body: "Bạn đã bị đình chỉ vì lý do sau:\n\n---\n{suspension_message}\n---\n"
       subject: 'Tài khoản của bạn đã bị đình chỉ'
     unsuspended:
+      html:
+        body: 'Bạn đã được bỏ đình chỉ. Bạn có thể quay lại [{forumTitle}]({forum_url}) bất cứ khi nào bạn muốn.'
+      plain:
+        body: "Bạn đã được bỏ đình chỉ. Bạn có thể quay lại diễn đàn bằng cách bấm vào liên kết sau:\n\n{forum_url}\n"
       subject: 'Tài khoản của bạn đã được bỏ đình chỉ'
   forum:
     notifications:
@@ -37,3 +51,8 @@ flarum-suspend:
       suspended_tooltip: 'Bị đình chỉ'
     user_controls:
       suspend_button: 'Đình chỉ'
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: 'bị đình chỉ'

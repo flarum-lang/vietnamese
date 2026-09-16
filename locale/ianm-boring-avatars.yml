@@ -17,6 +17,8 @@ ianm-boring-avatars:
       color3: 'Màu 3'
       color4: 'Màu 4'
       color5: 'Màu 5'
+      driver_not_active_warning: 'Boring Avatars không phải là trình tạo ảnh đại diện đang được dùng.'
+      driver_not_active_warning_link: 'Hãy vào Cài đặt cơ bản để bật nó.'
       identifier: 'Định danh'
       identifier_display_name: 'Tên hiển thị'
       identifier_email: Email

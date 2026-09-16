@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-move-posts/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      posts:
+        moved: 'Đã chuyển {post_count, plural, one {một bài viết} other {{post_count} bài viết}} từ {discussion} sang {new_discussion}'
+        moved_to_new_discussion: 'Đã chuyển {post_count, plural, one {một bài viết} other {{post_count} bài viết}} từ {discussion} sang cuộc thảo luận mới {new_discussion}'
 fof-move-posts:
   admin:
     permissions:

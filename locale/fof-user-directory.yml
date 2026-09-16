@@ -43,5 +43,7 @@ fof-user-directory:
       newest: 'Mới nhất'
       not_specified: 'Sử dụng mặc định của Flarum'
       oldest: 'Cũ nhất'
+      seen_oldest: 'Vắng mặt lâu nhất'
+      seen_recent: 'Trực tuyến gần đây'
       username_az: 'Tên người dùng (a-z)'
       username_za: 'Tên người dùng (z-a)'

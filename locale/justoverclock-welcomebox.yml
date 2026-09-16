@@ -13,6 +13,7 @@ flarum-ext-welcomebox:
     discussion: '=> core.ref.discussions'
     goToProfile: 'Trang cá nhân'
     lastSeen: 'Truy cập gần nhất'
+    neverSeen: 'Chưa từng thấy'
     notregistered: 'Bạn hiện chưa đăng ký thành viên tại diễn đàn.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'Cuộc thảo luận của tôi'

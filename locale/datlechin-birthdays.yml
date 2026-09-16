@@ -17,6 +17,7 @@ datlechin-birthdays:
       required_label: 'Bắt buộc nhập ngày sinh'
       set_on_registration_label: 'Cho phép đặt ngày sinh khi đăng ký'
   api:
+    birthday_required_message: 'Cần có ngày sinh.'
     invalid_age_message: 'Tuổi của bạn phải từ {minAge} tuổi trở lên.'
     invalid_dob_message: 'Ngày sinh của bạn không hợp lệ'
   forum:

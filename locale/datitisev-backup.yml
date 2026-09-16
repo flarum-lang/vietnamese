@@ -44,6 +44,12 @@ datitisev-backup:
         container:
           description: 'Vùng chứa Azure'
           label: 'Vùng chứa'
+        endpoint:
+          description: 'Chuỗi kết nối tới kho lưu trữ Azure của bạn.'
+          label: 'Chuỗi kết nối'
+        path-prefix:
+          description: 'Tiền tố đường dẫn mặc định tùy chọn cho các tệp.'
+          label: 'Tiền tố đường dẫn'
       dropbox:
         help:
           obtain-access-code-button: 'Mở Dropbox'
@@ -62,6 +68,9 @@ datitisev-backup:
         host:
           description: 'Tên máy chủ để kết nối với FTP, ví dụ: <em>ftp.yourdomain.local</em>.'
           label: 'Tên máy chủ từ xa'
+        passive:
+          description: 'Có dùng chế độ bị động cho kết nối FTP hay không.'
+          toggle: 'Chế độ bị động'
         password:
           description: 'Mật khẩu người dùng để xác thực trên máy chủ FTP.'
           label: 'Mật khẩu'
@@ -96,11 +105,35 @@ datitisev-backup:
         refresh-token:
           description: "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy refresh token cho ứng dụng Google OAuth của bạn.\n"
           label: 'Refresh token'
+        use-display-paths:
+          description: "Google Drive có hỗ trợ lịch sử phiên bản. Tùy chọn này dùng đường dẫn của tệp làm định danh thay vì một định danh ngẫu nhiên. Khi tùy chọn này tắt, nhiều tệp cùng tên có thể cùng tồn tại trong một thư mục mà không xung đột. Khi bật, việc ghi vào một đường dẫn đã có sẽ ghi đè lên tệp sẵn có. <br/> <b>LƯU Ý:</b> Nếu bật tùy chọn này, hãy nhớ đổi ID thư mục thành đường dẫn hiển thị của thư mục! Nếu không, bạn sẽ có một thư mục được tạo ra mang tên chính ID thư mục đó.\n"
+          label: 'Dùng đường dẫn hiển thị (cho phép ghi đè)'
+          toggle: 'Dùng đường dẫn hiển thị'
       local:
         target:
           description: 'Xác định thư mục cục bộ để lưu các bản sao lưu vào.'
           label: 'Đường dẫn'
       name_label: 'Tên vị trí'
+      sftp:
+        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
+        passphrase:
+          description: 'Cụm mật khẩu của khóa riêng, nếu có.'
+          label: 'Cụm mật khẩu'
+        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
+        port:
+          description: 'Cổng SFTP (mặc định là 22).'
+          label: Cổng
+        private-key:
+          description: 'Đường dẫn (tốt nhất là tuyệt đối) tới khóa riêng dùng để xác thực kết nối SFTP.'
+          label: 'Mã khoá riêng tư'
+        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
+        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
+        use-agent:
+          description: 'Có dùng SSH agent để xác thực kết nối hay không (mặc định là không).'
+          toggle: 'Dùng agent'
+        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
+      timestamp_help: "Hãy chỉ định định dạng của dấu thời gian trong tên tệp sao lưu. Mặc định là <code>U</code> (dấu thời gian Unix). Dùng <a>cách định dạng ngày của PHP</a>. Những ký tự không an toàn cho tên tệp sẽ bị loại bỏ. Tên tệp sẽ có dạng <code>{forum}-[dấu thời gian đã định dạng].zip</code>.\n"
+      timestamp_label: 'Định dạng dấu thời gian trong tên tệp'
       title: 'Cấu hình {adapter}'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
@@ -121,4 +154,7 @@ datitisev-backup:
       content: "Để sử dụng trình điều khiển này, bạn cần cài đặt một gói cụ thể. Bạn có thể thực hiện bằng cách chạy lệnh composer sau: <code>composer require {package}</code> trong thư mục cài đặt Flarum của bạn.\n"
       title: 'Gói cần thiết cho {adapter}'
     required_package_button: 'Thiết lập'
+    settings:
+      database_bin_path_help: "Nếu các tệp thực thi của cơ sở dữ liệu (ví dụ mysqldump, pg_dump) không nằm trong PATH của hệ thống, bạn có thể chỉ định thư mục chứa chúng ở đây. Hãy nhớ có dấu gạch chéo ở cuối (ví dụ <code>/usr/local/mysql/bin/</code>).\n"
+      database_bin_path_label: '(Không bắt buộc) Đường dẫn tới các tệp thực thi của cơ sở dữ liệu'
     settings_button: 'Cấu hình'

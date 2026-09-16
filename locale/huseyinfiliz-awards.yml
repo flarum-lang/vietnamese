@@ -56,6 +56,7 @@ huseyinfiliz-awards:
       image: 'Hình ảnh'
       image_url: 'URL hình ảnh'
       image_url_help: 'URL đến hình ảnh của đề cử (ví dụ: bìa trò chơi, ảnh chân dung)'
+      load_more: 'Tải thêm'
       name: 'Tên đề cử'
       real_votes: 'Phiếu bầu thực'
       reset: 'Đặt lại'

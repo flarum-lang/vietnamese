@@ -17,7 +17,17 @@ fof-reactions:
         help: 'Nếu bạn vừa cập nhật tiện ích mở rộng của mình, biểu cảm của bạn sẽ phải được chuyển đổi. Nếu bạn vừa cài đặt tiện ích mở rộng này, bạn có thể bỏ qua thông báo này một cách an toàn.'
       reactions:
         Helptext: 'Nhập tên (mã nhận dạng) của biểu tượng cảm xúc hoặc biểu tượng font awesome và chọn loại bạn muốn.'
+        add_reaction_button: 'Thêm biểu cảm'
+        add_reaction_label: 'Thêm một biểu cảm mới'
         delete_confirmation: 'Bạn có chắc chắn muốn xóa biểu cảm này không? Thao tác này không thể hoàn tác.'
+        delete_reaction_button: 'Xóa biểu cảm'
+        header:
+          action: 'Hành động'
+          display: 'Chữ hiển thị'
+          enabled: 'Đang bật'
+          identifier: 'Định danh biểu tượng/emoji'
+          preview: 'Xem trước'
+          type: Loại
         help:
           display: 'Hiển thị'
           identifier: 'Mã nhận dạng'
@@ -51,11 +61,20 @@ fof-reactions:
     mod_item: 'Xem lượt bày tỏ cảm xúc'
     modal:
       anonymous_count: '{count, plural, one {# người dùng ẩn danh} other {# người dùng ẩn danh}}'
+      confirm_remove_all_reaction_type: 'Bạn có chắc chắn muốn gỡ toàn bộ biểu cảm {reaction} khỏi bài viết này không? Hành động này không thể hoàn tác.'
+      confirm_remove_user_reaction: 'Bạn có chắc chắn muốn gỡ biểu cảm {reaction} của {username} khỏi bài viết này không? Hành động này không thể hoàn tác.'
+      load_more: 'Tải thêm'
       no_reactions: 'Chưa có lượt bày tỏ cảm xúc nào'
+      others_count: '+ {count, plural, one {# người khác} other {# người khác}}'
+      remove_all_reaction_type: 'Gỡ toàn bộ biểu cảm {reaction}'
+      remove_user_reaction: 'Gỡ biểu cảm'
       title: 'Lượt bày tỏ cảm xúc'
     notification: '{username} đã bày tỏ cảm xúc {reaction} với bài viết của bạn'
     react_button_label: 'Cảm xúc'
+    reacted_with_label: '{count, plural, one {{reaction} (# biểu cảm)} other {{reaction} (# biểu cảm)}}'
     reacting-own-post: 'Bạn không thể bày tỏ cảm xúc bài viết của chính mình'
+    reaction_button_label: 'Bày tỏ {reaction}'
     settings:
       notify_post_reacted_label: 'Ai đó bày tỏ cảm xúc với bài viết của tôi'
+    unreact_button_label: 'Gỡ biểu cảm'
     warning: 'Biểu cảm của bạn đã được chuyển đổi'

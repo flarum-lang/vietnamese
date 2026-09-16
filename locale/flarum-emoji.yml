@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-emoji:
+  admin:
+    settings:
+      cdn_help: 'ví dụ https://cdn.jsdelivr.net/gh/jdecked/twemoji@[version]/assets/, Phiên bản hiện tại là: {version}'
+      cdn_label: 'Địa chỉ CDN thay thế'
   forum:
     composer:
       emoji_tooltip: 'Chèn biểu tượng cảm xúc'

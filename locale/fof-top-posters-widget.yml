@@ -9,3 +9,7 @@ fof-top-posters-widget:
   forum:
     widget:
       title: 'Thành viên đăng bài nhiều nhất tháng này'
+  lib:
+    gambits:
+      top_poster:
+        key: 'người đăng hàng đầu'

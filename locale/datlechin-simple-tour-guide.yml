@@ -4,5 +4,145 @@
 
 datlechin-simple-tour-guide:
   admin:
+    devices:
+      any: 'Mọi thiết bị'
+      desktop: 'Chỉ máy tính'
+      mobile: 'Chỉ di động'
+    devices_label: 'Thiết bị'
+    move_down: 'Di chuyển xuống'
+    move_up: 'Di chuyển lên'
+    permissions:
+      reset_tour_guide: 'Cho một thành viên xem lại các lượt hướng dẫn'
+    placement:
+      auto: 'Ở bất cứ chỗ nào vừa'
+      bottom: 'Phía dưới phần tử'
+      left: 'Bên trái phần tử'
+      right: 'Bên phải phần tử'
+      top: 'Phía trên phần tử'
     settings:
+      allow_close_help: 'Cho phép người đọc rời lượt hướng dẫn sớm bằng nút đóng và phím Escape. Lượt hướng dẫn vẫn được đánh dấu là đã xem.'
+      allow_close_label: 'Cho phép đóng'
+      heading: 'Cài đặt'
+      show_in_settings_help: 'Cho phép thành viên tự xem lại một lượt hướng dẫn, thay vì phải nhờ người kiểm duyệt đặt lại.'
+      show_in_settings_label: 'Liệt kê các lượt hướng dẫn trong trang cài đặt của thành viên'
+      show_progress_help: 'Hiển thị người đọc đang ở đâu trong lượt hướng dẫn, ngay cạnh các nút.'
       show_progress_label: 'Hiển thị tiến trình'
+    start_mode:
+      auto: 'Tự khởi chạy'
+      manual: 'Do thành viên tự bắt đầu'
+    stats:
+      completion_rate: 'Đã kết thúc'
+      dismissed: 'Rời sớm'
+      dropoff_heading: 'Mọi người dừng lại ở đâu'
+      dropoff_help: 'Bước mà mỗi người đang xem khi họ rời đi. Chỉ tính những người rời sớm.'
+      finished: 'Đã kết thúc'
+      heading: 'Hiệu quả ra sao'
+      none: 'Chưa ai xem lượt hướng dẫn này.'
+      taken: 'Đã xem'
+    step_modal:
+      advance_on_click_help: 'Thay cho nút Tiếp ở bước này, và cho phép cú nhấp đi thẳng tới phần tử.'
+      advance_on_click_label: 'Người đọc nhấp vào phần tử này để tiếp tục'
+      clicks_target_help: 'Hãy dùng cách này để mở một menu mà bước sau trỏ vào bên trong.'
+      clicks_target_label: 'Tự nhấp vào phần tử này trước khi sang bước kế tiếp'
+      create_title: 'Bước mới'
+      delete_button: 'Xóa bước'
+      delete_confirmation: 'Xóa bước này khỏi lượt hướng dẫn?'
+      description_help: 'Được định dạng giống như một bài viết trên diễn đàn này, nên liên kết, chữ đậm và hình ảnh đều dùng được nếu các tiện ích tương ứng đang bật.'
+      description_label: 'Mô tả'
+      description_placeholder: 'Điều bạn muốn người đọc biết'
+      devices_help: 'Một bộ chọn ở phần đầu trang thường không khớp gì trên điện thoại, nơi phần đầu trang trở thành ngăn trượt.'
+      edit_title: 'Chỉnh sửa {title}'
+      enabled_label: 'Đang bật'
+      pick_button: 'Dự đoán'
+      placement_help: 'Vị trí của hộp thoại so với phần tử. Nó vẫn tự dịch chuyển khi không đủ chỗ.'
+      placement_label: 'Vị trí'
+      save_button: Lưu
+      target_help: 'Phần tử mà bước này trỏ tới. Để trống để hiển thị bước một cách độc lập, ở giữa màn hình.'
+      target_invalid: 'Đó không phải là một bộ chọn CSS hợp lệ.'
+      target_label: 'Mục tiêu'
+      target_matches: '{count, plural, =0 {Không khớp gì trên trang bạn vừa xem} one {Khớp # phần tử} other {Khớp # phần tử}}'
+      target_placeholder: 'Một bộ chọn CSS, ví dụ #home-link'
+      test_button: 'Tin nhắn thử nghiệm'
+      title_label: 'Tiêu đề'
+      title_placeholder: 'Bước này nói về điều gì'
+      translations_help: 'Hãy chọn ngôn ngữ để viết nội dung. Phần nào bạn để trống sẽ dùng lại nội dung ở trên.'
+      translations_label: 'Bản dịch'
+      translations_pick: 'Chọn một ngôn ngữ'
+    steps:
+      add_button: 'Thêm bước'
+      controls_label: 'Các thao tác cho {title}'
+      copy_title: '{title} (bản sao)'
+      duplicate_action: 'Nhân bản'
+      flags:
+        advance_on_click: 'Người đọc nhấp vào phần tử này để tiếp tục'
+        clicks_target: 'Tự nhấp vào phần tử này trước khi sang bước kế tiếp'
+        desktop: 'Chỉ máy tính'
+        disabled: 'Đang tắt'
+        mobile: 'Chỉ di động'
+        translated: 'Đã dịch sang {count, plural, one {# ngôn ngữ} other {# ngôn ngữ}}'
+      heading: 'Các bước trong {title}'
+      no_target: 'Hiển thị độc lập, ở giữa màn hình'
+      none: 'Chưa có bước nào nên lượt hướng dẫn này không chạy.'
+    tour_modal:
+      audience_help: 'Không chọn nhóm nào nghĩa là hiển thị cho tất cả mọi người.'
+      audience_label: 'Ai nhìn thấy'
+      create_title: 'Lượt hướng dẫn mới'
+      delete_button: 'Xóa lượt hướng dẫn'
+      delete_confirmation: 'Xóa lượt hướng dẫn này, các bước của nó và cả dữ liệu về những ai đã xem?'
+      edit_title: 'Chỉnh sửa {title}'
+      enabled_label: 'Đang bật'
+      key_help: 'Định danh lượt hướng dẫn trong các bản xuất và trong liên kết. Hãy giữ nguyên khi thành viên đã xem nó.'
+      key_label: Khóa
+      max_age_help: 'Tính bằng ngày. Để trống để hiển thị lượt hướng dẫn bất kể tài khoản đã lập bao lâu.'
+      max_age_label: 'Chỉ với tài khoản mới hơn'
+      route_help: 'Tuyến Flarum mà lượt hướng dẫn này thuộc về, ví dụ index hoặc discussion. Để trống nếu muốn lượt hướng dẫn gắn vào phần đầu trang và đi theo thành viên khắp nơi.'
+      route_label: Trang
+      route_placeholder: 'Mọi trang'
+      save_button: Lưu
+      start_mode_help: 'Một lượt hướng dẫn tự khởi chạy sẽ chạy một lần cho mỗi thành viên phù hợp. Lượt thủ công thì chờ được khởi chạy từ trang cài đặt của họ.'
+      start_mode_label: 'Cách bắt đầu'
+      title_help: 'Dành cho bạn tiện theo dõi. Thành viên không bao giờ thấy nó.'
+      title_label: Tên
+    tours:
+      add_button: 'Lượt hướng dẫn mới'
+      controls_label: 'Các thao tác cho {title}'
+      copy_title: '{title} (bản sao)'
+      disabled: Tắt
+      duplicate_button: 'Nhân bản lượt hướng dẫn này'
+      edit_action: Sửa
+      export_button: 'Xuất ra tệp'
+      heading: 'Các lượt hướng dẫn'
+      import_button: Nhập
+      import_done: 'Đã nhập lượt hướng dẫn. Nó ở trạng thái tắt, nên hãy xem lại trước khi bật.'
+      import_invalid: 'Tệp đó không phải là bản xuất của một lượt hướng dẫn.'
+      no_steps_warning: 'Không có bước nào nên không chạy được gì'
+      none: 'Chưa có lượt hướng dẫn nào.'
+      preview_button: 'Xem trước trên diễn đàn'
+      preview_navigate: 'Đã mở diễn đàn. Hãy vào một trang {route} và bản xem trước sẽ bắt đầu ở đó.'
+      step_count: '{count, plural, =0 {không có bước nào} one {# bước} other {# bước}}'
+  forum:
+    click_to_continue: 'Hãy nhấp vào đó để tiếp tục'
+    close_button: 'Đóng lượt hướng dẫn'
+    done_button: Xong
+    next_button: Tiếp
+    picker:
+      browse: Duyệt
+      cancel: Hủy
+      matches: '{count, plural, =0 {không khớp gì} one {# kết quả khớp} other {# kết quả khớp}}'
+      nothing_yet: 'Hãy trỏ vào một phần tử'
+      picking: 'Hãy nhấp vào phần tử mà bước này trỏ tới'
+      resume: 'Dự đoán'
+      testing: 'Đang hiển thị những gì bộ chọn này khớp'
+    preview_notice: 'Bản xem trước. Không có thao tác nào ở đây được ghi lại.'
+    previous_button: 'Quay lại'
+    progress: '{current} trên {total}'
+    settings:
+      heading: 'Hướng dẫn'
+      none: 'Không có lượt hướng dẫn nào để xem.'
+      nothing_here: 'Trang này không có gì cho {title}. Hãy thử từ trang mà nó thuộc về.'
+      take: 'Xem hướng dẫn'
+      take_again: 'Xem lại'
+      waiting: 'Hãy tới trang mà {title} nói về và nó sẽ bắt đầu ở đó.'
+    user_controls:
+      reset_tour_guide: 'Xem lại các lượt hướng dẫn'
+      reset_tour_guide_confirmation: 'Cho thành viên này xem lại các lượt hướng dẫn trong lần truy cập tới?'

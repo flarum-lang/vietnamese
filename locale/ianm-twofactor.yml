@@ -40,6 +40,7 @@ ianm-twofactor:
     body:
       status_changed: "Xin chào {recipient_display_name},\n\nXác thực hai yếu tố đã được {type} cho tài khoản của bạn trên {forum_url}.\n\nNếu bạn là người thực hiện hành động này, bạn không cần làm gì thêm. Nếu bạn không cho phép thay đổi này, vui lòng liên hệ ngay với quản trị viên diễn đàn.\n"
     status_type:
+      device_changed: 'đã đổi thiết bị'
       disabled: 'đã tắt'
       enabled: 'đã bật'
     subject:
@@ -96,5 +97,6 @@ ianm-twofactor:
     reset_password:
       two_factor_token_label: 'Mã token 2FA'
     two_factor_token:
+      oauth_session_expired: 'Phiên OAuth đã hết hạn. Vui lòng thử đăng nhập lại.'
       submit_button: 'Gửi mã token'
       title: 'Xác thực hai yếu tố'
