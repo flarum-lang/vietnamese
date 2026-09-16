@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-anti-spam/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      registration:
+        blocked: 'Đã chặn đăng ký của {username} ({email}) từ {ip}'
+      user:
+        marked_as_spammer: 'Đã đánh dấu {username} là kẻ gửi spam'
 fof-anti-spam:
   admin:
     blocked_registrations:
