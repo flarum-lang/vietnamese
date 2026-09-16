@@ -4,5 +4,18 @@
 
 core:
   forum:
+    badge:
+      frontpage_tooltip: 'Được đánh dấu lên Trang nhất'
     index_sort:
       front_button: FrontPage
+    post_controls:
+      pull_from_front_button: 'Gỡ khỏi Trang nhất'
+      push_to_front_button: 'Đưa lên Trang nhất'
+fof-frontpage:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 'Được đưa lên Trang nhất'
+  lib:
+    gambits:
+      frontpage:
+        key: 'trang nhất'

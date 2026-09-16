@@ -18,6 +18,11 @@ fof-polls:
       view_results_without_voting: 'Xem kết quả mà không cần bỏ phiếu'
       vote: 'Bình chọn cuộc thăm dò'
     settings:
+      discussion_polls:
+        heading: 'Thăm dò trong cuộc thảo luận'
+        help: 'Những cài đặt này áp dụng cho các cuộc thăm dò gắn vào bài viết trong cuộc thảo luận.'
+      enable_discussion_polls: 'Bật thăm dò trong cuộc thảo luận'
+      enable_discussion_polls_help: 'Khi bật, người dùng có thể tạo cuộc thăm dò ngay trong bài viết của cuộc thảo luận. Hãy tắt nếu bạn chỉ muốn dùng thăm dò toàn cục.'
       enable_global_polls: 'Cho phép thăm dò toàn cục'
       enable_global_polls_help: 'Các cuộc thăm dò toàn cục không gắn với một bài viết cụ thể và có thể được truy cập từ một trang thăm dò chuyên dụng.'
       enabled_poll_groups: 'Bật nhóm thăm dò ý kiến'
@@ -30,6 +35,12 @@ fof-polls:
         help: 'Các thiết lập này kiểm soát tính năng thăm dò toàn cục.'
       image:
         heading: 'Cài đặt hình ảnh'
+        help: 'Hãy cấu hình giới hạn và kích thước cho ảnh tải lên. Ảnh được tự động chuyển sang WebP và các biến thể co giãn được tạo ra.'
+      image_dimensions_help: 'Kích thước gốc của ảnh được lưu. Các biến thể HiDPI (@2x, @3x) được tạo tự động khi ảnh nguồn đủ lớn.'
+      image_height: 'Chiều cao ảnh sau khi đổi kích thước (px)'
+      image_width: 'Chiều rộng ảnh sau khi đổi kích thước (px)'
+      max_image_upload_size: 'Kích thước ảnh tải lên tối đa (KB)'
+      max_image_upload_size_help: 'Kích thước tệp tối đa cho ảnh tải lên, tính bằng kilobyte. Ảnh được tự động chuyển sang WebP và đổi kích thước sau khi tải lên, nên kích thước lưu trữ cuối cùng thường nhỏ hơn nhiều. Mặc định là 10240 KB (10 MB).'
       max_options: 'Số lượng tùy chọn tối đa cho mỗi cuộc thăm dò'
       options_color_blend: 'Pha trộn màu văn bản trong tùy chọn thăm dò ý kiến'
       options_color_blend_help: 'Sử dụng tính năng trộn màu để các tùy chọn thăm dò dễ đọc hơn. Tắt nếu tính năng này gây ra sự cố với giao diện diễn đàn của bạn, làm giảm khả năng đọc.'
@@ -63,6 +74,7 @@ fof-polls:
       add_title: 'Thêm cuộc thăm dò'
       allow_change_vote_label: 'Cho phép người dùng thay đổi phiếu bầu của họ'
       allow_multiple_votes_label: 'Cho phép mọi người bỏ phiếu cho nhiều lựa chọn'
+      date_clear: 'Xóa ngày kết thúc'
       date_placeholder: 'Ngày kết thúc cuộc thăm dò (Tùy chọn)'
       delete: '=> core.ref.delete'
       edit_title: 'Chỉnh sửa cuộc thăm dò'
@@ -84,6 +96,7 @@ fof-polls:
         alt_label: 'Văn bản thay thế hình ảnh'
         help: 'Tải lên hình ảnh để hiển thị cùng với cuộc thăm dò (tùy chọn).'
         label: 'Hình ảnh cuộc thăm dò'
+        url_deprecated: 'Cuộc thăm dò này dùng một URL ảnh bên ngoài. URL bên ngoài đã bị ngừng hỗ trợ và sẽ bị loại bỏ trong một phiên bản tới. Vui lòng tải lại ảnh bằng nút tải lên.'
       poll_option_image:
         help: 'Tải lên hình ảnh để hiển thị cùng với câu trả lời thăm dò (tùy chọn).'
         label: 'Hình ảnh câu trả lời thăm dò'
@@ -94,6 +107,7 @@ fof-polls:
       tooltip:
         options:
           add-button: 'Thêm câu trả lời'
+          remove-button: 'Xóa lựa chọn'
     moderation:
       add: 'Thêm cuộc thăm dò'
       delete: 'Xóa cuộc thăm dò'
@@ -125,6 +139,7 @@ fof-polls:
       publish_label: 'Xuất bản ngay'
       publish_success: 'Đã xuất bản cuộc thăm dò.'
       schedule_publish_label: 'Lên lịch xuất bản'
+      toggle_dropdown_accessible_label: 'Bật/tắt menu điều khiển thăm dò'
       unpublish_confirmation: 'Chuyển cuộc thăm dò này về bản nháp? Nó sẽ biến mất khỏi trang trưng bày.'
       unpublish_error_has_votes: 'Không thể hủy xuất bản — cuộc thăm dò đã có phiếu bầu. Thay vào đó, hãy xóa nó.'
       unpublish_label: 'Chuyển về bản nháp'

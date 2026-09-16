@@ -29,6 +29,25 @@ fof-follow-tags:
         primaryAndChildren: 'Tất cả thẻ chính ở mọi cấp'
         primaryAndSecondary: 'Thẻ chính cấp một và thẻ phụ'
         secondary: 'Chỉ thẻ phụ'
+  email:
+    newDiscussionInTag:
+      html:
+        body: "{actor_display_name} đã mở một cuộc thảo luận trong thẻ bạn đang theo dõi: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name} đã mở một cuộc thảo luận trong thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy ghé liên kết sau:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Thẻ | Cuộc thảo luận mới] {title}'
+    newDiscussionTag:
+      html:
+        body: "{actor_display_name} vừa đổi thẻ của một cuộc thảo luận do {author_display_name} mở sang một thẻ bạn đang theo dõi: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name} vừa đổi thẻ của một cuộc thảo luận do {author_display_name} mở sang một thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem cuộc thảo luận, hãy ghé liên kết sau:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Thẻ | Đã đổi thẻ] {title}'
+    newPostInTag:
+      html:
+        body: "{actor_display_name} đã đăng bài trong một cuộc thảo luận thuộc thẻ bạn đang theo dõi: [{discussion_title}]({post_url})\n"
+      plain:
+        body: "{actor_display_name} đã đăng bài trong một cuộc thảo luận thuộc thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem hoạt động mới, hãy ghé liên kết sau:\n{post_url}\n\n---\n\n{content}\n"
+      subject: '[Thẻ | Bài viết mới] {title}'
   forum:
     badge:
       following_tag_tooltip: 'Đang theo dõi'

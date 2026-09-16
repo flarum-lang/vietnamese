@@ -18,11 +18,15 @@ antoinefr-money:
       autoremove: 'Tự động cập nhật tiền'
       cascaderemove: 'Trừ tiền của các bài viết khi thảo luận bị xóa'
       helpextensionlikes: 'Yêu cầu bật tiện ích <code>flarum/likes</code>'
+      helpmoneyname: 'Hãy dùng <code>[money]</code> để chèn giá trị'
+      helppostminimumlength: 'Hãy nhập 0 để tắt'
       ignore_notifying_users: 'Khi kiểm tra số lượng từ của câu trả lời, chỉ tập trung vào phần nội dung'
       moneyfordiscussion: 'Số tiền cho một cuộc thảo luận mới'
       moneyforlike: 'Cộng tiền khi có bài viết được thích'
       moneyforpost: 'Số tiền cho một bài viết mới'
+      moneyname: 'Tên của loại tiền'
       noshowzero: 'Không hiển thị nếu giá trị bằng 0'
+      postminimumlength: 'Độ dài bài viết tối thiểu để nhận tiền'
       title: 'Cài đặt'
   forum:
     modal:

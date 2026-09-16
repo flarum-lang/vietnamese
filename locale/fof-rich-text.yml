@@ -5,6 +5,7 @@
 fof-rich-text:
   admin:
     settings:
+      force_compact_paragraphs: 'Buộc dùng đoạn văn gọn cho mọi người dùng (phím Enter tạo một dòng mới thay vì một đoạn mới)'
       toggle_on_editor: 'Hiển thị nút chuyển chế độ rich text trên trình soạn thảo?'
   forum:
     settings:
@@ -14,7 +15,10 @@ fof-rich-text:
   lib:
     composer:
       additional_items_tooltip: 'Điều khiển bổ sung'
+      bold_tooltip: 'Chữ đậm ({modifierKey}-b)'
       code_block_tooltip: 'Chèn khối mã'
+      code_tooltip: 'Mã nội dòng ({modifierKey}-`)'
+      header_tooltip: 'Chuyển thành tiêu đề {level} ({modifierKey}-shift-{level})'
       horizontal_rule_tooltip: 'Chèn đường kẻ ngang'
       image_tooltip: 'Thêm hình ảnh'
       insert_button: Chèn
@@ -26,7 +30,16 @@ fof-rich-text:
         remove_button: 'Gỡ bỏ'
         text_placeholder: 'Văn bản'
         title_placeholder: 'Tiêu đề (hiển thị khi di chuột)'
+      italic_tooltip: 'Chữ nghiêng ({modifierKey}-i)'
       link_tooltip: 'Thêm liên kết'
+      ordered_list_tooltip: 'Danh sách đánh số ({modifierKey}-shift-9)'
+      paragraph_tooltip: 'Chuyển thành đoạn văn ({modifierKey}-shift-0)'
+      quote_tooltip: 'Chèn một trích dẫn ({modifierKey}-q)'
       spoiler_block_tooltip: 'Khối Spoiler/Thả xuống'
+      spoiler_inline_tooltip: 'Spoiler ({modifierKey}-;)'
+      strike_tooltip: 'Gạch ngang (alt-shift-5)'
+      sub_tooltip: 'Chỉ số dưới ({modifierKey}-,)'
+      sup_tooltip: 'Chỉ số trên ({modifierKey}-.)'
       text_type_tooltip: 'Chọn kiểu văn bản'
       toggle_button: 'Chuyển đổi chế độ Rich Text'
+      unordered_list_tooltip: 'Danh sách gạch đầu dòng ({modifierKey}-shift-8)'

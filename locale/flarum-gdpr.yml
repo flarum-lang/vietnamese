@@ -2,6 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-gdpr/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        gdpr_anonymized: 'Đã ẩn danh dữ liệu của {username}'
+        gdpr_deleted: 'Đã xóa dữ liệu của {username}'
+        gdpr_erasure_cancelled: 'Đã hủy yêu cầu xóa dữ liệu của {username}'
+        gdpr_erasure_confirmed: 'Đã xác nhận yêu cầu xóa dữ liệu của {username}'
+        gdpr_erasure_requested: 'Đã yêu cầu xóa dữ liệu của {username}'
+        gdpr_exported: 'Đã xuất dữ liệu của {username}'
 flarum-gdpr:
   admin:
     gdpr_page:
@@ -34,6 +44,7 @@ flarum-gdpr:
         'yes': Có
     nav:
       gdpr_button: 'Tích hợp GDPR'
+      gdpr_title: '=> flarum-gdpr.admin.gdpr_page.description'
     permissions:
       process_erasure: 'Xử lý yêu cầu xóa'
       process_export_for_others: 'Yêu cầu và nhận bản xuất dữ liệu cho người dùng khác'
@@ -53,17 +64,28 @@ flarum-gdpr:
       gdpr_page:
         help_text: 'Trước khi quyết định sử dụng hành động nào trên diễn đàn của bạn, điều quan trọng là phải hiểu dữ liệu nào được tích hợp và cách nó được xử lý cho cả ẩn danh hóa và xóa. Truy cập tổng quan GDPR để hiểu cách dữ liệu được xử lý và những tiện ích mở rộng tùy chọn nào đã đăng ký dữ liệu của họ để được xử lý bởi tiện ích mở rộng này.'
         title: 'Tích hợp và hành động dữ liệu'
+    userlist:
+      columns:
+        user_actions:
+          data_export:
+            button: Xuất
+            tooltip: 'Xuất dữ liệu của {username}'
   email:
     confirm_erasure:
+      body: "Ai đó (hy vọng là bạn) vừa yêu cầu xóa tài khoản `{display_name}`.\n\nĐể xác nhận hành động này, vui lòng bấm vào liên kết sau, sau đó yêu cầu của bạn sẽ được đội ngũ của chúng tôi xử lý.\n\n{erasure_confirm_url}\n"
       subject: 'Xác nhận yêu cầu xóa tài khoản của bạn'
     erasure_cancelled:
+      body: "Đây là thông báo tự động rằng yêu cầu hủy xóa tài khoản của bạn đã được xử lý.\n\nTài khoản của bạn sẽ không bị xóa nữa.\n"
       subject: 'Yêu cầu xóa tài khoản đã bị hủy'
     erasure_completed:
       anonymization:
+        body: "Đây là thông báo tự động và cuối cùng rằng tài khoản của bạn đã được ẩn danh.\n"
         subject: 'Đã hoàn tất việc ẩn danh tài khoản'
       deletion:
+        body: "Đây là thông báo tự động và cuối cùng rằng tài khoản của bạn đã bị xóa.\n"
         subject: 'Đã hoàn tất xóa tài khoản'
     export_available:
+      body: "Bạn đã yêu cầu xuất dữ liệu tài khoản của {username}. Bản xuất này đã được tạo thành công và hiện đã sẵn sàng:\n\n{url}\n\nBản xuất này sẽ còn khả dụng đến {destroys_at}.\n"
       subject: 'Bản xuất dữ liệu đã sẵn sàng'
   forum:
     badges:

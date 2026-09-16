@@ -5,6 +5,10 @@
 flarum-subscriptions:
   email:
     new_post:
+      html:
+        body: "{poster_display_name} vừa đăng bài trong một cuộc thảo luận bạn đang theo dõi: [{title}]({url}).\n\nBạn sẽ không nhận thêm thông báo nào về cuộc thảo luận này cho tới khi bạn đọc hết.\n"
+      plain:
+        body: "{poster_display_name} vừa đăng bài trong một cuộc thảo luận bạn đang theo dõi: {title}.\n\nĐể xem hoạt động mới, hãy ghé liên kết sau:\n{url}\n\n---\n\n{content}\n\n---\n\nBạn sẽ không nhận thêm thông báo nào về cuộc thảo luận này cho tới khi bạn đọc hết.\n"
       subject: '[Bài viết mới] {title}'
   forum:
     badge:
@@ -21,6 +25,7 @@ flarum-subscriptions:
     notifications:
       new_post_text: '{username} đã đăng bài'
     settings:
+      follow_after_create_label: 'Tự động theo dõi những cuộc thảo luận tôi mở'
       follow_after_reply_label: 'Tự động theo dõi cuộc thảo luận mà tôi đã trả lời'
       notify_for_all_posts_label: 'Thông báo tất cả bài viết mới thay vì chỉ bài viết cuối cùng trong cuộc thảo luận'
       notify_new_post_label: 'Ai đó đăng bài trong cuộc thảo luận mà tôi theo dõi'
@@ -34,6 +39,12 @@ flarum-subscriptions:
       not_following_text: 'Chỉ nhận thông báo khi bạn được nhắc đến (@).'
       notify_alert_tooltip: 'Nhận thông báo trên diễn đàn khi có bài viết mới'
       notify_email_tooltip: 'Nhận email khi có bài viết mới'
+  lib:
+    gambits:
+      discussions:
+        subscription:
+          following_key: 'đang theo dõi'
+          ignoring_key: 'đang bỏ qua'
   ref:
     follow: 'Theo dõi'
     following: 'Đang theo dõi'

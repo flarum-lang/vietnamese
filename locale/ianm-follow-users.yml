@@ -13,9 +13,30 @@ ianm-follow-users:
   admin:
     permissions:
       be_followed_label: 'Cho phép người dùng theo dõi'
+      follow_label: 'Theo dõi người dùng khác'
+      view_followed_users_label: 'Xem một thành viên đang theo dõi những người dùng nào'
     settings:
       button-on-profile-label: 'Hiện nút Theo dõi trên đầu trang cá nhân của người dùng'
       stats-on-profile-label: 'Hiển thị số người theo dõi và đang theo dõi trên trang cá nhân'
+  email:
+    new_discussion_by_user:
+      html:
+        body: '{user_display_name} đã mở một cuộc thảo luận mới: [{discussion_title}]({discussion_url}).'
+      plain:
+        body: "{user_display_name} đã mở một cuộc thảo luận mới: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
+      subject: '{user_display_name} đã mở một cuộc thảo luận'
+    new_follower:
+      html:
+        body: '{follower_display_name} đã bắt đầu theo dõi bạn, nên họ sẽ được thông báo khi bạn mở một cuộc thảo luận mới.'
+      plain:
+        body: "{follower_display_name} đã bắt đầu theo dõi bạn, nên họ sẽ được thông báo khi bạn mở một cuộc thảo luận mới.\n\n{profile_url}\n"
+      subject: '{follower_display_name} đã theo dõi bạn'
+    new_post:
+      html:
+        body: '{user_display_name} đã đăng bài trong [{discussion_title}]({post_url}).'
+      plain:
+        body: "{user_display_name} đã đăng bài trong {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBạn sẽ không nhận thêm thông báo nào về cuộc thảo luận này cho tới khi bạn đọc hết.\n"
+      subject: '{user_display_name} đã đăng bài trong {discussion_title}'
   forum:
     badge:
       label:
@@ -72,4 +93,7 @@ ianm-follow-users:
         description: "Không nhận bất kỳ thông báo nào về hoạt động của <em>{username}</em>.\n"
         name: 'Không theo dõi'
     following_link: 'Người dùng đã theo dõi'
+    gambits:
+      followeduser:
+        key: 'đang theo dõi'
     unfollow: 'Bỏ theo dõi'

@@ -5,6 +5,10 @@
 fof-doorman:
   admin:
     list:
+      actions:
+        delete: 'Xóa mã mời'
+        edit: 'Sửa mã mời'
+        notify: 'Gửi email mã mời này'
       columns:
         activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
         created_by: 'Tạo bởi'
@@ -23,6 +27,14 @@ fof-doorman:
           total_uses: '{totalUses, plural, one {Đã dùng {totalUses} lần} other {Đã dùng {totalUses} lần}}'
           used_times: '{remaining, plural, =0 {Không giới hạn lượt dùng} one {Còn {remainingUses} lượt} other {Còn {remainingUses} lượt}}'
         warning: 'Mã mời này đã được sử dụng hết số lần cho phép.'
+      heading: 'Mã mời'
+      pagination:
+        back_button: '=> core.lib.pagination.back_button'
+        first_page_button: '=> core.lib.pagination.first_button'
+        go_to_page_textbox_a11y_label: '=> core.lib.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.lib.pagination.last_button'
+        next_button: '=> core.lib.pagination.next_button'
+        page_counter: '=> core.lib.pagination.page_counter'
     modals:
       create_doorkey:
         activates_user:
@@ -80,10 +92,13 @@ fof-doorman:
           label: 'Số lần dùng tối đa'
     settings:
       create_doorkey_button: 'Tạo mã mời'
+      heading: 'Cài đặt'
       optional_usage: 'Cho phép bỏ qua mã mời khi đăng ký'
+      optional_usage_help: 'Khi bật, khách truy cập có thể đăng ký mà không cần nhập mã mời.'
       search: 'Tìm kiếm mã mời'
       total_doorkeys: 'Tổng số mã mời: {count}'
   email:
+    body: "Bạn đã được mời đăng ký tài khoản tại {forum}.\n\nKhi bạn sẵn sàng tạo tài khoản, chỉ cần bấm vào liên kết sau và nhập mã khi đăng ký:\n\nUrl: {url}\nMã mời: {code}\n\nNếu bạn nhận được thư này do nhầm lẫn, vui lòng bỏ qua nó.\n"
     subject: 'Mời tham gia'
   forum:
     sign_up:

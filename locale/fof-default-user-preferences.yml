@@ -10,6 +10,7 @@ fof-default-user-preferences:
       followAfterReply: 'Theo dõi sau khi trả lời'
       followAfterReply-help: 'Khi được bật, người dùng mới sẽ tự động theo dõi các cuộc thảo luận mà họ trả lời hoặc bình luận.'
       groupMentioned: 'Email khi nhóm được nhắc đến'
+      groupMentioned-help: 'Khi bật, người dùng mới sẽ tự động chọn nhận thông báo qua email khi một nhóm họ thuộc về được nhắc đến.'
       indexProfile: 'Lập chỉ mục hồ sơ'
       indexProfile-help: 'Khi được bật, người dùng mới sẽ cho phép các công cụ tìm kiếm lập chỉ mục trang hồ sơ của họ, trừ khi bị chặn bởi cài đặt khác của trang hoặc tiện ích mở rộng.'
       postMentioned: 'Email khi bài viết được nhắc đến'

@@ -13,6 +13,8 @@ sycho-github-milestone:
   forum:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
+    complete: 'Hoàn thành <strong>{progress}%</strong>'
+    empty_list: 'Không có issue hay pull request nào để hiển thị.'
     last_updated: 'Cập nhật lần cuối {time}'
     load_more: '=> core.forum.discussion_list.load_more_button'
     open: '=> sycho-github-milestone.ref.open'

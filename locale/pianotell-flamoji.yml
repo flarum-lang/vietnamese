@@ -23,6 +23,8 @@ pianotell-flamoji:
         text_to_replace_label: 'Văn bản cần thay thế'
         text_to_replace_text: 'Đoạn chữ mà thành viên gõ để chèn emoji này. Phải được đặt giữa hai dấu hai chấm và chỉ chứa chữ cái, chữ số cùng các ký tự _ + - (ví dụ :myemoji_partyparrot:). Bắt buộc và phải là duy nhất. Mẹo: hãy thêm tiền tố cho mã tắt của bạn để chúng dễ đọc và không trùng với emoji tiêu chuẩn.'
       emoji_list:
+        add_button: 'Thêm emoji'
+        edit_button: 'Sửa emoji'
         load_more_button: '=> core.forum.post_stream.load_more_button'
         rename_cancel_button: Hủy
         rename_save_button: Lưu
@@ -83,6 +85,7 @@ pianotell-flamoji:
       use_cdn_text: 'Tải thư viện emoji-mart và dữ liệu emoji từ một CDN của bên thứ ba (ví dụ jsDelivr) thay vì phục vụ chúng từ máy chủ của bạn. Mặc định là tắt. Nếu CDN không tải được — hoặc mã băm Subresource Integrity (SRI) không khớp — bảng chọn sẽ tự động dùng bản đi kèm tiện ích này. Lưu ý rằng việc tải từ một nguồn bên ngoài đòi hỏi Content-Security-Policy của bạn (nếu có) phải cho phép điều đó.'
   forum:
     composer:
+      emoji_picker_label: 'Bảng chọn emoji'
       emoji_tooltip: 'Chèn emoji'
       picker_load_error: 'Không thể tải bộ chọn emoji. Vui lòng thử lại.'
       picker_load_retry: 'Thử lại'

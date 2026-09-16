@@ -2,11 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-sticky/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        stickied: 'Đã ghim cuộc thảo luận {discussion}'
+        unstickied: 'Đã bỏ ghim cuộc thảo luận {discussion}'
 flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Ghim thảo luận'
     settings:
+      enable_display_excerpt: 'Hiển thị đoạn trích của bài viết đầu tiên khi cuộc thảo luận được ghim chưa được đọc'
+      only_sticky_unread_discussions_help: 'Trên trang Tất cả thảo luận, những cuộc thảo luận được ghim mà bạn chưa đọc sẽ nằm trên cùng, còn các cuộc thảo luận được ghim đã đọc sẽ theo thứ tự thông thường.'
+      only_sticky_unread_discussions_label: 'Chỉ ghim những cuộc thảo luận chưa đọc'
+      pin_sticky_on_all_discussions_help: 'Khi được bật (mặc định), các cuộc thảo luận được ghim sẽ nằm trên cùng trang Tất cả thảo luận. Khi tắt, chúng sẽ nằm ở vị trí tự nhiên theo hoạt động mới nhất. Các trang thẻ luôn ghim những cuộc thảo luận được ghim lên đầu bất kể thiết lập này.'
       pin_sticky_on_all_discussions_label: 'Ghim các cuộc thảo luận được ghim trên trang Tất cả thảo luận'
   forum:
     badge:
@@ -17,5 +27,10 @@ flarum-sticky:
     post_stream:
       discussion_stickied_text: '{username} đã ghim cuộc thảo luận {time}.'
       discussion_unstickied_text: '{username} đã gỡ ghim cuộc thảo luận {time}.'
+  lib:
+    gambits:
+      discussions:
+        sticky:
+          key: ghim
   ref:
     sticky: Ghim

@@ -3,8 +3,35 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-posted-on:
+  admin:
+    settings:
+      display_mode_help: 'Mức chi tiết cho từng bài viết. Thông tin đầy đủ luôn có trong phần chú thích khi di chuột.'
+      display_mode_label: 'Hiển thị gì bên cạnh một bài viết'
+      display_mode_os_browser: 'Hệ điều hành và trình duyệt (ví dụ Windows 11 · Chrome 121)'
+      display_mode_os_only: 'Chỉ hệ điều hành (ví dụ Windows 11)'
+      skip_guests_help: 'Khi bật, những bài viết do tài khoản khách đăng sẽ không có dữ liệu nền tảng nào.'
+      skip_guests_label: 'Không thu thập với khách'
   forum:
+    device_types:
+      camera: 'Máy ảnh'
+      'car browser': 'Ô tô'
+      console: 'Máy chơi game'
+      desktop: 'Máy tính'
+      'feature phone': 'Điện thoại'
+      peripheral: 'Thiết bị ngoại vi'
+      phablet: Phablet
+      'portable media player': 'Máy nghe nhạc'
+      'smart display': 'Màn hình thông minh'
+      'smart speaker': 'Loa thông minh'
+      smartphone: 'Điện thoại'
+      tablet: 'Máy tính bảng'
+      tv: TV
+      wearable: 'Thiết bị đeo'
     post:
       posted_on_text: 'Đăng từ {posted_on}'
+      tooltip:
+        client: 'Trình duyệt'
+        device: 'Thiết bị'
+        os: 'Hệ điều hành'
     settings:
       privacy_disclose_posted_on_label: 'Cho phép người khác xem thiết bị của tôi đăng'

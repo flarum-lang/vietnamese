@@ -4,9 +4,20 @@
 
 resofire-digest-mail:
   admin:
+    onboarding:
+      frequency_help: 'Tần suất bản tin mà người dùng mới được tự động đăng ký. Chỉ những tần suất đã bật ở mục Tùy chọn tần suất cho người dùng phía trên mới dùng được.'
+      frequency_label: 'Tần suất khi tự động đăng ký'
+      mode_auto_enroll: 'Tự động đăng ký cho người dùng mới'
+      mode_help: 'Quyết định cách người dùng mới được đăng ký nhận email bản tin khi tài khoản của họ được kích hoạt.'
+      mode_label: 'Chế độ chào đón'
+      mode_none: 'Không đặt mặc định — người dùng tự chọn'
+      mode_opt_in_modal: 'Hiển thị hộp thoại mời đăng ký'
+      section_heading: 'Hướng dẫn cho người dùng mới'
     settings:
       enable_awards_help: 'Hiển thị các giải thưởng đang diễn ra và sắp tới trong email tổng hợp. Yêu cầu huseyinfiliz/awards.'
       enable_awards_label: 'Giải thưởng'
+      enable_picks_help: 'Hiển thị các trận sắp tới, kết quả gần đây và bảng xếp hạng dự đoán trong bản tin. Cần resofire/picks.'
+      enable_picks_label: 'CFB Picks — bật mục này'
       featured_discussion_help: 'Nhập ID thảo luận để ghim nó làm thảo luận nổi bật ở đầu mọi email tổng hợp. Để trống nếu không muốn hiển thị thảo luận nổi bật.'
       featured_discussion_label: 'ID thảo luận nổi bật'
       hot_recency_weight_help: 'Độ mới ảnh hưởng bao nhiêu đến điểm sôi nổi. Cao hơn = bài viết mới được tính điểm cao hơn. Đặt 0 để chỉ xếp hạng theo số lượt trả lời.'
@@ -29,10 +40,19 @@ resofire-digest-mail:
       limit_new_label: 'Thảo luận mới — số mục tối đa'
       limit_pickem_help: 'Số lượng tối đa trận đấu sắp diễn ra, kết quả gần đây và mục bảng xếp hạng hiển thị trong email tổng hợp (mặc định 5, tối thiểu 3). Yêu cầu huseyinfiliz/pickem.'
       limit_pickem_label: 'Pick''em — số mục tối đa mỗi phần'
+      limit_picks_help: 'Số lượng tối đa các trận sắp tới, kết quả gần đây và mục trong bảng xếp hạng được hiển thị trong bản tin (mặc định 5, tối thiểu 3). Cần resofire/picks.'
+      limit_picks_label: 'CFB Picks — số mục tối đa mỗi phần'
+      limit_resofire_gamepedia_help: 'Số trò chơi tối đa hiển thị trong các mục Được bàn luận nhiều nhất, Mới thêm và Thể loại nổi bật (mặc định 5, tối thiểu 3). Yêu cầu resofire/gamepedia.'
+      limit_resofire_gamepedia_label: 'Resofire Gamepedia — số trò chơi tối đa mỗi phần'
       limit_unread_help: 'Số lượng thảo luận chưa đọc tối đa hiển thị cho mỗi người nhận.'
       limit_unread_label: 'Thảo luận chưa đọc — số mục tối đa'
       monthly_day_help: 'Ngày trong tháng mà email tổng hợp hằng tháng được gửi. Giới hạn ở 28 để luôn hợp lệ với tháng Hai.'
       monthly_day_label: 'Email tổng hợp hằng tháng — ngày gửi'
+      picks_leaderboard_scope_alltime: 'Mọi thời điểm'
+      picks_leaderboard_scope_help: 'Bảng xếp hạng nào sẽ hiển thị: tuần vừa kết thúc gần nhất, mùa giải hiện tại, hay xếp hạng mọi thời điểm.'
+      picks_leaderboard_scope_label: 'CFB Picks — phạm vi bảng xếp hạng'
+      picks_leaderboard_scope_season: 'Mùa giải hiện tại'
+      picks_leaderboard_scope_week: 'Tuần gần nhất'
       queue_chunk_size_help: 'Số người dùng được đưa vào hàng đợi mỗi phút của trình lên lịch (mặc định 200, tối thiểu 50, tối đa 10000). Diễn đàn nhỏ: 200–500. Diễn đàn lớn trên máy chủ riêng: 1000–10000. Giá trị cao hơn hoàn thành nhanh hơn nhưng tốn nhiều bộ nhớ hơn mỗi chu kỳ.'
       queue_chunk_size_label: 'Kích thước lô hàng đợi'
       queue_delay_help: 'Số giây trước khi các tác vụ trong hàng đợi sẵn sàng cho worker xử lý (mặc định 0). Ở chế độ khung giờ thì hiếm khi cần — bản thân khung giờ đã phân tán tải theo thời gian. Chỉ hữu ích khi dùng lệnh hai giai đoạn digest:enqueue trên các diễn đàn rất lớn.'
@@ -67,7 +87,104 @@ resofire-digest-mail:
       theme_label: 'Giao diện xem trước'
       theme_light: Sáng
       theme_light_only: 'Chỉ có chế độ sáng — hãy cài đặt và bật fof/nightmode để mở khóa email chế độ tối'
+  email:
+    awards:
+      categories: 'Danh mục'
+      coming_soon: 'Sắp diễn ra'
+      cta_nominees: 'Xem danh sách đề cử'
+      cta_results: 'Xem kết quả đầy đủ'
+      cta_view: 'Xem giải thưởng'
+      cta_vote: 'Bỏ phiếu của bạn'
+      front_runners: 'Ứng viên dẫn đầu hiện tại'
+      tallying: 'Kết quả đang được tổng hợp. Hãy chờ thông báo nhé!'
+      voting_closed: 'Bình chọn đã kết thúc'
+    badges:
+      earned_count_plural: 'Được trao {count} lần trong {period} này'
+      earned_count_singular: 'Được trao {count} lần trong {period} này'
+      intro: 'Những thành viên đạt được huy hiệu trong {period} này.'
+      most_earned: 'Được trao nhiều nhất {period} này'
+      rarest: 'Huy hiệu hiếm nhất đã trao'
+      rarest_count_plural: 'Chỉ {count} thành viên sở hữu huy hiệu này'
+      rarest_count_singular: 'Chỉ {count} thành viên sở hữu huy hiệu này'
+    featured:
+      author_label: 'Tác giả cuộc thảo luận'
+      badge: 'Nổi bật'
+      cta: 'Tham gia thảo luận'
+    footer:
+      unsubscribe: 'Đổi tần suất hoặc hủy đăng ký'
+    gamepedia:
+      cta: 'Duyệt Gamepedia'
+      most_discussed: 'Được bàn luận nhiều nhất {period} này'
+      newly_added: 'Mới thêm'
+    heading: 'Những gì đã diễn ra trong {period} này'
+    leaderboard:
+      biggest_mover: 'Thăng hạng mạnh nhất {period} này'
+      col_member: 'Thành viên'
+      col_move: 'Thay đổi'
+      col_rank: '#'
+      col_score: Điểm
+      new_badge: MỚI
+      rankings_note: 'Thứ hạng dựa trên tổng số điểm kiếm được từ bài viết, cuộc thảo luận, lượt thích, huy hiệu và lượt đăng nhập hằng ngày.'
+      spot_plural: bậc
+      spot_singular: bậc
+    members:
+      joined: 'Tham gia {time_ago}'
+    pickem:
+      col_accuracy: 'Độ chính xác'
+      col_player: 'Người chơi'
+      col_pts: Điểm
+      col_rank: '#'
+      cta: 'Gửi dự đoán của bạn'
+      draw: Hòa
+      leaderboard_heading: 'Bảng xếp hạng Pick''em'
+      results_heading: 'Kết quả gần đây'
+      upcoming_heading: 'Trận sắp diễn ra'
+      upcoming_note: 'Đừng bỏ lỡ cơ hội dự đoán, thời hạn được ghi bên dưới.'
+    picks:
+      col_accuracy: 'Chính xác'
+      col_player: 'Người chơi'
+      col_pts: Điểm
+      col_rank: '#'
+      confidence_note: 'Chế độ tự tin đang bật — điểm được tính theo mức tự tin (1–10) mà mỗi người chơi đặt cho dự đoán của mình.'
+      cta: 'Đưa ra dự đoán của bạn'
+      move_down: 'Giảm {n}'
+      move_held: —
+      move_new: Mới
+      move_up: 'Tăng {n}'
+      neutral_site: 'Sân trung lập'
+      results_heading: 'Kết quả gần đây'
+      upcoming_heading: 'Trận sắp diễn ra'
+      upcoming_note: 'Dự đoán được khóa riêng theo thời hạn của từng trận.'
+      week_closed: 'Đã khóa dự đoán'
+      week_open: 'Đang mở dự đoán'
+      winner: 'Người chiến thắng'
+    resofire_gamepedia:
+      cta: 'Duyệt Gamepedia'
+      most_discussed: 'Được bàn luận nhiều nhất {period} này'
+      newly_added: 'Mới thêm'
+      top_genres: 'Thể loại nổi bật {period} này'
+    sections:
+      active_discussions: 'Cuộc thảo luận sôi nổi'
+      badges: 'Huy hiệu'
+      favorites: 'Thảo luận yêu thích'
+      gamepedia: Gamepedia
+      leaderboard: 'Bảng xếp hạng'
+      new_discussions: 'Cuộc thảo luận mới'
+      new_members: 'Thành viên mới'
+      pickem: 'Pick''em'
+      picks: 'CFB Picks'
+      unread: 'Bạn chưa xem'
+    stats:
+      active_users: 'Người dùng hoạt động'
+      discussions: 'Cuộc thảo luận'
+      new_members: 'Thành viên mới'
+      posts: 'Bài viết'
+    subject: '{forum} — Bản tin {frequency} của bạn'
   forum:
+    onboarding:
+      modal_body: 'Nhận bản tin tổng hợp định kỳ về những cuộc thảo luận hay nhất, thành viên mới và mọi chuyện đang diễn ra trên diễn đàn, gửi thẳng vào hộp thư của bạn.'
+      modal_dismiss: 'Không, cảm ơn'
+      modal_title: 'Đừng bỏ lỡ tin tức'
     settings:
       digest_help: 'Nhận bản tóm tắt định kỳ về các thảo luận mới, chủ đề sôi nổi và thành viên mới.'
       digest_label: 'Email tổng hợp'
@@ -77,3 +194,26 @@ resofire-digest-mail:
       frequency_weekly: 'Hằng tuần'
       save_error: 'Không thể lưu tùy chọn của bạn. Vui lòng thử lại.'
       saved: 'Đã lưu'
+  unsubscribe:
+    click_hint: 'Bấm vào một lựa chọn để lưu tùy chọn của bạn ngay lập tức.'
+    daily_desc: 'Mỗi ngày một email với hoạt động mới nhất.'
+    daily_title: 'Hằng ngày'
+    greeting: 'Chào {name}. Hãy chọn tần suất bạn muốn nhận bản tin về những gì đang diễn ra trong {forum}.'
+    heading: 'Tùy chọn bản tin email'
+    monthly_desc: 'Bản tóm tắt hằng tháng vào ngày {day} mỗi tháng.'
+    monthly_title: 'Hằng tháng'
+    off_desc: 'Đừng gửi cho tôi email bản tin nào.'
+    off_title: Tắt
+    page_title: 'Tùy chọn bản tin email'
+    weekly_desc: 'Bản tổng hợp hằng tuần vào mỗi {day}.'
+    weekly_title: 'Hằng tuần'
+  unsubscribe_invalid:
+    body_expired: 'Liên kết hủy đăng ký này đã hết hạn (liên kết có hiệu lực trong 90 ngày) hoặc đã được dùng. Mỗi email bản tin chúng tôi gửi cho bạn đều kèm một liên kết mới.'
+    body_signin: 'Để quản lý tùy chọn bản tin của bạn, hãy đăng nhập vào {forum} và vào phần cài đặt thông báo.'
+    heading: 'Liên kết này không còn hiệu lực'
+    page_title: 'Liên kết không hợp lệ hoặc đã hết hạn'
+  unsubscribe_saved:
+    body: 'Tùy chọn email bản tin của bạn đã được cập nhật thành công.'
+    heading: 'Đã lưu tùy chọn'
+    page_title: 'Đã lưu tùy chọn'
+    return_link: 'Quay lại {forum}'

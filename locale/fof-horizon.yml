@@ -5,6 +5,16 @@
 fof-horizon:
   admin:
     settings:
+      email_concurrency: 'Số email gửi đi đồng thời'
+      email_concurrency_help: "Số email tối đa được gửi cùng lúc. Một biến môi trường\n(REDIS_HORIZON_EMAIL_CONCURRENCY) hoặc giá trị trong config.php, nếu có, sẽ ghi đè\ngiá trị này.\n"
+      locked_by_code: 'Được đặt trong mã nguồn (config.php hoặc extend.php) thành {value} — hãy sửa ở đó, không phải ở đây.'
+      locked_by_env: 'Được đặt bằng một biến môi trường thành {value} — hãy sửa ở đó, không phải ở đây.'
+      mail_help: "Quy định bao nhiêu email được gửi cùng lúc. Mỗi worker gửi một email\nmỗi lần, nên đây là số thư gửi đi đồng thời.\nHãy đặt bằng giới hạn kết nối đồng thời của nhà cung cấp email để bạn không\nvượt quá. Để trống để dùng mặc định (1).\n"
+      mail_title: 'Gửi email'
+      memory_limit: 'Giới hạn bộ nhớ của tiến trình chính (MB)'
+      memory_limit_help: "Giới hạn bộ nhớ cho tiến trình supervisor chính của Horizon. Horizon tự động\nnâng giá trị này lên bằng mức bộ nhớ worker lớn nhất, nên bạn hiếm khi cần\nđặt bằng tay.\n"
+      supervisor_help: "Horizon chạy các worker hàng đợi của bạn theo những hồ sơ phân tầng (standard, fast,\nlong, emails). Số lượng worker, bộ nhớ và hàng đợi được cấu hình cho từng\nlần triển khai qua biến môi trường REDIS_HORIZON_*, config.php (dưới\nkhóa \"horizon\"), hoặc bộ mở rộng Horizon trong extend.php — hãy xem README của\ntiện ích. Hãy khởi động lại Horizon sau khi thay đổi cấu hình worker.\n"
+      supervisor_title: 'Cài đặt worker'
       trim_completed: 'Cắt bớt công việc đã hoàn thành'
       trim_completed_help: "Bảng này được dùng để hiển thị các công việc đã hoàn thành trong bảng điều khiển Horizon.\n"
       trim_failed: 'Cắt bớt công việc thất bại'
@@ -22,14 +32,27 @@ fof-horizon:
     stats:
       auto_refresh: 'Tự động làm mới'
       data:
+        blocked-clients: 'Máy khách bị chặn'
+        connected-clients: 'Máy khách đã kết nối'
+        eviction-policy: 'Chính sách loại bỏ'
+        failed-jobs: 'Công việc thất bại'
         failed-last-seconds: 'Công việc thất bại trong vài giây qua'
         failure-rate: 'Tỷ lệ thất bại'
+        highest-throughput-queue: 'Hàng đợi bận nhất'
         jobs-past-hour: 'Công việc trong giờ qua'
         jobs-per-minute: 'Công việc mỗi phút'
         max-runtime: 'Thời gian chạy tối đa'
         max-throughput: 'Thông lượng tối đa'
+        max-wait: 'Thời gian chờ tối đa'
         max-wait-queue: 'Hàng đợi: {queue}'
         max-wait-time: 'Thời gian chờ tối đa'
+        memory-max: 'Bộ nhớ tối đa'
+        memory-peak: 'Bộ nhớ cao nhất'
+        memory-used: 'Bộ nhớ đã dùng'
+        ops-per-sec: 'Hoạt động mỗi giây'
+        pending-jobs: 'Công việc đang chờ xử lý'
+        processes: 'Tiến trình worker'
+        recent-jobs: 'Tác vụ'
         redis-blocked-clients: 'Máy khách bị chặn'
         redis-connected-clients: 'Máy khách đã kết nối'
         redis-max-memory: 'Bộ nhớ tối đa của bộ nhớ đệm'
@@ -39,6 +62,7 @@ fof-horizon:
         redis-ops-per-sec: 'Hoạt động mỗi giây'
         redis-peak-memory: 'Bộ nhớ đỉnh của bộ nhớ đệm'
         redis-used-memory: 'Bộ nhớ đã dùng của bộ nhớ đệm'
+        slowest-queue: 'Hàng đợi chậm nhất'
         status:
           inactive: 'Không hoạt động'
           label: 'Trạng thái'
@@ -49,12 +73,40 @@ fof-horizon:
         fetch_failed: 'Không thể lấy số liệu thống kê Horizon. Vui lòng kiểm tra cấu hình Redis của bạn.'
         setup_docs: 'Xem tài liệu thiết lập Redis'
         title: 'Lỗi kết nối'
+      eviction_policy_tooltip: 'Chính sách loại bỏ là cách kho dữ liệu chọn thứ cần xóa khi chạm giới hạn maxmemory. Mặc định là `noeviction`: giá trị mới sẽ không được lưu khi bộ nhớ đã đầy. Hãy bấm để xem tài liệu.'
+      eviction_pressure: 'áp lực bộ nhớ'
+      eviction_warning: 'Mức dùng bộ nhớ đang ở {usage}% của maxmemory và chính sách loại bỏ là "{policy}", nên các khóa — có thể gồm cả dữ liệu hàng đợi — sắp bị loại bỏ. Hãy tăng maxmemory hoặc chuyển hàng đợi sang một cơ sở dữ liệu riêng có nhiều dung lượng trống hơn.'
       full_dashboard: 'Bảng điều khiển Horizon'
       heading: 'Tổng quan hàng đợi'
       health:
         critical: 'Nghiêm trọng'
         excellent: 'Tuyệt vời'
+        factor:
+          memory: 'Áp lực bộ nhớ Redis: {value}'
+          status: 'Horizon đang {value}'
+          wait: 'Hàng đợi chờ lâu: {value}'
         good: Tốt
         poor: Kém
         tooltip: 'Điểm sức khỏe hệ thống: {score}/100'
+        tooltip_heading: 'Điểm sức khỏe: {score}/100'
+      horizon_max_wait_none: 'Không có'
+      horizon_max_wait_value: '{seconds}s ở {queue}'
+      kv_heading: 'Kho khóa - giá trị'
+      period:
+        day: 'ngày qua'
+        days: '{count} ngày qua'
+        hour: 'giờ qua'
+        hours: '{count} giờ qua'
+        minutes: '{count} phút qua'
+      queue_heading: 'Hàng đợi'
       refresh: 'Làm mới'
+      status:
+        inactive: 'Không hoạt động'
+        paused: 'Tạm dừng'
+        paused_pending: 'Đã tạm dừng · {count} đang chờ'
+        running: 'Đang chạy'
+      tile:
+        jobs_per_minute: 'Tác vụ / phút'
+        max_wait: 'Thời gian chờ tối đa'
+        processes: 'Tiến trình worker'
+        status: 'Trạng thái'

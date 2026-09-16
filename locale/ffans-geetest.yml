@@ -38,6 +38,12 @@ ffans-geetest:
       submit_button: Gửi
       title: 'Kiểm tra CAPTCHA'
   lib:
+    error:
+      api_http_error: 'API GeeTest trả về HTTP {status}.'
+      captcha_id_mismatch: 'CAPTCHA ID của GeeTest không khớp với sản phẩm đã cấu hình.'
+      incomplete_configuration: 'Cấu hình GeeTest chưa đầy đủ.'
+      invalid_api_response: 'API GeeTest trả về một phản hồi không phải đối tượng.'
+      verification_request_failed: 'Không gửi được yêu cầu xác minh tới GeeTest.'
     verify:
       error_message: 'Xác minh thất bại.'
       error_retry_message: 'Xác minh thất bại, vui lòng thử lại.'

@@ -8,6 +8,9 @@ jslirola-login2seeplus:
     hide: Ẩn
     image: Ảnh
     link: 'Liên kết'
+    link_hide: 'Ẩn toàn bộ liên kết'
+    link_mask: 'Chỉ ẩn địa chỉ đích (giữ lại chữ của liên kết)'
+    link_off: 'Không ẩn'
     post:
       title: 'Ẩn nội dung vượt quá độ dài này (<em>-1</em> để hiển thị tất cả.)'
     title: Login2SeePlus

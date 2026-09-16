@@ -23,6 +23,7 @@ fof-seo:
     modals:
       crawl_post:
         intro: '<b>Hãy đọc kỹ hộp thoại này.</b> Chức năng này chỉ được thực thi khi tải lại trang trên một thảo luận. Bạn luôn có thể thay đổi tùy chọn này sau.'
+        mode_all_help: 'Các công cụ tìm kiếm sẽ hiểu được nội dung cuộc thảo luận và thậm chí có thể hiển thị vài bài viết liên quan ngay dưới kết quả tìm kiếm. Khi bạn đã cài và bật tiện ích ''''<a>best answer</a>'''' trên diễn đàn, nó sẽ đánh dấu cuộc thảo luận là ''đã có lời giải'' trên kết quả tìm kiếm và đưa người dùng tới đúng bài viết đó. Mỗi bài trả lời cũng được công bố kèm số lượt thích và bình chọn tăng, nên công cụ tìm kiếm nhận ra được những câu trả lời hữu ích nhất ngay cả khi không có tiện ích best answer. <b>Tuy nhiên, tùy cấu hình máy chủ của bạn, việc này có thể nặng hơn</b>. Nó có thể tốn chút hiệu năng, nên việc bật tính năng này còn tùy vào máy chủ của bạn nhanh đến đâu.'
         mode_all_title: 'Lập chỉ mục tất cả bài viết trong một thảo luận (bật cài đặt)'
         mode_main_help: 'Công cụ tìm kiếm sẽ chỉ hiển thị bài viết chính trong kết quả tìm kiếm. Điều này sẽ không ảnh hưởng đến tốc độ tải khi bạn truy cập qua các liên kết trong diễn đàn.'
         mode_main_title: 'Chỉ lập chỉ mục bài viết chính (mặc định)'
@@ -116,6 +117,7 @@ fof-seo:
         why_body: 'Sitemap là một tệp XML chứa danh sách tất cả các trang có sẵn trên website của bạn. Nó được trình thu thập dữ liệu và công cụ tìm kiếm sử dụng để tìm các trang trên website của bạn.'
         why_heading: 'Tại sao bạn nên dùng sitemap?'
       ssl:
+        added_body: 'Tuyệt vời! Giờ hãy sửa <b>config.php</b> của bạn và đổi <b>''''url''''</b> sang <b>https</b>!'
         added_heading: 'Được rồi, tôi đã thêm SSL!'
         how_body: 'Đối với những người dùng dịch vụ lưu trữ web, cách phổ biến nhất là vào bảng điều khiển hosting, đi đến phần cài đặt hosting của website và nhấp vào SSL. Bạn có thể làm theo các bước để thêm SSL vào website. Hầu hết các công ty lưu trữ web ngày nay đều hỗ trợ nhà cung cấp chứng chỉ phổ biến {link}.'
         how_heading: 'Cách thêm SSL vào website của bạn?'
@@ -158,6 +160,7 @@ fof-seo:
       nofollow:
         button: 'Mở danh sách tên miền do-follow'
         heading: 'Liên kết no-follow'
+        help: 'Mọi liên kết tới tên miền bên ngoài sẽ mặc định nhận thuộc tính ''''<i>nofollow</i>''''. Điều này giúp chắc chắn người ta không spam diễn đàn của bạn bằng liên kết tới những tên miền khác để kiếm thêm lượt truy cập.'
         help_dofollow: 'Với cài đặt này, bạn có thể thêm tên miền vào danh sách ''do-follow''. Ví dụ, bạn có thể thêm <i>flarum.org</i> để đảm bảo các liên kết đến website này không nhận thuộc tính ''nofollow''.'
       social_media_image:
         heading: 'Hình ảnh mạng xã hội'

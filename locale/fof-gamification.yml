@@ -16,6 +16,7 @@ fof-gamification:
         button: 'Chuyển đổi lượt thích thành lượt tán thành'
         converted: 'Đã chuyển đổi thành công tất cả {number} lượt thích'
         converting: 'Lượt thích của bạn đang được chuyển đổi. Hãy tải lại trang sau vài phút để thấy quá trình hoàn tất. (Thời gian chuyển đổi có thể lâu tùy theo tổng số lượt thích trên diễn đàn của bạn)'
+        help: 'Chuyển những lượt thích trước đây từ flarum/likes thành lượt bình chọn tăng, đồng thời tính lại độ nóng cho mọi cuộc thảo luận hiện có.'
       groups:
         add: 'Thêm quy tắc mới'
         column:
@@ -55,6 +56,8 @@ fof-gamification:
         first_post_only: 'Chỉ cho phép bình chọn cho bài viết đầu tiên trong cuộc thảo luận'
         icon_help: 'Nhập bất kỳ biểu tượng Font-Awesome nào có hậu tố -up và -down. Ví dụ: arrow, thumbs, chevron'
         icon_name: 'Biểu tượng tán thành/phản đối'
+        icon_preview_downvote: 'Bình chọn giảm'
+        icon_preview_upvote: 'Bình chọn tăng'
         points_placeholder: 'Điểm: '
         points_title: 'Văn bản giữ chỗ cho điểm'
         rate_limit: 'Áp dụng giới hạn tần suất bình chọn (10 giây)'
@@ -104,3 +107,7 @@ fof-gamification:
       label_none: 'Không có người bình chọn'
       none: 'Chưa có người bình chọn nào'
     votes: 'Bình chọn'
+lib:
+  gambits:
+    hot:
+      key: 'nổi bật'

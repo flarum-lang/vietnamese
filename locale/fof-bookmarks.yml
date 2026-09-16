@@ -34,3 +34,7 @@ fof-bookmarks:
     postButton:
       add: 'Đánh dấu'
       remove: 'Đã đánh dấu'
+  lib:
+    gambits:
+      bookmarked:
+        key: 'đã đánh dấu'

@@ -2,8 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-nicknames/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        nickname_changed: 'Đã đổi biệt danh của {username} từ {old_nickname} thành {new_nickname}'
 flarum-nicknames:
   admin:
+    basics:
+      display_name_driver_options:
+        nickname: 'Biệt danh'
     permissions:
       edit_own_nickname_label: 'Chỉnh sửa biệt danh của chính mình'
     settings:

@@ -8,3 +8,4 @@ fof-news-widget:
       add_line: 'Thêm dòng tin tức'
       html_warning: 'Hãy cẩn thận, mọi mã HTML đều sẽ được hiển thị.'
       lines: 'Dòng tin tức'
+      remove_line: 'Xóa dòng'

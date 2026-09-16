@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-lock/vi/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        locked: 'Đã khóa cuộc thảo luận {discussion}'
+        unlocked: 'Đã mở khóa cuộc thảo luận {discussion}'
 flarum-lock:
   admin:
     permissions:
@@ -19,3 +25,8 @@ flarum-lock:
       discussion_unlocked_text: '{username} đã mở khóa cuộc thảo luận {time}.'
     settings:
       notify_discussion_locked_label: 'Ai đó khóa cuộc thảo luận của tôi'
+  lib:
+    gambits:
+      discussions:
+        locked:
+          key: 'bị khóa'

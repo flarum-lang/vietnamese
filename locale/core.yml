@@ -4,6 +4,93 @@
 
 core:
   admin:
+    advanced:
+      description: 'Cấu hình các thiết lập nâng cao cho diễn đàn của bạn.'
+      fontawesome:
+        cdn_url_help: 'URL đầy đủ tới tệp CSS của FontAwesome trên một CDN'
+        cdn_url_label: 'URL của CDN'
+        config_override:
+          help: 'Các thiết lập FontAwesome hiện được đặt trong tệp config.php của bạn nên không thể thay đổi tại đây.'
+          label: 'Ghi đè từ tệp cấu hình'
+        forced_style_help: 'Buộc mọi biểu tượng dùng một kiểu FontAwesome cụ thể, ví dụ "fa-duotone fa-light" hoặc "fa-regular". Kiểu này thay thế kiểu do lõi và các tiện ích khai báo (biểu tượng thương hiệu không bao giờ bị đổi). Nguồn biểu tượng của bạn phải cung cấp được kiểu đó: bộ biểu tượng đi kèm là FontAwesome Free, vốn chỉ có vài trăm biểu tượng ngoài kiểu solid, nên buộc dùng kiểu khác sẽ khiến phần lớn biểu tượng bị trống. Mọi kiểu đều có sẵn khi dùng CDN hoặc Kit của FontAwesome Pro. Để trống để tắt.'
+        forced_style_label: 'Kiểu biểu tượng bắt buộc'
+        kit_url_help: 'URL script FontAwesome Kit của bạn (từ kit.fontawesome.com)'
+        kit_url_label: 'URL của Kit'
+        preview:
+          button: 'Xem trước biểu tượng'
+          fa5_fa6_label: 'Bí danh FA5/FA6'
+          fa7_label: 'Lớp FA7'
+          help: 'Kiểm tra thiết lập FontAwesome của bạn. Biểu tượng hiển thị được nghĩa là nhóm đó khả dụng; ô vuông vỡ nghĩa là nhóm đó chưa được tải.'
+          label: 'Xem trước biểu tượng'
+          pro_label: 'Chỉ có ở bản Pro'
+        section_label: 'Biểu tượng FontAwesome'
+        source_cdn: CDN
+        source_help: 'Chọn cách tải biểu tượng FontAwesome. Local dùng phông đi kèm, CDN tải từ một CDN, còn Kit dùng FontAwesome Kit với các biểu tượng tùy chỉnh.'
+        source_kit: 'FontAwesome Kit'
+        source_label: 'Nguồn biểu tượng'
+        source_local: 'Cục bộ (đi kèm)'
+      maintenance:
+        bisect:
+          begin_button_text: 'Bắt đầu dò tìm'
+          continue_button_text: 'Tiếp tục dò tìm'
+          help: 'Giúp xác định tiện ích nào đang gây ra vấn đề bạn gặp phải. Việc này tự động đưa diễn đàn vào chế độ bảo trì (thấp) cho đến khi quá trình kết thúc.'
+          label: 'Dò tìm tiện ích gây lỗi'
+        bisect_modal:
+          description: "Việc này đưa diễn đàn vào chế độ bảo trì (thấp) cho đến khi quá trình kết thúc. Ở mỗi bước, một số tiện ích sẽ bị tắt cho đến khi tìm ra tiện ích gây lỗi. Vì vậy đừng ngạc nhiên khi thấy thiếu tính năng hoặc giao diện khác lạ. Hãy giữ trang này mở và thử tái hiện lỗi sau mỗi bước ở một trang khác. Bạn luôn có thể quay lại trang này nếu lỡ đóng nó.\n"
+          end_button: 'Đóng và tới trang tiện ích'
+          issue_question: 'Lỗi này vẫn còn xảy ra chứ?'
+          issue_question_help: 'Hãy thử tái hiện lỗi ở một trang khác rồi trả lời dựa trên kết quả.'
+          no_button: Không
+          result_description: "Diễn đàn đã thoát khỏi chế độ bảo trì. Quá trình dò tìm tiện ích đã kết thúc. Dựa trên câu trả lời của bạn ở mỗi bước, nguyên nhân gây lỗi là tiện ích sau:\n"
+          start_button: 'Bắt đầu dò tìm'
+          steps_left: 'Số bước còn lại: {steps}'
+          stop_button: 'Dừng dò tìm'
+          title: 'Dò tìm tiện ích gây lỗi'
+          total_steps: 'Quá trình này sẽ mất khoảng {steps} bước.'
+          yes_button: Có
+        config_override:
+          help: 'Bạn vẫn có thể thay đổi các thiết lập tại đây, nhưng chúng sẽ không có hiệu lực cho đến khi bạn đặt <code>offline</code> thành <code>0</code> trong tệp <code>config.php</code>.'
+          label: 'Tệp <code>config.php</code> của bạn đang ghi đè các thiết lập này.'
+        help: 'Đưa diễn đàn vào chế độ bảo trì để người dùng không truy cập được.'
+        options:
+          high: 'Chế độ bảo trì cao. Không ai truy cập được diễn đàn (chỉ có thể bật qua config.php)'
+          low: 'Chế độ bảo trì thấp. Quản trị viên vẫn truy cập được diễn đàn.'
+          none: 'Không bảo trì.'
+          safe: 'Chế độ an toàn. Không tiện ích nào được khởi động và chỉ quản trị viên truy cập được diễn đàn.'
+        safe_mode_extensions: 'Các tiện ích được phép khởi động trong chế độ an toàn'
+        safe_mode_extensions_override_help: 'Thiết lập này bị ghi đè bởi khóa <code>safe_mode_extensions</code> trong tệp <code>config.php</code> của bạn. (<b>{extensions}</b>)'
+        section_label: 'Bảo trì'
+      pgsql:
+        search_configuration: 'Cấu hình tìm kiếm sẽ dùng'
+      queue:
+        backoff_help: 'Thời gian chờ trước khi thử lại một tác vụ thất bại. Mặc định là 0 giây.'
+        backoff_label: 'Thời gian chờ trước khi thử lại (giây)'
+        custom_driver: 'Diễn đàn của bạn đang dùng trình điều khiển hàng đợi {driver}, được cung cấp bởi một tiện ích.'
+        memory_help: 'Lượng bộ nhớ tối đa tiến trình xử lý hàng đợi được dùng trước khi khởi động lại. Mặc định là 128 MB.'
+        memory_label: 'Giới hạn bộ nhớ (MB)'
+        pause_all_label: 'Tạm dừng mọi hàng đợi'
+        pause_help: 'Khi tạm dừng, các tiến trình xử lý sẽ ngừng nhận tác vụ mới từ những hàng đợi bị ảnh hưởng, các tác vụ sẽ dồn lại cho đến khi việc xử lý được tiếp tục. Những tác vụ đang chạy không bị ảnh hưởng.'
+        pause_label: 'Tạm dừng xử lý hàng đợi'
+        pause_queue_label: 'Tạm dừng hàng đợi {queue}'
+        rest_help: 'Thời gian chờ giữa các lần xử lý tác vụ. Mặc định là 0 giây.'
+        rest_label: 'Thời gian nghỉ (giây)'
+        retries_help: 'Số lần thử tối đa cho một tác vụ trước khi đánh dấu là thất bại. Mặc định là 1.'
+        retries_label: 'Số lần thử lại tác vụ'
+        section_label: 'Hàng đợi'
+        sync_help: 'Để có hiệu năng và trải nghiệm tốt hơn, hãy cân nhắc dùng trình điều khiển hàng đợi database. Xem thêm trong tài liệu.'
+        sync_info: 'Diễn đàn của bạn đang dùng trình điều khiển hàng đợi đồng bộ. Các tác vụ được xử lý ngay trong tiến trình chính.'
+        timeout_help: 'Thời gian tối đa một tác vụ được chạy trước khi bị coi là quá hạn. Mặc định là 60 giây.'
+        timeout_label: 'Thời gian chờ tác vụ (giây)'
+      search:
+        cjk_mode_help: 'Hãy bật nếu diễn đàn của bạn chủ yếu dùng tiếng Trung, Nhật hoặc Hàn. Cơ chế tìm kiếm theo từ của cơ sở dữ liệu không khớp được một phần của văn bản CJK, nên tùy chọn này chuyển sang khớp chuỗi con. Cách này chậm hơn trên các diễn đàn rất lớn, nơi việc cấu hình một bộ phân tích fulltext hiểu CJK ở tầng cơ sở dữ liệu (như bộ phân tích ngram của MySQL/MariaDB) là lựa chọn nhanh hơn.'
+        cjk_mode_label: 'Tối ưu tìm kiếm cho các ngôn ngữ CJK'
+        driver_heading: 'Trình điều khiển tìm kiếm: {model}'
+        driver_options:
+          default: 'Tìm kiếm mặc định bằng cơ sở dữ liệu'
+        driver_text: 'Chọn trình điều khiển dùng để tìm kiếm mô hình này.'
+        no_other_drivers: 'Chưa có trình điều khiển tìm kiếm nào khả dụng. Hãy cài một tiện ích cung cấp trình điều khiển tìm kiếm để có thể cấu hình.'
+        section_label: 'Trình điều khiển tìm kiếm'
+      title: 'Nâng cao'
     announcements:
       about: 'Tin tức và thông báo chung mới nhất được lấy từ cộng đồng Flarum chính thức tại discuss.flarum.org.'
       comments_label: '{count, plural, one {# bình luận} other {# bình luận}}'
@@ -18,6 +105,14 @@ core:
       title: 'Thông báo chung'
       view_all: 'Xem tất cả trên discuss.flarum.org'
     appearance:
+      allow_user_color_scheme_label: 'Cho phép người dùng tự chọn bảng màu'
+      color_scheme_label: 'Bảng màu (mặc định)'
+      color_schemes:
+        auto_mode_label: 'Theo hệ thống hoặc tùy chọn của người dùng'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
       colored_header_label: 'Đầu trang có màu'
       colors_heading: 'Màu sắc'
       colors_primary_label: 'Màu chính'
@@ -37,8 +132,12 @@ core:
       enter_hex_message: 'Vui lòng nhập mã màu thập lục phân.'
       favicon_heading: 'Biểu tượng'
       favicon_text: 'Tải lên hình ảnh để dùng làm biểu tượng của diễn đàn.'
+      logo_dark_mode_heading: 'Logo cho chế độ tối'
+      logo_dark_mode_text: 'Tải lên một logo thay thế để hiển thị khi bật chế độ tối.'
       logo_heading: Logo
       logo_text: 'Tải hình ảnh lên để hiển thị thay cho tiêu đề diễn đàn.'
+      show_theme_selector_help: 'Cho phép người dùng chuyển giữa các bảng màu có sẵn bằng một nút trên đầu trang.'
+      show_theme_selector_label: 'Hiển thị nút chọn giao diện'
       title: 'Giao diện'
     basics:
       abandoned_extensions_heading: 'Tiện ích mở rộng bị ngừng phát triển'
@@ -48,8 +147,14 @@ core:
       abandoned_extensions_sync_success: 'Đã cập nhật danh sách tiện ích mở rộng bị ngừng phát triển. Tìm thấy {count} tiện ích mở rộng đã cài đặt trùng khớp.'
       abandoned_extensions_text: 'Flarum duy trì một <a>danh sách cộng đồng về các tiện ích mở rộng bị ngừng phát triển</a>. Khi một tiện ích mở rộng đã cài đặt xuất hiện trong danh sách, nó sẽ được đánh dấu trong bảng quản trị.'
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: 'Ảnh đại diện người dùng'
+      avatar_driver_options:
+        default: 'Mặc định'
+      avatar_driver_text: 'Chọn trình điều khiển dùng cho ảnh đại diện của người dùng khi họ chưa tải ảnh lên. Theo mặc định, sẽ không hiển thị ảnh đại diện nào khi người dùng chưa tải ảnh lên.'
       default_language_heading: 'Ngôn ngữ mặc định'
       description: 'Đặt tiêu đề diễn đàn, ngôn ngữ và các cài đặt cơ bản khác của bạn.'
+      display_name_driver_options:
+        username: 'Tên người dùng'
       display_name_heading: 'Tên hiển thị của người dùng'
       display_name_text: 'Chọn trình điều khiển để hiển thị tên người dùng. Mặc định, tên người dùng sẽ được hiển thị.'
       forum_description_heading: 'Mô tả diễn đàn'
@@ -59,6 +164,14 @@ core:
       home_page_text: 'Chọn trang mà người dùng sẽ nhìn thấy đầu tiên khi họ truy cập diễn đàn của bạn.'
       show_language_selector_label: 'Hiển thị trình chọn ngôn ngữ'
       slug_driver_heading: 'Trình điều khiển slug: {model}'
+      slug_driver_options:
+        discussions:
+          default: 'ID kèm slug'
+          utf8: 'ID kèm slug UTF-8'
+        users:
+          default: 'Tên người dùng'
+          id: ID
+          id_with_display_name: 'ID kèm tên hiển thị'
       slug_driver_text: 'Chọn trình điều khiển dùng để tạo slug cho mô hình này.'
       title: 'Cơ bản'
       welcome_banner_heading: 'Biểu ngữ chào mừng'
@@ -82,6 +195,9 @@ core:
         copy_success: 'Đã sao chép thông tin hệ thống vào bộ nhớ tạm'
         title: 'Thông tin hệ thống'
       io_error_message: 'Không thể ghi vào hệ thống tệp. Kiểm tra quyền đối với hệ thống tệp của bạn và thử lại. Hoặc thử chạy từ dòng lệnh.'
+      queue_paused_all_warning: 'Toàn bộ việc xử lý hàng đợi đang tạm dừng. Các tác vụ sẽ dồn lại cho đến khi được tiếp tục.'
+      queue_paused_manage: 'Quản lý'
+      queue_paused_warning: 'Việc xử lý hàng đợi đang tạm dừng (hàng đợi: {queues}). Các tác vụ sẽ dồn lại cho đến khi được tiếp tục.'
       status:
         headers:
           queue-driver: 'Trình điều khiển Queue'
@@ -92,7 +208,14 @@ core:
           inactive: 'Không hoạt động'
           never-run: 'Không bao giờ chạy'
       title: 'Trang tổng quan'
+      toggle_advanced_page_button: 'Bật/tắt trang nâng cao'
       tools_button: 'Công cụ'
+    database-driver-mismatch-warning:
+      detail: "Tệp <code>config.php</code> của bạn được cấu hình dùng trình điều khiển cơ sở dữ liệu <code>{configured}</code>, nhưng Flarum phát hiện máy chủ cơ sở dữ liệu thực tế là <code>{actual}</code>.\n\nDùng sai trình điều khiển có thể gây ra những lỗi khó phát hiện. Hãy đặt <code>'driver' => ''{actual}''</code> trong phần <code>database</code> của tệp <code>config.php</code>. Xem <link>tài liệu Flarum</link> để biết thêm.\n"
+      label: 'Trình điều khiển cơ sở dữ liệu không khớp'
+    database-version-warning:
+      below-recommended-detail: "Máy chủ {server} của bạn đang chạy phiên bản <code>{version}</code>. Phiên bản này vẫn được hỗ trợ, nhưng Flarum khuyến nghị {server} <code>{recommended}</code> trở lên để có hiệu năng tốt nhất và luôn ở trên một bản phát hành còn được bảo trì. Xem <link>tài liệu Flarum</link> để biết thêm.\n"
+      below-recommended-label: 'Phiên bản cơ sở dữ liệu đã cũ'
     debug-warning:
       detail: "Khi chế độ <code>debug</code> được bật, Flarum sẽ xây dựng lại các tài nguyên <code>JavaScript</code> và <code>CSS</code> ở mỗi yêu cầu, và cũng có thể làm rò rỉ các thông tin khác, chẳng hạn như thông tin bí mật của cơ sở dữ liệu, biến môi trường, v.v.\n\nBạn rất nên tắt <code>debug</code> trong tệp <code>config.php</code> khi chạy chính thức. Xem <link>tài liệu Flarum</link> để biết thêm thông tin.\n"
       label: 'Chế độ gỡ lỗi đang hoạt động'
@@ -125,21 +248,37 @@ core:
       description: 'Thiết lập trình điều khiển, cài đặt và địa chỉ mà diễn đàn của bạn sẽ sử dụng để gửi email.'
       driver_heading: 'Chọn Trình điều khiển'
       driver_label: 'Trình điều khiển'
+      format:
+        html_option: HTML
+        multipart_option: 'Multipart (khuyến nghị)'
+        plain_option: 'Văn bản thuần'
+      format_heading: 'Định dạng email gửi đi'
+      format_help: 'Chọn định dạng cho các email gửi đi. Lựa chọn được khuyến nghị là <code>multipart</code>, vì nó cho phép ứng dụng email của người dùng hiển thị định dạng phù hợp nhất.'
       from_label: 'Người gửi'
       mail_encryption_label: 'Kiểu mã hóa'
+      mail_encryption_none_help: 'Không mã hóa. Không khuyến nghị dùng cho môi trường thật.'
+      mail_encryption_ssl_help: 'Kết nối được mã hóa ngay từ đầu (TLS ngầm định). Thường dùng với cổng 465.'
+      mail_encryption_tls_help: 'Kết nối bắt đầu không mã hóa rồi nâng lên TLS (STARTTLS). Thường dùng với cổng 587 hoặc 25.'
       mail_host_label: 'Máy chủ'
       mail_mailgun_domain_label: Miền
       mail_mailgun_region_label: 'Khu vực'
       mail_mailgun_secret_label: 'Mã khoá bí mật'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Cổng
+      mail_postmark_message_stream_label: 'Message stream'
+      mail_postmark_token_label: 'Server token'
+      mail_smtp_verify_peer_help: 'Xác minh chứng chỉ SSL của máy chủ khi dùng mã hóa TLS hoặc SSL. Chỉ tắt nếu máy chủ mail của bạn dùng chứng chỉ tự ký.'
+      mail_smtp_verify_peer_label: 'Xác minh chứng chỉ SSL'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Thiết lập Mailgun'
       not_sending_message: 'Flarum hiện không gửi được email. Điều này có thể là do trình điều khiển đã chọn, hoặc lỗi do cấu hình.'
+      postmark_description: 'Gửi email qua HTTP API của Postmark. Bạn có thể chỉ định một message stream để dùng luồng khác mặc định.'
+      postmark_heading: 'Cài đặt Postmark'
       send_test_mail_button: Gửi
       send_test_mail_heading: 'Gửi mail thử nghiệm'
       send_test_mail_success: 'Đã gửi mail thử nghiệm thành công!'
       send_test_mail_text: 'Thao tác này sẽ gửi một email sử dụng cấu hình trên tới email của bạn, {email}.'
+      smtp_description: 'Cấu hình kết nối SMTP. Các cấu hình phổ biến: cổng 587 với TLS, hoặc cổng 465 với SSL.'
       smtp_heading: 'Thiết lập SMTP'
       title: '=> core.ref.email'
     extension:
@@ -147,6 +286,7 @@ core:
       abandoned_with_replacement: 'Tiện ích mở rộng này đã được thay thế bởi {replacement}. Hãy cân nhắc chuyển sang gói thay thế.'
       configure_scopes: 'Cấu hình Phạm vi'
       confirm_purge: 'Dọn dẹp sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Nó sẽ không gỡ tiện ích mở rộng; điều đó phải được thực hiện thông qua Composer. Bạn có chắc chắn muốn tiếp tục không?'
+      database_driver_mismatch: 'Tiện ích này không hỗ trợ trình điều khiển cơ sở dữ liệu bạn đang cấu hình.'
       deprecated: 'Lỗi thời'
       disabled: 'Đã tắt'
       enable_to_see: 'Kích hoạt tiện ích mở rộng để xem và thay đổi cài đặt.'
@@ -168,23 +308,64 @@ core:
         no_readme: 'Tiện ích mở rộng này không có tệp README'
         title: 'Tài liệu {extName}'
       replaced: 'Đã được thay thế'
+      reset_settings:
+        button: 'Đặt lại cài đặt'
+        cancel_button: Hủy
+        confirm_button: 'Đặt lại'
+        title: 'Đặt lại cài đặt'
+        title_extension: 'Đặt lại cài đặt {extensionTitle}'
+        warning: 'Hành động này không thể hoàn tác. Các cài đặt bên dưới sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu và trở về giá trị mặc định. Dữ liệu của tiện ích này sẽ không bị ảnh hưởng.'
+      safe_mode_warning: 'Chế độ an toàn đang bật. Các tiện ích không được khởi động nên không truy cập được cài đặt của chúng.'
+    extensions-health-widget:
+      abandoned_no_replacement: 'Không có tiện ích thay thế'
+      abandoned_with_replacement: 'Được thay thế bởi {replacement}'
+      all_healthy: 'Mọi tiện ích đều ổn.'
+      section_abandoned_empty: 'Không phát hiện vấn đề nào.'
+      section_abandoned_heading: 'Cần chú ý'
+      section_abandoned_help: 'Những tiện ích này không còn được bảo trì hoặc có thể gặp vấn đề tương thích. Hãy cân nhắc cập nhật, thay thế hoặc gỡ bỏ chúng.'
+      section_disabled_empty: 'Mọi tiện ích đều đang bật.'
+      section_disabled_heading: 'Đang tắt'
+      section_disabled_help: 'Những tiện ích này đã được cài nhưng hiện chưa được bật. Hãy bật chúng từ trang cài đặt của tiện ích, hoặc gỡ bỏ nếu không còn cần.'
+      section_suggested_empty: 'Không có gợi ý nào.'
+      section_suggested_heading: 'Được gợi ý'
+      section_suggested_help: 'Các tiện ích Flarum có thể bổ sung tính năng tùy chọn bằng cách nêu tên những tiện ích hoặc gói khác. Chúng có thể mang lại thêm tính năng hoặc tích hợp.'
+      suggested_by: 'Được gợi ý bởi {extension}'
+      title: 'Tình trạng tiện ích'
+    failed_jobs:
+      delete: Xóa
+      details: 'Chi tiết'
+      meta: 'Hàng đợi {queue} · thất bại {time}'
+      none: 'Không có tác vụ thất bại nào.'
+      retry: 'Thử lại'
+      retry_all: 'Thử lại tất cả'
+      title: 'Công việc thất bại'
     header:
       get_help: 'Trợ giúp'
       log_out_button: '=> core.ref.log_out'
+      search_placeholder: 'Tìm kiếm...'
+      search_role_label: 'Tìm kiếm'
     loading:
       title: 'Vui lòng chờ...'
+    models:
+      discussions: '=> core.ref.discussions'
+      posts: '=> core.ref.posts'
+      users: '=> core.ref.users'
     nav:
+      advanced_button: '=> core.admin.advanced.title'
+      advanced_title: '=> core.admin.advanced.description'
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
       categories:
+        analytics: 'Phân tích'
         authentication: 'Xác thực'
         core: 'Cấu hình cốt lõi'
         discussion: 'Cuộc thảo luận'
         feature: 'Tính năng'
         formatting: 'Định dạng'
         forum-widget: 'Widget diễn đàn'
+        infrastructure: 'Hạ tầng'
         language: 'Ngôn ngữ'
         moderation: 'Kiểm duyệt'
         other: 'Tiện ích mở rộng khác'
@@ -220,6 +401,7 @@ core:
       participate_heading: 'Tham dự'
       post_without_throttle_label: 'Trả lời liên tục không cần chờ đợi'
       read_heading: Đọc
+      remove_scope_confirmation: 'Bạn có chắc chắn muốn xóa phạm vi {scope} không?'
       remove_scope_label: 'Xóa phạm vi của {scope}'
       rename_discussions_label: 'Đổi tên cuộc thảo luận'
       reply_to_discussions_label: 'Trả lời cuộc thảo luận'
@@ -241,8 +423,18 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: 'Đã đóng'
       signup_open_button: Mở
+    queue_widget:
+      failed: 'Thất bại'
+      pending: 'Đang chờ'
+      refresh: 'Làm mới'
+      reserved: 'Đang xử lý'
+      title: 'Hàng đợi'
+    search_source:
+      general:
+        heading: Chung
     settings:
       saved_message: 'Các thay đổi của bạn đã được lưu.'
+      select_dropdown_custom_label: 'Tùy chỉnh'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -264,6 +456,9 @@ core:
           join_time:
             title: 'Tham gia lúc'
           user_actions:
+            edit_user:
+              button: '=> core.ref.edit'
+              tooltip: 'Chỉnh sửa {username}'
             title: 'Thao tác'
           user_id:
             title: ID
@@ -279,17 +474,41 @@ core:
       must_be_numeric_message: 'Bộ lọc {filter} phải là số.'
       must_not_be_array_message: 'Bộ lọc {filter} phải là một mảng.'
       must_not_be_multidimensional_array_message: 'Bộ lọc {filter} không được là một mảng nhiều chiều.'
+    invalid_username_message: 'Tên người dùng chỉ được chứa chữ cái, chữ số và dấu gạch ngang, và phải có ít nhất một chữ cái.'
   email:
     abandoned_extensions:
+      body_intro: 'Những tiện ích đã cài sau đây bị đánh dấu là không còn được bảo trì:'
+      body_outro: 'Vui lòng xem lại các tiện ích này và cân nhắc chuyển sang giải pháp thay thế nếu có.'
+      line_no_replacement: '{package} (không có tiện ích thay thế)'
+      line_with_replacement: '{package} (gợi ý thay thế: {replacement})'
       subject: 'Cần hành động: phát hiện tiện ích mở rộng bị ngừng phát triển'
     activate_account:
+      body: "Ai đó (hy vọng là bạn!) đã đăng ký {forum} bằng địa chỉ email này.\n\nNếu đó là bạn, chỉ cần bấm vào liên kết sau và tài khoản của bạn sẽ được kích hoạt:\n{url}\n\nNếu bạn không đăng ký, vui lòng bỏ qua email này.\n"
       subject: 'Kích hoạt tài khoản mới'
     confirm_email:
+      body: "Ai đó (hy vọng là bạn!) đã đổi địa chỉ email trên {forum} thành địa chỉ này.\n\nNếu đó là bạn, chỉ cần bấm vào liên kết sau và email của bạn sẽ được xác nhận:\n{url}\n\nNếu đó không phải bạn, vui lòng bỏ qua email này.\n"
       subject: 'Xác nhận địa chỉ email mới'
+    greeting: 'Chào {displayName},'
+    informational:
+      default_title: 'Thông tin'
+      footer: 'Email này được gửi tới {userEmail} như một thông tin liên quan đến tài khoản của bạn trên [{forumTitle}]({forumUrl}).'
+      footer_plain: 'Email này được gửi tới {userEmail} như một thông tin liên quan đến tài khoản của bạn trên {forumTitle}.'
+    notification:
+      default_title: 'Thông báo'
+      footer:
+        main_text: 'Email này được gửi tới {email} vì bạn đã đăng ký nhận thông báo "{type}" trên [{forumTitle}]({forumUrl}).'
+        main_text_plain: 'Email này được gửi tới {email} vì bạn đã đăng ký nhận thông báo "{type}" trên {forumTitle}.'
+        settings_text: 'Quản lý cài đặt thông báo của bạn [tại đây]({settingsLink}).'
+        settings_text_plain: 'Quản lý cài đặt thông báo của bạn tại đây: {settingsLink}'
+        unsubscribe_text: 'Nếu bạn muốn ngừng nhận loại thông báo này, [hãy hủy đăng ký tại đây]({unsubscribeLink}).'
+        unsubscribe_text_plain: 'Nếu bạn muốn ngừng nhận loại thông báo này, hãy hủy đăng ký tại đây: {unsubscribeLink}'
     reset_password:
+      body: "Ai đó (hy vọng là bạn!) đã gửi yêu cầu quên mật khẩu cho tài khoản của bạn trên {forum}.\n\nNếu đó là bạn, hãy bấm vào liên kết sau để đặt lại mật khẩu:\n{url}\n\nNếu bạn không muốn đổi mật khẩu, chỉ cần bỏ qua email này và sẽ không có gì xảy ra.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
+      body: "Đây là email thử để xác nhận rằng cấu hình email Flarum của bạn đang hoạt động đúng.\n\nNếu đó là bạn, email này có nghĩa là cấu hình của bạn đã chạy tốt!\n\nNếu đó không phải bạn, vui lòng bỏ qua email này.\n"
       subject: 'Thử nghiệm email Flarum'
+    signoff: 'Đội ngũ {forumTitle}'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -341,6 +560,7 @@ core:
       empty_text: 'Hiện không có cuộc thảo luận nào ở đây.'
       load_more_button: '=> core.ref.load_more'
       replied_text: '{username} đã trả lời {ago}'
+      skip_discussion_list_pane: 'Bỏ qua khung danh sách thảo luận'
       started_text: '{username} đã đăng bài {ago}'
       total_replies_a11y_label: '{count, plural, one {# câu trả lời} other {# câu trả lời}}'
       unread_replies_a11y_label: '{count, plural, one {# câu trả lời chưa đọc} other {# câu trả lời chưa đọc}}. Đánh dấu chưa đọc {count, plural, one {reply} other {replies}} thành đã đọc.'
@@ -364,25 +584,37 @@ core:
       session_dropdown_accessible_label: 'Chuyển đổi menu thả xuống tùy chọn phiên'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
+      theme_switcher_accessible_label: 'Đổi giao diện'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 'Không thể tạo cuộc thảo luận'
       mark_all_as_read_confirmation: 'Bạn có chắc chắn muốn đánh dấu tất cả các cuộc thảo luận là đã đọc không?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
+      refresh_tooltip: '=> core.ref.refresh'
+      skip_to_main_content: 'Chuyển tới nội dung chính'
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Chuyển đổi menu thả xuống thanh điều hướng'
     index_sort:
+      az_button: '=> core.ref.title_az'
       latest_button: 'Gần đây'
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Thay đổi sắp xếp danh sách thảo luận'
       top_button: 'Nổi bật'
+      za_button: '=> core.ref.title_za'
     log_in:
       forgot_password_link: 'Quên mật khẩu?'
+      invalid_login_message: '=> core.ref.invalid_login_message'
       password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
       sign_up_text: 'Không có tài khoản? <a>Đăng ký</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
+      delete_all_confirm: 'Bạn có chắc chắn muốn xóa tất cả thông báo không? Hành động này không thể hoàn tác'
       delete_all_tooltip: 'Xóa tất cả các thông báo'
       discussion_renamed_text: '{username} đã thay đổi tiêu đề'
       empty_text: 'Không có thông báo'
@@ -403,6 +635,10 @@ core:
       hide_confirmation: 'Bạn có chắc chắn muốn xóa bài viết này?'
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Chuyển đổi menu thả xuống kiểm soát bài viết'
+    post_list:
+      empty_text: 'Có vẻ như chưa có bài viết nào ở đây.'
+      in_discussion_text: 'Trong {discussion}'
+      load_more_button: '=> core.ref.load_more'
     post_scrubber:
       now_link: 'Mới nhất'
       original_post_link: 'Bài viết gốc'
@@ -414,6 +650,13 @@ core:
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} sau'
+    posts:
+      meta_title_text: 'Kết quả tìm kiếm bài viết'
+      refresh_tooltip: '=> core.ref.refresh'
+    posts_sort:
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
     rename_discussion:
       submit_button: '=> core.ref.rename'
       title: 'Đổi tên cuộc thảo luận'
@@ -453,6 +696,16 @@ core:
       account_heading: 'Tài khoản'
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      color_scheme_heading: 'Bảng màu'
+      color_schemes:
+        auto_mode_label: 'Theo hệ thống'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
+      device_heading: 'Thiết bị'
+      haptic_feedback_help: 'Chỉ khả dụng trên các thiết bị di động được hỗ trợ'
+      haptic_feedback_label: 'Bật phản hồi rung'
       notification_checkbox_a11y_label_template: 'Nhận thông báo "{description}" qua {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
@@ -509,15 +762,20 @@ core:
   lib:
     alert:
       dismiss_a11y_label: 'Ẩn cảnh báo'
+    assets_updated:
+      message: 'Đã có phiên bản mới hơn của trang này.'
+      reload_button: 'Tải lại'
     badge:
       hidden_tooltip: 'Bị ẩn'
     connection_restored_message: 'Kết nối của bạn đã được khôi phục.'
     data_segment:
       label: '{label}:'
     datetime_formats:
+      fullTime: LLLL
       humanTimeLong: ll
       humanTimeShort: 'D MMM'
       scrubber: 'MMMM YYYY'
+      userListJoinDate: LLL
     debug_button: 'Gỡ lỗi'
     dropdown:
       toggle_dropdown_accessible_label: 'Chuyển đổi menu thả xuống'
@@ -536,8 +794,10 @@ core:
       username_label: '=> core.ref.username'
     error:
       circular_dependencies_message: 'Đã phát hiện phụ thuộc vòng tròn: {extensions}. Đang hủy. Vui lòng tắt một trong các tiện ích mở rộng và thử lại.'
+      db_error_message: 'Truy vấn cơ sở dữ liệu thất bại. Nguyên nhân có thể là một tiện ích không tương thích với trình điều khiển cơ sở dữ liệu của bạn.'
       dependent_extensions_message: 'Không thể vô hiệu hóa {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}'
       extension_initialiation_failed_message: 'Không thể khởi chạy {extension}, hãy kiểm tra console của trình duyệt để biết thêm thông tin.'
+      extension_runtime_failed_message: '{extension} gặp lỗi khi chạy. Hãy kiểm tra console của trình duyệt để biết thêm thông tin.'
       generic_cross_origin_message: 'Rất tiếc! Đã xảy ra lỗi trong một yêu cầu cross-origin. Vui lòng tải lại trang và thử lại.'
       generic_message: 'Rất tiếc! Đã xảy ra lỗi. Vui lòng tải lại trang và thử lại.'
       missing_dependencies_message: 'Không thể kích hoạt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau được kích hoạt: {extensions}'
@@ -548,6 +808,43 @@ core:
       permission_denied_message: 'Bạn không có quyền để làm điều này.'
       rate_limit_exceeded_message: 'Bạn thao tác hơi nhanh quá. Vui lòng thử lại sau vài giây.'
       render_failed_message: 'Xin lỗi, chúng tôi đã gặp lỗi khi hiển thị nội dung này. Nếu bạn là người dùng, vui lòng thử lại sau. Nếu bạn là quản trị viên, hãy xem các tệp nhật ký Flarum của bạn để biết thêm thông tin.'
+    gambits:
+      discussions:
+        author:
+          hint: 'tên người dùng hoặc danh sách tên người dùng cách nhau bằng dấu phẩy'
+          key: 'tác giả'
+        created:
+          hint: '2020-12-31 hoặc 2020-12-31..2021-09-30'
+          key: tạo
+        hidden:
+          key: 'bị ẩn'
+        unread:
+          key: 'chưa đọc'
+      group_keys:
+        allows: 'cho phép'
+        has: có
+        is: là
+      posts:
+        discussion:
+          hint: 'ID của cuộc thảo luận'
+          key: 'thảo luận'
+      users:
+        email:
+          hint: example@machine.local
+          key: email
+        group:
+          hint: 'tên nhóm dạng số ít hoặc số nhiều'
+          key: nhóm
+    index_sort:
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
+    input:
+      clear_button: 'Xóa nội dung đã nhập'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
@@ -555,15 +852,58 @@ core:
       without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}'
     modal:
       close: Đóng
+    multi_select:
+      placeholder: 'Chọn nhiều tùy chọn'
     nav:
       drawer_button: 'Mở ngăn điều hướng'
+      pin_pane_button: 'Ghim danh sách thảo luận'
+    notices:
+      bisecting: 'Đang chạy quá trình dò tìm để xác định tiện ích nào gây lỗi.'
+      bisecting_continue: 'Tiếp tục dò tìm'
+      maintenance_mode_low: 'Đang bảo trì. Chỉ quản trị viên truy cập được diễn đàn.'
+      maintenance_mode_safe: 'Đang bảo trì ở chế độ an toàn. Chỉ quản trị viên truy cập được diễn đàn và không tiện ích nào được khởi động.'
     number_suffix:
       kilo_text: 'N'
       mega_text: Tr
+    overflowing_list:
+      toggle_accessible_label: 'Thêm mục khác'
+    pagination:
+      back_button: 'Trang trước'
+      first_button: 'Tới trang đầu'
+      go_to_page_textbox_a11y_label: 'Tới thẳng số trang'
+      last_button: 'Tới trang cuối'
+      next_button: 'Trang sau'
+      page_counter: 'Trang {current} / {total}'
+    search:
+      gambit_minus_button_a11y_label: 'Thêm bộ lọc loại trừ'
+      gambit_plus_button_a11y_label: 'Thêm bộ lọc bao gồm'
+      no_results_text: 'Có vẻ như không có kết quả nào ở đây.'
+      no_search_text: 'Bạn chưa tìm kiếm gì cả.'
+      options_heading: 'Tùy chọn tìm kiếm'
+      placeholder: 'Tìm kiếm...'
+      preview_heading: 'Xem trước kết quả'
+      search_active_button_accessible_label: 'Đổi từ khóa tìm kiếm: {query}'
+      search_clear_button_accessible_label: 'Xóa chuỗi tìm kiếm'
+      title: 'Tìm kiếm'
+    search_source:
+      discussions:
+        all_button: 'Tìm kiếm tất cả các cuộc thảo luận với "{query}"'
+        heading: '=> core.ref.discussions'
+      posts:
+        all_button: 'Tìm "{query}" trong mọi bài viết'
+        heading: '=> core.ref.posts'
+      users:
+        heading: '=> core.ref.users'
     series:
       glue_text: ', '
       three_text: '{first}, {second}, và {third}'
       two_text: '{first} và {second}'
+    user_selection_modal:
+      empty_results: 'Không tìm thấy người dùng nào khớp với tìm kiếm của bạn.'
+      max_items_to_select: '{count, plural, one {Chọn tối đa # người dùng} other {Chọn tối đa # người dùng}}'
+      search_placeholder: '=> core.ref.search_users'
+      submit_button: '=> core.ref.okay'
+      title: 'Chọn những người dùng liên quan'
     username:
       deleted_text: '[đã xóa]'
   ref:
@@ -578,6 +918,8 @@ core:
     custom_footer_title: 'Chỉnh sửa Chân trang'
     custom_header_text: 'Thêm HTML để hiển thị trên cùng của trang, phía trên đầu trang của Flarum.'
     custom_header_title: 'Chỉnh sửa Đầu trang'
+    dark_hc_mode_label: 'Chế độ tối tương phản cao'
+    dark_mode_label: 'Chế độ tối'
     delete: Xóa
     delete_forever: 'Xóa vĩnh viễn'
     discussions: 'Cuộc thảo luận'
@@ -588,6 +930,10 @@ core:
     generic_confirmation_message: 'Bạn có chắc muốn tiếp tục? Hành động này không thể được hoàn tác.'
     icon: Icon
     icon_text: 'Nhập tên icon bất kì của <a>FontAwesome</a>, <em>kèm</em> theo tiền tố <code>fas fa-</code>.'
+    invalid_login_message: 'Thông tin đăng nhập của bạn không chính xác.'
+    latest: 'Mới nhất'
+    light_hc_mode_label: 'Chế độ sáng tương phản cao'
+    light_mode_label: 'Chế độ sáng'
     load_more: 'Tải thêm'
     loading: 'Đang tải...'
     log_in: 'Đăng nhập'
@@ -595,12 +941,17 @@ core:
     mark_all_as_read: 'Đánh dấu tất cả đã đọc'
     never: 'Không bao giờ'
     new_token: 'Token mới'
+    newest: 'Mới tạo nhất'
     next_page: 'Trang sau'
     notifications: 'Thông báo'
     okay: OK
+    oldest: 'Cũ nhất'
     password: 'Mật khẩu'
     posts: 'Bài viết'
     previous_page: 'Trang trước'
+    refresh: 'Làm mới'
+    relevance: 'Liên quan'
+    remember_me_label: 'Ghi nhớ'
     remove: Xóa
     rename: 'Đổi tên'
     reply: 'Trả lời'
@@ -613,7 +964,11 @@ core:
     sign_up: 'Đăng ký'
     some_others: '{count, plural, one {# người khác} other {# người khác}}'
     start_a_discussion: 'Tạo cuộc thảo luận'
+    title_az: 'Tiêu đề (A–Z)'
+    title_za: 'Tiêu đề (Z–A)'
+    top: 'Nổi bật'
     username: 'Tên người dùng'
+    username_or_email_placeholder: 'Tên người dùng hoặc email'
     users: 'Người dùng'
     view: Xem
     write_a_reply: 'Viết câu trả lời...'
@@ -646,6 +1001,9 @@ core:
       csrf_token_mismatch: 'Bạn đã không hoạt động quá lâu.'
       csrf_token_mismatch_return_link: 'Quay lại để thử lại'
       invalid_confirmation_token: 'Liên kết xác nhận này đã được sử dụng hoặc không hợp lệ.'
+      maintenance_mode_link: 'Đăng nhập quản trị viên'
+      maintenance_mode_message: 'Diễn đàn này hiện đang bảo trì. Vui lòng quay lại sau.'
+      maintenance_mode_title: 'Bảo trì'
       method_not_allowed: 'Trang này không hỗ trợ phương thức yêu cầu đó.'
       not_authenticated: 'Bạn không có quyền truy cập vào trang này. Hãy thử lại sau khi đăng nhập.'
       not_found: 'Trang bạn yêu cầu không thể được tìm thấy.'
@@ -656,6 +1014,15 @@ core:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
+    layout:
+      skip_to_content: 'Chuyển tới nội dung'
+    log_in:
+      invalid_login_message: '=> core.ref.invalid_login_message'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Bạn có chắc chắn muốn đăng xuất khỏi {forum}?'
@@ -665,3 +1032,11 @@ core:
       new_password_label: 'Mật khẩu mới'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.reset_your_password'
+    unsubscribe_email:
+      confirm_button: 'Xác nhận'
+      confirm_message: 'Bạn đã yêu cầu hủy nhận email thông báo "{type}" từ {forumTitle}.'
+      immediate_helptext: 'Bạn sẽ được hủy đăng ký ngay sau khi xác nhận.'
+      invalid_message: 'Liên kết hủy đăng ký này không hợp lệ hoặc đã được dùng. Với mọi thay đổi về email thông báo từ {forumTitle}, vui lòng [kiểm tra cài đặt của bạn]({settingsLink}).'
+      return_to_forum: 'Quay lại {forumTitle}'
+      success_message: 'Bạn đã hủy nhận thông báo "{type}" từ {forumTitle} thành công. Nếu muốn nhận lại, vui lòng [cập nhật cài đặt của bạn]({settingsLink}).'
+      title: 'Xác nhận hủy đăng ký'

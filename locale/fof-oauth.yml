@@ -60,7 +60,12 @@ fof-oauth:
       update_email_from_provider_label: 'Cập nhật địa chỉ email từ nhà cung cấp'
     settings_accessibility_label: 'cài đặt {name}'
   forum:
+    account_linked:
+      body: 'Tài khoản {forum} <strong>{username}</strong> của bạn giờ đã được liên kết với {provider}. Từ nay bạn có thể đăng nhập bằng mật khẩu diễn đàn hoặc bằng {provider}.'
+      dismiss_button: 'Đã hiểu'
+      title: 'Đã liên kết tài khoản'
     error:
+      already_linked: 'Tài khoản này đã được liên kết với một người dùng khác.'
       bad_verification_code: 'Mã thông báo xác minh không hợp lệ hoặc đã hết hạn. Vui lòng thử lại.'
       invalid_state: 'State không hợp lệ. Vui lòng thử lại.'
     log_in:
@@ -95,6 +100,10 @@ fof-oauth:
           orphaned-account: 'Bạn đã đăng nhập thông qua nhà cung cấp này trước đây, nhưng diễn đàn này đã vô hiệu hóa đăng nhập bằng phương thức này kể từ đó.'
           unlink-confirm: 'Bạn có chắc chắn muốn bỏ liên kết với {provider} không? Bạn sẽ không thể đăng nhập vào diễn đàn này nữa trừ khi bạn xác thực lại trong tương lai.'
   lib:
+    gambits:
+      sso:
+        hint: 'một nhà cung cấp đăng nhập'
+        key: sso
     providers:
       discord: Discord
       facebook: Facebook

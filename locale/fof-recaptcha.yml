@@ -4,6 +4,7 @@
 
 fof-recaptcha:
   admin:
+    maintenance_mode_warning: 'reCAPTCHA bị tắt ở trang đăng nhập khi diễn đàn đang ở chế độ bảo trì.'
     permissions:
       post_without_captcha: 'Tạo bài viết và thảo luận mà không cần captcha'
     settings:
@@ -13,7 +14,14 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Mã khoá trang'
+      type_help: 'Loại được chọn phải khớp với loại thông tin xác thực reCAPTCHA của bạn. Hộp kiểm và Vô hình đều thuộc reCAPTCHA v2; v3 dựa trên điểm số và chạy ngầm.'
       type_label: 'Loại reCAPTCHA'
+      type_options:
+        checkbox: 'v2 Hộp kiểm'
+        invisible: 'v2 Vô hình'
+        v3: 'v3 (dựa trên điểm số)'
+      v3_threshold_help: 'Những lần gửi có điểm thấp hơn giá trị này (0.0 = nhiều khả năng là bot, 1.0 = nhiều khả năng là người) sẽ bị từ chối. Google gợi ý 0.5 làm điểm khởi đầu. Chỉ được dùng khi loại được đặt là v3.'
+      v3_threshold_label: 'Ngưỡng điểm reCAPTCHA v3'
     test:
       help_text: "Bài kiểm tra này sẽ sử dụng các giá trị hiện tại đã nhập ở trên. Hãy chắc chắn tải lại bài kiểm tra sau khi thay đổi cài đặt, và đừng quên lưu sau khi bài kiểm tra thành công!\nBên dưới có thể không phản ánh các cài đặt đã lưu.\n"
       load_test_button: Tải
@@ -21,6 +29,13 @@ fof-recaptcha:
       submit_button: Gửi
       success_message: 'Thành công! reCAPTCHA đã được cấu hình chính xác.'
       title: 'Kiểm tra reCAPTCHA'
+  lib:
+    error: 'Đã xảy ra lỗi khi gửi reCAPTCHA. Thử lại.'
+    not_completed: 'Vui lòng hoàn thành phần kiểm tra reCAPTCHA trước khi tiếp tục.'
+    rejected: 'Kiểm tra reCAPTCHA thất bại. Vui lòng thử lại.'
+    unknown_error: 'Đã xảy ra lỗi không xác định. Vui lòng thử lại.'
 validation:
+  attributes:
+    g-recaptcha-response: reCAPTCHA
   recaptcha: 'Xác thực reCAPTCHA không thành công.'
   recaptcha-unknown: 'Đã xảy ra lỗi không xác định khi xác thực reCAPTCHA ({errors}).'

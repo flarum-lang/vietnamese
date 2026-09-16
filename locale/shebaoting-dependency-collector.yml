@@ -6,12 +6,35 @@ shebaoting-dependency-collector:
   admin:
     actions:
       approve: 'Phê duyệt'
+      create_tag: 'Tạo danh mục'
       reject: 'Từ chối'
     confirm:
       approve: 'Phê duyệt phụ thuộc'
       delete: 'Xóa phụ thuộc'
+      delete_tag: 'Xóa danh mục "{name}"? Thao tác này sẽ gỡ nó khỏi mọi phụ thuộc liên quan.'
       reject: 'Từ chối phụ thuộc'
     modal:
+      create_tag_title: 'Tạo hạng mục mới'
+      edit_tag_title: 'Sửa danh mục - {name}'
+      icon_options:
+        bolt: 'Hiệu năng'
+        book: 'Tài liệu'
+        cloud: 'Đám mây'
+        code: Mã
+        cube: Gói
+        current: 'Biểu tượng hiện tại: {icon}'
+        database: 'Cơ sở dữ liệu'
+        layer_group: Lớp
+        link: 'Liên kết'
+        mobile: 'Di động'
+        palette: 'Thiết kế'
+        puzzle_piece: 'Tiện ích'
+        rocket: 'Khởi chạy'
+        shield: 'Bảo mật'
+        star: 'Nổi bật'
+        tags: 'Danh mục'
+        toolbox: 'Công cụ'
+      save_button: Lưu
       tag_color_label: 'Màu (ví dụ:'
       tag_description_label: 'Mô tả (Tùy chọn)'
       tag_icon_help: 'Tìm biểu tượng tại <a>Font Awesome</a>.'
@@ -19,15 +42,19 @@ shebaoting-dependency-collector:
       tag_name_label: Tên
       tag_slug_label: Slug
     nav:
+      description: 'Quản lý các phụ thuộc đã gửi và các danh mục.'
       title: 'Trình thu thập phụ thuộc'
     page:
       approved_items_title: 'Phụ thuộc đã được phê duyệt'
+      manage_tags_title: 'Cài đặt danh mục'
       no_approved_items: 'Chưa có phụ thuộc nào được phê duyệt.'
       no_pending_items: 'Không có phụ thuộc nào đang chờ xem xét.'
+      no_plugin_tags: 'Chưa có danh mục nào được tạo.'
       pending_items_title: 'Phụ thuộc chờ xem xét'
     permissions:
       delete_label: 'Xóa phụ thuộc'
       favorite_items_label: 'Yêu thích phụ thuộc'
+      manage_tags_label: 'Quản lý danh mục'
       moderate_label: 'Kiểm duyệt phụ thuộc (phê duyệt, từ chối, chỉnh sửa, xóa)'
       submit_label: 'Gửi phụ thuộc'
     table:
@@ -40,26 +67,38 @@ shebaoting-dependency-collector:
       tag_color_icon: 'Màu & Biểu tượng'
       tag_icon: 'Biểu tượng'
       tag_item_count: Mục
+      tag_name: 'Tên hạng mục'
       tag_slug: Slug
+      tags: 'Danh mục'
       title: 'Tiêu đề'
   forum:
     item:
+      approve_button: Duyệt
       delete_button_label: Xóa
       delete_confirmation_text: 'Bạn có chắc chắn muốn xóa phụ thuộc này không? Hành động này không thể hoàn tác.'
       delete_confirmation_title: 'Xóa phụ thuộc'
       favorite_button_label: 'Yêu thích'
       pending_approval: 'Chờ phê duyệt'
+      unapprove_button: 'Bỏ duyệt'
       unfavorite_button_label: 'Bỏ yêu thích'
     list:
+      all_tags: 'Tất cả danh mục'
       empty_text: 'Không tìm thấy phụ thuộc nào.'
+      filter_by_tag: 'Lọc theo danh mục'
       my_favorites_button: 'Yêu thích của tôi'
+      search_placeholder: 'Tìm sản phẩm'
       submit_button: 'Gửi phụ thuộc'
     modal:
       description_label: 'Mô tả'
       description_placeholder: 'Tóm tắt ngắn gọn về chức năng của phụ thuộc này.'
+      edit_title: 'Sửa phụ thuộc - {title}'
       link_label: 'Liên kết'
+      no_tags_available: 'Không có danh mục nào.'
+      save_changes_button: 'Lưu thay đổi'
       submit_button: Gửi
       submit_title: 'Gửi phụ thuộc mới'
+      tags_help: 'Hãy chọn ít nhất một danh mục phù hợp.'
+      tags_label: 'Danh mục'
       title_label: 'Tiêu đề'
       title_placeholder: 'Ví dụ: Thư viện tuyệt vời'
     nav_title: 'Phụ thuộc'
