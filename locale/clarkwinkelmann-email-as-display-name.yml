@@ -11,4 +11,4 @@ clarkwinkelmann-email-as-display-name:
       remove-username-registration: 'Xóa tên người dùng khỏi biểu mẫu đăng ký'
   forum:
     log_in:
-      username_or_email_placeholder: '=> colmmre.ref.email'
+      username_or_email_placeholder: '=> core.ref.email'
