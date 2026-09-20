@@ -4,14 +4,14 @@ CHANGELOG
 1.12.4 (XXXX-XX-XX)
 -------------------
 
-**Cập nhật bản dịch cho các tiện ích mở rộng**:
+**Updated translations for extensions**:
 
-* [`clarkwinkelmann/flarum-ext-email-as-display-name`](https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name)
-* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
-* [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime)
+* [`clarkwinkelmann/flarum-ext-email-as-display-name`](https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name) (1 changed)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed)
+* [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime) (1 changed)
 
 
-Tất cả các thay đổi: [v1.12.3...v1.12.4](https://github.com/flarum-lang/vietnamese/compare/v1.12.3...v1.12.4).
+All changes: [v1.12.3...1.12.4](https://github.com/flarum-lang/vietnamese/compare/v1.12.3...1.12.4).
 
 
 1.12.3 (2026-09-15)
