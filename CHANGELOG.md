@@ -8,6 +8,7 @@ CHANGELOG
 
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (5 removed)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (3 changed)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
 
 
