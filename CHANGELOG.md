@@ -1,6 +1,19 @@
 CHANGELOG
 =========
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (5 removed)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+
+
+All changes: [v2.0.1...2.0.2](https://github.com/flarum-lang/vietnamese/compare/v2.0.1...2.0.2).
+
+
 2.0.1 (2026-09-16)
 ------------------
 
