@@ -115,23 +115,18 @@ datitisev-backup:
           label: 'Đường dẫn'
       name_label: 'Tên vị trí'
       sftp:
-        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
         passphrase:
           description: 'Cụm mật khẩu của khóa riêng, nếu có.'
           label: 'Cụm mật khẩu'
-        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
         port:
           description: 'Cổng SFTP (mặc định là 22).'
           label: Cổng
         private-key:
           description: 'Đường dẫn (tốt nhất là tuyệt đối) tới khóa riêng dùng để xác thực kết nối SFTP.'
           label: 'Mã khoá riêng tư'
-        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
-        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
         use-agent:
           description: 'Có dùng SSH agent để xác thực kết nối hay không (mặc định là không).'
           toggle: 'Dùng agent'
-        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
       timestamp_help: "Hãy chỉ định định dạng của dấu thời gian trong tên tệp sao lưu. Mặc định là <code>U</code> (dấu thời gian Unix). Dùng <a>cách định dạng ngày của PHP</a>. Những ký tự không an toàn cho tên tệp sẽ bị loại bỏ. Tên tệp sẽ có dạng <code>{forum}-[dấu thời gian đã định dạng].zip</code>.\n"
       timestamp_label: 'Định dạng dấu thời gian trong tên tệp'
       title: 'Cấu hình {adapter}'

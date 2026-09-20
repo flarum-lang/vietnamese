@@ -41,7 +41,6 @@ fof-links:
       use_rel_me_help: 'Cho phép trang bạn liên kết tới xác minh rằng diễn đàn này là của bạn.'
       visibility:
         guest-only:
-          help: 'Chỉ {guest} mới có thể thấy liên kết này. Quyền ở trên phải được đặt thành ''{everyone}''.'
           label: 'Chỉ {guest}?'
         help: 'Theo mặc định, liên kết chỉ hiển thị với người dùng <code>{admin}</code>. Điều chỉnh quyền để chỉ định ai có thể xem liên kết này.'
         help-disabled: 'Lưu liên kết trước khi thay đổi cài đặt hiển thị.'
