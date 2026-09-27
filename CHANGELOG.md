@@ -6,10 +6,10 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (5 removed)
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
-* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (3 changed)
-* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (5 removed, 95% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed, 100% complete)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (3 changed, 100% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed, 98% complete)
 
 
 All changes: [v2.0.1...2.0.2](https://github.com/flarum-lang/vietnamese/compare/v2.0.1...2.0.2).
