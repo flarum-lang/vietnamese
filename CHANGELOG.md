@@ -1,6 +1,19 @@
 CHANGELOG
 =========
 
+1.12.4 (2026-09-27)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`clarkwinkelmann/flarum-ext-email-as-display-name`](https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name) (1 changed, 100% complete)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed, 100% complete)
+* [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime) (1 changed, 100% complete)
+
+
+All changes: [v1.12.3...1.12.4](https://github.com/flarum-lang/vietnamese/compare/v1.12.3...1.12.4).
+
+
 1.12.3 (2026-09-15)
 -------------------
 
