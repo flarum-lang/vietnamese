@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+2.0.4 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (33% complete)
+
+
+All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/vietnamese/compare/2.0.3...2.0.4).
+
+
 2.0.3 (2026-10-10)
 ------------------
 
