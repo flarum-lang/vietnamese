@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+2.0.3 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) (88% complete)
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/vietnamese/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-09-27)
 ------------------
 
