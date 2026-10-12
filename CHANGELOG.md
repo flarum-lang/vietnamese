@@ -1,6 +1,18 @@
 CHANGELOG
 =========
 
+2.0.5 (2026-10-12)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (80% complete)
+
+
+All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/vietnamese/compare/2.0.4...2.0.5).
+
+
 2.0.4 (2026-10-11)
 ------------------
 
