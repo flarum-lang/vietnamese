@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+2.0.6 (2026-10-18)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+
+
+All changes: [2.0.5...2.0.6](https://github.com/flarum-lang/vietnamese/compare/2.0.5...2.0.6).
+
+
 2.0.5 (2026-10-12)
 ------------------
 
