@@ -1,6 +1,19 @@
 CHANGELOG
 =========
 
+2.0.7 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
+
+
+All changes: [2.0.6...2.0.7](https://github.com/flarum-lang/vietnamese/compare/2.0.6...2.0.7).
+
+
 2.0.6 (2026-10-18)
 ------------------
 
