@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+2.0.8 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
+
+
+All changes: [2.0.7...2.0.8](https://github.com/flarum-lang/vietnamese/compare/2.0.7...2.0.8).
+
+
 2.0.7 (2026-10-19)
 ------------------
 
