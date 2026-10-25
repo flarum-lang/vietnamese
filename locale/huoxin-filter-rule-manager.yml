@@ -283,7 +283,7 @@ huoxin-filter-rule-manager:
       name_required: 'Vui lòng đặt tên cho bộ quy tắc.'
       tags_required: 'Bạn đã chọn phạm vi theo thẻ — hãy nhập ít nhất một ID thẻ.'
   forum:
-    evasion_flag_message: 'Đáng ngờ: Người dùng vừa bị bộ quy tắc ''{ruleset}'' chặn, sau đó đã gửi thành công bài viết này. Vui lòng xem xét khả năng lách bộ lọc.'
+    evasion_flag_message: 'Đáng ngờ: Người dùng vừa bị bộ quy tắc “{ruleset}” chặn ({count_formatted}), sau đó đã gửi thành công bài viết này. Vui lòng xem xét khả năng lách bộ lọc.{details}'
     flag_message: 'Được báo cáo tự động bởi Filter Rule Manager. Các bộ quy tắc đã kích hoạt: {rulesets}'
     flagger_name: 'Filter Rule Manager'
     modal_ok: OK
