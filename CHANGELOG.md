@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+2.0.9 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (1 changed, 94% complete)
+
+
+All changes: [2.0.8...2.0.9](https://github.com/flarum-lang/vietnamese/compare/2.0.8...2.0.9).
+
+
 2.0.8 (2026-10-25)
 ------------------
 
