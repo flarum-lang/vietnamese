@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+2.0.10 (2026-10-26)
+-------------------
+
+**Added support for new extensions**:
+
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
+All changes: [2.0.9...2.0.10](https://github.com/flarum-lang/vietnamese/compare/2.0.9...2.0.10).
+
+
 2.0.9 (2026-10-26)
 ------------------
 
