@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-2.0.10 (XXXX-XX-XX)
+2.0.10 (2026-10-26)
 -------------------
 
 **Added support for new extensions**:
