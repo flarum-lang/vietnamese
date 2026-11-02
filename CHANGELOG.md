@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+2.0.11 (2026-11-02)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
+
+
+All changes: [2.0.10...2.0.11](https://github.com/flarum-lang/vietnamese/compare/2.0.10...2.0.11).
+
+
 2.0.10 (2026-10-26)
 -------------------
 
