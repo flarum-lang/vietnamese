@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+2.0.13 (2026-11-06)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (100% complete)
+
+
+All changes: [2.0.12...2.0.13](https://github.com/flarum-lang/vietnamese/compare/2.0.12...2.0.13).
+
+
 2.0.12 (2026-11-06)
 -------------------
 
