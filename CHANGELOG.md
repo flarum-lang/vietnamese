@@ -1,6 +1,18 @@
 CHANGELOG
 =========
 
+2.0.12 (2026-11-06)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (100% complete)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (100% complete)
+
+
+All changes: [2.0.11...2.0.12](https://github.com/flarum-lang/vietnamese/compare/2.0.11...2.0.12).
+
+
 2.0.11 (2026-11-02)
 -------------------
 
