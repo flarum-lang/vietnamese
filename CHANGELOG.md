@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+1.12.6 (2026-11-17)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.12.5...1.12.6](https://github.com/flarum-lang/vietnamese/compare/1.12.5...1.12.6).
+
+
 1.12.5 (2026-10-26)
 -------------------
 
