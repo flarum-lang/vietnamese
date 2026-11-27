@@ -1,76 +1,41 @@
 {
-    "name": "flarum-lang/vietnamese",
-    "description": "Vietnamese language pack for Flarum.",
-    "type": "flarum-extension",
-    "keywords": [
-        "extension",
-        "flarum",
-        "vietnamese",
-        "locale",
-        "translation"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ngo Quoc Dat",
-            "email": "datlechin@gmail.com",
-            "role": "Developer",
-            "homepage": "https://ngoquocdat.dev"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/flarum-lang/vietnamese/issues",
-        "source": "https://github.com/flarum-lang/vietnamese",
-        "forum": "https://discuss.flarum.org/d/28471"
-    },
-    "homepage": "https://ngoquocdat.dev",
-    "funding": [
-        {
-            "type": "github",
-            "url": "https://github.com/sponsors/datlechin"
-        }
-    ],
-    "require": {
-        "flarum/core": "^2.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        },
-        "flarum-extension": {
-            "title": "Vietnamese",
-            "category": "language",
-            "info": {
-                "donate": "https://github.com/sponsors/datlechin",
-                "website": "https://ngoquocdat.dev",
-                "support": "https://discuss.flarum.org/d/28471"
-            },
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#00247d",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "vi",
-            "title": "Tiếng Việt"
-        },
-        "flarum-cli": {
-            "modules": {
-                "admin": false,
-                "forum": false,
-                "js": false,
-                "jsCommon": false,
-                "gitConf": true,
-                "githubActions": true,
-                "prettier": false,
-                "typescript": false,
-                "bundlewatch": false,
-                "backendTesting": false,
-                "editorConfig": true,
-                "styleci": true
-            }
-        }
-    }
+	"name": "flarum-lang/vietnamese",
+	"description": "Vietnamese Language Pack for Flarum",
+	"type": "flarum-extension",
+	"keywords": [
+		"flarum-locale"
+	],
+	"homepage": "https://github.com/flarum-lang/vietnamese",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "datlechin",
+			"homepage": "https://github.com/datlechin",
+			"role": "Maintainer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/flarum-lang/vietnamese/issues",
+		"forum": "https://discuss.flarum.org/d/28471",
+		"source": "https://github.com/flarum-lang/vietnamese"
+	},
+	"require": {
+		"flarum/core": "^2.0"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Vietnamese",
+			"category": "language",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#00247d",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "vi",
+			"title": "Tiếng Việt"
+		}
+	}
 }
